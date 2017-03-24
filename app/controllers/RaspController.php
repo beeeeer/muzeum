@@ -21,7 +21,7 @@ class RaspController extends BaseController {
 	{
 		$this->process->run();
 		$output = $this->process->getOutput();
-		return View::make('switchit')->with('output',$output);
+		return View::make('hello');
 	}
 
 }
