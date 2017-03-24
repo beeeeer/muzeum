@@ -20,7 +20,7 @@ class RaspController extends BaseController {
 	private $process;
 
 	public function __construct() {
-		$this->process = new Process('ls -lsa');
+		$this->process = new Process('gpio mode 1 out');
 	}
 
 	public function showProcess() 
