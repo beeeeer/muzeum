@@ -15,4 +15,4 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
-Route::get('foo', 'RaspController@showProcess');
+Route::post('foo', 'RaspController@getData');

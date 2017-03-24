@@ -6,14 +6,19 @@ use Symfony\Component\Process\Exception\ProcessFailedException;
 class RaspController extends BaseController {
 
 	private $process;
+	private $command;
 
-	public function __construct() {
-		$this->process = new Process('gpio mode 1 out');
+	public function getData() {
+
+		$mode = Input::get('mode');
+		$gpio = Input::get('gpio');
+		$this->command = 'gpio mode '.$gpio.' '.$mode;
+		$this->process = new Process($this->command);
+		return $this->showProcess();
 	}
 
 	public function showProcess() 
 	{
-		//shell_exec('gpio mode '.$id.' out');
 		$this->process->run();
 		$output = $this->process->getOutput();
 		return View::make('switchit')->with('output',$output);
