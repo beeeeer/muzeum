@@ -35,7 +35,13 @@
 </head>
 <body>
 	<div class="welcome">
-		<a href="/foo">Go to Foo</a>
+		<?php 
+			echo Form::open(array('action' => array('RaspController@getData'))) ;
+			echo Form::select('mode', array('out' => 'out', 'in' => 'in'));
+			echo Form::select('gpio', array('1' => '1', '4' => '4'));
+			echo Form::submit('Submit!');
+			echo Form::close();
+		?>
 	</div>
 </body>
 </html>

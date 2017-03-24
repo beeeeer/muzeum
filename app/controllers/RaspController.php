@@ -7,8 +7,15 @@ class RaspController extends BaseController {
 
 	private $process;
 
-	public function __construct() {
-		$this->process = new Process('gpio mode 1 out');
+	public function getData() {
+
+		$mode = Input::get('mode');
+		$gpio = Input::get('gpio');
+
+
+		$process = 'gpio mode'.$gpio.' '.$mode;
+		$this->process = new Process($process);
+		return $this->showProcess();
 	}
 
 	public function showProcess() 
