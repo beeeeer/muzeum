@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Laravel PHP Framework</title>
+	<title>Sterowanie</title>
 	<style>
 		@import url(//fonts.googleapis.com/css?family=Lato:700);
 
@@ -35,7 +35,7 @@
 </head>
 <body>
 	<div class="welcome">
-		
+		<a href="/foo">Go to Foo</a>
 	</div>
 </body>
 </html>
