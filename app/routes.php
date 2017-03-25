@@ -16,4 +16,5 @@ Route::get('/', function()
 	return View::make('start');
 });
 Route::post('foo', 'RaspController@getData');
+Route::post('commands','RaspController@getCommands');
 Route::get('relaydata','RaspController@relayData');

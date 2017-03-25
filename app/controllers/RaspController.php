@@ -32,4 +32,20 @@ class RaspController extends BaseController {
 		return View::make('switchit')->with(array('output' => $output));
 	}
 
+	public function getCommands()
+	{
+		//Get all posible commands from inputs
+		$command = Input::get('man');
+		$process = new Process($command);
+		$process->run();
+		$output = $process->getOutput();
+		return View::make('commands')->with(array('output'=>$output));
+
+	}
+
+	public function applyCommands() 
+	{
+		return View::make('commands');
+	}
+
 }
