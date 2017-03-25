@@ -36,11 +36,15 @@ class RaspController extends BaseController {
 	{
 		//Get all posible commands from inputs
 		$command = Input::get('man');
-		$process = new Process($command);
-		$process->run();
-		$output = $process->getOutput();
-		return View::make('commands')->with(array('output'=>$output));
-
+		if ($command != null ){
+			$process = new Process($command);
+			$process->run();
+			$output = $process->getOutput();
+			return View::make('commands')->with(array('output'=>$output));
+		}
+		else {
+			return View::make('commands');
+		}
 	}
 
 	public function applyCommands() 
