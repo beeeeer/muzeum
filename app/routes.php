@@ -13,6 +13,7 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('start');
 });
 Route::post('foo', 'RaspController@getData');
+Route::get('relaydata','RaspController@relayData');

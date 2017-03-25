@@ -21,7 +21,15 @@ class RaspController extends BaseController {
 	{
 		$this->process->run();
 		$output = $this->process->getOutput();
-		return View::make('hello');
+		return View::make('start');
+	}
+
+	public function relayData() 
+	{
+		$process = new Process('gpio readall');
+		$process->run();
+		$output = $this->process->getOutput();
+		return View::make('switchit')->with(array('output' => , $output));
 	}
 
 }
