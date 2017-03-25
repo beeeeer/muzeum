@@ -31,14 +31,25 @@
 			font-size: 32px;
 			margin: 16px 0 0 0;
 		}
+		input, label {
+		    float: left;
+		    display: block;
+		    width: 35%;
+		}
 	</style>
 </head>
 <body>
 	<div class="welcome">
 		<?php 
 			echo Form::open(array('action' => array('RaspController@getData'))) ;
-			echo Form::select('mode', array('out' => 'out', 'in' => 'in'));
-			echo Form::select('gpio', array('1' => '1', '4' => '4'));
+			echo Form::label('mode', 'in');
+			echo Form::radio('mode', 'in');
+			echo Form::label('mode', 'out');
+			echo Form::radio('mode', 'out');
+			echo Form::label('gpio', '1');
+			echo Form::radio('gpio', '1');
+			echo Form::label('gpio', '4');
+			echo Form::radio('gpio', '4');
 			echo Form::submit('Submit!');
 			echo Form::close();
 		?>
