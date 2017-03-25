@@ -28,7 +28,7 @@ class RaspController extends BaseController {
 	{
 		$process = new Process('gpio readall');
 		$process->run();
-		$output = $this->process->getOutput();
+		$output = $process->getOutput();
 		return View::make('switchit')->with(array('output' => $output));
 	}
 
