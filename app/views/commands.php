@@ -35,19 +35,7 @@
 </head>
 <body>
 	<div class="welcome">
-		<?php 
-			echo Form::open(array('action' => array('RaspController@getCommands'))) ;
-			echo Form::radio('man', 'man gpio');
-			echo Form::radio('name', 'value');
-			echo Form::radio('name', 'value');
-			echo Form::radio('name', 'value');
-			echo Form::radio('name', 'value');
-			echo Form::radio('name', 'value');
-			echo Form::radio('name', 'value');
-			echo Form::radio('name', 'value');
-			echo Form::submit('Submit!');
-			echo Form::close();
-		?>
+		<?php echo $output; ?>
 	</div>
 </body>
 </html>

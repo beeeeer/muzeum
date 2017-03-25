@@ -32,24 +32,12 @@ class RaspController extends BaseController {
 		return View::make('switchit')->with(array('output' => $output));
 	}
 
-	public function getCommands()
+	public function raspCommands()
 	{
-		//Get all posible commands from inputs
-		$command = Input::get('man');
-		if ($command != null ){
-			$process = new Process($command);
-			$process->run();
-			$output = $process->getOutput();
-			return View::make('commands')->with(array('output'=>$output));
-		}
-		else {
-			return View::make('commands');
-		}
-	}
-
-	public function applyCommands() 
-	{
-		return View::make('commands');
+		$process = new Process('man gpio');
+		$process->run();
+		$output = $process->getOutput();
+		return View::make('commands')->with(array('output' => $output));
 	}
 
 }
