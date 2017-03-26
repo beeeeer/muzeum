@@ -13,11 +13,11 @@
 
 Route::get('/', function()
 {
-	return View::make('start');
+	return View::make('pages.home');
 });
 
 Route::post('foo', 'RaspController@getData');
-Route::get('relaydata','RaspController@relayData');
+Route::get('relaydata','RaspController@getRelayData');
 
 Route::get('raspcom','RaspController@raspCommands');
 

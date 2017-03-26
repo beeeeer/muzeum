@@ -3,41 +3,22 @@
 use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 
-class RaspController extends BaseController {
-
+class RaspController extends BaseController 
+{
 	private $process;
-	private $command;
+	private $output;
 
-	public function getData() {
-
-		$mode = Input::get('mode');
-		$gpio = Input::get('gpio');
-		$this->command = 'gpio mode '.$gpio.' '.$mode;
-		$this->process = new Process($this->command);
-		return $this->showProcess();
-	}
-
-	public function showProcess() 
+	private function executeProcess($processCommand)
 	{
-		$this->process->run();
-		$output = $this->process->getOutput();
-		return View::make('start');
+		$this->process = new Process($processCommand);
+		$this->process->mustRun();
+		return $this->output = $this->process->getOutput();
 	}
-
-	public function relayData() 
+	
+	public function getRelayData() 
 	{
-		$process = new Process('gpio readall');
-		$process->run();
-		$output = $process->getOutput();
-		return View::make('switchit')->with(array('output' => $output));
-	}
-
-	public function raspCommands()
-	{
-		$process = new Process('man gpio');
-		$process->run();
-		$output = $process->getOutput();
-		return View::make('commands')->with(array('output' => $output));
+		
+		return View::make('pages.about')->with(array('output' =>$this->output)); 
 	}
 
 }

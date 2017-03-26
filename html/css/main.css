@@ -1,0 +1,9 @@
+.navbar__list {
+  display: block;
+  list-style: none;
+}
+.navbar__item {
+  width: 33.33333%;
+  float: left;
+  text-align: center;
+}

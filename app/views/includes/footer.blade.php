@@ -1,0 +1,1 @@
+<div id="copyright">© Copyright 2013 Adam Gieroń</div>

@@ -1,0 +1,13 @@
+.navbar {
+	
+	&__list {
+		display: block;
+		list-style: none;
+
+	}
+	&__item {
+		width: (100 / 3) * 1%;
+		float: left;
+		text-align: center;
+	}
+}
