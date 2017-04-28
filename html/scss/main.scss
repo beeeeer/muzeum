@@ -9,5 +9,18 @@
 		width: (100 / 3) * 1%;
 		float: left;
 		text-align: center;
+		display: block;
 	}
 }
+.container {
+	max-width: 1200px;
+	display: block;
+}
+.row {
+	display: block;
+	max-width: 1200px;
+	margin: 0 auto;
+	float: left;
+	padding: 0 15px;
+}
+

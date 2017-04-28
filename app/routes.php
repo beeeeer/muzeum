@@ -16,8 +16,7 @@ Route::get('/', function()
 	return View::make('pages.home');
 });
 
-Route::post('foo', 'RaspController@getData');
-Route::get('relaydata','RaspController@getRelayData');
+Route::get('points','RaspController@getRelayData');
+Route::post('setpoint','RaspController@getAjaxRequest');
 
-Route::get('raspcom','RaspController@raspCommands');
 

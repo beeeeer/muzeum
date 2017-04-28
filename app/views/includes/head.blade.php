@@ -3,7 +3,6 @@
 <meta name="author" content="Scotch">
 
 <title>Relays</title>
-
-<!-- load bootstrap from a cdn -->
-
 {{ HTML::style('css/main.css') }}
+{{ HTML::script('js/jquery.js') }}
+{{ HTML::script('js/custom.js') }}
