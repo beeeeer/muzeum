@@ -14,18 +14,33 @@ jQuery(document).ready(function($){
                 			});
             var stringPin = expander.join('')
             	stringProcessPin = stringPin.replace(',','')
-				data = command + stringProcessPin;
-            	console.log(data)
+				pointData = command + stringProcessPin;
+            	console.log(pointData);
 
             $.ajax({
                 type: "POST",
                 url : "setpoint",
-                data : data,
+                dataType: 'text',
+                data : { data: pointData },
                 success : function(response){
+                    console.log('response')
 					console.log(response)
                 }
             },"json");
 
 		});
 	});
+    var buttons = function() {
+        var button = $('.expanders__relay');
+
+        button.each(function(){
+            $(this).on('click',function(){
+                if($(this).attr('pin') == '0'){
+                    $(this).removeClass('on');
+                } else {
+                    $(this).addClass('on');
+                }
+            });
+        });
+    }();
 });
