@@ -12,7 +12,8 @@ class RaspController extends BaseController
 	private $process;
 	private $output;
 	private $command;
-	private $i2cdetect = 'i2cdetect';
+	private $i2set = '/usr/sbin/i2cset';
+
 
 	public function getAjaxRequest()
 	{
@@ -28,14 +29,20 @@ class RaspController extends BaseController
 		$comProcess = strstr($comProcess,'=');
 		$delete = array('=','+','"');
 		$comProcess = str_replace($delete,' ',$comProcess);
-		$this->command = $comProcess;
+		$toHex = substr($comProcess,-10);
+		$comProcess = substr($comProcess,0,-10);
+		$hexaddress = '0x'.(dechex(bindec($toHex)));
+		$this->command = $comProcess.' '.$hexaddress;
 		return $this->executeProcess();
 	}
 
+	public function getProcessArray()
+	{
+		return $this->i2cset.' '.$this->command;
+	}
 	public function executeProcess()
 	{
-		$builder = new ProcessBuilder();
-		$process = ProcessBuilder::create(array('ls','-l','-d'))->getProcess();
+		$process = ProcessBuilder::create($this->getProcessArray())->getProcess();
 		$this->process = $process;
 		try {
     		$process->mustRun();
@@ -45,20 +52,10 @@ class RaspController extends BaseController
     	}
 	}
 
-	//@Final get output and send to raspberry
 	public function getRelayData()
 	{
-		
 		return View::make('pages.points')->with(array('output' => $this->output,'command'=>$this->command));
 		
 	} 
 }
-//TODO:
-//1: Check lib path
-//2: Make procees with process builder 
-//3: 
-// Form getData -> processbuilder()
-//         V
-//	check i2c path
-//		   V
-//  
+ 
