@@ -1,7 +1,6 @@
 <?php
 
 use Symfony\Component\Process\Process;
-use Symfony\Component\Process\ProcessBuilder;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 use Illuminate\Http\Request as Request;
 use Illuminate\Http\Response as Response;
@@ -12,9 +11,7 @@ class RaspController extends BaseController
 	private $process;
 	private $output;
 	private $command;
-	private $i2cset = '/usr/sbin/i2cset';
-
-
+//sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump
 	public function getAjaxRequest()
 	{
 		$req = new Request();
@@ -36,16 +33,11 @@ class RaspController extends BaseController
 		return $this->executeProcess();
 	}
 
-	public function getProcessArray()
-	{
-		return array($this->i2cset, $this->command);
-	}
 	public function executeProcess()
 	{
-		$process = ProcessBuilder::create($this->getProcessArray())->getProcess();
-		$this->process = $process;
+		$this->process = new Process('/usr/sbin/i2cset -y 1'.$this->command);
 		try {
-    		$process->mustRun();
+    		$this->process->mustRun();
 			return $this->output = $this->process->getOutput();
 		} catch (ProcessFailedException $e) {
     		return $this->output = $e->getMessage();
