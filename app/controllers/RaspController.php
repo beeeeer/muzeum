@@ -12,7 +12,7 @@ class RaspController extends BaseController
 	private $process;
 	private $output;
 	private $command;
-	private $i2set = '/usr/sbin/i2cset';
+	private $i2cset = '/usr/sbin/i2cset';
 
 
 	public function getAjaxRequest()
