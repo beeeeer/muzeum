@@ -38,7 +38,7 @@ class RaspController extends BaseController
 
 	public function getProcessArray()
 	{
-		return $this->i2cset.' '.$this->command;
+		return array($this->i2cset, $this->command);
 	}
 	public function executeProcess()
 	{
