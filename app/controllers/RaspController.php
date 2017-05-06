@@ -29,13 +29,14 @@ class RaspController extends BaseController
 		$toHex = substr($comProcess,-10);
 		$comProcess = substr($comProcess,0,-10);
 		$hexaddress = '0x'.(dechex(bindec($toHex)));
-		$this->command = $comProcess.' '.$hexaddress;
+		$this->command = '/usr/sbin/i2cset -y 1 '.$comProcess.' '.$hexaddress;
 		return $this->executeProcess();
 	}
 
 	public function executeProcess()
 	{
-		$this->process = new Process('/usr/sbin/i2cset -y 1'.$this->command);
+		$this->process = new Process($this->command);
+		var_dump($this->command);
 		try {
     		$this->process->mustRun();
 			return $this->output = $this->process->getOutput();
