@@ -16,7 +16,7 @@
 <a href="#" class="expanders__relay relayexp1" id="relay4" expander="0x20 0x00 " pin="0">relay</a>
 </li>
 <li>
-<a href="#" class="expanders__relay relayexp1" id="relay5" expander="0x22 0x00 " pin="0">relay</a>
+<a href="#" class="expanders__relay relayexp1" id="relay5" expander="0x20 0x00 " pin="0">relay</a>
 </li>
 <li>
 <a href="#" class="expanders__relay relayexp1" id="relay6" expander="0x20 0x00 " pin="0">relay</a>
@@ -70,7 +70,7 @@
 <a href="#" class="expanders__relay relayexp1" id="relay4" expander="0x22 0x00 " pin="0">relay</a>
 </li>
 <li>
-<a href="#" class="expanders__relay relayexp1" id="relay5" expander="0x27 0x00 " pin="0">relay</a>
+<a href="#" class="expanders__relay relayexp1" id="relay5" expander="0x20 0x00 " pin="0">relay</a>
 </li>
 <li>
 <a href="#" class="expanders__relay relayexp1" id="relay6" expander="0x22 0x00 " pin="0">relay</a>
