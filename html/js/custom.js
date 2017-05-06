@@ -16,30 +16,29 @@ jQuery(document).ready(function($){
         } 
         function getObject()
         {
-            console.log('getObject')
             return $('.expanders > li > a');
         }
         function pins(obj)
         {
             getObject().each(function(index){
                 $(this).on('click',function(){
-                    var id = $(this).attr('id');
-                        console.log(id)
+                    var id = $(this).attr('relayId');
                     $(this).attr('pin', function(index, attr){
-                        return attr == 0 ? 1 : 0;
+                        return attr == 1 ? 0 : 1;
                     });
                     var expander =[];
                     var command = $(this).attr('expander');
                         command2 = getObject().each(function(){
                                         if(command == $(this).attr('expander')) {
+                                            console.log(command)
                                             expander.push($(this).attr('pin'));
                                         }
                                     });
                     var stringPin = expander.join('');
+                    console.log(stringPin)
                         stringProcessPin = stringPin.replace(',','')
                         pointData = command + stringProcessPin;
                         console.log(pointData);
-
                     $.ajax({
                         type: "POST",
                         url : "setpoint",
