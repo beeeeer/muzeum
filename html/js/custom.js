@@ -6,7 +6,7 @@ jQuery(document).ready(function($){
         function setButtons(){
             button.each(function(){
                 $(this).on('click',function(){
-                    if($(this).attr('pin') == '0'){
+                    if($(this).attr('pin') == '1'){
                         $(this).removeClass('on');
                     } else {
                         $(this).addClass('on');
