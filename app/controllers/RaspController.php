@@ -17,7 +17,8 @@ class RaspController extends BaseController
 //sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump
 	public function playAudio($command) 
 	{	
-		$this->audioprocess = new Process('mpg123 '.$command);
+		$comProcess = str_replace(' ', '', $command);
+		$this->audioprocess = new Process($comProcess);
 
 		try {
 			$this->audioprocess->mustRun();
