@@ -14,7 +14,7 @@ class RaspController extends BaseController
 	private $output;
 	private $playerOutput;
 	private $command;
-	private $switchStatus = 'status1';
+	private $switchStatus = array();
 	
 	
 //sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump
@@ -31,11 +31,13 @@ class RaspController extends BaseController
 	public function prepareData($data)
 	{
 		$process = substr($data, 0, strpos($data, "&"));
-		$this->switchStatus = strstr($data, 'status');		
+		$this->switchStatus['status'] = strstr($data, 'status');		
 		$tempAudioFile = strstr($data,'&');
 		$tempAudioFile = str_replace('=','',strstr($tempAudioFile, '='));
 		$this->audioFile = substr($tempAudioFile, 0, strpos($data, "&"));
 		$this->audioFile = substr($this->audioFile, 0, strpos($this->audioFile, "&"));
+		$this->switchStatus['name'] = $this->audioFile;
+		
 		return $this->getCommand($process);
 	}
 
@@ -50,9 +52,9 @@ class RaspController extends BaseController
 		$hexaddress = '0x'.(dechex(bindec($toHex)));
 		$this->command = '/usr/sbin/i2cset -y 1 '.$comProcess.' '.$hexaddress;
 		$this->executeProcess();
-		if ($this->switchStatus == 'status0'){
+		if ($this->switchStatus['status'] == 'status0'){
 			return $this->playAudio($this->audioFile);
-		} else {
+		} else if ($this->switchStatus['name'] == $this->audioFile){
 			return $this->killProcess('pidof mpg123 | xargs kill -9');
 		}
 		
@@ -72,15 +74,14 @@ class RaspController extends BaseController
 	public function playAudio($command) 
 	{	
 		$this->killProcess('pidof mpg123 | xargs kill -9');	
-			$audioCommand = str_replace(' ', '', $command);
-			$this->audioprocess = new Process('mpg123 media/'.$audioCommand);
-
-			try {
-				$this->audioprocess->mustRun();
-				return $this->playerOutput = $this->audioprocess->getOutput();
-			} catch(ProcessFailedException $e) {
-				return $this->output = $e->getMessage();
-			}
+		$audioCommand = str_replace(' ', '', $command);
+		$this->audioprocess = new Process('mpg123 media/'.$audioCommand);
+		try {
+			$this->audioprocess->mustRun();
+			return $this->playerOutput = $this->audioprocess->getOutput();
+		} catch(ProcessFailedException $e) {
+			return $this->output = $e->getMessage();
+		}
 	}
 
 	public function getRelayData()
