@@ -18,6 +18,7 @@ class RaspController extends BaseController
 //sudo chmod 4755 mpg123
 	public function playAudio($command) 
 	{	
+		$this->killProcess('pkill mpg123');
 		$comProcess = str_replace(' ', '', $command);
 		$this->audioprocess = new Process('mpg123 media/'.$comProcess.'.mp3');
 
@@ -67,5 +68,12 @@ class RaspController extends BaseController
 		return View::make('pages.points')->with(array('output' => $this->output,'command'=>$this->command));
 		
 	} 
+
+	public function killProcess($killprocess)
+	{
+		$process = new Process($killprocess);
+		$process->mustRun();
+		return $process->getOutput();
+	}
 }
  
