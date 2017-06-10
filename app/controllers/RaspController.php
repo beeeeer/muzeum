@@ -36,7 +36,7 @@ class RaspController extends BaseController
 		$tempAudioFile = str_replace('=','',strstr($tempAudioFile, '='));
 		$this->audioFile = substr($tempAudioFile, 0, strpos($data, "&"));
 		$this->audioFile = substr($this->audioFile, 0, strpos($this->audioFile, "&"));
-		$this->switchStatus['name'] = $this->audioFile;
+		$this->switchStatus['name'] = '';
 		
 		return $this->getCommand($process);
 	}
@@ -57,7 +57,6 @@ class RaspController extends BaseController
 		} else if ($this->switchStatus['name'] == $this->audioFile){
 			return $this->killProcess('pidof mpg123 | xargs kill -9');
 		}
-		
 	}
 
 	public function executeProcess()
@@ -74,8 +73,8 @@ class RaspController extends BaseController
 	public function playAudio($command) 
 	{	
 		$this->killProcess('pidof mpg123 | xargs kill -9');	
-		$audioCommand = str_replace(' ', '', $command);
-		$this->audioprocess = new Process('mpg123 media/'.$audioCommand);
+		$this->switchStatus['name'] = $command;
+		$this->audioprocess = new Process('mpg123 media/'.$command);
 		try {
 			$this->audioprocess->mustRun();
 			return $this->playerOutput = $this->audioprocess->getOutput();
