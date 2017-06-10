@@ -18,7 +18,7 @@ class RaspController extends BaseController
 //sudo chmod 4755 mpg123
 	public function playAudio($command) 
 	{	
-		$this->killProcess('pkill mpg123');
+		$this->killProcess('pidof mpg123 | xargs kill -9');	
 		$comProcess = str_replace(' ', '', $command);
 		$this->audioprocess = new Process('mpg123 media/'.$comProcess.'.mp3');
 
