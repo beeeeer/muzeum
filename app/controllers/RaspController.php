@@ -50,7 +50,12 @@ class RaspController extends BaseController
 		$hexaddress = '0x'.(dechex(bindec($toHex)));
 		$this->command = '/usr/sbin/i2cset -y 1 '.$comProcess.' '.$hexaddress;
 		$this->executeProcess();
-		return $this->playAudio($this->audioFile);
+		if ($this->switchStatus == 'status0'){
+			return $this->playAudio($this->audioFile);
+		} else {
+			return $this->killProcess('pidof mpg123 | xargs kill -9');
+		}
+		
 	}
 
 	public function executeProcess()
@@ -67,9 +72,8 @@ class RaspController extends BaseController
 	public function playAudio($command) 
 	{	
 		$this->killProcess('pidof mpg123 | xargs kill -9');	
-		if ($this->switchStatus == 'status0'){
-			$comProcess = str_replace(' ', '', $command);
-			$this->audioprocess = new Process('mpg123 media/'.$comProcess.'.mp3');
+			$audioCommand = str_replace(' ', '', $command);
+			$this->audioprocess = new Process('mpg123 media/'.$audioCommand);
 
 			try {
 				$this->audioprocess->mustRun();
@@ -77,11 +81,6 @@ class RaspController extends BaseController
 			} catch(ProcessFailedException $e) {
 				return $this->output = $e->getMessage();
 			}
-		}
-		else {
-			$this->killProcess('pidof mpg123 | xargs kill -9');	
-		}
-		
 	}
 
 	public function getRelayData()
