@@ -8,7 +8,7 @@
 			audition="audycja.mp3" 
 			relayId="relay1" 
 			expander="0x20 0x00 " 
-			audio="0x200x000x7f.mp3"
+			audio="borsuk.mp3"
 			pin="1">relay</a>
 </li>
 <li>
@@ -16,6 +16,7 @@
 			audition="audycja.mp3" 
 			relayId="relay2" 
 			expander="0x20 0x00 " 
+			audio="dzieciol.mp3"
 			pin="1">relay</a>
 </li>
 <li>
@@ -23,6 +24,7 @@
 			audition="audycja.mp3" 
 			relayId="relay3" 
 			expander="0x20 0x00 " 
+			audio="jez.mp3"
 			pin="1">relay</a>
 </li>
 <li>
@@ -30,6 +32,7 @@
 			audition="audycja.mp3" 
 			relayId="relay4" 
 			expander="0x20 0x00 " 
+			audio="kowalik-zwyczajny.mp3"
 			pin="1">relay</a>
 </li>
 <li>
