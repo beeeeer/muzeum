@@ -33,7 +33,9 @@ class RaspController extends BaseController
 		$process = substr($data, 0, strpos($data, "&"));
 		$this->switchStatus = strstr($data, 'status');		
 		$tempAudioFile = strstr($data,'&');
-		$this->audioFile = str_replace('=','',strstr($tempAudioFile, '='));
+		$tempAudioFile = str_replace('=','',strstr($tempAudioFile, '='));
+		$this->audioFile = substr($tempAudioFile, 0, strpos($data, "&"));
+		$this->audioFile = substr($this->audioFile, 0, strpos($this->audioFile, "&"));
 		return $this->getCommand($process);
 	}
 
