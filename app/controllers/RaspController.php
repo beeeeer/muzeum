@@ -14,6 +14,8 @@ class RaspController extends BaseController
 	private $output;
 	private $playerOutput;
 	private $command;
+	private $switchStatus = 'status1';
+	
 	
 //sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump
 //sudo chmod 4755 mpg123
@@ -29,6 +31,7 @@ class RaspController extends BaseController
 	public function prepareData($data)
 	{
 		$process = substr($data, 0, strpos($data, "&"));
+		$this->switchStatus = strstr($data, 'status');		
 		$tempAudioFile = strstr($data,'&');
 		$this->audioFile = str_replace('=','',strstr($tempAudioFile, '='));
 		return $this->getCommand($process);
@@ -62,15 +65,21 @@ class RaspController extends BaseController
 	public function playAudio($command) 
 	{	
 		$this->killProcess('pidof mpg123 | xargs kill -9');	
-		$comProcess = str_replace(' ', '', $command);
-		$this->audioprocess = new Process('mpg123 media/'.$comProcess.'.mp3');
+		if ($this->switchStatus == 'status0'){
+			$comProcess = str_replace(' ', '', $command);
+			$this->audioprocess = new Process('mpg123 media/'.$comProcess.'.mp3');
 
-		try {
-			$this->audioprocess->mustRun();
-			return $this->playerOutput = $this->audioprocess->getOutput();
-		} catch(ProcessFailedException $e) {
-			return $this->output = $e->getMessage();
+			try {
+				$this->audioprocess->mustRun();
+				return $this->playerOutput = $this->audioprocess->getOutput();
+			} catch(ProcessFailedException $e) {
+				return $this->output = $e->getMessage();
+			}
 		}
+		else {
+			$this->killProcess('pidof mpg123 | xargs kill -9');	
+		}
+		
 	}
 
 	public function getRelayData()

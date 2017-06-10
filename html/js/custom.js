@@ -40,14 +40,15 @@ jQuery(document).ready(function($){
                                     });
                     var stringPin = expander.join('');
                     
-                        stringProcessPin = stringPin.replace(',','')
+                        stringProcessPin = stringPin.replace(',','');
                         pointData[0] = command + stringProcessPin;
                         pointData[1] = $(this).attr('audio');
+                        pointData[2] = 'status' + $(this).attr('pin');
                         console.log(pointData);
                     $.ajax({
                         type: "POST",
                         url : "setpoint",
-                        dataType: 'array',
+                        // dataType: 'array',
                         data : { data: pointData },
                         success : function(response){
                             console.log('response')
