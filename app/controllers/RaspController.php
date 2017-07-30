@@ -67,20 +67,25 @@ class RaspController extends BaseController
 	}
 
 	public function playAudio($command) 
-	{	
+	{
+        $this->killProcess('pidof mpg123 | xargs kill -9');
 	    if ($this->switchStatus[$command] == 'status1'){
             $this->killProcess('pidof mpg123 | xargs kill -9');
+            return 'process killed because has status1';
+        } else {
+            $this->audioprocess = new Process('mpg123 media/'.$command);
+	        try {
+			    $this->audioprocess->mustRun();
+			    return $this->playerOutput = $this->audioprocess->getOutput();
+		    } catch(ProcessFailedException $e) {
+			    return $this->output = $e->getMessage();
+		    }
+//            return $this->switchStatus[$command].'so move on'; //- development
         }
-        $this->killProcess('pidof mpg123 | xargs kill -9');
-		$this->audioprocess = new Process('mpg123 media/'.$command);
-//        return $this->switchStatus[$command]; //development
-		try {
-			$this->audioprocess->mustRun();
-//			return $this->audioprocess->isRunning(); // development
-			 return $this->playerOutput = $this->audioprocess->getOutput();
-		} catch(ProcessFailedException $e) {
-			return $this->output = $e->getMessage();
-		}
+//        $this->killProcess('pidof mpg123 | xargs kill -9');
+//
+//        return $this->switchStatus[$command];
+
 	}
 
 	public function getRelayData()
