@@ -80,17 +80,11 @@ class RaspController extends BaseController
 		    } catch(ProcessFailedException $e) {
 			    return $this->output = $e->getMessage();
 		    }
-//            return $this->switchStatus[$command].'so move on'; //- development
         }
-//        $this->killProcess('pidof mpg123 | xargs kill -9');
-//
-//        return $this->switchStatus[$command];
-
 	}
 
 	public function getRelayData()
 	{
-
 		return View::make('pages.points')->with(array('output' => $this->output,'command'=>$this->command));
 	} 
 
