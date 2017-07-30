@@ -71,8 +71,7 @@ class RaspController extends BaseController
 	    if ($this->switchStatus[$command] == 'status1'){
             $this->killProcess('pidof mpg123 | xargs kill -9');
         }
-
-
+        $this->killProcess('pidof mpg123 | xargs kill -9');
 		$this->audioprocess = new Process('mpg123 media/'.$command);
 //        return $this->switchStatus[$command]; //development
 		try {
