@@ -123,7 +123,7 @@ class RaspController extends BaseController
 
     public function _runPull($response)
     {
-        $gitpull = new Process('git pull origin '.$response);
+        $gitpull = new Process('git checkout -b '.$response.' && git pull origin '.$response);
         $gitpull->mustRun();
         $output = $gitpull->getOutput();
         return $output;
