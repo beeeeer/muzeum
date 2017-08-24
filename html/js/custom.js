@@ -93,7 +93,7 @@ jQuery(document).ready(function($){
                         pull.css("display", "block");
                         console.log(response);
                         output.html();
-                        output.html(response);
+                        output.html(response.responseText);
                     }
                 },"json");
             });
