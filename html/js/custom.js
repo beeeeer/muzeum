@@ -1,6 +1,7 @@
 jQuery(document).ready(function($){
 
     var pinLogic = function() {
+        console.log('pin logic');
         var button = $('.expanders__relay');
 
         function setButtons(){
@@ -25,7 +26,11 @@ jQuery(document).ready(function($){
         {
             getObject().each(function(index){
                 $(this).on('click',function(){
-                    var id = $(this).attr('relayId');
+                    var id = $(this).attr('relayId')
+                        text = $(this).next().val()
+                        content = $('#custom-text');
+                        content.html('');
+                        content.html(text);
                     $(this).attr('pin', function(index, attr){
                         return attr == 1 ? 0 : 1;
                     });
@@ -34,7 +39,6 @@ jQuery(document).ready(function($){
                         command = $(this).attr('expander');
                         command2 = getObject().each(function(){
                                         if(command == $(this).attr('expander')) {
-                                            console.log(command);
                                             expander.push($(this).attr('pin'));
                                         }
                                     });
@@ -44,14 +48,14 @@ jQuery(document).ready(function($){
                         pointData[0] = command + stringProcessPin;
                         pointData[1] = $(this).attr('audio');
                         pointData[2] = 'status' + $(this).attr('pin');
-                        console.log(pointData);
+                        console.log(command+stringProcessPin)
                     $.ajax({
                         type: "POST",
                         url : "setpoint",
                         // dataType: 'array',
                         data : { data: pointData },
                         success : function(response){
-                            console.log('response')
+
                             console.log(response)
                         }
                     },"json");
@@ -64,6 +68,40 @@ jQuery(document).ready(function($){
         return {
             setButtons: setButtons,
             pins: pins,
+        }
+    }();
+
+    var pullLogic = function(){
+
+        function pull(){
+            var pull = $('.branch')
+                output = $('#output');
+            pull.on('click',function(){
+                var br = $(this).attr('branch');
+                pull.css("display", "none");
+                $.ajax({
+                    type: "POST",
+                    url : "fetchData",
+                    data : { data: br },
+                    success : function(response){
+                        pull.css("display", "block");
+                        console.log(response);
+                        output.html();
+                        output.html(response);
+                    }, error: function(response)
+                    {
+                        pull.css("display", "block");
+                        console.log(response);
+                        output.html();
+                        output.html(response);
+                    }
+                },"json");
+            });
+        }
+        pull();
+
+        return {
+            pull: pull
         }
     }();
 });

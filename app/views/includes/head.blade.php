@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="description" content="">
-<meta name="author" content="Scotch">
+<meta name="Adam Gieroń" content="muzeum">
 
 <title>Relays</title>
 {{ HTML::style('css/main.css') }}

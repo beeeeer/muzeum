@@ -18,5 +18,5 @@ Route::get('/', function()
 
 Route::get('points','RaspController@getRelayData');
 Route::post('setpoint','RaspController@getAjaxRequest');
-
-
+Route::get('puller','RaspController@puller');
+Route::post('fetchData','RaspController@fetchData');
