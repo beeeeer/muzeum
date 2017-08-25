@@ -345,8 +345,8 @@
 	</li>
 </ul>
 
-		<a href="#" class="rasp__defaults expanders__relay">Podświetl Wszystko</a>
-		<a href="#" class="rasp__defaults expanders__relay" >Wyłącz wszystko</a>
+		<a href="#" class="rasp__defaults expanders__relay" id="switchAllOn">Podświetl Wszystko</a>
+		<a href="#" class="rasp__defaults expanders__relay" id="switchAllOff">Wyłącz wszystko</a>
 
 	</div>
 </div>

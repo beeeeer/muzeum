@@ -99,9 +99,57 @@ jQuery(document).ready(function($){
             });
         }
         pull();
-
         return {
             pull: pull
         }
+    }();
+
+    var switchall = function(){
+        var switchAllOn = $('#switchAllOn'),
+            switchAllOff = $('#switchAllOff');
+        switchAllOn.on('click',function(){
+            switchAllOff.removeClass('on');
+
+            $.ajax({
+                type: "POST",
+                url : "switchAllOn",
+                data : { data: 'on' },
+                success : function(response){
+
+                    console.log(response);
+                    output.html();
+                    output.html(response);
+                }, error: function(response)
+                {
+
+                    console.log(response);
+                    output.html();
+                    output.html(response.responseText);
+                }
+            },"json");
+
+        });
+        switchAllOff.on('click',function(){
+            switchAllOn.removeClass('on');
+
+            $.ajax({
+                type: "POST",
+                url : "switchAllOff",
+                data : { data: 'on' },
+                success : function(response){
+
+                    console.log(response);
+                    output.html();
+                    output.html(response);
+                }, error: function(response)
+                {
+
+                    console.log(response);
+                    output.html();
+                    output.html(response.responseText);
+                }
+            },"json");
+        });
+
     }();
 });

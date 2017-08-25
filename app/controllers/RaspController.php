@@ -17,6 +17,7 @@ class RaspController extends BaseController
 	private $switchStatus = array();
 	private $setMixer= 'amixer cset numid=3 1';
 	private $branch;
+	private $allExpanders = array('0x20 0x00 ','0x20 0x01 ','0x22 0x00 ','0x22 0x01 ','0x24 0x00 ','0x24 0x01 ');
 	
 	
 //sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump
@@ -95,6 +96,33 @@ class RaspController extends BaseController
 		$process->mustRun();
 		return $process->getOutput();
 	}
+
+//All pins actions
+    public function switchallOn()
+    {
+        $request = new Request();
+        $input = $request->ajax();
+
+        foreach($this->allExpanders as $singleExpander)
+        {
+            $output = $this->allExp('git branch')->mustRun()->getOutput();
+
+        }
+    }
+
+    public function switchAllOff()
+    {
+        foreach($this->allExpanders as $singleExpander)
+        {
+            $output = $this->allExp($singleExpander.'0xFF')->mustRun()->getOutput();
+        }
+    }
+
+    public function allExp($method)
+    {
+        return new Process($method);
+    }
+
 //    Updater - its only pull from origin.
 
 	public function puller()
