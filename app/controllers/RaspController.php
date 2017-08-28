@@ -105,7 +105,7 @@ class RaspController extends BaseController
 
         foreach($this->allExpanders as $singleExpander)
         {
-            $output = $this->allExp('git branch')->mustRun()->getOutput();
+            $output = $this->allExp($singleExpander.'0x00')->mustRun()->getOutput();
 
         }
     }
