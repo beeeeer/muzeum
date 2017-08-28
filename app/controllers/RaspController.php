@@ -102,16 +102,22 @@ class RaspController extends BaseController
     {
         foreach($this->allExpanders as $singleExpander)
         {
-            $output = $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')->mustRun()->getOutput();
+            $output[$singleExpander] = $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')
+            										->mustRun()
+            										->getOutput();
         }
+        return json_encode($output);
     }
 
-    public function switchAllOff()
+    public function switchallOff()
     {
         foreach($this->allExpanders as $singleExpander)
         {
-            $output = $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')->mustRun()->getOutput();
+            $output[$singleExpander] = $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')
+            										->mustRun()
+            										->getOutput();
         }
+        return json_encode($output);
     }
 
     public function allExp($method)

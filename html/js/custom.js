@@ -135,7 +135,7 @@ jQuery(document).ready(function($){
             $.ajax({
                 type: "POST",
                 url : "switchAllOff",
-                data : { data: 'on' },
+                data : { data: 'off' },
                 success : function(response){
                     console.log(response);
                     output.html();
