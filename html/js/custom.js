@@ -107,6 +107,7 @@ jQuery(document).ready(function($){
     var switchall = function(){
         var switchAllOn = $('#switchAllOn'),
             switchAllOff = $('#switchAllOff');
+            console.log(switchAllOff);
         switchAllOn.on('click',function(){
             switchAllOff.removeClass('on');
 
@@ -121,7 +122,6 @@ jQuery(document).ready(function($){
                     output.html(response);
                 }, error: function(response)
                 {
-
                     console.log(response);
                     output.html();
                     output.html(response.responseText);
@@ -131,19 +131,17 @@ jQuery(document).ready(function($){
         });
         switchAllOff.on('click',function(){
             switchAllOn.removeClass('on');
-
+            console.log(switchAllOn);
             $.ajax({
                 type: "POST",
                 url : "switchAllOff",
                 data : { data: 'on' },
                 success : function(response){
-
                     console.log(response);
                     output.html();
                     output.html(response);
                 }, error: function(response)
                 {
-
                     console.log(response);
                     output.html();
                     output.html(response.responseText);
