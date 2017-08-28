@@ -129,7 +129,7 @@ class RaspController extends BaseController
 
 	public function puller()
     {
-        $this->process = new Process('chmod -R 7777 ../html && git fetch origin && git branch -r');
+        $this->process = new Process('chmod -R 7777 ../html && git stash && git fetch origin && git branch -r');
         $this->process->mustRun();
         $pro = $this->process->getOutput();
         $pro = str_replace(' ', '', $pro);

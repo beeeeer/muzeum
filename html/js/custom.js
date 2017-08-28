@@ -116,15 +116,10 @@ jQuery(document).ready(function($){
                 url : "switchAllOn",
                 data : { data: 'on' },
                 success : function(response){
-
                     console.log(response);
-                    output.html();
-                    output.html(response);
                 }, error: function(response)
                 {
                     console.log(response);
-                    output.html();
-                    output.html(response.responseText);
                 }
             },"json");
 
@@ -138,13 +133,9 @@ jQuery(document).ready(function($){
                 data : { data: 'off' },
                 success : function(response){
                     console.log(response);
-                    output.html();
-                    output.html(response);
                 }, error: function(response)
                 {
                     console.log(response);
-                    output.html();
-                    output.html(response.responseText);
                 }
             },"json");
         });
