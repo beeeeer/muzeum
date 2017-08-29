@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 <div class ="container">
-	<h3>Zbiornik Wodny - Źródlisko</h3>
+	<h3 class="title_">Zbiornik Wodny - Źródlisko</h3>
 	<div class="custom-text" id="custom-text">
 
 	</div>
@@ -101,7 +101,7 @@
 </li>
 <li>
 <a href="#" class="expanders__relay relayexp1" 
-			audio="jez.mp3"
+			audio="kormoran.mp3"
 			relayId="relay4" 
 			expander="0x20 0x01 " 
 			pin="1">Kormoran</a>
@@ -109,7 +109,7 @@
 </li>
 <li>
 <a href="#" class="expanders__relay relayexp1" 
-			audio="kormoranzwyczajny.mp3"
+			audio="kosiacieczolty.mp3"
 			relayId="relay5" 
 			expander="0x20 0x01 " 
 			pin="1">Kosaciec żółty</a>
@@ -337,11 +337,13 @@
 	<div class="rasp__wrapper">
 <ul class="expanders">
 	<li>
-		<a href="#" class="expanders__relay rasp__defaults relayexp1"
+		<a href="#" class="expanders__relay rasp__defaults rasp-custom-button relayexp1"
 		   audio="00Zrodlisko.mp3"
 		   relayId="relay8"
 		   expander=""
 		   pin="1">wprowadzenie </a>
+		<input  type="hidden" value="Obszar Puszczy Noteckiej zajmują rozległe - jedne z największych w Europie - wydmy śródlądowe, porośnięte borami. Pośród borów znajduje się za to ciąg malowniczo położonych jezior rynnowych, a na terenach bezodpływowych lokalnie występują bagna i torfowiska. Tereny te charakteryzują się niewielkimi opadami atmosferycznymi, dlatego też buduje się zbiorniki retencyjne, mające na celu magazynowanie wody podczas dużych opadów i oddawanie jej – poprzez parowanie – podczas suszy. Zarówno naturalne, jak i sztuczne zbiorniki wraz z porastającą je roślinnością stanowią doskonałą oazę dla występujących na tym terenie kilkudziesięciu gatunków ptaków wodno-błotnych. Służą one też jako wodopój dla większych zwierząt – saren, czy jeleni, a dziki zażywają w nich kąpieli błotnych. Brzegi rozlewiska wodnego są miejscem bytowania wydry i coraz liczniej występującego bobra, który poprzez budowanie tam potrafi zmieniać bieg rzeki i tworzyć własne nieduże zbiorniki. Nierozerwalnie związane z wodą są też liczne gatunki płazów, gadów oraz owadów, w tym ważek, a także pewien wyjątkowy gatunek pająka wodnego. Wody stojące tworzą idealne warunki do wzrostu roślin – ich płycizny porastają szuwary, złożone między innymi z licznych trzcin, pałek wodnych z brązowymi kolbami na szczycie łodygi, czy tworzących luźne darnie turzyc bagiennych; na powierzchni wody unoszą się też zbiorowiska roślin wodnych. Mocno podmokłe brzegi zbiorników oraz torfowiska i tereny zabagnione gęsto porastają rośliny lubiące wilgoć, jak kaczeńce, kosaćce, czy bagnice torfowe.
+" class="text-to-append dispNone" />
 	</li>
 </ul>
 

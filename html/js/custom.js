@@ -141,4 +141,11 @@ jQuery(document).ready(function($){
         });
 
     }();
+
+    var setText = function() {
+        var text = $(this).next().val(),
+            content = $('#custom-text');
+            button = $();
+
+    }();
 });
