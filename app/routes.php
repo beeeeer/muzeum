@@ -11,12 +11,12 @@
 |
 */
 
-Route::get('points', function()
+Route::get('/', function()
 {
 	return View::make('pages.home');
 });
 
-Route::get('/','RaspController@getRelayData');
+Route::get('points','RaspController@getRelayData');
 Route::post('setpoint','RaspController@getAjaxRequest');
 Route::get('puller','RaspController@puller');
 Route::post('fetchData','RaspController@fetchData');
