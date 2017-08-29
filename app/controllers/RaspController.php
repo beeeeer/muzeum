@@ -18,11 +18,9 @@ class RaspController extends BaseController
 	private $setMixer= 'amixer cset numid=3 1';
 	private $branch;
 	private $allExpanders = array('0x20 0x00 ','0x20 0x01 ','0x22 0x00 ','0x22 0x01 ','0x24 0x00 ','0x24 0x01 ');
-	
-	
-//sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump
-//sudo chmod 4755 mpg123
-	
+	private $iterator;
+//git, composer, php, apache,
+//sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump /usr/sbin/mpg123
 
 	public function getAjaxRequest()
 	{
@@ -102,22 +100,17 @@ class RaspController extends BaseController
     {
         foreach($this->allExpanders as $singleExpander)
         {
-            $output[$singleExpander] = $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')
-            										->mustRun()
-            										->getOutput();
+            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')->mustRun()->getOutput();
         }
-        return json_encode($output);
     }
 
     public function switchallOff()
     {
         foreach($this->allExpanders as $singleExpander)
         {
-            $output[$singleExpander] = $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')
-            										->mustRun()
-            										->getOutput();
+            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')->mustRun()->getOutput();
         }
-        return json_encode($output);
+
     }
 
     public function allExp($method)
@@ -129,7 +122,7 @@ class RaspController extends BaseController
 
 	public function puller()
     {
-        $this->process = new Process('chmod -R 7777 ../html && git stash && git fetch origin && git branch -r');
+        $this->process = new Process('git stash && git fetch origin && git branch -r');
         $this->process->mustRun();
         $pro = $this->process->getOutput();
         $pro = str_replace(' ', '', $pro);
