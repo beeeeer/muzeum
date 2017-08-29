@@ -10,7 +10,7 @@ body {
 	padding-top: 30px;
 }
 .container {
-	width: 1200px;
+	width: 1400px;
 	margin: 0 auto;
 }
 
@@ -70,7 +70,7 @@ body {
 		float: left;
 		> a {
 			color: #fff;
-			width: 120px;
+			width: 150px;
 			height: 50px;
 			display: block;
 		}
@@ -82,18 +82,18 @@ body {
 		margin: 5px;
 		text-decoration: none;
 		text-transform: uppercase;
-		font-size: 12px;
+		font-size: 15px;
 		color: #000;
 	
 	}
 }
 
 .on {
-	background-color: #c5ca7c;
+	background-color: #747300;
 	color: #000;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .dispNone {
@@ -137,6 +137,7 @@ body {
 }
 
 .rasp-custom-button {
+	font-size: 15px;
 	display: block;
 	width: 250px !important;
 }

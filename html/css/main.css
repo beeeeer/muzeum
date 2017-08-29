@@ -10,7 +10,7 @@ body {
   padding-top: 20px;
 }
 .container {
-  width: 1200px;
+  width: 1400px;
   margin: 0 auto;
 }
 .header {
@@ -63,7 +63,7 @@ body {
 }
 .expanders > li > a {
   color: #fff;
-  width: 110px;
+  width: 150px;
   height: 50px;
   display: block;
 }
@@ -74,15 +74,15 @@ body {
   margin: 5px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
   color: #000;
 }
 .on {
-  background-color: #c5ca7c;
+  background-color: #747300;
   color: #000;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
 }
 .dispNone {
   display: none;
@@ -112,7 +112,7 @@ body {
   margin: 5px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
 }
 .puller-container {
   width: 50%;
@@ -123,4 +123,5 @@ body {
 .rasp-custom-button {
   display: block;
   width: 250px !important;
+  font-size: 15px;
 }
