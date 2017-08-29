@@ -85,8 +85,6 @@ class RaspController extends BaseController
 
 	public function getRelayData()
 	{
-	    $audio = new Process('modprobe snd_bcm2835 && amixer cset numid=3 1');
-        $audio->mustRun()->getOutput();
 		return View::make('pages.points')->with(array('output' => $this->output,'command'=>$this->command));
 	} 
 
