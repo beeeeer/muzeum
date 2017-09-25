@@ -152,12 +152,32 @@ class RaspController extends BaseController
         return $output;
     }
 
-    public function test(){
-        $req = new Request();
-        $data = $req->get('Data');
+    public function externalSource(){
+        $response = new Response();
+        $request = new Request();
+        try{
+            $data =   Input::all();
+            $comProcess = $request->__toString($data);
+            $comProcess = str_replace(['data=','GET'],' ',$comProcess);
+            $firstComm = substr($comProcess,0,-9);
+            $toHex = substr($comProcess,-8);
+            $hexaddress = '0x'.(dechex(bindec($toHex)));
+            $string = '/usr/sbin/i2cset -y 1 '.$firstComm.' '.$hexaddress;
+            $string = trim(preg_replace('/\s\s+/', ' ', $string));
+            return $this->executeFromExternal()
+                //return $response->setContent($string);
+        } catch (Exception $error){
+            return $response->setContent($error->getMessage());
+        }
 
-        $response =   new Response();
-        return $this->prepareData($req->__toString($data));
+    }
+
+    public function executeFromExternal($command)
+    {
+        $response = new Response();
+        $process = new Process($command);
+        $process->mustRun();
+        return $response->setContent(json_encode($process->getOutput()));
     }
 
 }
