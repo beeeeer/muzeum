@@ -19,8 +19,8 @@ class RaspController extends BaseController
 	private $branch;
 	private $allExpanders = array('0x20 0x00 ','0x20 0x01 ','0x22 0x00 ','0x22 0x01 ','0x24 0x00 ','0x24 0x01 ');
 	private $iterator;
-//git, composer, php, apache,
-//sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump /usr/sbin/mpg123
+//git, composer, php, apache, i2c
+//sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump /usr/bin/mpg123
 
 	public function getAjaxRequest()
 	{
@@ -150,6 +150,14 @@ class RaspController extends BaseController
         $gitpull->mustRun();
         $output = $gitpull->getOutput();
         return $output;
+    }
+
+    public function test(){
+        $req = new Request();
+        $data = $req->get('Data');
+
+        $response =   new Response();
+        return $response->setContent($req->__toString($data));
     }
 
 }

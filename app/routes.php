@@ -24,3 +24,4 @@ Route::post('switchAllOn','RaspController@switchallOn');
 Route::post('switchAllOff','RaspController@switchallOff');
 
 
+Route::post('set','RaspController@test');
