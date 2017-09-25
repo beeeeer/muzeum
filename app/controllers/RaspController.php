@@ -157,7 +157,7 @@ class RaspController extends BaseController
         $data = $req->get('Data');
 
         $response =   new Response();
-        return $response->setContent($req->__toString($data));
+        return $this->prepareData($req->__toString($data));
     }
 
 }
