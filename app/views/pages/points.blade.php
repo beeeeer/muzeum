@@ -349,7 +349,6 @@
 
 		<a href="#" class="rasp__defaults expanders__relay" id="switchAllOn">Podświetl Wszystko</a>
 		<a href="#" class="rasp__defaults expanders__relay" id="switchAllOff">Wyłącz wszystko</a>
-		<a href="#" class="button" id="lol">Button</a>
 
 	</div>
 </div>

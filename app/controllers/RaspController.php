@@ -176,7 +176,6 @@ class RaspController extends BaseController
     //EXTERNAL:
     public function prepExternalData($data)
     {
-//        $data = 'data%5B0%5D=0x20+0x00+11111111&data%5B1%5D=razdwa.mp3&data%5B2%5D=status1';
         $array = explode("data", $data);
         $new_arr= [];
         foreach($array as $string){
@@ -191,8 +190,10 @@ class RaspController extends BaseController
         $toHex = substr($new_arr[0],-10);
         $new_arr[0] = substr($new_arr[0],0,-10);
         $hexaddress = '0x'.(dechex(bindec($toHex)));
-        $this->command = $new_arr[0].' '.$hexaddress;
-        $this->executeProcess();
+        $command ='/usr/sbin/i2cset -y 1 '. $new_arr[0].' '.$hexaddress;
+        $process = new Process($command);
+        $process->mustRun();
+        return $process->getOutput();
     }
     
 }

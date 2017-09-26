@@ -32,13 +32,13 @@ jQuery(document).ready(function($){
                         content.html('');
                         content.html(text);
                     $(this).attr('pin', function(index, attr){
-                        return attr === 1 ? 0 : 1;
+                        return attr == 1 ? 0 : 1;
                     });
                     var expander = [],
                         pointData = [],
                         command = $(this).attr('expander');
                         command2 = getObject().each(function(){
-                                        if(command === $(this).attr('expander')) {
+                                        if(command == $(this).attr('expander')) {
                                             expander.push($(this).attr('pin'));
                                         }
                                     });
@@ -49,18 +49,29 @@ jQuery(document).ready(function($){
                         pointData[1] = $(this).attr('audio');
                         pointData[2] = 'status' + $(this).attr('pin');
 
-                        if ($(this).attr('external') === 'true'){
+                        if ($(this).attr('external') == 'true'){
                             console.log('external ajax');
                             $.ajax({
                                 type: "GET",
                                 url : "send",
                                 data : { data: pointData },
                                 success : function(response){
-                                    console.log(response)
+                                    $.ajax({
+                                        type: "POST",
+                                        url : "setpoint",
+                                        data : { data: [pointData[1],pointData[2]] },
+                                        success : function(response){
+                                            console.log(response)
+                                            console.log(pointData[1]+pointData[2])
+                                        },error:function(resp) {
+                                            console.log(resp)
+                                        }
+                                    },"json");
                                 },error:function(resp){
                                     console.log(resp)
                                 }
                             },"json");
+
                         } else {
                             console.log('internal ajax');
                             $.ajax({
