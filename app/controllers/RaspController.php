@@ -51,8 +51,7 @@ class RaspController extends BaseController
 		$hexaddress = '0x'.(dechex(bindec($toHex)));
 		$this->command = '/usr/sbin/i2cset -y 1 '.$comProcess.' '.$hexaddress;
 		$this->executeProcess();
-		
-		return $this->playAudio($this->audioFile);	
+		return $this->playAudio($this->audioFile);
 	}
 
 	public function executeProcess()
@@ -152,32 +151,55 @@ class RaspController extends BaseController
         return $output;
     }
 
+
+    //getter
     public function externalSource(){
         $response = new Response();
         $request = new Request();
         try{
             $data =   Input::all();
             $comProcess = $request->__toString($data);
-            $comProcess = str_replace(['data=','GET'],' ',$comProcess);
-            $firstComm = substr($comProcess,0,-9);
-            $toHex = substr($comProcess,-8);
-            $hexaddress = '0x'.(dechex(bindec($toHex)));
-            $string = '/usr/sbin/i2cset -y 1 '.$firstComm.' '.$hexaddress;
-            $string = trim(preg_replace('/\s\s+/', ' ', $string));
-            return $this->executeFromExternal()
-                //return $response->setContent($string);
+            return $this->prepareData($comProcess);
+//            $comProcess = str_replace(['data=','GET'],' ',$comProcess);
+//            $firstComm = substr($comProcess,0,-9);
+//            $toHex = substr($comProcess,-8);
+//            $hexaddress = '0x'.(dechex(bindec($toHex)));
+//            $string = '/usr/sbin/i2cset -y 1 '.$firstComm.' '.$hexaddress;
+//            $string = trim(preg_replace('/\s\s+/', ' ', $string));
+//            return $this->executeFromExternal($string);
         } catch (Exception $error){
             return $response->setContent($error->getMessage());
         }
 
     }
 
-    public function executeFromExternal($command)
+//    public function executeFromExternal($command)
+//    {
+//        $response = new Response();
+//        $process = new Process($command);
+//        $process->mustRun();
+//        return $response->setContent(json_encode($process->getOutput()));
+//    }
+
+
+    //sender
+    public function postDataByCurl()
     {
+        $request = new Request();
         $response = new Response();
-        $process = new Process($command);
-        $process->mustRun();
-        return $response->setContent(json_encode($process->getOutput()));
+        $data =   Input::all();
+
+        $comProcess = $request->__toString($data);
+//        $this->prepareData($comProcess);
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL,"http://192.168.0.10/index.php/set");
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS,
+            $comProcess);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $server_output = curl_exec ($ch);
+        curl_close ($ch);
+        return $response->setContent($this->command. ' = ' .$this->audioFile. ' = '.$this->audioprocess);
     }
 
 }

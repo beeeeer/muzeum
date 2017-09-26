@@ -25,3 +25,7 @@ Route::post('switchAllOff','RaspController@switchallOff');
 
 
 Route::post('set','RaspController@externalSource');
+Route::post('sent','RaspController@postDataByCurl');
+
+
+//wywołanie externala:
