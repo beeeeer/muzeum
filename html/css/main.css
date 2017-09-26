@@ -7,7 +7,7 @@ body {
 }
 .title_ {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .container {
   width: 1400px;
@@ -112,16 +112,14 @@ body {
   margin: 5px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
 }
 .puller-container {
   width: 50%;
   margin: 0 auto;
 }
-
-
 .rasp-custom-button {
+  font-size: 15px;
   display: block;
   width: 250px !important;
-  font-size: 15px;
 }

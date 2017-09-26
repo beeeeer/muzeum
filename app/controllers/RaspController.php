@@ -156,23 +156,22 @@ class RaspController extends BaseController
 
     public function _getDataFromExternal()
     {
-       $request = new Request();
-       $data = $request->getContent();
-       return $request->__toString($data);
+      $req = Requests::all();
+      $resp = new Response();
+      return $resp->setContent($req);
+
     }
 
     public function _sendDataToExternal()
     {
+        $data = Input::all();
         $client = new Client();
         $res = $client->request('POST', 'http://192.168.0.10/index.php/recive', [
-            'form_params' => [
-                'client_id' => 'test_id',
-                'secret' => 'test_secret',
-            ]
+            'form_params' => $data
         ]);
 
-        $result= $res->getBody();
-        dd($result);
+        $result = $res->getBody();
+        dd($result->getContents());
     }
     
     
