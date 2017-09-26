@@ -156,24 +156,44 @@ class RaspController extends BaseController
 
     public function _getDataFromExternal()
     {
-      $req = Requests::all();
-      $resp = new Response();
-      return $resp->setContent($req);
-
+        $request = new Request();
+        $response = new Response();
+        $this->prepExternalData($request->getContent());
+        return $response->setContent($request->getContent());
     }
 
     public function _sendDataToExternal()
     {
         $data = Input::all();
         $client = new Client();
-        $res = $client->request('POST', 'http://192.168.0.10/index.php/recive', [
+        $res = $client->request('GET', 'http://192.168.0.10/index.php/recive', [
             'form_params' => $data
         ]);
 
         $result = $res->getBody();
         dd($result->getContents());
     }
-    
+    //EXTERNAL:
+    public function prepExternalData($data)
+    {
+//        $data = 'data%5B0%5D=0x20+0x00+11111111&data%5B1%5D=razdwa.mp3&data%5B2%5D=status1';
+        $array = explode("data", $data);
+        $new_arr= [];
+        foreach($array as $string){
+            if($string !== ''){
+                $string = strstr($string,'=');
+                $delete = array('=','+','"','&');
+                $string = str_replace($delete,' ',$string);
+                array_push($new_arr,$string);
+            }
+        }
+        var_dump($new_arr);
+        $toHex = substr($new_arr[0],-10);
+        $new_arr[0] = substr($new_arr[0],0,-10);
+        $hexaddress = '0x'.(dechex(bindec($toHex)));
+        $this->command = $new_arr[0].' '.$hexaddress;
+        $this->executeProcess();
+    }
     
 }
  

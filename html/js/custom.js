@@ -52,7 +52,7 @@ jQuery(document).ready(function($){
                         if ($(this).attr('external') === 'true'){
                             console.log('external ajax');
                             $.ajax({
-                                type: "POST",
+                                type: "GET",
                                 url : "send",
                                 data : { data: pointData },
                                 success : function(response){
