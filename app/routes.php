@@ -23,9 +23,9 @@ Route::post('fetchData','RaspController@fetchData');
 Route::post('switchAllOn','RaspController@switchallOn');
 Route::post('switchAllOff','RaspController@switchallOff');
 
+Route::get('send','RaspController@_sendDataToExternal');
 
-Route::post('set','RaspController@externalSource');
-Route::post('sent','RaspController@postDataByCurl');
+Route::post('recive','RaspController@_getDataFromExternal');
 
 
 //wywołanie externala:

@@ -4,6 +4,8 @@ use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 use Illuminate\Http\Request as Request;
 use Illuminate\Http\Response as Response;
+use GuzzleHttp\Client as Client;
+
 
 
 class RaspController extends BaseController 
@@ -150,57 +152,29 @@ class RaspController extends BaseController
         $output = $gitpull->getOutput();
         return $output;
     }
+    //External Source 
 
-
-    //getter
-    public function externalSource(){
-        $response = new Response();
-        $request = new Request();
-        try{
-            $data =   Input::all();
-            $comProcess = $request->__toString($data);
-            return $this->prepareData($comProcess);
-//            $comProcess = str_replace(['data=','GET'],' ',$comProcess);
-//            $firstComm = substr($comProcess,0,-9);
-//            $toHex = substr($comProcess,-8);
-//            $hexaddress = '0x'.(dechex(bindec($toHex)));
-//            $string = '/usr/sbin/i2cset -y 1 '.$firstComm.' '.$hexaddress;
-//            $string = trim(preg_replace('/\s\s+/', ' ', $string));
-//            return $this->executeFromExternal($string);
-        } catch (Exception $error){
-            return $response->setContent($error->getMessage());
-        }
-
-    }
-
-//    public function executeFromExternal($command)
-//    {
-//        $response = new Response();
-//        $process = new Process($command);
-//        $process->mustRun();
-//        return $response->setContent(json_encode($process->getOutput()));
-//    }
-
-
-    //sender
-    public function postDataByCurl()
+    public function _getDataFromExternal()
     {
-        $request = new Request();
-        $response = new Response();
-        $data =   Input::all();
-
-        $comProcess = $request->__toString($data);
-//        $this->prepareData($comProcess);
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL,"http://192.168.0.10/index.php/set");
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS,
-            $comProcess);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        $server_output = curl_exec ($ch);
-        curl_close ($ch);
-        return $response->setContent($this->command. ' = ' .$this->audioFile. ' = '.$this->audioprocess);
+       $request = new Request();
+       $data = $request->getContent();
+       return $request->__toString($data);
     }
 
+    public function _sendDataToExternal()
+    {
+        $client = new Client();
+        $res = $client->request('POST', 'http://192.168.0.10/index.php/recive', [
+            'form_params' => [
+                'client_id' => 'test_id',
+                'secret' => 'test_secret',
+            ]
+        ]);
+
+        $result= $res->getBody();
+        dd($result);
+    }
+    
+    
 }
  
