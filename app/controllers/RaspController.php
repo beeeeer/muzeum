@@ -171,7 +171,9 @@ class RaspController extends BaseController
         ]);
 
         $result = $res->getBody();
-        dd($result->getContents());
+//        dd();
+        return $result->getContents();
+
     }
     //EXTERNAL:
     public function prepExternalData($data)

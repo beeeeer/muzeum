@@ -3,6 +3,13 @@ jQuery(document).ready(function($){
     var pinLogic = function() {
         console.log('pin logic');
         var button = $('.expanders__relay');
+        button.each(function(){
+            if ($(this).attr('audio') == '.mp3'){
+                $(this).css('display','none');
+            } else {
+                $(this).css('display','block');
+            }
+        });
 
         function setButtons(){
             button.each(function(){
@@ -54,8 +61,9 @@ jQuery(document).ready(function($){
                             $.ajax({
                                 type: "GET",
                                 url : "send",
-                                data : { data: pointData },
+                                data : { data: pointData[0] },
                                 success : function(response){
+                                    console.log(response);
                                     $.ajax({
                                         type: "POST",
                                         url : "setpoint",
