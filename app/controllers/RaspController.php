@@ -167,7 +167,7 @@ class RaspController extends BaseController
     {
         $data = Input::all();
         $client = new Client();
-        $res = $client->request('GET', 'http://192.168.0.108/index.php/recive', [
+        $res = $client->request('GET', 'http://192.168.0.59/index.php/recive', [
             'form_params' => $data
         ]);
         $result = $res->getBody();
