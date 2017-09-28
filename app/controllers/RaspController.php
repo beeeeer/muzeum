@@ -28,7 +28,8 @@ class RaspController extends BaseController
 	{
 		$req = new Request();
 		$input = $req->ajax();
-		return $this->prepareData($req->__toString($input));	
+		return $this->prepareData($req->__toString($input));
+
 	}
 
 	public function prepareData($data)
@@ -92,7 +93,7 @@ class RaspController extends BaseController
 	public function killProcess($killprocess)
 	{
 		$process = new Process($killprocess);
-		$process->mustRun();
+		$process->run();
 		return $process->getOutput();
 	}
 

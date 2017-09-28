@@ -67,10 +67,10 @@ jQuery(document).ready(function($){
                                     $.ajax({
                                         type: "POST",
                                         url : "setpoint",
-                                        data : { data: [pointData[1],pointData[2]] },
+                                        data : { data: pointData },
                                         success : function(response){
                                             console.log(response)
-                                            console.log(pointData[1]+pointData[2])
+                                            console.log(pointData)
                                         },error:function(resp) {
                                             console.log(resp)
                                         }
@@ -87,7 +87,7 @@ jQuery(document).ready(function($){
                                 url : "setpoint",
                                 data : { data: pointData },
                                 success : function(response){
-                                    console.log(response)
+                                    console.log(pointData)
                                 },error:function(resp) {
                                     console.log(resp)
                                 }
