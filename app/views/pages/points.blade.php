@@ -238,21 +238,22 @@
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
+					audio="szczygiel.mp3"
+					relayId="relay8" 
+					expander="0x20 0x01 "
+					external="true"
+					pin="1">Szczygieł</a>
+			<input  type="hidden" value="Szczygieł z rodziny łuszczaków to jeden z najbarwniejszych naszych ptaków. Występuje średnio licznie na całym niżu w niewielkich zadrzewieniach lub na skrajach lasów. Misterne gniazdo z korzonków, traw i mchu buduje na końcach gałązek drzewa liściastego. Śpiew szczygła jest bardzo szczebiotliwy. Jego głównym pożywieniem są nasiona, ale wiosną zjada też bezkręgowce. Szczygły zimują w kraju i właśnie wtedy najbardziej rzucają się w oczy - żerujące w dużych stadach na polach i ugorach.
+			" class="text-to-append dispNone"/>
+	</li>
+	<li>
+		<a href="#" class="expanders__relay relayexp1" 
 					audio=".mp3"
 					relayId="relay7" 
 					expander="0x20 0x01 "
 					external="true"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
-	</li>
-	<li>
-		<a href="#" class="expanders__relay relayexp1" 
-					audio="szczygiel.mp3"
-					relayId="relay8" 
-					expander="0x20 0x01 " 
-					pin="1">Szczygieł</a>
-			<input  type="hidden" value="Szczygieł z rodziny łuszczaków to jeden z najbarwniejszych naszych ptaków. Występuje średnio licznie na całym niżu w niewielkich zadrzewieniach lub na skrajach lasów. Misterne gniazdo z korzonków, traw i mchu buduje na końcach gałązek drzewa liściastego. Śpiew szczygła jest bardzo szczebiotliwy. Jego głównym pożywieniem są nasiona, ale wiosną zjada też bezkręgowce. Szczygły zimują w kraju i właśnie wtedy najbardziej rzucają się w oczy - żerujące w dużych stadach na polach i ugorach.
-			" class="text-to-append dispNone"/>
 	</li>
 </ul>
 
@@ -263,7 +264,7 @@
 					audio="zieba.mp3"
 					relayId="relay1" 
 					expander="0x22 0x00 " 
-					external="false"
+					external="true"
 					pin="1">Zięba</a>
 			<input  type="hidden" value="Zięba zwyczajna zamieszkuje wszelkie typy zadrzewień. Samca można odróżnić od samicy po upierzeniu - jest ono barwniejsze i bardziej kontrastowe niż u samicy. Zięba żywi się pokarmem zarówno roślinnym, jak i zwierzęcym - w zależności od pory roku zjada: kiełki i pączki - wiosną; owady, ich larwy i pajęczaki - latem lub nasiona i jagody - w sezonie jesienno-zimowym. Śpiew tego ptaka uznawany jest za jeden z najładniejszych wśród polskich gatunków, przy czym melodie zięb z poszczególnych regionów nieco się różnią i są przekazywane z pokolenia na pokolenie.
 			" class="text-to-append dispNone"/>
@@ -273,8 +274,8 @@
 					audio="dzieciolczarny.mp3"
 					relayId="relay2" 
 					expander="0x22 0x00 " 
-					external="false"
-					pin="1"></a>
+					external="true"
+					pin="1">Dzięcioł czarny</a>
 			<input  type="hidden" value="Dzięcioł czarny, największy dzięcioł naszego kontynentu, posiada zupełnie czarne ubarwienie piór, za wyjątkiem charakterystycznej, czerwonej „czapeczki” u samców. Do przeżycia wymaga dojrzałych, starych drzew, najlepiej iglastych lub buków, w których wykuwa otwory, poszukując pod korą larw owadów czy mrówek. Dzięki temu zapewnia wielu gatunkom zwierząt dostępność obszernych dziupli. To ważny gatunek parasolowy, czyli osłonowy, co znaczy, że jego ochrona pozwala chronić również szereg innych gatunków, w jakimś stopniu od niego zależnych. Kluczowym zagrożeniem dla istnienia tego ptaka jest usuwanie obumierających i martwych drzew, a także ujednolicanie struktury wiekowej drzewostanów. Dzięcioł czarny, największy dzięcioł naszego kontynentu, posiada zupełnie czarne ubarwienie piór, za wyjątkiem charakterystycznej, czerwonej „czapeczki” u samców. Do przeżycia wymaga dojrzałych, starych drzew, najlepiej iglastych lub buków, w których wykuwa otwory, poszukując pod korą larw owadów czy mrówek. Dzięki temu zapewnia wielu gatunkom zwierząt dostępność obszernych dziupli. To ważny gatunek parasolowy, czyli osłonowy, co znaczy, że jego ochrona pozwala chronić również szereg innych gatunków, w jakimś stopniu od niego zależnych. Z jego dziupli często korzysta sóweczka. Kluczowym zagrożeniem dla istnienia tego ptaka jest usuwanie obumierających i martwych drzew, a także ujednolicanie struktury wiekowej drzewostanów.
 			" class="text-to-append dispNone"/>
 	</li>
@@ -283,7 +284,7 @@
 					audio="dziecilpstry.mp3"
 					relayId="relay3" 
 					expander="0x22 0x00 " 
-					external="false"
+					external="true"
 					pin="1">Dzięcioł pstry</a>
 		<input  type="hidden" value="Dzięcioł duży to najpospolitszy dzięcioł w kraju – występuje we wszelkich drzewostanach. Jego płeć łatwo rozpoznać po czerwonej plamce na potylicy występującej tylko u samca. Dzięcioł latem zjada wydłubywane z pni drzew larwy, owady i gąsienice; zimą natomiast jego główny pokarm stanowią nasiona sosnowe - by je wydobyć, wtyka szyszkę w szczelinę pnia drzewa, dzięki czemu może łatwo wydziobać z niej nasiona - takie miejsce w drzewie nazywamy ‘kuźnią’ dzięcioła.
 		" class="text-to-append dispNone"/>
@@ -292,7 +293,8 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="golabgrzywacz.mp3"
 					relayId="relay4" 
-					expander="0x22 0x00 " 
+					expander="0x22 0x00 "
+					external="true"
 					pin="1">Gołąb grzywacz </a>
 			<input  type="hidden" value="Grzywacz to największy krajowy gołąb, występujący dość licznie w całej Polsce. Grzywacze, będąc pierwotnie ptakami leśnymi, w XIX wieku zaczęły się osiedlać w podbliżu osad ludzkich i obecnie występują licznie w miejskich parkach. Gniazdo - luźną platformę z patyczków - budują nawet na pojedynczych drzewach. Odzywają się chętnie - gruchają szczególnie o świcie. Zjadają nasiona, owoce, liście oraz ślimaki. Zimują w północnej Afryce, a do swoich siedlisk wracają już od marca.
 			" class="text-to-append dispNone"/>
@@ -301,7 +303,8 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="wiewiorka.mp3"
 					relayId="relay5" 
-					expander="0x22 0x00 " 
+					expander="0x22 0x00 "
+					external="true" 
 					pin="1">Wiewiórka </a>
 			<input  type="hidden" value="Wiewiórka pospolita, czy też ruda, to nadrzewny gryzoń często spotykany w lasach liściastych i iglastych, a także w parkach, na terenie całej Polski. W górach wiewiórki mogą być ciemno ubarwione - brązowe po niemal czarne. Ich długi puszysty ogonek odgrywa ważną rolę podczas skoków - służy do stabilizacji kierunku lotu. Pożywienie wiewiórek stanowią nasiona, grzyby i owoce, ale także owady, jaja i pisklęta. Zdarza się im suszyć grzyby na gałęziach, by mieć je na zimę; swoje zapasy chowa w ziemi, dziuplach lub szczelinach drzew, zamieszkuje natomiast wybudowane przez siebie gniazda z trawy i drobnych gałązek. Wiewiórka pospolita, to nadrzewny gryzoń często spotykany w lasach liściastych i iglastych, a także w parkach, na terenie całej Polski. W górach wiewiórki mogą być ciemno ubarwione - brązowe po niemal czarne. Ich długi puszysty ogonek odgrywa ważną rolę podczas skoków - służy do stabilizacji kierunku lotu. Pożywienie wiewiórek stanowią nasiona, grzyby i owoce, ale także owady, jaja i pisklęta. Zdarza się im suszyć grzyby na gałęziach, by mieć je na zimę; swoje zapasy chowa w ziemi, dziuplach lub szczelinach drzew. Zamieszkuje natomiast dziuple lub gniazda opuszczone przez inne zwierzęta dobudowując zadaszenia lub buduje własne w koronach drzew wykorzystując do tego trawy i drobne gałązki.
 			" class="text-to-append dispNone"/>
@@ -310,7 +313,8 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="jez.mp3"
 					relayId="relay7" 
-					expander="0x22 0x00 " 
+					expander="0x22 0x00 "
+					external="true" 
 					pin="1">Jeż </a>
 			<input  type="hidden" value="Jeż europejski to często spotykany, największy ssak owadożerny w naszym kraju. W dzień śpi ukryty pod liśćmi lub w jamkach, o zmierzchu wychodzi z ukrycia i, pracowicie drepcząc, poszukuje jedzenia, np. owadów, robaków, drobnych gryzoni czy też grzybów i przejrzałych owoców. Co noc pokonuje w tym celu do 3 km. Ubarwienie ciała jeża jest szarobrunatne, a po stronie brzusznej szare lub brunatne. Jego spiczasty, zawsze wilgotny i ruchliwy nosek stanowi doskonały narząd czuciowy. Każdy jeż jest pokryty ok. 5 tysiącami kolców, które stroszy, gdy jest przestraszony, równocześnie zwijając się w kulkę. Jeże nie robią żadnych zapasów na zimę, w tym czasie zapadają w odrętwienie i odżywiają się tłuszczem nagromadzonym w organizmie. W naturalnych warunkach jeż żyje około 5 lat, w hodowli - nawet do 10 lat.
 			" class="text-to-append dispNone"/>
@@ -319,7 +323,8 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="borsuk.mp3"
 					relayId="relay8" 
-					expander="0x22 0x00 " 
+					expander="0x22 0x00 "
+					external="true" 
 					pin="1">Borsuk </a>
 			<input  type="hidden" value="Borsuk, czy też jaźwiec, wszystkożerny drapieżnik, uwielbiający przebywać w pobliżu terenów podmokłych i wody. Posiada on wydzielający bardzo nieprzyjemną woń gruczoł zapachowy, który służy do znaczenia terytorium oraz sygnalizowania gotowości do rozmnażania. Borsuki budują podziemne nory-schronienia o bardzo skomplikowanym układzie korytarzy i komór, w których przesiadują za dnia, by dopiero po zmierzchu wybrać się na żerowanie. Z nastaniem mrozów zasypiają w norze, jednak w dniach ocieplenia budzą się i wychodzą, by coś przekąsić. Mimo to, w czasie zimowania borsuk żyje głównie nagromadzonym w organizmie tłuszczem, przez co traci na wadze do 7 kg. Borsuk, czy też jaźwiec, wszystkożerny drapieżnik, uwielbiający przebywać w pobliżu terenów podmokłych i wody. Posiada on wydzielający bardzo nieprzyjemną woń gruczoł zapachowy, który służy do znaczenia terytorium oraz sygnalizowania gotowości do rozmnażania. Borsuki budują podziemne nory-schronienia o bardzo skomplikowanym układzie korytarzy i komór, w których przesiadują za dnia, by dopiero po zmierzchu wybrać się na żerowanie. Z nastaniem mrozów zasypiają w norze, jednak w dniach ocieplenia budzą się i wychodzą, by coś przekąsić. Mimo to, w czasie zimowania borsuk korzysta głównie z nagromadzonego w organizmie tłuszczu, przez co traci na wadze do 7 kg.
 			" class="text-to-append dispNone"/>
