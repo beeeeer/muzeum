@@ -226,7 +226,7 @@
 					audio=".mp3"
 					relayId="relay7" 
 					expander="0x20 0x01 "
-					external="false"
+					external="true"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
@@ -381,7 +381,6 @@
 			<input  type="hidden" value=""/>
 	</li>
 </ul>
-
 
 	<div class="rasp__wrapper">
 		<ul class="expanders">

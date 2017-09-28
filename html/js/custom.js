@@ -61,7 +61,7 @@ jQuery(document).ready(function($){
                             $.ajax({
                                 type: "GET",
                                 url : "send",
-                                data : { data: pointData[0] },
+                                data : { data: pointData },
                                 success : function(response){
                                     console.log(response);
                                     $.ajax({

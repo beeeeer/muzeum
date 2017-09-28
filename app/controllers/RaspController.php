@@ -166,12 +166,10 @@ class RaspController extends BaseController
     {
         $data = Input::all();
         $client = new Client();
-        $res = $client->request('GET', 'http://192.168.0.10/index.php/recive', [
+        $res = $client->request('GET', 'http://rasp.local/index.php/recive', [
             'form_params' => $data
         ]);
-
         $result = $res->getBody();
-//        dd();
         return $result->getContents();
 
     }
@@ -186,9 +184,9 @@ class RaspController extends BaseController
                 $delete = array('=','+','"','&');
                 $string = str_replace($delete,' ',$string);
                 array_push($new_arr,$string);
+
             }
         }
-        var_dump($new_arr);
         $toHex = substr($new_arr[0],-10);
         $new_arr[0] = substr($new_arr[0],0,-10);
         $hexaddress = '0x'.(dechex(bindec($toHex)));
