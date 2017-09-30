@@ -27,7 +27,7 @@
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
-					audio="szeliniaksosnowiec.mp3"
+					audio="szeliniaksosnowy.mp3"
 					relayId="relay3" 
 					expander="0x24 0x01 " 
 					external="false"
