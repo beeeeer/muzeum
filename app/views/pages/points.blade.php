@@ -9,7 +9,7 @@
 		<p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
-					audio=""
+					audio="hodowlalasu.mp3"
 					relayId="relay1" 
 					expander="0x24 0x01 "
 					external="false" 
@@ -27,12 +27,12 @@
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
-					audio="szwliniaksosnowiec.mp3"
+					audio="szeliniaksosnowiec.mp3"
 					relayId="relay3" 
 					expander="0x24 0x01 " 
 					external="false"
-					pin="1">Szwliniak sosnowiec</a>
-			<input  type="hidden" value="Szwliniak sosnowiec"/>
+					pin="1">Szeliniak sosnowiec</a>
+			<input  type="hidden" value="Szeliniak sosnowiec"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
