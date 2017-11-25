@@ -1,95 +1,95 @@
 @extends('layouts.default')
 @section('content')
 <div class ="container">
-	<h3 class="title_">Las jesienny, mieszany</h3>
+	<h3 class="title_">las - przygotowania do zimy</h3>
 	<div class="custom-text" id="custom-text">
 
 	</div>
 	<p class="dispNone">
 		0x24  - Rampa
 		0x20 - Rampa
-		0x22 - pulpit 2 pkt
+		0x22 - pulpit 8 pkt
 	</p>
 	<ul class="expanders">
 		<p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="jarzabpospolity.mp3"
+						audio="glog.mp3"
 						relayId="relay3"
 						expander="0x24 0x01 "
 						external="true"
-						pin="1">jarząb pospolity</a>
-				<input  type="hidden" value="Jastrząb zwyczajny, zwany też jastrzębiem gołębiarzem, zamieszkuje strefę lasu iglastego półkuli północnej. W Polsce występuje licznie w całym kraju, spędza tu zimę. Jastrzębie to ptaki przeważnie milczące i samotne - jedynie w okresie godowym usłyszeć można ich głośne kwilenie; wtedy też łączą się w pary. To wszechstronne drapieżniki o doskonałym wzroku i nogach zaadaptowanych do chwytania ofiar. Potrafią latać nisko, zręcznie manewrując między gałęziami w lesie, w czym pomaga im dość długi ogon. Najchętniej polują na gołębie i inne średnie ptaki, ale nie gardzą też wiewiórkami, zajęczakami ani gryzoniami.
+						pin="1">głóg</a>
+				<input  type="hidden" value="Głóg dwuszyjkowy to rodzimy krzew z rodziny różowatych, w Polsce występujący pospolicie na całym niżu oraz w niższych położeniach górskich. Jest odporny na suszę i ciężkie warunki klimatyczne, zarasta widne lasy, zarośla, polany. Ma formę krzewu do 4 m bądź niewielkiego drzewa dorastającego do 8 metrów wysokości; rośnie bardzo powoli, ale może dożyć nawet 200 lat. Miododajne białe kwiaty pojawiają się w maju - są one cenionym surowcem zielarskim o działaniu poprawiającym pracę serca i uspokajającym. Z owoców można robić nalewki, wina, dżemy i herbatki, mają one jednak słabsze działanie.
 				" class="text-to-append dispNone"/>
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="borowikszlachetny.mp3"
+						audio="dzikaroza.mp3"
 						relayId="relay4"
 						expander="0x24 0x01 "
 						external="true"
-						pin="1">borowik szlachetny</a>
-						<input  type="hidden" value="Borowik szlachetny, czyli tzw. prawdziwek, należący do grzybów jadalnych, jest wysoko ceniony ze względu na swój wyjątkowy smak. W Polsce bywa stosowany jako składnik wielu tradycyjnych potraw.  Grzyby te pojawiają się najliczniej w okresie od maja do listopada, zdarzają się także w grudniu. Wyrastają pojedynczo lub w niewielkich grupach. Rekordowy prawdziwek znaleziony w Polsce ważył prawie 7,5 kg. Borowik jadalny jest często mylony z goryczakiem żółciowym, czyli tzw. „szatanem”, pospolitym niejadalnym grzybem, który ma bardzo gorzki smak i często wywołuje poważne zatrucia.
+						pin="1">dzika róża</a>
+						<input  type="hidden" value="Dzika róża, zwana też psią różą, to pospolity ciernisty krzew, porastający zarośla, skraje lasów i przydroża całego kraju. Kwitnie od maja do lipca, a jej nasiona są rozsiewane przez zwierzęta. Zarówno aromatyczne kwiaty, jak i owoce tego krzewu od bardzo dawna służą ludziom do leczenia niektórych schorzeń oraz są wykorzystywane w kuchni - szczególnie popularna jest konfitura używana do nadziewania pączków, otrzymywana z płatków dzikiej róży.
 						" class="text-to-append dispNone"/>
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="borowikbrunatny.mp3"
+			   audio="sarna.mp3"
+			   relayId="relay6"
+			   expander="0x24 0x01 "
+			   external="true"
+			   pin="1">sarna</a>
+			<input  type="hidden" value="Kozioł, samiec sarny europejskiej, zwany również rogaczem, należy do ssaków parzystokopytnych. Sarna jest najmniejszym przedstawicielem jeleniowatych w Europie. Żyje na terenach lesistych, choć w ostatnich latach coraz częściej spotyka się stada żyjące na polach. Wyróżniono nawet ekotyp sarny, zwanej polną. W lasach sarna żyje pojedynczo, podczas gdy na uprawach polnych zbiera się w rudle, czyli stada, liczące nawet po kilkadziesiąt osobników. Sarny, na skutek działalności człowieka, często opuszczają lasy. Stadny tryb życia na otwartych przestrzeniach gwarantuje im większe bezpieczeństwo. Smukłe kończyny sarny zwane są cewkami. Sierść, czyli tzw. suknia zimowa jest szarawa, letnia zaś – ruda. Pożywienie sarny stanowią: zioła, młode liście, mech, porosty, trawy oraz niektóre jagody i grzyby. Kozioł, samiec sarny europejskiej, zwany również rogaczem, należy do ssaków parzystokopytnych. Sarna jest najmniejszym przedstawicielem jeleniowatych w Europie. Żyje na terenach lesistych, choć w ostatnich latach coraz częściej spotyka się stada żyjące na polach. Wyróżniono nawet ekotyp sarny, zwanej polną. W lasach sarna żyje pojedynczo, podczas gdy na uprawach polnych zbiera się w rudle, czyli stada, liczące nawet po kilkadziesiąt osobników. Stadny tryb życia na otwartych przestrzeniach gwarantuje im większe bezpieczeństwo. Smukłe kończyny sarny zwane są cewkami. Sierść, czyli tzw. suknia zimowa jest szarawa, letnia zaś – ruda. Pożywienie sarny stanowią: zioła, młode liście, mech, porosty, trawy oraz niektóre jagody i grzyby.
+						" class="text-to-append dispNone"/>
+		</li>
+		<li>
+			<a href="#" class="expanders__relay relayexp1"
+						audio="lis.mp3"
 						relayId="relay5"
 						expander="0x24 0x01 "
 						external="true"
-						pin="1">borowik brunatny</a>
-						<input  type="hidden" value="Borowik brunatny lub kasztanowy, zwany pospolicie podgrzybkiem, to grzyb jadalny o przyjemnym zapachu, który, choć nie jest tak smaczny jak borowik szlachetny, jest równie chętnie zbierany. Jego gładki i matowy kapelusz w odcieniu brązu może osiągnąć do 30 cm szerokości. Po deszczu robi się lepki. Rurki od spodu kapelusza są zwykle żółtawe, trzon jasnobrązowy, a miąższ twardy i biały, po przekrojeniu natomiast cały grzyb zmienia barwę na sino niebieskawą.
+						pin="1">lis</a>
+						<input  type="hidden" value="Lis rudy to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby – wścieklizny. Lis pospolity to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby - wścieklizny.
 						" class="text-to-append dispNone"/>
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="kozlarzczerwony.mp3"
-						relayId="relay6"
-						expander="0x24 0x01 "
-						external="true"
-						pin="1">koźlarz czerwony</a>
-						<input  type="hidden" value="Koźlarz czerwony z rodziny borowikowatych, zwany kozakiem, w Polsce jest dość częsty. Jako grzyb mikoryzowy, wyrasta wyłącznie pod topolą osiką - od czerwca do października. Po przekrojeniu miąższ koźlarza czerwonego sinieje. Jest to grzyb jadalny i smaczny, nadaje się do duszenia i suszenia. Można go pomylić z podobnymi: koźlarzem pomarańczowożółtym, sosnowym oraz świerkowym, jednak rosną one pod innymi gatunkami drzew, a sama pomyłka nie jest znacząca - one również są jadalne.
-						" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="muchomorczerwony.mp3"
+						audio="mysz.mp3"
 						relayId="relay7"
 						expander="0x24 0x01 "
 						external="true"
-						pin="1">muchomor czerwony</a>
-						<input  type="hidden" value="Muchomor czerwony, jeden z najbardziej znanych muchomorów, jest trudny do pomylenia z innymi gatunkami ze względu na nakrapiany białymi łatkami intensywnie czerwony kapelusz z białymi blaszkami od spodu. Rośnie w brzezinach i młodnikach świerkowych. Jest silnie trujący, zjedzenie go może spowodować śmierć. Niegdyś był z tego względu używany do trucia much (stąd też pochodzi nazwa) - dodawało się go do osłodzonego mleka i stawiało w spodeczku na parapecie - muchy popijając mleko ginęły.
+						pin="1">mysz</a>
+						<input  type="hidden" value="Mysz leśna, jak sama nazwa na to wskazuje, jest najbardziej typowym mieszkańcem lasów - przede wszystkim mieszanych i liściastych, ale także ogrodów i parków. Nazywana jest też myszą wielkooką, gdyż ze względu na wybitnie nocny tryb życia, charakteryzuje się dużymi, nieco wyłupiastymi czarnymi oczami. Poruszając się po ściółce leśnej, w której żyje, robi długie susy niczym mały kangur. Świetnie radzi sobie również na drzewach, a także w wodzie. Nory, które wykopuje, mogą być głębokie nawet na 1,5 metra. Podstawę jej pokarmu stanowią nasiona drzew, lubi także podbierać jaja z ptasich gniazd, czy zjadać owady. Ogryza też młode drzewka i krzewy, powodując szkody w szkółkach leśnych. Mieszkańcy domów położonych blisko lasu dobrze znają tego gryzonia, który w poszukiwaniu pokarmu zagląda do nich jesienią.
 						" class="text-to-append dispNone"/>
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="muchomorsromotnikowy.mp3"
+						audio="zajac.mp3"
 						relayId="relay1"
 						expander="0x24 0x01 "
 						external="true"
-						pin="1">muchomor sromotnikowy</a>
-				<input  type="hidden" value="Muchomor sromotnikowy, zwany inaczej muchomorem zielonawym jest dla ludzi śmiertelnie trującym grzybem, mimo iż dla wielu drobnych zwierząt, np. ślimaków i owadów, jest nieszkodliwy. Muchomor sromotnikowy wraz z muchomorem jadowitym są najsilniej trującymi grzybami występującymi w Polsce. Muchomor ten ma łagodny smak i może być pomylony z wieloma innymi jadalnymi gatunkami grzybów, takimi jak: pieczarka, czubajka kania, gąska zielonka, gołąbek zielonawy. Jest odpowiedzialny za większość śmiertelnych zatruć grzybami na całym świecie. Występuje najczęściej w lasach liściastych, także w mieszanych; rośnie pojedynczo, lub w małych grupkach. Owocniki wyrastają od czerwca do listopada.
+						pin="1">zajac</a>
+				<input  type="hidden" value="Zając szarak to roślinożerny ssak występujący na terenie całej Polski, przy czym jego liczebność wynosi około 0,5 mln osobników i systematycznie maleje. Zając lubi przede wszystkim otwarte przestrzenie: łąki czy pola uprawne - w takich miejscach potrafi biegać z prędkością nawet 70 km/h. Nie kopie nor, śpi natomiast w wyciśniętych w ziemi nieckach, zwanych kotlinkami. Zając prowadzi samotniczy tryb życia i jest aktywny o świcie i zmierzchu. W lecie futro o szarej barwie pozwala na maskowanie się wśród gęstwiny traw - w zimie za to staje się jaśniejsze i gęstsze.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-			   audio="czubajkakania.mp3"
+			   audio="gil.mp3"
 			   relayId="relay2"
 			   expander="0x24 0x01 "
 			   external="true"
-			   pin="1">czubajka kania</a>
-			<input  type="hidden" value="Czubajka kania, z rodziny pieczarkowatych, jest powszechnie znanym jadalnym grzybem, cenionym za walory smakowe i silny aromat. Rośnie w Polsce dość pospolicie, można ją spotkać od lata do późnej jesieni na brzegach lasów, na polanach i łąkach oraz na cmentarzach; jest też uprawiana w ogrodach. W zależności od regionu zwana jest też stroszką strzelistą, parasolnikiem, czubakiem, gapą lub sową. Przez niewprawnych grzybiarzy kania bywa mylona ze śmiertelnie trującym muchomorem zielonawym.
+			   pin="1">gil</a>
+			<input  type="hidden" value="Gil z rodziny łuszczaków występuje na niżu kraju w borach świerkowych, jodłowych i lasach mieszanych. Najłatwiej rozróżnić płeć gila po upierzeniu brzuszka - samiec ma je czerwonawe, samica brązowawe. U gili występuje nieczęste u innych ptaków zachowanie - poza samcami śpiewają również samice. Gila znamy głównie z okresu zimowego, gdy pojawia się w stadkach na drzewach z owocami; w okresie lęgowym jest za to skryty i trudno go zobaczyć; swoje gniazdo ukrywa wśród gęstych gałęzi, zwykle świerka. Zjada nasiona, pąki, wiosną także bezkręgowce.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-			   audio="mleczajrydz.mp3"
+			   audio="paszkot.mp3"
 			   relayId="relay2"
 			   expander="0x24 0x01 "
 			   external="true"
-			   pin="1">mleczaj rydz</a>
-			<input  type="hidden" value="Mleczaj rydz, grzyb z rodziny gołąbkowatych, jest jednym z najbardziej poszukiwanych grzybów w naszym kraju. Tworzy on mikoryzę z sosnami, więc można go spotkać w borach i młodnikach sosnowych, przeważnie na piaszczystych glebach; rośnie od sierpnia do listopada. Bywa mylony z trującym mleczajem wełnianką.
+			   pin="1">paszkot</a>
+			<input  type="hidden" value="Paszkot to nasz największy drozd; występuje w całym kraju, choć liczniej w górach. Mimo że w niektórych okolicach nie jest ptakiem rzadkim, zwykle uchodzi uwadze przez płochliwość i dość skryty tryb życia. Zamieszkuje przede wszystkim obrzeża starych i rozległych borów iglastych. Gniazdo buduje w koronie sosny, ale żeruje przeważnie na ziemi; na polanach blisko swojego siedliska szuka bezkręgowców, czasem też nasion. Część paszkotów zimuje w kraju, a pozostałe wędrują niedaleko na południe.
 				" class="text-to-append dispNone" />
 		</li>
 	</ul>
@@ -97,118 +97,116 @@
 		<p class="dispNone">Ekspander 0x24 szyna 2</p>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="pieprznikjadalny.mp3"
+						audio="kwiczol.mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
 						external="true"
-						pin="1">pieprznik jadalny</a>
-				<input  type="hidden" value="Pieprznik jadalny, zwany potocznie kurką, to jadalny grzyb ceniony  ze względu na aromat, smak oraz twardość i chrupkość owocników. Rośnie w lasach liściastych i iglastych, często na piaszczystych, kwaśnych glebach, często pod świerkami pośród mchów. Występuje od czerwca do listopada. Może być pomylony z niejadalną lisówką pomarańczową.
+						pin="1">kwiczoł</a>
+				<input  type="hidden" value="Kwiczoł, z rodziny drozdowatych, to towarzyski i hałaśliwy ptak - nazwę zawdzięcza właśnie swojemu skrzeczącemu śpiewowi. Zamieszkuje niewielkie zadrzewienia, doliny rzek, obrzeża lasów, a coraz częściej miejskie parki. Gniazdo w formie czarki z traw, gałązek i liści buduje w rozwidleniu gałęzi. Ma on rzadki wśród ptaków śpiewających zwyczaj gromadnego atakowania i przeganiania intruzów, nawet znacznie większych od siebie. Zimą kwiczoły skupiają się często w stada liczące po kilkaset osobników, gromadnie obsiadając drzewa i krzewy z owocami. Żywią się bezkręgowcami znajdowanymi na ziemi, a zimą zjadają jagody, najchętniej jałowca.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="golabekbrudnozolty.mp3"
+						audio="wrobel.mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
 						external="true"
-						pin="1">gołąbek brudnożółty</a>
-				<input  type="hidden" value="Gołąbek brudnożółty występuje w świerczynach, rzadziej w borach sosnowych czy buczynach. W Polsce jest najczęściej spotykanym spośród żółtych gołąbków. Wyrasta od czerwca do października. Rośnie nawet w okresach suchej pogody i często jest jedynym grzybem, jakiego można wtedy spotkać w większej ilości. Można go pomylić ze słabo trującym gołąbkiem żółciowym, ale ma on od brudnożółtego znacznie ostrzejszy smak. Jadalny gołąbek jasnożółty różni się za to złocistożółtym kapeluszem, łagodnym smakiem i miejscem występowania - zwykle na torfowiskach pod brzozami.
+						pin="1">wróbel</a>
+				<input  type="hidden" value="Wróbel to pospolity i bardzo liczny ptak ściśle związany z osadami ludzkimi - tylko wyjątkowo gniazduje poza nimi. Zimę spędza w kraju. Gniazdo w kształcie kuli z bocznym wejściem buduje w otworach budynków, dziuplach czy skrzynkach lęgowych. Żeruje zarówno na ziemi, jak i w roślinności, szukając nasion i owadów. Wróbel jest najdłużej związanym z człowiekiem ptakiem, zasiedlającym ludzkie osady już od kilku tysięcy lat.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="opienkamiodowa.mp3"
+						audio="kos.mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
 						external="true"
-						pin="1">opieńka miodowa</a>
-				<input  type="hidden" value="Opieńka miodowa - gatunek grzyba rosnący gromadnie, czasem bardzo licznie. Występuje najczęściej jesienią od września do listopada, ale czasami może pojawić się nawet na początku sierpnia. Jego występowanie ściśle powiązane jest z martwym drewnem, choć czasem atakuje jak pasożyt także żywe drzewa. Jest grzybem jadalnym. Może być trująca, dlatego też należy ją najpierw obgotować przez około 5 minut i odlać wywar, po czym dopiero poddaje się ją dalszej obróbce. Przez niewprawnych grzybiarzy opieńka miodowa może zostać pomylona z trującą maślanką wiązkową.
-
+						pin="1">kos</a>
+				<input  type="hidden" value="Opieńka miodowa - gatunek grzyba rosnący gromadnie, czasem bardzo licznie. Występuje najczęściej jesienią od września do listopada, ale czasami może pojawić się nawet na początku sierpnia. Jego występowanie ściśle powiązane jest z martwym drewnem, choć czasem atakuje jak pasożyt także żywe drzewa. Jest grzybem jadalnym. Może być trująca, dlatego też należy ją najpierw obgotować przez około 5 minut i odlać wywar, po czym dopiero poddaje się ją dalszej obróbce. Przez niewprawnych grzybiarzy opieńka miodowa może zostać pomylona z trującą maślanką wiązkową.Kos z rodziny drozdowatych, pierwotnie ptak leśny, obecnie występuje licznie w różnych zadrzewieniach całego kraju, nawet w miastach. Znany jest ze swojego śpiewu godowego, wykonywanego przez samce na wiosnę. Są dość płochliwe i ostrzegają się nawzajem głośnym krzykiem, gdy dostrzegą człowieka. Około 50 lat temu wykształcił się jednak gatunek określany jako miejski - ptaki te nie obawiają się człowieka i żyją w pobliżu osad ludzkich. Gniazdo w formie czarki kosy umieszczają na gałęziach drzew. Pożywienia szukają za to na ziemi - mogą to być ślimaki, owady, dżdżownice, ale też owoce. Kosy miejskie zwykle nie wylatują na zimę, leśne są za to wędrowne i zimują w rejonie śródziemnomorskim.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="maslaksitarz.mp3"
+						audio="krogulec.mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
 						external="true"
-						pin="1">maślak sitarz</a>
-				<input  type="hidden" value="Maślak sitarz na półkuli północnej jest szeroko rozprzestrzeniony, na południowej występuje za to tylko w Nowej Zelandii. W Polsce jest gatunkiem pospolitym, najczęstszym z maślaków; można go spotkać od lipca do października na piaszczystych glebach pod sosną zwyczajną, z którą współżyje w mikoryzie; czasem rośnie też pośród wrzosów. Choć jest to grzyb jadalny, jego smak jest nieznaczny, gorszy od innych gatunków maślaków, poza tym po ugotowaniu zmienia kolor na czerwonofioletowy, co niektórych zniechęca do jego spożywania.
+						pin="1">krogulec</a>
+				<input  type="hidden" value="Krogulec z rodziny jastrzębiowatych żyje w gęstych borach iglastych, najliczniej na wschodzie kraju. Swoje gniazdo zakłada na skraju lasu, w pobliżu terenów otwartych. Drapieżny krogulec jest postrachem drobnych ptaków i ssaków; polując, wykorzystuje element zaskoczenia - aby dostać się niepostrzeżenie w pobliże ofiary, kryje się za osłoną, np. murem czy krzakami, po czym błyskawicznie atakuje. Zwany jest wróblarzem, gdyż to wróble najczęściej padają jego ofiarą. Na zimowanie wylatuje do południowej Azji.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="szmaciakgalezisty.mp3"
+						audio="grubodziob.mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
 						external="true"
-						pin="1">szmaciak gałęzisty</a>
-				<input  type="hidden" value="Szmaciak gałęzisty lub siedzuń sosnowy, znany jest pod wieloma nazwami regionalnymi, jak kozia broda, leśny kalafior, baranie rogi czy strzępulec. Wszystkie te nazwy wynikają z charakterystycznego wyglądu grzyba – przypomina on gąbkę lub kalafior. Jest smacznym grzybem jadalnym. Rośnie najczęściej na korzeniach sosen, zarówno martwych, jak i żywych. W ciągu roku u podstawy pnia wyrasta jeden owocnik. Waga szmaciaka dochodzi do 6 kilogramów, choć rekordowy okaz, znaleziony we Francji, ważył prawie 30 kg.
+						pin="1">grubodziób</a>
+				<input  type="hidden" value="Grubodziób z rodziny łuszczaków zamieszkuje strefę umiarkowaną Eurazji. W porze lęgowej jest ptakiem typowo leśnym - przebywa w gnieździe w koronach drzew liściastych, w których trudno go dojrzeć; dopiero jesienią i zimą pojawia się w stadach na otwartych terenach, żerując często na ziemi. Zwany jest pestkojadem, gdyż potrafi wyłuskiwać pestki z owoców, które miażdży wyjątkowo mocnym dziobem, wywierającym nacisk aż do 70 kilogramów! Na wiosnę zjada też pokarm zwierzęcy - gąsienice i inne bezkręgowce.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-			   audio="golabekblotny.mp3"
+			   audio="kruk.mp3"
 			   relayId="relay2"
 			   expander="0x24 0x00 "
 			   external="true"
-			   pin="1">gołabek błotny</a>
-			<input  type="hidden" value="Gołąbek błotny to jadalny i pospolity w całej Polsce grzyb; można go spotkać i na nizinach, i w górach - w borach sosnowych i świerkowych, a przede wszystkim w miejscach wilgotnych – na bagnach i torfowiskach. Rośnie masowo, w dużych grupach, od lipca do października. Grzybiarze cenią go za delikatny smak. Gołąbka błotnego można pomylić z jadalnym gołąbkiem płowiejącym, który jest jednak mniejszy i jaśniejszy. Oprócz niego podobny jest też niejadalny gołąbek brunatny, który ma za to bardzo ostry smak.
+			   pin="1">kruk</a>
+			<input  type="hidden" value="Kruk zwyczajny w Polsce jest średnio liczny. Zakłada swoje masywne gniazda z gałęzi i mchów na wierzchołkach drzew iglastych, a czasem nawet na słupach energetycznych; często przerabia siedziby porzucone przez inne ptaki - tak parokrotnie nadbudowane gniazdo może mieć nawet metr wysokości i znaczną wagę. Konkuruje o gniazdo z innymi ptakami np. kaniami. Kruki są wszystkożerne, ale zwykle zjadają pokarm mięsny - nie gardzą nawet padliną. Żerują zwykle na ziemi, używając do łapania ofiary nie tylko dziób, ale też pazury i łapy. Kruki uważane są za bardzo inteligentne oraz skore do zabaw. Przez tysiące lat obrosło wokół nich wiele legend, zarówno pozytywnych, jak i mających mroczny odcień; przez większość kultur bywały przy tym uznawane za ptaki prorocze, zwiastujące przyszłość. Kruk zwyczajny w Polsce jest średnio liczny. Zakłada swoje masywne gniazda z gałęzi i mchów na wierzchołkach drzew iglastych, a czasem nawet na słupach energetycznych; często przerabia siedziby porzucone przez inne kruki - tak parokrotnie nadbudowane gniazdo może mieć nawet metr wysokości i znaczną wagę. Kruki są wszystkożerne, ale zwykle zjadają pokarm mięsny - nie gardzą nawet padliną. Żerują zwykle na ziemi, używając do łapania ofiary nie tylko dziób, ale też pazury i łapy. Kruki uważane są za bardzo inteligentne oraz skore do zabaw. Przez tysiące lat obrosło wokół nich wiele legend, zarówno pozytywnych, jak i mających mroczny odcień; przez większość kultur bywały przy tym uznawane za ptaki prorocze, zwiastujące przyszłość.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-			   audio="dzik.mp3"
+			   audio=".mp3"
 			   relayId="relay2"
 			   expander="0x24 0x00 "
 			   external="true"
-			   pin="1">dzik</a>
-			<input  type="hidden" value="Dzik euroazjatycki jest ssakiem z rzędu parzystokopytnych. Samce - odyńce - mogą ważyć nawet do 350 kg, samice, czyli lochy, do 100 kg. Samce różnią się też od samic silnie rozwiniętymi kłami - górne myśliwi nazywają fajkami, dolne - szablami. Młode warchlaki mają czarno-płowe pasy na sierści, tworzące swoisty kamuflaż. Dziki są wszystkożerne, zjadają pokarm roślinny i zwierzęcy, nie gardzą padliną. Zamieszkują lasy liściaste i mieszane z gęstym podszyciem oraz młodniki. Tworzą stada zwane watahami, w skład których wchodzi locha z kilkoma warchlakami - odyniec rzadko wiąże się ze stadem.
+			   pin="1"></a>
+			<input  type="hidden" value="
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="wiewiorka.mp3"
+						audio=".mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
 						external="true"
-						pin="1">wiewiórka</a>
-				<input  type="hidden" value="Wiewiórka pospolita, czy też ruda, to nadrzewny gryzoń często spotykany w lasach liściastych i iglastych, a także w parkach, na terenie całej Polski. W górach wiewiórki mogą być ciemno ubarwione - brązowe po niemal czarne. Ich długi puszysty ogonek odgrywa ważną rolę podczas skoków - służy do stabilizacji kierunku lotu. Pożywienie wiewiórek stanowią nasiona, grzyby i owoce, ale także owady, jaja i pisklęta. Zdarza się im suszyć grzyby na gałęziach, by mieć je na zimę; swoje zapasy chowa w ziemi, dziuplach lub szczelinach drzew, zamieszkuje natomiast wybudowane przez siebie gniazda z trawy i drobnych gałązek. Wiewiórka pospolita, to nadrzewny gryzoń często spotykany w lasach liściastych i iglastych, a także w parkach, na terenie całej Polski. W górach wiewiórki mogą być ciemno ubarwione - brązowe po niemal czarne. Ich długi puszysty ogonek odgrywa ważną rolę podczas skoków - służy do stabilizacji kierunku lotu. Pożywienie wiewiórek stanowią nasiona, grzyby i owoce, ale także owady, jaja i pisklęta. Zdarza się im suszyć grzyby na gałęziach, by mieć je na zimę; swoje zapasy chowa w ziemi, dziuplach lub szczelinach drzew. Zamieszkuje natomiast dziuple lub gniazda opuszczone przez inne zwierzęta dobudowując zadaszenia lub buduje własne w koronach drzew wykorzystując do tego trawy i drobne gałązki.
+						pin="1"></a>
+				<input  type="hidden" value="
 				" class="text-to-append dispNone" />
 		</li>
-
 	</ul>
 
 	<ul class="expanders">
 		<p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-			   audio="jenot.mp3"
+			   audio="sikorkamodra.mp3"
 			   relayId="relay1"
 			   expander="0x20 0x01 "
 			   external="true"
-			   pin="1">jenot</a>
-			<input  type="hidden" value="Jenot, zwany szopem usuryjskim, lisem japońskim, czy też kunopsem, to jeden z najbardziej pierwotnych przedstawicieli rodziny psowatych. W naszym kraju jest też najmniejszym z tej grupy zwierząt. Choć pierwotnie żył na Dalekim Wchodzie, dla pozyskiwania cennego futra sprowadzono go na Białoruś i Ukrainę, skąd rozprzestrzenił się po Europie. W Polsce występuje licznie, zamieszkując samotnie lub rodzinnie tereny leśne, zazwyczaj w pobliżu wody, i prowadząc nocny tryb życia. Zjada drobne zwierzęta, padlinę i pokarm roślinny, głównie jagody, owoce, a jesienią żołędzie, stanowiące jego przysmak. Jest odporny na niekorzystne warunki atmosferyczne i jako jedyny z psowatych zapada w sen zimowy.
+			   pin="1">sikorka modra</a>
+			<input  type="hidden" value="Modraszka, zwana sikorą modrą, to przepięknie upierzony mały ptaszek. Doskonale komponuje się u niej kolor żółty z błękitnym - modrym (stąd zresztą nazwa gatunku). Preferuje głównie świetliste lasy liściaste i mieszane, rzadziej iglaste, zamieszkiwane również przez dzięcioła dużego, w którego opuszczonych dziuplach gniazduje. Żywi się głównie owadami i pajęczakami, zimą natomiast roślinami, odwiedza też chętnie karmniki, ceniąc przede wszystkim słonecznik, orzeszki ziemne i słoninę. Głos modraszki jest wysoki, przypominający gwizd, podobny do głosów innych przedstawicieli rodziny sikor. Nie jest zagrożona wyginięciem, w kraju jest nawet liczna, podobnie jak wszystkie sikory objęta jest ochroną gatunkową.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="jez.mp3"
+						audio="sikorkabogatka.mp3"
 						relayId="relay1"
 						expander="0x20 0x01 "
 						external="true"
-						pin="1">jeż</a>
-				<input  type="hidden" value="Jeż europejski to często spotykany, największy ssak owadożerny w naszym kraju. W dzień śpi ukryty pod liśćmi lub w jamkach, o zmierzchu wychodzi z ukrycia i, pracowicie drepcząc, poszukuje jedzenia, np. owadów, robaków, drobnych gryzoni czy też grzybów i przejrzałych owoców. Co noc pokonuje w tym celu do 3 km. Ubarwienie ciała jeża jest szarobrunatne, a po stronie brzusznej szare lub brunatne. Jego spiczasty, zawsze wilgotny i ruchliwy nosek stanowi doskonały narząd czuciowy. Każdy jeż jest pokryty ok. 5 tysiącami kolców, które stroszy, gdy jest przestraszony, równocześnie zwijając się w kulkę. Jeże nie robią żadnych zapasów na zimę, w tym czasie zapadają w odrętwienie i odżywiają się tłuszczem nagromadzonym w organizmie. W naturalnych warunkach jeż żyje około 5 lat, w hodowli - nawet do 10 lat.
+						pin="1">sikorka bogatka</a>
+				<input  type="hidden" value="Sikora bogatka jest największą z naszych sikor i znajduje się pod ścisłą ochroną. Zamieszkuje różnorodne lasy, a także parki i ogrody. Wyróżnia się wyjątkowo bogatym repertuarem głosów. Bogatka potrafi sama wykuć dziuplę, ale tylko w miękkim, spróchniałym drewnie - za gniazdo mogą jej też służyć rurki ogrodzeniowe, skrzynki na listy, a nawet otwory wentylacyjne. Ptak ten spędza zimę w Polsce, przemieszcza się tylko w miejsca, gdzie łatwiej mu znaleźć pokarm - zwykle do miast. Sikorki często widujemy przy karmnikach zajadające słoninę - poza okresem zimowym żywią się owadami.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio="plomykowka.mp3"
+						audio="sikorkaczubatka.mp3"
 						relayId="relay2"
 						expander="0x20 0x01 "
 						external="true"
-						pin="1">płomykówka</a>
-				<input  type="hidden" value="Płomykówka to najbardziej rozpowszechniony na świecie gatunek sowy - zamieszkuje wszystkie kontynenty oprócz Antarktyki; w Polsce występuje nielicznie na niżu. Jest najbardziej związana z osadami ludzkimi ze wszystkich sów i poza nimi praktycznie nie występuje - gniazduje w wieżach kościołów, opuszczonych domach, stodołach czy strychach. W przeciwieństwie do innych sów nie pohukuje, lecz wydaje chrapliwe dźwięki. Najbardziej aktywna jest nocą, gdy poluje na gryzonie nad otwartymi terenami. Dzięki doskonałemu słuchowi potrafi zlokalizować ofiarę nawet w całkowitej ciemności; podlatuje do niej bezszelestnie, chwyta ją szponami i zabija uderzeniem dzioba w podstawę czaszki, a następnie połyka w całości. W ostatnich latach jej liczebność znacznie się zmniejszyła - większość płomykówek ginie w pierwszym roku życia, głównie przez trudności w zdobyciu pożywienia zimą, kiedy ziemię pokrywa śnieg.
+						pin="1">sikorka czubatka</a>
+				<input  type="hidden" value="Czubatka europejska z rodziny sikor wyróżnia się swoim czarno-białym czubkiem na głowie. Występuje średnio licznie w całym kraju, przy czym pozostaje tu na zimę, co sprzyja monogamii wśród tych ptaków. Zamieszkują one bory iglaste z próchniejącymi lub martwymi drzewami, gdzie samice mogą wykuć dziuplę. Czubatka stale przebywa w koronach drzew, skąd dobiega jej dźwięczny trel. Łowi tam owady i ich larwy, pająki oraz inne bezkręgowce. Zimą, gdy nie może znaleźć pokarmu zwierzęcego, odżywia się nasionami drzew iglastych - wtedy pożywienia szuka na ziemi. Podobnie jak inne sikory, gromadzi też zapasy na zimę, wciskając owady i nasiona w zakamarki kory drzewa.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
@@ -495,11 +493,11 @@
 		<ul class="expanders">
 			<li>
 				<a href="#" class="expanders__relay rasp__defaults rasp-custom-button relayexp1"
-				   audio=".mp3"
+				   audio="lasprzygotowaniadozimy.mp3"
 				   relayId="relay8"
 				   expander=""
-				   pin="1"> </a>
-				<input  type="hidden" value="" class="text-to-append dispNone" />
+				   pin="1">las - przygotowania do zimy</a>
+				<input  type="hidden" value="las - przygotowania do zimy" class="text-to-append dispNone" />
 			</li>
 		</ul>
 
