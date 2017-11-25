@@ -24,7 +24,7 @@
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
+						audio="x.mp3"
 						relayId="relay4"
 						expander="0x24 0x01 "
 						external="true"
@@ -34,7 +34,7 @@
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-			   audio="sarna.mp3"
+			   audio="x.mp3"
 			   relayId="relay6"
 			   expander="0x24 0x01 "
 			   external="true"
@@ -44,7 +44,7 @@
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
+						audio="x.mp3"
 						relayId="relay5"
 						expander="0x24 0x01 "
 						external="true"
@@ -54,7 +54,7 @@
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
+						audio="x.mp3"
 						relayId="relay7"
 						expander="0x24 0x01 "
 						external="true"
@@ -64,7 +64,7 @@
 		</li>
 		<li>
 			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
+						audio="x.mp3"
 						relayId="relay1"
 						expander="0x24 0x01 "
 						external="true"
