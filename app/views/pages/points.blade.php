@@ -177,21 +177,22 @@
 
 			" class="text-to-append dispNone" />
 	</li>
-	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio="jastrzab.mp3"
-					relayId="relay1"
-					expander="0x24 0x00 "
-					external="true"
-					pin="1">jastrząb</a>
-			<input  type="hidden" value="Jastrząb zwyczajny, zwany też jastrzębiem gołębiarzem, zamieszkuje strefę lasu iglastego półkuli północnej. W Polsce występuje licznie w całym kraju, spędza tu zimę. Jastrzębie to ptaki przeważnie milczące i samotne - jedynie w okresie godowym usłyszeć można ich głośne kwilenie; wtedy też łączą się w pary. To wszechstronne drapieżniki o doskonałym wzroku i nogach zaadaptowanych do chwytania ofiar. Potrafią latać nisko, zręcznie manewrując między gałęziami w lesie, w czym pomaga im dość długi ogon. Najchętniej polują na gołębie i inne średnie ptaki, ale nie gardzą też wiewiórkami, zajęczakami ani gryzoniami.
 
-			" class="text-to-append dispNone" />
-	</li>
 </ul>
 
 <ul class="expanders">
 	<p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>
+	<li>
+		<a href="#" class="expanders__relay relayexp1"
+		   audio="jastrzab.mp3"
+		   relayId="relay1"
+		   expander="0x20 0x00 "
+		   external="true"
+		   pin="1">jastrząb</a>
+		<input  type="hidden" value="Jastrząb zwyczajny, zwany też jastrzębiem gołębiarzem, zamieszkuje strefę lasu iglastego półkuli północnej. W Polsce występuje licznie w całym kraju, spędza tu zimę. Jastrzębie to ptaki przeważnie milczące i samotne - jedynie w okresie godowym usłyszeć można ich głośne kwilenie; wtedy też łączą się w pary. To wszechstronne drapieżniki o doskonałym wzroku i nogach zaadaptowanych do chwytania ofiar. Potrafią latać nisko, zręcznie manewrując między gałęziami w lesie, w czym pomaga im dość długi ogon. Najchętniej polują na gołębie i inne średnie ptaki, ale nie gardzą też wiewiórkami, zajęczakami ani gryzoniami.
+
+			" class="text-to-append dispNone" />
+	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="wilga.mp3"
@@ -263,20 +264,19 @@
 			<input  type="hidden" value="Zając szarak to roślinożerny ssak występujący na terenie całej Polski, przy czym jego liczebność wynosi około 0,5 mln osobników i systematycznie maleje. Zając lubi przede wszystkim otwarte przestrzenie: łąki czy pola uprawne - w takich miejscach potrafi biegać z prędkością nawet 70 km/h. Nie kopie nor, śpi natomiast w wyciśniętych w ziemi nieckach, zwanych kotlinkami. Zając prowadzi samotniczy tryb życia i jest aktywny o świcie i zmierzchu. W lecie futro o szarej barwie pozwala na maskowanie się wśród gęstwiny traw - w zimie za to staje się jaśniejsze i gęstsze.
 			" class="text-to-append dispNone"/>
 	</li>
-	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio="lis.mp3"
-					relayId="relay8"
-					expander="0x20 0x00 "
-					external="true"
-					pin="1">lis</a>
-			<input  type="hidden" value="Lis rudy to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby – wścieklizny. Lis pospolity to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby - wścieklizny.
-			" class="text-to-append dispNone"/>
-	</li>
 </ul>
-
 <ul class="expanders">
 		<p class="dispNone">Ekspander 1 0x20 szyna 2 0x01</p>
+	<li>
+		<a href="#" class="expanders__relay relayexp1"
+		   audio="lis.mp3"
+		   relayId="relay8"
+		   expander="0x20 0x01 "
+		   external="true"
+		   pin="1">lis</a>
+		<input  type="hidden" value="Lis rudy to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby – wścieklizny. Lis pospolity to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby - wścieklizny.
+			" class="text-to-append dispNone"/>
+	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="jez.mp3"
@@ -340,15 +340,6 @@
 					expander="0x20 0x01 "
 					external="true"
 					pin="1"></a>
-			<input  type="hidden" value="" class="text-to-append dispNone"/>
-	</li>
-	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio=".mp3"
-					relayId="relay7"
-					expander="0x20 0x01 "
-					external="true"
-					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 </ul>
@@ -418,14 +409,6 @@
 					external="true"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
-	</li>
-	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio=".mp3"
-					relayId="relay6"
-					expander="0x22 0x00 "
-					pin="1"> </a>
-			<input  type="hidden" value=""/>
 	</li>
 </ul>
 	<ul class="expanders">
