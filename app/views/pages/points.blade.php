@@ -18,20 +18,20 @@
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
-					audio="chrabaszczmajowy.mp3"
+					audio=".mp3"
 					relayId="relay2" 
 					expander="0x24 0x01 " 
 					external="false"
-					pin="1">Chrabąszcz Majowy</a>
-			<input  type="hidden" value="Julik"/>
+					pin="1"></a>
+			<input  type="hidden" value=""/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
-					audio="szeliniaksosnowiec.mp3"
+					audio=".mp3"
 					relayId="relay3" 
 					expander="0x24 0x01 " 
 					external="false"
-					pin="1">Szeliniak sosnowiec</a>
+					pin="1"></a>
 			<input  type="hidden" value="Szeliniak sosnowiec"/>
 	</li>
 	<li>
@@ -79,8 +79,26 @@
 	<p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
+		   audio="chrabaszczmajowy.mp3"
+		   relayId="relay1"
+		   expander="0x20 0x01 "
+		   external="true"
+		   pin="1">Chrabąszcz Majowy</a>
+		<input  type="hidden" value=""/>
+	</li>
+	<li>
+		<a href="#" class="expanders__relay relayexp1"
+		   audio="szeliniaksosnowiec.mp3"
+		   relayId="relay2"
+		   expander="0x20 0x01 "
+		   external="true"
+		   pin="1">Szeliniak sosnowiec</a>
+		<input  type="hidden" value="Szeliniak sosnowiec"/>
+	</li>
+	<li>
+		<a href="#" class="expanders__relay relayexp1"
 					audio="borowkabrusznica.mp3"
-					relayId="relay1" 
+					relayId="relay3"
 					expander="0x20 0x00 "
 					external="true"
 					pin="1">Borówka Brusznica</a>
@@ -90,7 +108,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="zajac.mp3"
-					relayId="relay2" 
+					relayId="relay4"
 					expander="0x20 0x00 " 
 					external="true"
 					pin="1">Zając</a>
@@ -100,7 +118,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="myszlesna.mp3"
-					relayId="relay3" 
+					relayId="relay5"
 					expander="0x20 0x00 " 
 					external="true"
 					pin="1">Mysz Leśna</a>
@@ -110,7 +128,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="sojka.mp3"
-					relayId="relay4" 
+					relayId="relay6"
 					expander="0x20 0x00 " 
 					external="true"
 					pin="1">Sójka</a>
@@ -120,7 +138,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="zieba.mp3"
-					relayId="relay5" 
+					relayId="relay7"
 					expander="0x20 0x00 " 
 					external="true"
 					pin="1">Zięba</a>
@@ -130,31 +148,11 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="swiergotekdrzewny.mp3"
-					relayId="relay6" 
+					relayId="relay8"
 					expander="0x20 0x00 " 
 					external="true"
 					pin="1">Świergotek drzewny</a>
 			<input  type="hidden" value="Świergotek drzewny, z rodziny pliszkowatych, występuje średnio licznie w różnych lasach całego kraju. Gniazdo z traw i liści buduje w wygrzebanym w ziemi dołku pod osłoną traw. Pokarm zbiera z ziemi - są to drobne owady, ale też różne części roślin. Samce świergotka możemy ujrzeć na drzewie, gdy wykonują swoją pieśń, wzlatując i opadając na wierzchołek drzewa. Ptaki te zimują w południowej Europie i w Afryce.
-			" class="text-to-append dispNone"/>
-	</li>
-	<li>
-		<a href="#" class="expanders__relay relayexp1" 
-					audio="trznadel.mp3"
-					relayId="relay7" 
-					expander="0x20 0x00 " 
-					external="true"
-					pin="1">Trznadel</a>
-			<input  type="hidden" value="Trznadel zwyczajny lub żółtobrzuch obok skowronka jest najpospolitszym ptakiem terenów otwartych. Gniazdo wije w płytkim zagłębieniu w ziemi pod osłoną krzewu lub traw. Często śpiewa na czubkach drzew, na liniach energetycznych i innych wyeksponowanych miejscach. Zjada głównie nasiona, a w okresie lęgowym również bezkręgowce. Zimą trznadle zbierają się w stada, w których mogą znaleźć się inne gatunki.
-			" class="text-to-append dispNone"/>
-	</li>
-	<li>
-		<a href="#" class="expanders__relay relayexp1" 
-					audio="pliszkasiwa.mp3"
-					relayId="relay8" 
-					expander="0x20 0x00 " 
-					external="true"
-					pin="1">Pliszka siwa</a>
-			<input  type="hidden" value="Pliszka siwa to najpospolitszy ptak Europy. Zamieszkuje tereny nadwodne, gdzie żeruje, łowiąc owady; może się jednak znacznie oddalać od zbiorników - spotykana jest żerująca przy drogach, na rozległych łąkach, czy też polach uprawnych, gdzie biega za pługiem i zbiera wykopane larwy i pędraki. Chodząc po ziemi, pliszki charakterystycznie kiwają ogonem w dół i w górę. Ich gniazda ukryte są na ziemi lub w różnych szczelinach i otworach, także budynków; pliszki są mało płochliwe i chętnie trzymają się w pobliżu człowieka. Tworzą przeważnie niewielkie stadka, którymi lecą na zimowiska na południe Europy lub do Afryki Północnej.
 			" class="text-to-append dispNone"/>
 	</li>
 </ul>
@@ -162,9 +160,29 @@
 <ul class="expanders">
 		<p class="dispNone">Ekspander 1 0x20 szyna 2 0x01</p>
 	<li>
+		<a href="#" class="expanders__relay relayexp1"
+		   audio="trznadel.mp3"
+		   relayId="relay1"
+		   expander="0x20 0x01 "
+		   external="true"
+		   pin="1">Trznadel</a>
+		<input  type="hidden" value="Trznadel zwyczajny lub żółtobrzuch obok skowronka jest najpospolitszym ptakiem terenów otwartych. Gniazdo wije w płytkim zagłębieniu w ziemi pod osłoną krzewu lub traw. Często śpiewa na czubkach drzew, na liniach energetycznych i innych wyeksponowanych miejscach. Zjada głównie nasiona, a w okresie lęgowym również bezkręgowce. Zimą trznadle zbierają się w stada, w których mogą znaleźć się inne gatunki.
+			" class="text-to-append dispNone"/>
+	</li>
+	<li>
+		<a href="#" class="expanders__relay relayexp1"
+		   audio="pliszkasiwa.mp3"
+		   relayId="relay2"
+		   expander="0x20 0x01 "
+		   external="true"
+		   pin="1">Pliszka siwa</a>
+		<input  type="hidden" value="Pliszka siwa to najpospolitszy ptak Europy. Zamieszkuje tereny nadwodne, gdzie żeruje, łowiąc owady; może się jednak znacznie oddalać od zbiorników - spotykana jest żerująca przy drogach, na rozległych łąkach, czy też polach uprawnych, gdzie biega za pługiem i zbiera wykopane larwy i pędraki. Chodząc po ziemi, pliszki charakterystycznie kiwają ogonem w dół i w górę. Ich gniazda ukryte są na ziemi lub w różnych szczelinach i otworach, także budynków; pliszki są mało płochliwe i chętnie trzymają się w pobliżu człowieka. Tworzą przeważnie niewielkie stadka, którymi lecą na zimowiska na południe Europy lub do Afryki Północnej.
+			" class="text-to-append dispNone"/>
+	</li>
+	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="poklaskwa.mp3"
-					relayId="relay1" 
+					relayId="relay3"
 					expander="0x20 0x01 " 
 					external="true"
 					pin="1">Pokląskwa</a>
@@ -174,7 +192,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="bialorzytka.mp3"
-					relayId="relay2" 
+					relayId="relay4"
 					expander="0x20 0x01 "
 					external="true" 
 					pin="1">Białorzytka</a>
@@ -184,7 +202,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="turkawka.mp3"
-					relayId="relay3" 
+					relayId="relay5"
 					expander="0x20 0x01 " 
 					external="true"					
 					pin="1">Turkawka</a>
@@ -194,7 +212,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="lerka.mp3"
-					relayId="relay4" 
+					relayId="relay6"
 					expander="0x20 0x01 " 
 					external="true"
 					pin="1">Lerka</a>
@@ -204,7 +222,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="skowronek.mp3"
-					relayId="relay5" 
+					relayId="relay7"
 					expander="0x20 0x01 "
 					external="true" 
 					pin="1">Skowronek</a>
@@ -214,7 +232,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="myszolow.mp3"
-					relayId="relay6" 
+					relayId="relay8"
 					expander="0x20 0x01 "
 					external="true" 
 					pin="1">Myszołów</a>
