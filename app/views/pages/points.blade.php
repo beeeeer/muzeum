@@ -17,7 +17,7 @@
 						audio="pilarz.mp3"
 						relayId="relay3"
 						expander="0x24 0x01 "
-						external="true"
+						external="false"
 						pin="1">pilarz</a>
 				<input  type="hidden" value="
 				" class="text-to-append dispNone"/>
@@ -27,7 +27,7 @@
 						audio="x.mp3"
 						relayId="relay4"
 						expander="0x24 0x01 "
-						external="true"
+						external="false"
 						pin="1">klin</a>
 						<input  type="hidden" value="
 						" class="text-to-append dispNone"/>
@@ -37,7 +37,7 @@
 			   audio="x.mp3"
 			   relayId="relay6"
 			   expander="0x24 0x01 "
-			   external="true"
+			   external="false"
 			   pin="1">sikiera,młot</a>
 			<input  type="hidden" value="
 			" class="text-to-append dispNone"/>
@@ -47,7 +47,7 @@
 						audio="x.mp3"
 						relayId="relay5"
 						expander="0x24 0x01 "
-						external="true"
+						external="false"
 						pin="1">klupa</a>
 						<input  type="hidden" value="
 						" class="text-to-append dispNone"/>
@@ -57,7 +57,7 @@
 						audio="x.mp3"
 						relayId="relay7"
 						expander="0x24 0x01 "
-						external="true"
+						external="false"
 						pin="1">miara, plakietki</a>
 						<input  type="hidden" value="
 						" class="text-to-append dispNone"/>
@@ -67,7 +67,7 @@
 						audio="x.mp3"
 						relayId="relay1"
 						expander="0x24 0x01 "
-						external="true"
+						external="false"
 						pin="1">numerator</a>
 				<input  type="hidden" value="
 				" class="text-to-append dispNone" />
