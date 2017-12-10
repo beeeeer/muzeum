@@ -98,7 +98,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="jezyna.mp3"
-					relayId="relay2"
+					relayId="relay1"
 					expander="0x24 0x00 "
 					external="true"
 					pin="1">jeżyna</a>
@@ -118,7 +118,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="sliwatarnina.mp3"
-					relayId="relay1"
+					relayId="relay3"
 					expander="0x24 0x00 "
 					external="true"
 					pin="1">śliwa tarnina</a>
@@ -128,7 +128,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="kossamiec.mp3"
-					relayId="relay1"
+					relayId="relay4"
 					expander="0x24 0x00 "
 					external="true"
 					pin="1">Kos samiec</a>
@@ -138,7 +138,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="puszczyk.mp3"
-					relayId="relay1"
+					relayId="relay5"
 					expander="0x24 0x00 "
 					external="true"
 					pin="1">puszczyk</a>
@@ -149,7 +149,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="uszatka.mp3"
-					relayId="relay1"
+					relayId="relay6"
 					expander="0x24 0x00 "
 					external="true"
 					pin="1">uszatka</a>
@@ -158,7 +158,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="soweczka.mp3"
-					relayId="relay1"
+					relayId="relay7"
 					expander="0x24 0x00 "
 					external="true"
 					pin="1">sóweczka</a>
@@ -169,7 +169,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="kaniaruda.mp3"
-					relayId="relay1"
+					relayId="relay8"
 					expander="0x24 0x00 "
 					external="true"
 					pin="1">kania ruda</a>
@@ -186,7 +186,7 @@
 		<a href="#" class="expanders__relay relayexp1"
 		   audio="jastrzab.mp3"
 		   relayId="relay1"
-		   expander="0x20 0x00 "
+		   expander="0x21 0x00 "
 		   external="true"
 		   pin="1">jastrząb</a>
 		<input  type="hidden" value="Jastrząb zwyczajny, zwany też jastrzębiem gołębiarzem, zamieszkuje strefę lasu iglastego półkuli północnej. W Polsce występuje licznie w całym kraju, spędza tu zimę. Jastrzębie to ptaki przeważnie milczące i samotne - jedynie w okresie godowym usłyszeć można ich głośne kwilenie; wtedy też łączą się w pary. To wszechstronne drapieżniki o doskonałym wzroku i nogach zaadaptowanych do chwytania ofiar. Potrafią latać nisko, zręcznie manewrując między gałęziami w lesie, w czym pomaga im dość długi ogon. Najchętniej polują na gołębie i inne średnie ptaki, ale nie gardzą też wiewiórkami, zajęczakami ani gryzoniami.
@@ -196,8 +196,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="wilga.mp3"
-					relayId="relay1"
-					expander="0x20 0x00 "
+					relayId="relay2"
+					expander="0x21 0x00 "
 					external="true"
 					pin="1">wilga</a>
 			<input  type="hidden" value="Wilga zwyczajna to jeden z nielicznych krajowych gatunków o tropikalnym pochodzeniu rozprzestrzenionym na większości obszaru Europy. Świadczy o tym nie tylko jej egzotyczny wygląd, ale też krótki, zaledwie 4-miesięczny pobyt w naszym kraju - na zimowisko leci aż na południe Afryki. Wiglę trudno jest zobaczyć, gdyż najczęściej przebywa w gęstym listowiu koron drzew, gdzie w rozwidleniu gałęzi wiesza swoje misterne gniazdo w kształcie koszyczka. Swą obecność zdradza melodyjnym gwizdem, który uznaje się za zapowiedź deszczu - samiec śpiewa najchętniej, gdy wzrasta wilgotność powietrza. Śpiewa również samica, lecz ma bardziej skrzekliwy głos. Wilgi zjadają owady i duże gąsienice motyli, a czasem też owoce.
@@ -206,8 +206,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="mucholowkazalobna.mp3"
-					relayId="relay2"
-					expander="0x20 0x00 "
+					relayId="relay3"
+					expander="0x21 0x00 "
 					external="true"
 					pin="1">muchołówka żałobna</a>
 			<input  type="hidden" value="Muchołówka żałobna występuje w Polsce nielicznie, przy czym wędruje na duże odległości, zimując w środkowej Afryce na północ od równika. Można ją spotkać na całym niżowym obszarze kraju w nasłonecznionych starych lasach, parkach i ogrodach. Gniazduje w dziupli lub skrzynce lęgowej; zjada owady chwytane w locie. Jest znacznie lepszym śpiewakiem niż muchołówka szara.
@@ -217,8 +217,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="zuraw.mp3"
-					relayId="relay3"
-					expander="0x20 0x00 "
+					relayId="relay4"
+					expander="0x21 0x00 "
 					external="true"
 					pin="1">żuraw</a>
 			<input  type="hidden" value="Żuraw zwyczajny, zwany też szarym, występuje w kraju nielicznie, głównie na zabagnionych terenach, np. obrzeżach jezior i stawów czy mokradłach. Gniazdo o średnicy ok. 80 cm żuraw zakłada na ziemi. Zjada głównie pokarm roślinny, ale też drobne zwierzęta, jak gryzonie czy mięczaki. Żurawie, gdy dobiorą się w pary, pozostają sobie wierne przez całe życie; wspólnie wysiadują jaja i opiekują się pisklętami. Podczas przelotów na zimowiska stada lecą zwykle w kluczach i wydają donośny, słyszalny w promieniu kilku kilometrów głos zwany klangorem. Krzyki przylatujących i odlatujących żurawi oznajmiały niegdyś wiosenne siewy i jesienne zbiory. W dawnych wierzeniach Słowian ptaki te były wysłannikami bogów, pełniącymi rolę przewodników ludzkich dusz, które czepiały się ich piór i nóg w wędrówce do bajecznej krainy zwanej Wyrajem.
@@ -227,8 +227,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="gronostaj.mp3"
-					relayId="relay4"
-					expander="0x20 0x00 "
+					relayId="relay5"
+					expander="0x21 0x00 "
 					external="true"
 					pin="1">gronostaj</a>
 			<input  type="hidden" value="Gronostaj, drapieżnik z rodziny łasicowatych, w Polsce jest gatunkiem rzadkim. Żyje na obrzeżach lasów i w zaroślach. Choć jest ssakiem naziemnym, dobrze się wspina i pływa. Jest najbardziej aktywny nocą - wtedy samotnie poluje; schwytaną zdobycz zabija jednym ugryzieniem w kark; jego ofiarami są nie tylko gryzonie, ale też ptaki i ich jaja, płazy, gady, ryby i owady; gronostaj czasem zjada też owoce. Gdy nie poluje, odpoczywa w dziupli, pod korzeniami drzew lub w opuszczonej norze. Na zimę zmienia on barwę futra - poza ciemnym zakończeniem ogona staje się ono całkowicie białe.
@@ -237,8 +237,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="jelenbyk.mp3"
-					relayId="relay5"
-					expander="0x20 0x00 "
+					relayId="relay6"
+					expander="0x21 0x00 "
 					external="true"
 					pin="1">jeleń byk</a>
 			<input  type="hidden" value="Jeleń szlachety - duży ssak z rodziny jeleniowatych, jest zwierzęciem dziennym. W Polsce ssaki te żyją we wszystkich większych kompleksach leśnych. Naturalnymi wrogami jeleni w Polsce są wilk, człowiek, ryś i niedźwiedź. Jelenie żyją w stadach, w gwarze myśliwskiej nazywanych chmarami. Stadu przewodzi łania licówka, samica jelenia, która musi prowadzić tegoroczne młode cielę. Byki, szczególnie podczas rykowiska, korzystają z kąpieli błotnych w tzw. kąpieliskach. Następnie ocierają się o drzewa (malują), w celu pozbycia się pasożytów. W czasie rykowiska mogą one tracić nawet od 10 do 15% masy ciała, gdyż w tym czasie jeleń byk nie pobiera pokarmu. Rykowiska jeleni rozpoczynają się w połowie września, usłyszeć wtedy można charakterystyczne ryczenie konkurujących ze sobą samców. Jeleń na wolności żyje do 12-15 lat.
@@ -247,8 +247,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="wilk.mp3"
-					relayId="relay6"
-					expander="0x20 0x00 "
+					relayId="relay7"
+					expander="0x21 0x00 "
 					external="true"
 					pin="1">wilk</a>
 			<input  type="hidden" value="Wilki są zwierzętami o bardzo rozwiniętej strukturze socjalnej, mają też skomplikowany system porozumiewania się. Żyją w grupach zwanych watahami, najczęściej liczącymi 5-8 osobników, wspólnie polują, przemieszczają się i odpoczywają na areale wielkości 100-350 km2. Osobnikami panującymi w grupie jest para rodzicielska - „alfa” wadera (samica) i „alfa” basior (samiec). Wilk w niewoli dożywa 16 lat, na wolności żyje o wiele krócej.
@@ -257,8 +257,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="zajac.mp3"
-					relayId="relay7"
-					expander="0x20 0x00 "
+					relayId="relay8"
+					expander="0x21 0x00 "
 					external="true"
 					pin="1">zając</a>
 			<input  type="hidden" value="Zając szarak to roślinożerny ssak występujący na terenie całej Polski, przy czym jego liczebność wynosi około 0,5 mln osobników i systematycznie maleje. Zając lubi przede wszystkim otwarte przestrzenie: łąki czy pola uprawne - w takich miejscach potrafi biegać z prędkością nawet 70 km/h. Nie kopie nor, śpi natomiast w wyciśniętych w ziemi nieckach, zwanych kotlinkami. Zając prowadzi samotniczy tryb życia i jest aktywny o świcie i zmierzchu. W lecie futro o szarej barwie pozwala na maskowanie się wśród gęstwiny traw - w zimie za to staje się jaśniejsze i gęstsze.
@@ -270,8 +270,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 		   audio="lis.mp3"
-		   relayId="relay8"
-		   expander="0x20 0x01 "
+		   relayId="relay1"
+		   expander="0x21 0x01 "
 		   external="true"
 		   pin="1">lis</a>
 		<input  type="hidden" value="Lis rudy to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby – wścieklizny. Lis pospolity to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby - wścieklizny.
@@ -280,8 +280,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="jez.mp3"
-					relayId="relay1"
-					expander="0x20 0x01 "
+					relayId="relay2"
+					expander="0x21 0x01 "
 					external="true"
 					pin="1">jeż</a>
 			<input  type="hidden" value="Jeż europejski to często spotykany, największy ssak owadożerny w naszym kraju. W dzień śpi ukryty pod liśćmi lub w jamkach, o zmierzchu wychodzi z ukrycia i, pracowicie drepcząc, poszukuje jedzenia, np. owadów, robaków, drobnych gryzoni czy też grzybów i przejrzałych owoców. Co noc pokonuje w tym celu do 3 km. Ubarwienie ciała jeża jest szarobrunatne, a po stronie brzusznej szare lub brunatne. Jego spiczasty, zawsze wilgotny i ruchliwy nosek stanowi doskonały narząd czuciowy. Każdy jeż jest pokryty ok. 5 tysiącami kolców, które stroszy, gdy jest przestraszony, równocześnie zwijając się w kulkę. Jeże nie robią żadnych zapasów na zimę, w tym czasie zapadają w odrętwienie i odżywiają się tłuszczem nagromadzonym w organizmie. W naturalnych warunkach jeż żyje około 5 lat, w hodowli - nawet do 10 lat.
@@ -290,8 +290,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="kunalesna.mp3"
-					relayId="relay2"
-					expander="0x20 0x01 "
+					relayId="relay3"
+					expander="0x21 0x01 "
 					external="true"
 					pin="1">kuna leśna</a>
 			<input  type="hidden" value="Kuna leśna, zwana również tumakiem, to ssak z rodziny łasicowatych. Preferuje gęste, stare lasy, gdzie może się z łatwością ukryć przed wilkami, czy lisami. Na dietę tego wszystkożercy składają się gryzonie, ptaki, owady, a także owoce oraz padlina. Latem i jesienią kuna gromadzi jedzenie, by na zimę móc zasnąć pod ziemią bez konieczności wychodzenia z kryjówki.  Własne terytorium znaczy wydzieliną z gruczołów zapachowych. Tumaki są samotnikami, poza okresem, kiedy wychowują potomstwo.
@@ -300,8 +300,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="sikorabogatka.mp3"
-					relayId="relay3"
-					expander="0x20 0x01 "
+					relayId="relay4"
+					expander="0x21 0x01 "
 					external="true"
 					pin="1"></a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
@@ -309,17 +309,8 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="sikoramodraszka.mp3"
-					relayId="relay4"
-					expander="0x20 0x01 "
-					external="true"
-					pin="1"></a>
-			<input  type="hidden" value="" class="text-to-append dispNone"/>
-	</li>
-	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio=".mp3"
 					relayId="relay5"
-					expander="0x20 0x01 "
+					expander="0x21 0x01 "
 					external="true"
 					pin="1"></a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
@@ -328,7 +319,16 @@
 		<a href="#" class="expanders__relay relayexp1"
 					audio=".mp3"
 					relayId="relay6"
-					expander="0x20 0x01 "
+					expander="0x21 0x01 "
+					external="true"
+					pin="1"></a>
+			<input  type="hidden" value="" class="text-to-append dispNone"/>
+	</li>
+	<li>
+		<a href="#" class="expanders__relay relayexp1"
+					audio=".mp3"
+					relayId="relay7"
+					expander="0x21 0x01 "
 					external="true"
 					pin="1"></a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
@@ -337,7 +337,7 @@
 		<a href="#" class="expanders__relay relayexp1"
 					audio=".mp3"
 					relayId="relay8"
-					expander="0x20 0x01 "
+					expander="0x21 0x01 "
 					external="true"
 					pin="1"></a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>

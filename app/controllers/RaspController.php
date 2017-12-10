@@ -19,7 +19,7 @@ class RaspController extends BaseController
 	private $switchStatus = array();
 	private $setMixer= 'amixer cset numid=3 1';
 	private $branch;
-	private $allExpanders = array('0x20 0x00 ','0x20 0x01 ','0x22 0x00 ','0x22 0x01 ','0x24 0x00 ','0x24 0x01 ');
+	private $allExpanders = array('0x21 0x00 ','0x21 0x01 ','0x20 0x00 ','0x20 0x01 ','0x22 0x00 ','0x22 0x01 ','0x24 0x00 ','0x24 0x01 ');
 	private $iterator;
 //git, composer, php, apache, i2c
 //sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump /usr/bin/mpg123
@@ -170,7 +170,7 @@ class RaspController extends BaseController
     {
         $data = Input::all();
         $client = new Client();
-        $res = $client->request('GET', 'http://192.168.0.59/index.php/recive', [
+        $res = $client->request('GET', 'http://192.168.1.64/index.php/recive', [
             'form_params' => $data
         ]);
         $result = $res->getBody();
