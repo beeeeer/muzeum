@@ -23,8 +23,11 @@ class RaspController extends BaseController
 	private $iterator;
 //git, composer, php, apache, i2c
 //sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump /usr/bin/mpg123
+//vcgencmd display_power 0
+//vcgencmd display_power 1
 
-	public function getAjaxRequest()
+
+    public function getAjaxRequest()
 	{
 		$req = new Request();
 		$input = $req->ajax();
