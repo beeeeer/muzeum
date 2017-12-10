@@ -17,7 +17,7 @@
 						audio="glog.mp3"
 						relayId="relay3"
 						expander="0x24 0x01 "
-						external="true"
+						external="false"
 						pin="1">głóg</a>
 				<input  type="hidden" value="Głóg dwuszyjkowy to rodzimy krzew z rodziny różowatych, w Polsce występujący pospolicie na całym niżu oraz w niższych położeniach górskich. Jest odporny na suszę i ciężkie warunki klimatyczne, zarasta widne lasy, zarośla, polany. Ma formę krzewu do 4 m bądź niewielkiego drzewa dorastającego do 8 metrów wysokości; rośnie bardzo powoli, ale może dożyć nawet 200 lat. Miododajne białe kwiaty pojawiają się w maju - są one cenionym surowcem zielarskim o działaniu poprawiającym pracę serca i uspokajającym. Z owoców można robić nalewki, wina, dżemy i herbatki, mają one jednak słabsze działanie.
 				" class="text-to-append dispNone"/>
@@ -27,7 +27,7 @@
 						audio="dzikaroza.mp3"
 						relayId="relay4"
 						expander="0x24 0x01 "
-						external="true"
+						external="false"
 						pin="1">dzika róża</a>
 						<input  type="hidden" value="Dzika róża, zwana też psią różą, to pospolity ciernisty krzew, porastający zarośla, skraje lasów i przydroża całego kraju. Kwitnie od maja do lipca, a jej nasiona są rozsiewane przez zwierzęta. Zarówno aromatyczne kwiaty, jak i owoce tego krzewu od bardzo dawna służą ludziom do leczenia niektórych schorzeń oraz są wykorzystywane w kuchni - szczególnie popularna jest konfitura używana do nadziewania pączków, otrzymywana z płatków dzikiej róży.
 						" class="text-to-append dispNone"/>
@@ -37,7 +37,7 @@
 			   audio="sarna.mp3"
 			   relayId="relay6"
 			   expander="0x24 0x01 "
-			   external="true"
+			   external="false"
 			   pin="1">sarna</a>
 			<input  type="hidden" value="Kozioł, samiec sarny europejskiej, zwany również rogaczem, należy do ssaków parzystokopytnych. Sarna jest najmniejszym przedstawicielem jeleniowatych w Europie. Żyje na terenach lesistych, choć w ostatnich latach coraz częściej spotyka się stada żyjące na polach. Wyróżniono nawet ekotyp sarny, zwanej polną. W lasach sarna żyje pojedynczo, podczas gdy na uprawach polnych zbiera się w rudle, czyli stada, liczące nawet po kilkadziesiąt osobników. Sarny, na skutek działalności człowieka, często opuszczają lasy. Stadny tryb życia na otwartych przestrzeniach gwarantuje im większe bezpieczeństwo. Smukłe kończyny sarny zwane są cewkami. Sierść, czyli tzw. suknia zimowa jest szarawa, letnia zaś – ruda. Pożywienie sarny stanowią: zioła, młode liście, mech, porosty, trawy oraz niektóre jagody i grzyby. Kozioł, samiec sarny europejskiej, zwany również rogaczem, należy do ssaków parzystokopytnych. Sarna jest najmniejszym przedstawicielem jeleniowatych w Europie. Żyje na terenach lesistych, choć w ostatnich latach coraz częściej spotyka się stada żyjące na polach. Wyróżniono nawet ekotyp sarny, zwanej polną. W lasach sarna żyje pojedynczo, podczas gdy na uprawach polnych zbiera się w rudle, czyli stada, liczące nawet po kilkadziesiąt osobników. Stadny tryb życia na otwartych przestrzeniach gwarantuje im większe bezpieczeństwo. Smukłe kończyny sarny zwane są cewkami. Sierść, czyli tzw. suknia zimowa jest szarawa, letnia zaś – ruda. Pożywienie sarny stanowią: zioła, młode liście, mech, porosty, trawy oraz niektóre jagody i grzyby.
 						" class="text-to-append dispNone"/>
@@ -47,7 +47,7 @@
 						audio="lis.mp3"
 						relayId="relay5"
 						expander="0x24 0x01 "
-						external="true"
+						external="false"
 						pin="1">lis</a>
 						<input  type="hidden" value="Lis rudy to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby – wścieklizny. Lis pospolity to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby - wścieklizny.
 						" class="text-to-append dispNone"/>
@@ -57,7 +57,7 @@
 						audio="mysz.mp3"
 						relayId="relay7"
 						expander="0x24 0x01 "
-						external="true"
+						external="false"
 						pin="1">mysz</a>
 						<input  type="hidden" value="Mysz leśna, jak sama nazwa na to wskazuje, jest najbardziej typowym mieszkańcem lasów - przede wszystkim mieszanych i liściastych, ale także ogrodów i parków. Nazywana jest też myszą wielkooką, gdyż ze względu na wybitnie nocny tryb życia, charakteryzuje się dużymi, nieco wyłupiastymi czarnymi oczami. Poruszając się po ściółce leśnej, w której żyje, robi długie susy niczym mały kangur. Świetnie radzi sobie również na drzewach, a także w wodzie. Nory, które wykopuje, mogą być głębokie nawet na 1,5 metra. Podstawę jej pokarmu stanowią nasiona drzew, lubi także podbierać jaja z ptasich gniazd, czy zjadać owady. Ogryza też młode drzewka i krzewy, powodując szkody w szkółkach leśnych. Mieszkańcy domów położonych blisko lasu dobrze znają tego gryzonia, który w poszukiwaniu pokarmu zagląda do nich jesienią.
 						" class="text-to-append dispNone"/>
@@ -67,7 +67,7 @@
 						audio="zajac.mp3"
 						relayId="relay1"
 						expander="0x24 0x01 "
-						external="true"
+						external="false"
 						pin="1">zajac</a>
 				<input  type="hidden" value="Zając szarak to roślinożerny ssak występujący na terenie całej Polski, przy czym jego liczebność wynosi około 0,5 mln osobników i systematycznie maleje. Zając lubi przede wszystkim otwarte przestrzenie: łąki czy pola uprawne - w takich miejscach potrafi biegać z prędkością nawet 70 km/h. Nie kopie nor, śpi natomiast w wyciśniętych w ziemi nieckach, zwanych kotlinkami. Zając prowadzi samotniczy tryb życia i jest aktywny o świcie i zmierzchu. W lecie futro o szarej barwie pozwala na maskowanie się wśród gęstwiny traw - w zimie za to staje się jaśniejsze i gęstsze.
 				" class="text-to-append dispNone" />
@@ -77,7 +77,7 @@
 			   audio="gil.mp3"
 			   relayId="relay2"
 			   expander="0x24 0x01 "
-			   external="true"
+			   external="false"
 			   pin="1">gil</a>
 			<input  type="hidden" value="Gil z rodziny łuszczaków występuje na niżu kraju w borach świerkowych, jodłowych i lasach mieszanych. Najłatwiej rozróżnić płeć gila po upierzeniu brzuszka - samiec ma je czerwonawe, samica brązowawe. U gili występuje nieczęste u innych ptaków zachowanie - poza samcami śpiewają również samice. Gila znamy głównie z okresu zimowego, gdy pojawia się w stadkach na drzewach z owocami; w okresie lęgowym jest za to skryty i trudno go zobaczyć; swoje gniazdo ukrywa wśród gęstych gałęzi, zwykle świerka. Zjada nasiona, pąki, wiosną także bezkręgowce.
 				" class="text-to-append dispNone" />
@@ -87,7 +87,7 @@
 			   audio="paszkot.mp3"
 			   relayId="relay2"
 			   expander="0x24 0x01 "
-			   external="true"
+			   external="false"
 			   pin="1">paszkot</a>
 			<input  type="hidden" value="Paszkot to nasz największy drozd; występuje w całym kraju, choć liczniej w górach. Mimo że w niektórych okolicach nie jest ptakiem rzadkim, zwykle uchodzi uwadze przez płochliwość i dość skryty tryb życia. Zamieszkuje przede wszystkim obrzeża starych i rozległych borów iglastych. Gniazdo buduje w koronie sosny, ale żeruje przeważnie na ziemi; na polanach blisko swojego siedliska szuka bezkręgowców, czasem też nasion. Część paszkotów zimuje w kraju, a pozostałe wędrują niedaleko na południe.
 				" class="text-to-append dispNone" />
@@ -100,7 +100,7 @@
 						audio="kwiczol.mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
-						external="true"
+						external="false"
 						pin="1">kwiczoł</a>
 				<input  type="hidden" value="Kwiczoł, z rodziny drozdowatych, to towarzyski i hałaśliwy ptak - nazwę zawdzięcza właśnie swojemu skrzeczącemu śpiewowi. Zamieszkuje niewielkie zadrzewienia, doliny rzek, obrzeża lasów, a coraz częściej miejskie parki. Gniazdo w formie czarki z traw, gałązek i liści buduje w rozwidleniu gałęzi. Ma on rzadki wśród ptaków śpiewających zwyczaj gromadnego atakowania i przeganiania intruzów, nawet znacznie większych od siebie. Zimą kwiczoły skupiają się często w stada liczące po kilkaset osobników, gromadnie obsiadając drzewa i krzewy z owocami. Żywią się bezkręgowcami znajdowanymi na ziemi, a zimą zjadają jagody, najchętniej jałowca.
 				" class="text-to-append dispNone" />
@@ -110,7 +110,7 @@
 						audio="wrobel.mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
-						external="true"
+						external="false"
 						pin="1">wróbel</a>
 				<input  type="hidden" value="Wróbel to pospolity i bardzo liczny ptak ściśle związany z osadami ludzkimi - tylko wyjątkowo gniazduje poza nimi. Zimę spędza w kraju. Gniazdo w kształcie kuli z bocznym wejściem buduje w otworach budynków, dziuplach czy skrzynkach lęgowych. Żeruje zarówno na ziemi, jak i w roślinności, szukając nasion i owadów. Wróbel jest najdłużej związanym z człowiekiem ptakiem, zasiedlającym ludzkie osady już od kilku tysięcy lat.
 				" class="text-to-append dispNone" />
@@ -120,7 +120,7 @@
 						audio="kos.mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
-						external="true"
+						external="false"
 						pin="1">kos</a>
 				<input  type="hidden" value="Opieńka miodowa - gatunek grzyba rosnący gromadnie, czasem bardzo licznie. Występuje najczęściej jesienią od września do listopada, ale czasami może pojawić się nawet na początku sierpnia. Jego występowanie ściśle powiązane jest z martwym drewnem, choć czasem atakuje jak pasożyt także żywe drzewa. Jest grzybem jadalnym. Może być trująca, dlatego też należy ją najpierw obgotować przez około 5 minut i odlać wywar, po czym dopiero poddaje się ją dalszej obróbce. Przez niewprawnych grzybiarzy opieńka miodowa może zostać pomylona z trującą maślanką wiązkową.Kos z rodziny drozdowatych, pierwotnie ptak leśny, obecnie występuje licznie w różnych zadrzewieniach całego kraju, nawet w miastach. Znany jest ze swojego śpiewu godowego, wykonywanego przez samce na wiosnę. Są dość płochliwe i ostrzegają się nawzajem głośnym krzykiem, gdy dostrzegą człowieka. Około 50 lat temu wykształcił się jednak gatunek określany jako miejski - ptaki te nie obawiają się człowieka i żyją w pobliżu osad ludzkich. Gniazdo w formie czarki kosy umieszczają na gałęziach drzew. Pożywienia szukają za to na ziemi - mogą to być ślimaki, owady, dżdżownice, ale też owoce. Kosy miejskie zwykle nie wylatują na zimę, leśne są za to wędrowne i zimują w rejonie śródziemnomorskim.
 				" class="text-to-append dispNone" />
@@ -130,7 +130,7 @@
 						audio="krogulec.mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
-						external="true"
+						external="false"
 						pin="1">krogulec</a>
 				<input  type="hidden" value="Krogulec z rodziny jastrzębiowatych żyje w gęstych borach iglastych, najliczniej na wschodzie kraju. Swoje gniazdo zakłada na skraju lasu, w pobliżu terenów otwartych. Drapieżny krogulec jest postrachem drobnych ptaków i ssaków; polując, wykorzystuje element zaskoczenia - aby dostać się niepostrzeżenie w pobliże ofiary, kryje się za osłoną, np. murem czy krzakami, po czym błyskawicznie atakuje. Zwany jest wróblarzem, gdyż to wróble najczęściej padają jego ofiarą. Na zimowanie wylatuje do południowej Azji.
 				" class="text-to-append dispNone" />
@@ -140,7 +140,7 @@
 						audio="grubodziob.mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
-						external="true"
+						external="false"
 						pin="1">grubodziób</a>
 				<input  type="hidden" value="Grubodziób z rodziny łuszczaków zamieszkuje strefę umiarkowaną Eurazji. W porze lęgowej jest ptakiem typowo leśnym - przebywa w gnieździe w koronach drzew liściastych, w których trudno go dojrzeć; dopiero jesienią i zimą pojawia się w stadach na otwartych terenach, żerując często na ziemi. Zwany jest pestkojadem, gdyż potrafi wyłuskiwać pestki z owoców, które miażdży wyjątkowo mocnym dziobem, wywierającym nacisk aż do 70 kilogramów! Na wiosnę zjada też pokarm zwierzęcy - gąsienice i inne bezkręgowce.
 				" class="text-to-append dispNone" />
@@ -150,7 +150,7 @@
 			   audio="kruk.mp3"
 			   relayId="relay2"
 			   expander="0x24 0x00 "
-			   external="true"
+			   external="false"
 			   pin="1">kruk</a>
 			<input  type="hidden" value="Kruk zwyczajny w Polsce jest średnio liczny. Zakłada swoje masywne gniazda z gałęzi i mchów na wierzchołkach drzew iglastych, a czasem nawet na słupach energetycznych; często przerabia siedziby porzucone przez inne ptaki - tak parokrotnie nadbudowane gniazdo może mieć nawet metr wysokości i znaczną wagę. Konkuruje o gniazdo z innymi ptakami np. kaniami. Kruki są wszystkożerne, ale zwykle zjadają pokarm mięsny - nie gardzą nawet padliną. Żerują zwykle na ziemi, używając do łapania ofiary nie tylko dziób, ale też pazury i łapy. Kruki uważane są za bardzo inteligentne oraz skore do zabaw. Przez tysiące lat obrosło wokół nich wiele legend, zarówno pozytywnych, jak i mających mroczny odcień; przez większość kultur bywały przy tym uznawane za ptaki prorocze, zwiastujące przyszłość. Kruk zwyczajny w Polsce jest średnio liczny. Zakłada swoje masywne gniazda z gałęzi i mchów na wierzchołkach drzew iglastych, a czasem nawet na słupach energetycznych; często przerabia siedziby porzucone przez inne kruki - tak parokrotnie nadbudowane gniazdo może mieć nawet metr wysokości i znaczną wagę. Kruki są wszystkożerne, ale zwykle zjadają pokarm mięsny - nie gardzą nawet padliną. Żerują zwykle na ziemi, używając do łapania ofiary nie tylko dziób, ale też pazury i łapy. Kruki uważane są za bardzo inteligentne oraz skore do zabaw. Przez tysiące lat obrosło wokół nich wiele legend, zarówno pozytywnych, jak i mających mroczny odcień; przez większość kultur bywały przy tym uznawane za ptaki prorocze, zwiastujące przyszłość.
 				" class="text-to-append dispNone" />
@@ -160,7 +160,7 @@
 			   audio=".mp3"
 			   relayId="relay2"
 			   expander="0x24 0x00 "
-			   external="true"
+			   external="false"
 			   pin="1"></a>
 			<input  type="hidden" value="
 				" class="text-to-append dispNone" />
@@ -170,7 +170,7 @@
 						audio=".mp3"
 						relayId="relay1"
 						expander="0x24 0x00 "
-						external="true"
+						external="false"
 						pin="1"></a>
 				<input  type="hidden" value="
 				" class="text-to-append dispNone" />
@@ -184,7 +184,7 @@
 			   audio="sikorkamodra.mp3"
 			   relayId="relay1"
 			   expander="0x20 0x01 "
-			   external="true"
+			   external="false"
 			   pin="1">sikorka modra</a>
 			<input  type="hidden" value="Modraszka, zwana sikorą modrą, to przepięknie upierzony mały ptaszek. Doskonale komponuje się u niej kolor żółty z błękitnym - modrym (stąd zresztą nazwa gatunku). Preferuje głównie świetliste lasy liściaste i mieszane, rzadziej iglaste, zamieszkiwane również przez dzięcioła dużego, w którego opuszczonych dziuplach gniazduje. Żywi się głównie owadami i pajęczakami, zimą natomiast roślinami, odwiedza też chętnie karmniki, ceniąc przede wszystkim słonecznik, orzeszki ziemne i słoninę. Głos modraszki jest wysoki, przypominający gwizd, podobny do głosów innych przedstawicieli rodziny sikor. Nie jest zagrożona wyginięciem, w kraju jest nawet liczna, podobnie jak wszystkie sikory objęta jest ochroną gatunkową.
 				" class="text-to-append dispNone" />
@@ -194,7 +194,7 @@
 						audio="sikorkabogatka.mp3"
 						relayId="relay1"
 						expander="0x20 0x01 "
-						external="true"
+						external="false"
 						pin="1">sikorka bogatka</a>
 				<input  type="hidden" value="Sikora bogatka jest największą z naszych sikor i znajduje się pod ścisłą ochroną. Zamieszkuje różnorodne lasy, a także parki i ogrody. Wyróżnia się wyjątkowo bogatym repertuarem głosów. Bogatka potrafi sama wykuć dziuplę, ale tylko w miękkim, spróchniałym drewnie - za gniazdo mogą jej też służyć rurki ogrodzeniowe, skrzynki na listy, a nawet otwory wentylacyjne. Ptak ten spędza zimę w Polsce, przemieszcza się tylko w miejsca, gdzie łatwiej mu znaleźć pokarm - zwykle do miast. Sikorki często widujemy przy karmnikach zajadające słoninę - poza okresem zimowym żywią się owadami.
 				" class="text-to-append dispNone" />
@@ -204,7 +204,7 @@
 						audio="sikorkaczubatka.mp3"
 						relayId="relay2"
 						expander="0x20 0x01 "
-						external="true"
+						external="false"
 						pin="1">sikorka czubatka</a>
 				<input  type="hidden" value="Czubatka europejska z rodziny sikor wyróżnia się swoim czarno-białym czubkiem na głowie. Występuje średnio licznie w całym kraju, przy czym pozostaje tu na zimę, co sprzyja monogamii wśród tych ptaków. Zamieszkują one bory iglaste z próchniejącymi lub martwymi drzewami, gdzie samice mogą wykuć dziuplę. Czubatka stale przebywa w koronach drzew, skąd dobiega jej dźwięczny trel. Łowi tam owady i ich larwy, pająki oraz inne bezkręgowce. Zimą, gdy nie może znaleźć pokarmu zwierzęcego, odżywia się nasionami drzew iglastych - wtedy pożywienia szuka na ziemi. Podobnie jak inne sikory, gromadzi też zapasy na zimę, wciskając owady i nasiona w zakamarki kory drzewa.
 				" class="text-to-append dispNone" />
@@ -214,7 +214,7 @@
 						audio="dzieciolsredni.mp3"
 						relayId="relay3"
 						expander="0x20 0x01 "
-						external="true"
+						external="false"
 						pin="1">dzięcioł średni</a>
 				<input  type="hidden" value="Dzięcioł średni ma podobnie pstre ubarwienie co dzięcioł duży, lecz jest od niego mniejszy. Dziób ma dość słaby - potrafi wykuwać dziuple tylko w próchniejących konarach, dlatego też zamieszkuje głównie stare drzewostany. Wyjada z drzew owady, ich larwy i poczwarki, a także zbiera z liści i kory pajęczaki. W przeciwieństwie do innych dzięciołów, na wiosnę rzadko bębni, za to odzywa się jękliwym głosem. Zimuje w kraju. Jest gatunkiem zagrożonym przez wycinanie starodrzewi liściastych i usuwanie martwych i obumierających drzew.
 				" class="text-to-append dispNone"/>
@@ -224,7 +224,7 @@
 						audio="dzieciolzielony.mp3"
 						relayId="relay4"
 						expander="0x20 0x01 "
-						external="true"
+						external="false"
 						pin="1">dzięcioł zielony</a>
 				<input  type="hidden" value="Dzięcioł zielony to najbarwniejszy krajowy dzięcioł, występujący głównie na obrzeżach lasów liściastych środkowej i wschodniej Polski. Ze względu na raczej naziemny tryb życia, dzięcioł ten rzadko bębni - częściej odzywa się donośnym pogwizdywaniem. Dziób ma słabszy niż inne dzięcioły, więc dziuple wykuwa raczej w miękkim drewnie topoli, osiki lub wierzby, skąd wydobywa owady i ich larwy. Chętnie odwiedza mrowiska, z których przy pomocy swojego długiego, lepkiego języka wyjada mrówki; zimą zjada nasiona drzew iglastych, owoce, a także padlinę oraz wieszaną w karmnikach słoninę, za to wiosną często nakłuwa korę brzóz i pije wyciekający sok.
 				" class="text-to-append dispNone"/>
@@ -234,7 +234,7 @@
 						audio="dzieciolczarny.mp3"
 						relayId="relay5"
 						expander="0x20 0x01 "
-						external="true"
+						external="false"
 						pin="1">dzięcioł czarny</a>
 				<input  type="hidden" value="Dzięcioł czarny, największy dzięcioł naszego kontynentu, posiada zupełnie czarne ubarwienie piór, za wyjątkiem charakterystycznej, czerwonej „czapeczki” u samców. Do przeżycia wymaga dojrzałych, starych drzew, najlepiej iglastych lub buków, w których wykuwa otwory, poszukując pod korą larw owadów czy mrówek. Dzięki temu zapewnia wielu gatunkom zwierząt dostępność obszernych dziupli. To ważny gatunek parasolowy, czyli osłonowy, co znaczy, że jego ochrona pozwala chronić również szereg innych gatunków, w jakimś stopniu od niego zależnych. Kluczowym zagrożeniem dla istnienia tego ptaka jest usuwanie obumierających i martwych drzew, a także ujednolicanie struktury wiekowej drzewostanów. Dzięcioł czarny, największy dzięcioł naszego kontynentu, posiada zupełnie czarne ubarwienie piór, za wyjątkiem charakterystycznej, czerwonej „czapeczki” u samców. Do przeżycia wymaga dojrzałych, starych drzew, najlepiej iglastych lub buków, w których wykuwa otwory, poszukując pod korą larw owadów czy mrówek. Dzięki temu zapewnia wielu gatunkom zwierząt dostępność obszernych dziupli. To ważny gatunek parasolowy, czyli osłonowy, co znaczy, że jego ochrona pozwala chronić również szereg innych gatunków, w jakimś stopniu od niego zależnych. Z jego dziupli często korzysta sóweczka. Kluczowym zagrożeniem dla istnienia tego ptaka jest usuwanie obumierających i martwych drzew, a także ujednolicanie struktury wiekowej drzewostanów.
 				" class="text-to-append dispNone"/>
@@ -244,7 +244,7 @@
 						audio="jemioluszka.mp3"
 						relayId="relay6"
 						expander="0x20 0x01 "
-						external="true"
+						external="false"
 						pin="1">jemiołuszka</a>
 				<input  type="hidden" value="Jemiołuszka to typowo północny gatunek, zamieszkujący w okresie letnim tajgę - w naszym kraju gości tylko na zimę i spędza ją w zadrzewieniach, parkach i lasach liściastych, w których występują drzewa i krzewy owocowe. To właśnie na nich żeruje podczas zimowiska, zjadając jagody i owoce - m.in. jemioły, skąd wzięła się polska nazwa gatunku. W okresie lęgowym, który spędza na północy, jamiołuszka jest jednak głównie owadożerna.
 				" class="text-to-append dispNone"/>
@@ -254,7 +254,7 @@
 						audio="zajac.mp3"
 						relayId="relay7"
 						expander="0x20 0x01 "
-						external="true"
+						external="false"
 						pin="1">zając</a>
 				<input  type="hidden" value="Zając szarak to roślinożerny ssak występujący na terenie całej Polski, przy czym jego liczebność wynosi około 0,5 mln osobników i systematycznie maleje. Zając lubi przede wszystkim otwarte przestrzenie: łąki czy pola uprawne - w takich miejscach potrafi biegać z prędkością nawet 70 km/h. Nie kopie nor, śpi natomiast w wyciśniętych w ziemi nieckach, zwanych kotlinkami. Zając prowadzi samotniczy tryb życia i jest aktywny o świcie i zmierzchu. W lecie futro o szarej barwie pozwala na maskowanie się wśród gęstwiny traw - w zimie za to staje się jaśniejsze i gęstsze.
 				" class="text-to-append dispNone"/>
@@ -267,7 +267,7 @@
 			   audio=".mp3"
 			   relayId="relay8"
 			   expander="0x20 0x00 "
-			   external="true"
+			   external="false"
 			   pin="1"></a>
 			<input  type="hidden" value="
 				" class="text-to-append dispNone"/>
@@ -356,6 +356,7 @@
 			   audio="gacekbrunatny.mp3"
 			   relayId="relay2"
 			   expander="0x22 0x01 "
+			   external="false"
 			   pin="1">gacek brunatny</a>
 			<input  type="hidden" value="Gacek brunatny, zwany też wielkouchym, to nietoperz z rodziny mroczkowatych, występujący pospolicie w całej Europie za wyjątkiem północy. Jego duże uszy mają fałdki, które umożliwiają ich składanie - gdy odpoczywa, chowa je pod skrzydłami. Preferuje miejsca zagospodarowane przez człowieka, zwłaszcza tereny rolnicze. Żyje samotnie lub tworzy małe kolonie. Zajmuje dziuple, budynki, jaskinie czy piwnice i tam też zimuje od października do końca marca, zapadając w sen zimowy. Poluje całą noc na owady i ich larwy oraz pająki, chwytając je z powierzchni ziemi lub w locie, a zjadając dopiero w spoczynku. W polowaniu i orientacji w terenie posługuje się echolokacją. Co ciekawe, gacek wielkouch łatwo się oswaja.
 			" class="text-to-append dispNone" />
