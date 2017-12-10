@@ -350,7 +350,7 @@
 		<a href="#" class="expanders__relay relayexp1"
 					audio="slimakwinniczek.mp3"
 					relayId="relay1"
-					expander="0x21 0x01 "
+					expander="0x20 0x01 "
 					external="false"
 					pin="1">ślimak winniczek</a>
 			<input  type="hidden" value="Winniczek to nasz największy lądowy ślimak, występujący pospolicie na niżu oraz pogórzu, w górach rzadszy. Zamieszkuje wiglotne lasy, parki i ogrody; zjada świeże liście - stąd uważany jest za szkodnika upraw. Zimuje w ściółce, ukryty pod roślinnością. Pierwotnie występował w kraju tylko na południu, był jednak hodowany w całym kraju przez zakonników, którzy odżywiali się nim podczas długotrwałych postów - ślimaki podobnie jak ryby uważano za potrawę postną. Te hodowle przyczyniły się do rozprzestrzenienia się winniczka po całym kraju. Bywa eksportowany z Polski do Francji, gdzie uważany jest za przysmak.
@@ -360,7 +360,7 @@
 		<a href="#" class="expanders__relay relayexp1"
 					audio=".mp3"
 					relayId="relay2"
-					expander="0x21 0x01 "
+					expander="0x20 0x01 "
 					external="true"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
@@ -369,7 +369,7 @@
 		<a href="#" class="expanders__relay relayexp1"
 					audio=".mp3"
 					relayId="relay3"
-					expander="0x21 0x01 "
+					expander="0x20 0x01 "
 					external="true"
 					pin="1"> </a>
 		<input  type="hidden" value="" class="text-to-append dispNone"/>
@@ -378,7 +378,7 @@
 		<a href="#" class="expanders__relay relayexp1"
 					audio=".mp3"
 					relayId="relay4"
-					expander="0x21 0x01 "
+					expander="0x20 0x01 "
 					external="true"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
@@ -387,7 +387,7 @@
 		<a href="#" class="expanders__relay relayexp1"
 					audio=".mp3"
 					relayId="relay5"
-					expander="0x21 0x01 "
+					expander="0x20 0x01 "
 					external="true"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
@@ -396,7 +396,7 @@
 		<a href="#" class="expanders__relay relayexp1"
 					audio=".mp3"
 					relayId="relay6"
-					expander="0x21 0x01 "
+					expander="0x20 0x01 "
 					external="true"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
@@ -405,7 +405,7 @@
 		<a href="#" class="expanders__relay relayexp1"
 					audio=".mp3"
 					relayId="relay7"
-					expander="0x21 0x01 "
+					expander="0x20 0x01 "
 					external="true"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
@@ -414,7 +414,7 @@
 		<a href="#" class="expanders__relay relayexp1"
 		   audio=".mp3"
 		   relayId="relay8"
-		   expander="0x21 0x01 "
+		   expander="0x20 0x01 "
 		   external="true"
 		   pin="1"> </a>
 		<input  type="hidden" value="" class="text-to-append dispNone"/>
