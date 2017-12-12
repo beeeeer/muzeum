@@ -1,15 +1,8 @@
 @extends('layouts.default')
 @section('content')
 <div class ="container">
-	<h3 class="title_">Hodowla lasu</h3>
-	<div class="custom-text" id="custom-text">
-
-	</div>
-	<p class="dispNone">
-		0x24  - Rampa
-		0x20 - Rampa
-		0x22 - pulpit 1 pkt
-	</p>
+	<h3 class="title_">Ława</h3>
+	<div class="custom-text" id="custom-text"></div>
 <ul class="expanders">
 		<p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
 	<li>
