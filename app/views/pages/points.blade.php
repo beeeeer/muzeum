@@ -14,82 +14,82 @@
 		<p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="dzwonekokraglolistny.mp3"
+					audio="pliszkasiwa.mp3"
 					relayId="relay1"
 					expander="0x24 0x01 "
-					external="true"
-					pin="1">dzwonek okrągłolistny</a>
-			<input  type="hidden" value="Dzwonek okrągłolistny zwany jest też dzwonkiem polnym z racji swojego pospolitego występowania w całej nizinnej Polsce. Porasta łąki, wrzosowiska, widne i suche lasy, lubi przy tym gleby piaszczyste. Kwitnie od maja do października i jest w pełni mrozoodporny. Rozmnaża się przez nasiona wysiewane wiosną lub przez podział. Jest też uprawiany jako roślina ozdobna.
+					external="false"
+					pin="1">pliszka siwa </a>
+			<input  type="hidden" value="Pliszka siwa to najpospolitszy ptak Europy. Zamieszkuje tereny nadwodne, gdzie żeruje, łowiąc owady; może się jednak znacznie oddalać od zbiorników - spotykana jest żerująca przy drogach, na rozległych łąkach, czy też polach uprawnych, gdzie biega za pługiem i zbiera wykopane larwy i pędraki. Chodząc po ziemi, pliszki charakterystycznie kiwają ogonem w dół i w górę. Ich gniazda ukryte są na ziemi lub w różnych szczelinach i otworach, także budynków; pliszki są mało płochliwe i chętnie trzymają się w pobliżu człowieka. Tworzą przeważnie niewielkie stadka, którymi lecą na zimowiska na południe Europy lub do Afryki Północnej.
 " class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="borowkaczarna.mp3"
+					audio="pleszka.mp3"
 					relayId="relay2"
 					expander="0x24 0x01 "
-					external="true"
-					pin="1">borówka czarna</a>
-			<input  type="hidden" value="Borówka czarna, znana również jako czernica, czernina lub czarna jagoda, to roślina z rodziny wrzosowatych, występująca w widnych iglastych lasach o glebie lekkiej, próchnicznej i piaszczystej. Kwitnie w okresie od kwietnia do czerwca, kiedy to na łodygach pojawiają się białoróżowawe delikatne kwiaty. Następnie kwiaty te przekształcają się w bardzo smaczne czarne jagody z niebieskawym nalotem. Owoce, a także liście borówki czarnej znane są z właściwości leczniczych, zarówno na świeżo, jak i w formie przetworzonej.
+					external="false"
+					pin="1">pleszka </a>
+			<input  type="hidden" value="Pleszka, z rodziny muchołówkowatych, występuje na niżu kraju. Nie jest ona ptakiem licznym i pomimo jej barwnego upierzenia w terenie nie rzuca się w oczy. Zamieszkuje przede wszystkim obrzeża lasów liściastych i mieszanych, ale chętnie przebywa też w pobliżu osad ludzkich w zieleni miejskiej i wiejskiej. Gniazduje w obszernej dziupli lub w skrzynce lęgowej. Pleszki żywią się głównie owadami, które chwytają w locie lub zbierają z liści i ziemi, a jesienią zjadają też owoce. Migrują na duże odległości - zimują w Afryce Północnej.
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="gozdzikkartuzek.mp3"
+					audio="kopciuszek.mp3"
 					relayId="relay3"
 					expander="0x24 0x01 "
-					external="true"
-					pin="1">goździk kartuzek</a>
-			<input  type="hidden" value="Goździk kartuzek to wieloletnia i mrozoodporna roślina zielna, w Polsce dość pospolita na niżu. Jako że jest światło- i ciepłolubna, najczęściej można ją spotkać na suchych murawach, w świetlistych borach sosnowych, suchych łąkach i na piaskach; oprócz tego goździk uprawiany jest też jako roślina ozdobna.
+					external="false"
+					pin="1"> kopciuszek</a>
+			<input  type="hidden" value="Kopciuszek z rodziny drozdowatych to wędrowny ptak, występujący średnio licznie na całym obszarze kraju. Nazwa gatunku odnosi się do szarego ubarwienia u samic i ciemnoszarego - u samców; przez tę kolorystykę kopciuszek nazywany jest też kominiarczykiem.Przystosował się on świetnie się do życia mieście - zabudowa miejska stanowi dla niego namiastkę górskich terenów, na których pierwotnie gniazdował - występuje nawet w centrach wielkich miast, gdzie przy sztucznym oświetleniu jego głos rozbrzmiewa nawet w nocy. Dość rzadko jest za to spotykany na terenach wiejskich. Gniazda buduje z traw i korzonków w szczelinach skał lub budynków, pokarmu za to szuka na ziemi - zjada owady i inne bezkręgowce, jesienią również jagody.
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="poziomkapospolita.mp3"
+					audio="czyzyk.mp3"
 					relayId="relay4"
 					expander="0x24 0x01 "
-					external="true"
-					pin="1">poziomka pospolita</a>
-					<input  type="hidden" value="Poziomka pospolita, zwana również czerwoną jagodą, rośnie w stanie dzikim w lasach, na zrębach i polanach, lecz równie często jest uprawiana w ogrodach. Ta wieloletnia bylina rozmnaża się za pomocą rozłogów, z których wyrastają młode rośliny, kwitnie w okolicach maja, po czym już miesiąc później pojawiają się czerwone, smaczne i aromatyczne owoce.
+					external="false"
+					pin="1">Czyżyk</a>
+					<input  type="hidden" value="Czyżyk, ptak z rodziny łuszczykowatych, dość licznie występuje w całym paśmie gór, a nielicznie w pozostałej części Polski. Zimuje w kraju. W okresie lęgowym przebywa w borach iglastych, swoje gniazdo buduje na wysokości do kilkunastu metrów, tak dobrze ukrywając je w gęstych gałązkach świerka lub jodły, że niezbyt wielu ornitologów miało okazję je zobaczyć. Nie zapuszcza się też na bezdrzewne tereny. Latem odżywia się zarówno nasionami, jak i owadami, a jesienią i zimą trzyma się w olszynach, gdyż jego pokarmem w tym okresie są głównie nasiona olchy. Czyżyki żerują zazwyczaj w stadkach, często się do siebie odzywając.
 					" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="listerajajowata.mp3"
+					audio="mysikrolik.mp3"
 					relayId="relay5"
 					expander="0x24 0x01 "
-					external="true"
-					pin="1">listera jajowata</a>
-					<input  type="hidden" value="Listera jajowata z rodziny storczykowatych to roślina trwała, osiągająca do 60 cm wysokości. W Polsce występuje na całym obszarze, w górach aż po piętro kosodrzewiny, rosnie w zaroślach, wilgotnych lasach i na polanach. Kwitnie w maju i czerwcu; jej kwiaty wydzielają nektar i zapylane są przez błonkówki i chrząszcze. Naziemna część rośliny wyrasta z kłącza wczesną wiosną, a zamiera już w sierpniu.
+					external="false"
+					pin="1">mysikrólik </a>
+					<input  type="hidden" value="Mysikrólik to najmniejszy ptak Europy, zamieszkujący bory świerkowe, jodłowe lub mieszane, rzadziej sosnowe. Jak na tak maleńkiego ptaka, buduje dość masywne, zamknięte z góry gniazda, które podwiesza pod gałęzią w koronie drzewa. Zimuje na południu Europy, północny Afryki, a nawet w Ameryce Północnej. Podczas toków samiec unosi swoje barwne pióra na wierzchu głowy, strosząc je w czubek. Polując na gałęziach na drobne bezkręgowce, głównie owady, często zawisa głową w dół. Na ziemię schodzi tylko wyjątkowo, w sytuacji znacznego głodu; ciężko jest więc go zauważyć, ale za to usłyszeć można jego wysoki, falujący śpiew.
 					" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="przetaczniklesny.mp3"
+					audio="strzyzyk.mp3"
 					relayId="relay6"
 					expander="0x24 0x01 "
 					external="true"
-					pin="1">przetacznik leśny</a>
-					<input  type="hidden" value="Przetacznik leśny lub lekarski to bylina z rodziny babkowatych, dość pospolita na terenie Polski. Rośnie w suchych lasach, na zrębach, wrzosowiskach i pastwiskach. Kwitnie od czerwca do sierpnia; małe fioletowoniebieskie kwiaty są zapylane przez muchówki. Liście są zimozielone, co znaczy, że nie są zrzucane na zimę. Przetacznik jest wykorzystywany w medycynie ludowej - napar z jego ziela stosuje się na suchy kaszel, wrzody żołądka oraz zaburzenia trawienia.
+					pin="1"> strzyżyk</a>
+					<input  type="hidden" value="Strzyżyk zwyczajny, o charakterystycznym zadartym ogonku, występuje na niżu kraju i jest jednym z naszych najmniejszych ptaków. Żyje w lasach liściastych i mieszanych z bujnym podszytem; choć nie jest ptakiem rzadkim, ciężko go zobaczyć - trzyma się gęstych zarośli, jest skryty i rzadko pokazuje się na otwartych miejscach. Mimo swych niewielkich rozmiarów śpiewa wyjątkowo donośnym głosem i buduje stosunkowo duże gniazdo o kulistym kształcie, ukryte nisko wśród gęstych gałęzi. Gdy szuka pokarmu - owadów i innych bezkręgowców - prześlizguje się pomiędzy krzewami jak mysz.
 					" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="malinawlasciwa.mp3"
+					audio="pierwiosnek.mp3"
 					relayId="relay7"
 					expander="0x24 0x01 "
-					external="true"
-					pin="1">malina właściwa</a>
-					<input  type="hidden" value="Malina właściwa, z rodziny różowatych, to roślina wieloletnia o dużej odporności na mrozy występująca na znacznej części Azji oraz w niemal całej Europie, w wielu regionach świata uprawiana jest też jako krzew owocowy. W Polsce pospolita na całym obszarze. Rośnie w lasach, zaroślach oraz innych lekko zacienionych stanowiskach. Owoce są smaczne i pachnące, nadają się do spożycia zarówno na surowo, jak i na przetwory. Dawniej odwar z liści maliny w mieszance z potażem wykorzystywano do farbowania włosów na czarno.
+					external="false"
+					pin="1"> pierwiosnek</a>
+					<input  type="hidden" value="Pierwiosnek z rodziny świstunek występuje licznie w całym kraju, zamieszkuąc różnego typu prześwietlone lasy i zadrzewienia. Ptak ten buduje kuliste gniazdo z otworem z boku, które ukrywa w gęstej roślinności nisko przy ziemi. Rozbrzmiewający wczesną wiosną śpiew pierwiosnka jest nie do pomylenia z żadnym innym ptakiem. Żeruje on, przemieszczając się pomiędzy krzewami i koronami drzew, choć nierzadko łapie owady również w locie; jesienią zajada też jagody. Krajowe pierwiosnki migrują na zimę w rejon śródziemnomorski i do Afryki.
 					" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="dziurawiec.mp3"
+					audio="mucholowkaszara.mp3"
 					relayId="relay1"
 					expander="0x24 0x01 "
-					external="true"
-					pin="1">dziurawiec</a>
-			<input  type="hidden" value="Dziurawiec zwyczajny to bylina porastająca nasłonecznione łąki, polany, widne zarośla i skraje lasów. Zaczyna kwitnąć około 24 czerwca, czyli dnia świętego Jana, stąd też nazwa zwyczajowa - ziele świętego Jana lub świętojańskie. Nazwa dziurawiec pochodzi za to od małych wypustek, znajdujących się na liściach tej rośliny, które wyglądem przypominają otworki. To popularne zioło o wszechstronnym działaniu - jego wysuszone kwiaty stosuje się jako środek uspokajający, rozkurczowy, leczący rany i oparzenia. Dawniej przypisywano mu nawet działanie magiczne - wierzono, że roślina chroni przed czartami i złymi duchami. Dziurawiec zwyczajny to bylina porastająca nasłonecznione łąki, polany, widne zarośla i skraje lasów. Zaczyna kwitnąć około 24 czerwca, czyli dnia świętego Jana, stąd też nazwa zwyczajowa - ziele świętego Jana lub świętojańskie. Nazwa dziurawiec pochodzi za to od prześwitującej, kropkowanej blaszki – w kropkach występują olejki eteryczne. To popularne zioło o wszechstronnym działaniu - jego wysuszone kwiaty stosuje się jako środek uspokajający, rozkurczowy, leczący rany i oparzenia. Dawniej przypisywano mu nawet działanie magiczne - wierzono, że roślina chroni przed czartami i złymi duchami.
+					external="false"
+					pin="1">muchołówka szara</a>
+			<input  type="hidden" value="Muchołówka szara w Polsce jest średnio liczna i wędrowna - zimuje w Afryce. W prześwietlonych lasach różnego typu, starych parkach i ogrodach znajduje sobie dziuple lub skrzynki lęgowe, w których gniazduje. Siedzącą spokojnie muchołówkę trudno zauważyć w lesie - rzuca się w oczy dopiero, gdy zwinnym lotem chwyta w powietrzu owada. Również jej śpiew jest skromny i cichy, dlatego mimo iż pospolita, pozostaje ptakiem słabo znanym.
 			" class="text-to-append dispNone" />
 	</li>
 </ul>
@@ -97,84 +97,84 @@
 	<p class="dispNone">Ekspander 0x24 szyna 2</p>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="jezyna.mp3"
+					audio="raniuszek.mp3"
 					relayId="relay2"
 					expander="0x24 0x00 "
-					external="true"
-					pin="1">jeżyna</a>
-			<input  type="hidden" value="Jeżyna gruczołowata to wieloletni krzew z rodziny różowatych, spotykany najczęściej w lasach bukowo-jodłowych na południu Polski. Pędy jeżyny, zwykle pełzające po podłożu, opatrzone są cienkimi kolcami. Na przełomie lipca i sierpnia na łodygach pojawiają się białe kwiaty, które od września zmieniają się w czarne, smaczne owoce.
+					external="false"
+					pin="1">raniuszek</a>
+			<input  type="hidden" value="Raniuszek to niewielki ptak występujący w Europie, Azji, a nawet w Afryce. Ze względu na mały dziób łowi głównie larwy, owady i ich jaja, zjada też miękkie owoce i nasiona. Raniuszki często zimują w kraju – zbierają się wtedy w większe stadka i wspólnie śpią oraz żerują, ciągle się do siebie odzywając. Ich gniazda są jajowate w kształcie, z bocznym wejściem i wiszące - zwykle na gałęziach drzew liściastych. Budowa może trwać około dwóch tygodni ze względu na ilość potrzebnego materiału - zbiera go samiec, podczas gdy samica buduje gniazdo. Śpią w nim tylko pisklęta. Wśród raniuszków nie jest rzadkością, że rodzicom pomagają w wykarmianiu piskląt inne ptaki ze stada – tacy pomocnicy często nie są nawet spokrewnieni z parą.
 			" class="text-to-append dispNone" />
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="pieprznikjadalny.mp3"
+					audio="pelzaczlesny.mp3"
 					relayId="relay2"
 					expander="0x24 0x00 "
-					external="true"
-					pin="1">pieprznik jadalny</a>
-			<input  type="hidden" value="Pieprznik jadalny, zwany potocznie kurką, to jadalny grzyb ceniony  ze względu na aromat, smak oraz twardość i chrupkość owocników. Rośnie w lasach liściastych i iglastych, często na piaszczystych, kwaśnych glebach, często pod świerkami pośród mchów. Występuje od czerwca do listopada. Może być pomylony z niejadalną lisówką pomarańczową.
+					external="false"
+					pin="1">pełzacz leśny</a>
+			<input  type="hidden" value="Pełzacz leśny występuje średnio licznie w całym kraju. Zamieszkuje lasy i zadrzewienia każdego typu, o ile są bogate w starodrzewy; omija przy tym miejskie parki. Co do miejsca na budowę gniazda nie jest zbyt wybredny - posłuży mu zarówno dziupla, jak i zagłębienie w korze, sterta kamieni, czy nawet stos drewna. Ptak ten pokarm zbiera w charakterystyczny sposób - wspina się po drzewie wokół i w górę pnia podskokami, wydziobując z kory owady i pająki przy pomocy swojego zakrzywionego dzioba. 'Pełzanie' po drzewach umożliwiają mu silne palce o długich pazurach oraz potężne sterówki, którymi się podpiera. Zimą pełzacz często przyłącza się do innych gatunków, np. sikor czy raniuszków, tworząc stada mieszane; razem szukają pokarmu i ostrzegają się przed drapieżnikami.
 			" class="text-to-append dispNone" />
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="sliwatarnina.mp3"
+					audio="remiz.mp3"
 					relayId="relay1"
 					expander="0x24 0x00 "
-					external="true"
-					pin="1">śliwa tarnina</a>
-			<input  type="hidden" value="Śliwa tarnina, z rodziny różowatych, jest pospolita głównie na niżu kraju i w niższych położeniach górskich. Krzew ten tworzy gęste, cierniste zarośla, zwane czyżniami, stanowiące ostoję dla wielu gatunków zwierząt. Charakterystyczną cechą tarniny są długie ciernie na gałęziach. Kwitnie niezwykle obficie, ale krótko, w kwietniu i w maju, jeszcze przed rozwojem liści. Liczne białe kwiaty przekształcają się później w krągłe czarne owoce z niebieskawym nalotem. Miąższ owoców, mimo że cierpki w stanie świeżym, jest ceniony ze względu na walory odżywcze, aromat i smak. Do spożycia nadaje się po przemrożeniu – staje się wówczas słodszy.
+					external="false"
+					pin="1">remiz</a>
+			<input  type="hidden" value="Remiz zwyczajny, jedyny europejski przedstawiciel rodziny remizów, występuje nielicznie na niżu kraju i zimuje na południu Europy. Zamieszkuje głównie łęgi i brzegi zarosłych roślinnością jezior i rzek. Remizy zjadają owady, pająki, a jesienią również nasiona trzciny. Jego łacińska nazwa 'remiz' znaczy 'rzemieślnik', co w pełni oddaje zręczność i wytrwałość, z jaką przez 3 tygodnie buduje on niezwykle misterne gniazdo o kształcie workowatej torby z bocznym otworem. Remiz wiesza je w niedostępnym miejscu, zwykle nad wodą. Każdy samiec buduje w sezonie po kilka gniazd i poddaje je ocenie samiczek, a bywa i tak, że liczba gniazd przekracza liczbę samic, które w końcu składają jaja w dwóch lub więcej gniazdach.
 			" class="text-to-append dispNone" />
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="kossamiec.mp3"
+					audio="srokosz.mp3"
 					relayId="relay1"
 					expander="0x24 0x00 "
-					external="true"
-					pin="1">Kos samiec</a>
-			<input  type="hidden" value="Kos z rodziny drozdowatych, pierwotnie ptak leśny, obecnie występuje licznie w różnych zadrzewieniach całego kraju, nawet w miastach. Znany jest ze swojego śpiewu godowego, wykonywanego przez samce na wiosnę. Są dość płochliwe i ostrzegają się nawzajem głośnym krzykiem, gdy dostrzegą człowieka. Około 50 lat temu wykształcił się jednak gatunek określany jako miejski - ptaki te nie obawiają się człowieka i żyją w pobliżu osad ludzkich. Gniazdo w formie czarki kosy umieszczają na gałęziach drzew. Pożywienia szukają za to na ziemi - mogą to być ślimaki, owady, dżdżownice, ale też owoce. Kosy miejskie zwykle nie wylatują na zimę, leśne są za to wędrowne i zimują w rejonie śródziemnomorskim.
+					external="false"
+					pin="1">srokosz</a>
+			<input  type="hidden" value="Srokosz z rodziny dzierzb występuje nielicznie na niżu kraju. Lubi zalesione tereny podmokłe, doliny rzeczne, torfowiska, a także skraje lasów. Gniazdo buduje z korzonków i kłączy w koronie drzewa. Ten drapieżny ptak, mimo swych niewielkich rozmiarów, poluje na duże ofiary, jak myszy czy drobne ptaki. Jak wszystkie dzierzby ma zwyczaj gromadzenia zapasów pokarmu - swoje zdobycze nabija na kolce ciernistych krzewów. Gdy siada na podwyższonych obiektach, tzw. czatowniach, można go dostrzec z kilkuset metrów. Srokosze są jedynymi dzierzbami, które zimują w Polsce.
 			" class="text-to-append dispNone" />
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="puszczyk.mp3"
+					audio=".mp3"
 					relayId="relay1"
 					expander="0x24 0x00 "
-					external="true"
-					pin="1">puszczyk</a>
-			<input  type="hidden" value="Puszczyk zwyczajny to najliczniejsza i najczęściej spotykana sowa w Polsce. Zamieszkuje głównie lasy liściaste i mieszane ze starymi dziuplastymi drzewami. Prowadzi nocny tryb życia, a w dzień kryje się w dziuplach i szczelinach. Poluje zwykle w lesie z zasiadki - obserwując i nasłuchując, a potem oddając krótki, bezszelestny lot wprost na swoją ofiarę - gryzonia, bądź mniejszego od siebie ptaka. Choć przebywają samotnie, puszczyki łączą się w pary na całe życie i zwykle nie opuszczają swojego terytorium, aktywnie go broniąc.
+					external="false"
+					pin="1"></a>
+			<input  type="hidden" value="
 
 			" class="text-to-append dispNone" />
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="uszatka.mp3"
+					audio="szpak.mp3"
 					relayId="relay1"
 					expander="0x24 0x00 "
 					external="true"
-					pin="1">uszatka</a>
-			<input  type="hidden" value="" class="text-to-append dispNone" />
+					pin="1">szpak</a>
+			<input  type="hidden" value="Szpak pierwotnie był ptakiem typowo leśnym, ale przystosował się do życia w mieście i obecnie zasiedla pospolicie różne zadrzewienia - parki, ogrody i sady, w których podbiera z drzew wiśnie, czereśnie i śliwki. Poza tym zjada pokarm zwierzęcy, jak owady czy dżdżownice. Gniazdo zakłada w dziupli, skrzynce lęgowej lub w szczelinie budynku. To uzdolniony śpiewak - potrafi naśladować głosy innych ptaków, przeplatając je ze swoim śpiewem; przy częstym kontakcie z ludźmi, naśladuje też ludzki głos. Część ptaków zimuje w kraju, pozostałe wylatują na południe.
+					" class="text-to-append dispNone" />
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="soweczka.mp3"
+					audio="golabsiniak.mp3"
 					relayId="relay1"
 					expander="0x24 0x00 "
-					external="true"
-					pin="1">sóweczka</a>
-			<input  type="hidden" value="Sóweczka z rodziny puszczykowatych to najmniejsza europejska sowa, występująca bardzo nielicznie w górach i na północnym wschodzie kraju. Zamieszkuje stare bory świerkowe i jodłowe z polanami; gniazduje najczęściej w dziuplach dzięciołów. Poluje przeważnie rano lub o zmierzchu; mimo swoich niewielkich rozmiarów jest postrachem drobnego ptactwa i potrafi schwytać ofiarę nawet większą od siebie, np. dzięcioła czy drozda; rzadziej poluje na gryzonie. O zmierzchu i świcie odzywa się gwizdem i czasami w zaciekawieniu podlatuje do obserwatora.
+					external="false"
+					pin="1">gołab siniak</a>
+			<input  type="hidden" value="..
 
 			" class="text-to-append dispNone" />
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="kaniaruda.mp3"
+					audio="piegza.mp3"
 					relayId="relay1"
 					expander="0x24 0x00 "
-					external="true"
-					pin="1">kania ruda</a>
-			<input  type="hidden" value="Kania ruda, z rodziny jastrzębiowatych, spotykana jest najliczniej na zachodzie kraju - głównie pojezierzach - ale też i w górach.  Zamieszkuje obrzeża starych lasów liściastych i mieszanych w pobliżu jezior, stawów i rzek, ale lubi też tereny rolnicze - jej piękny szybujący lot jest ozdobą takiego krajobrazu. Swoje gniazdo buduje w rozwidleniu gałęzi z patyków, traw i różnych odpadów, np. papierów lub kości. W jej 'jadłospisie' znajdują się zarówno kręgowce i bezkręgowce, jak i padlina. Kania ruda zimuje na południu Europy.Kania ruda, z rodziny jastrzębiowatych, spotykana jest najliczniej na zachodzie kraju - głównie pojezierzach - ale też i w górach.  Zamieszkuje obrzeża starych lasów liściastych i mieszanych w pobliżu jezior, stawów i rzek, ale lubi też tereny rolnicze - jej piękny szybujący lot jest ozdobą takiego krajobrazu. Swoje gniazdo buduje w rozwidleniu gałęzi z patyków, traw. W gnieździe często gromadzi papiery czy inne śmieci. W jej 'jadłospisie' znajdują się zarówno kręgowce i bezkręgowce, jak i padlina. Kania ruda zimuje na południu Europy.
-
+					external="false"
+					pin="1">piegża</a>
+			<input  type="hidden" value="Piegża z rodziny pokrzewkowatych występuje nielicznie na całym obszarze kraju. Unika większych lasów, zwykle widuje się ją na ich skraju lub w młodych uprawach leśnych; nie przeszkadza jej też sąsiedztwo człowieka - mieszka nawet w miastach, gdzie swą obecność ogłasza klekocącym śpiewem. Swoje gniazdo o ażurowej, dość delikatnej konstrukcji dobrze ukrywa w gęstym krzaku lub żywopłocie. Zjada drobne bezkręgowce, głównie owady, a jesienią jej przysmakiem jest czarny bez. Zimę spędza w środkowej Afryce.
 			" class="text-to-append dispNone" />
 	</li>
 
@@ -184,23 +184,22 @@
 	<p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-		   audio="jastrzab.mp3"
+		   audio="sikoraczarnoglowka.mp3"
 		   relayId="relay1"
 		   expander="0x20 0x00 "
-		   external="true"
-		   pin="1">jastrząb</a>
-		<input  type="hidden" value="Jastrząb zwyczajny, zwany też jastrzębiem gołębiarzem, zamieszkuje strefę lasu iglastego półkuli północnej. W Polsce występuje licznie w całym kraju, spędza tu zimę. Jastrzębie to ptaki przeważnie milczące i samotne - jedynie w okresie godowym usłyszeć można ich głośne kwilenie; wtedy też łączą się w pary. To wszechstronne drapieżniki o doskonałym wzroku i nogach zaadaptowanych do chwytania ofiar. Potrafią latać nisko, zręcznie manewrując między gałęziami w lesie, w czym pomaga im dość długi ogon. Najchętniej polują na gołębie i inne średnie ptaki, ale nie gardzą też wiewiórkami, zajęczakami ani gryzoniami.
-
-			" class="text-to-append dispNone" />
+		   external="false"
+		   pin="1">sikora czarnogłówka</a>
+		<input  type="hidden" value="Czarnogłówka z rodziny sikor występuje średnio licznie w całym kraju. Przeważnie jest to ptak osiadły i tylko w razie bardzo mroźnej zimy wylatuje na południe Europy, gdzie klimat jest łagodniejszy. Na siedliska wybiera miejsca wilgotne, zwłaszcza blisko wód, ale też lasy bagienne jak olsy. Co wyjątkowe u sikor, czarnogłówki wykuwają dziuple w wypróchniałym drzewie parami, gdyż wykucie i wysłanie dziupli wymaga od tych małych ptaków dużo wysiłku. Rzadko zlatują na ziemię - żerują w gęstej roślinności, stąd też trudno je zauważyć, a łatwiej usłyszeć. W okresie lęgowym zjadają owady, jednak jesienią w ich diecie dominują nasiona i drobne owoce.
+				" class="text-to-append dispNone" />
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="wilga.mp3"
+					audio="sroka.mp3"
 					relayId="relay1"
 					expander="0x20 0x00 "
-					external="true"
-					pin="1">wilga</a>
-			<input  type="hidden" value="Wilga zwyczajna to jeden z nielicznych krajowych gatunków o tropikalnym pochodzeniu rozprzestrzenionym na większości obszaru Europy. Świadczy o tym nie tylko jej egzotyczny wygląd, ale też krótki, zaledwie 4-miesięczny pobyt w naszym kraju - na zimowisko leci aż na południe Afryki. Wiglę trudno jest zobaczyć, gdyż najczęściej przebywa w gęstym listowiu koron drzew, gdzie w rozwidleniu gałęzi wiesza swoje misterne gniazdo w kształcie koszyczka. Swą obecność zdradza melodyjnym gwizdem, który uznaje się za zapowiedź deszczu - samiec śpiewa najchętniej, gdy wzrasta wilgotność powietrza. Śpiewa również samica, lecz ma bardziej skrzekliwy głos. Wilgi zjadają owady i duże gąsienice motyli, a czasem też owoce.
+					external="false"
+					pin="1">sroka</a>
+			<input  type="hidden" value="Sroka z rodziny krukowatych jest powszechnie znanym ptakiem, występującym na niżu kraju. Na siedlisko szuka miejsc z raczej niską roślinnością - kępy krzewów to dla nich odpowiednie kryjówki; jest przy tym wszędobylska i łatwo adaptuje się do nowych warunków - od niedawna jest stałym mieszkańcem w miastach, nawet tych bardzo ruchliwych. Te towarzyskie ptaki skupiają się w liczne stada. W koronach drzew lub w krzaczastych zaroślach budują wyjątkowe gniazda opatrzone zadaszeniem z patyków. W kwestii pożywienia sroka nie jest wybredna - zjada owady, jaja ptaków, małe ssaki, ale też padlinę, nasiona i różne odpadki. Przez jej wrodzoną ciekawość i zbieranie błyszczących przedmiotów uważano srokę za złodziejkę.
 			" class="text-to-append dispNone" />
 	</li>
 	<li>
@@ -208,60 +207,60 @@
 					audio="mucholowkazalobna.mp3"
 					relayId="relay2"
 					expander="0x20 0x00 "
-					external="true"
+					external="false"
 					pin="1">muchołówka żałobna</a>
-			<input  type="hidden" value="Muchołówka żałobna występuje w Polsce nielicznie, przy czym wędruje na duże odległości, zimując w środkowej Afryce na północ od równika. Można ją spotkać na całym niżowym obszarze kraju w nasłonecznionych starych lasach, parkach i ogrodach. Gniazduje w dziupli lub skrzynce lęgowej; zjada owady chwytane w locie. Jest znacznie lepszym śpiewakiem niż muchołówka szara.
+			<input  type="hidden" value="
 
 			" class="text-to-append dispNone" />
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="zuraw.mp3"
+					audio="popielica.mp3"
 					relayId="relay3"
 					expander="0x20 0x00 "
-					external="true"
-					pin="1">żuraw</a>
-			<input  type="hidden" value="Żuraw zwyczajny, zwany też szarym, występuje w kraju nielicznie, głównie na zabagnionych terenach, np. obrzeżach jezior i stawów czy mokradłach. Gniazdo o średnicy ok. 80 cm żuraw zakłada na ziemi. Zjada głównie pokarm roślinny, ale też drobne zwierzęta, jak gryzonie czy mięczaki. Żurawie, gdy dobiorą się w pary, pozostają sobie wierne przez całe życie; wspólnie wysiadują jaja i opiekują się pisklętami. Podczas przelotów na zimowiska stada lecą zwykle w kluczach i wydają donośny, słyszalny w promieniu kilku kilometrów głos zwany klangorem. Krzyki przylatujących i odlatujących żurawi oznajmiały niegdyś wiosenne siewy i jesienne zbiory. W dawnych wierzeniach Słowian ptaki te były wysłannikami bogów, pełniącymi rolę przewodników ludzkich dusz, które czepiały się ich piór i nóg w wędrówce do bajecznej krainy zwanej Wyrajem.
+					external="false"
+					pin="1">popielica</a>
+			<input  type="hidden" value="Popielica – ładne, skryte zwierzątko z długim, puszystym ogonem o srebrzysto-szarym ubarwieniu, prowadzące nadrzewny tryb życia. Chroni się w dziuplach i budkach dla ptaków. Żywi się głównie nasionami i owocami drzew. Zdarza się, że na zimę szuka schronienia w zakamarkach budynków – w piwnicach, na strychach, pod podłogami.
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="gronostaj.mp3"
+					audio="orzesznica.mp3"
 					relayId="relay4"
 					expander="0x20 0x00 "
-					external="true"
-					pin="1">gronostaj</a>
-			<input  type="hidden" value="Gronostaj, drapieżnik z rodziny łasicowatych, w Polsce jest gatunkiem rzadkim. Żyje na obrzeżach lasów i w zaroślach. Choć jest ssakiem naziemnym, dobrze się wspina i pływa. Jest najbardziej aktywny nocą - wtedy samotnie poluje; schwytaną zdobycz zabija jednym ugryzieniem w kark; jego ofiarami są nie tylko gryzonie, ale też ptaki i ich jaja, płazy, gady, ryby i owady; gronostaj czasem zjada też owoce. Gdy nie poluje, odpoczywa w dziupli, pod korzeniami drzew lub w opuszczonej norze. Na zimę zmienia on barwę futra - poza ciemnym zakończeniem ogona staje się ono całkowicie białe.
+					external="false"
+					pin="1">orzesznica</a>
+			<input  type="hidden" value="Orzesznica to niewielki gryzoń o wyjątkowo puszystym ogonku, żółtobrązowej sierści z wierzchu i białawej od spodu. Zwierzę charakteryzuje się dużymi, ciemnymi i wypukłymi oczami, co wskazuje na nocny tryb życia. Podstawę pożywienia orzesznicy stanowią nasiona i orzechy, nie gardzi jednak owocami i owadami. Jesienią zapada w sen zimowy, podczas którego oddycha bardzo rzadko - co 5-10 minut! - a temperatura jej ciała spada nawet do 2oC. Hibernuje nawet w okresie letnim przy niekorzystnej temperaturze. W sumie orzesznica przesypia nawet do 80% swojego życia.
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="jelenbyk.mp3"
+					audio="zolednica.mp3"
 					relayId="relay5"
 					expander="0x20 0x00 "
-					external="true"
-					pin="1">jeleń byk</a>
-			<input  type="hidden" value="Jeleń szlachety - duży ssak z rodziny jeleniowatych, jest zwierzęciem dziennym. W Polsce ssaki te żyją we wszystkich większych kompleksach leśnych. Naturalnymi wrogami jeleni w Polsce są wilk, człowiek, ryś i niedźwiedź. Jelenie żyją w stadach, w gwarze myśliwskiej nazywanych chmarami. Stadu przewodzi łania licówka, samica jelenia, która musi prowadzić tegoroczne młode cielę. Byki, szczególnie podczas rykowiska, korzystają z kąpieli błotnych w tzw. kąpieliskach. Następnie ocierają się o drzewa (malują), w celu pozbycia się pasożytów. W czasie rykowiska mogą one tracić nawet od 10 do 15% masy ciała, gdyż w tym czasie jeleń byk nie pobiera pokarmu. Rykowiska jeleni rozpoczynają się w połowie września, usłyszeć wtedy można charakterystyczne ryczenie konkurujących ze sobą samców. Jeleń na wolności żyje do 12-15 lat.
+					external="false"
+					pin="1">żołędnica</a>
+			<input  type="hidden" value="Żołędnica europejska, gryzoń z rodziny popielicowatych, zamieszkuje lasy liściaste i mieszane. Wiedzie ona nadrzewny tryb życia; sama buduje kuliste gniazdo w rozwidleniu gałęzi lub nocuje w dziupli. Aktywna jest nocą, zbiera wtedy lubiane przez nią żołędzie, orzechy i jagody, ale też inne owoce i nasiona, które gromadzi w gnieździe. Zapasy zjada, kiedy budzi się z zimowego snu. Zimuje nawet kilka osobników w jednym gnieździe. Nie boi się przy tym sąsiedztwa człowieka, nierzadko nocując na strychach.
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="wilk.mp3"
+					audio=".mp3"
 					relayId="relay6"
 					expander="0x20 0x00 "
 					external="true"
-					pin="1">wilk</a>
-			<input  type="hidden" value="Wilki są zwierzętami o bardzo rozwiniętej strukturze socjalnej, mają też skomplikowany system porozumiewania się. Żyją w grupach zwanych watahami, najczęściej liczącymi 5-8 osobników, wspólnie polują, przemieszczają się i odpoczywają na areale wielkości 100-350 km2. Osobnikami panującymi w grupie jest para rodzicielska - „alfa” wadera (samica) i „alfa” basior (samiec). Wilk w niewoli dożywa 16 lat, na wolności żyje o wiele krócej.
+					pin="1"></a>
+			<input  type="hidden" value="
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="zajac.mp3"
+					audio=".mp3"
 					relayId="relay7"
 					expander="0x20 0x00 "
 					external="true"
-					pin="1">zając</a>
-			<input  type="hidden" value="Zając szarak to roślinożerny ssak występujący na terenie całej Polski, przy czym jego liczebność wynosi około 0,5 mln osobników i systematycznie maleje. Zając lubi przede wszystkim otwarte przestrzenie: łąki czy pola uprawne - w takich miejscach potrafi biegać z prędkością nawet 70 km/h. Nie kopie nor, śpi natomiast w wyciśniętych w ziemi nieckach, zwanych kotlinkami. Zając prowadzi samotniczy tryb życia i jest aktywny o świcie i zmierzchu. W lecie futro o szarej barwie pozwala na maskowanie się wśród gęstwiny traw - w zimie za to staje się jaśniejsze i gęstsze.
+					pin="1"></a>
+			<input  type="hidden" value="
 			" class="text-to-append dispNone"/>
 	</li>
 </ul>
@@ -269,37 +268,37 @@
 		<p class="dispNone">Ekspander 1 0x20 szyna 2 0x01</p>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-		   audio="lis.mp3"
+		   audio=".mp3"
 		   relayId="relay8"
 		   expander="0x20 0x01 "
 		   external="true"
-		   pin="1">lis</a>
-		<input  type="hidden" value="Lis rudy to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby – wścieklizny. Lis pospolity to jeden z dwóch przedstawicieli dziko żyjących psowatych w Polsce. Aktywny po zmroku, poluje na małe ssaki, ptaki i bezkręgowce. Oprócz tego zjada sporo pożywienia roślinnego. Ten doskonały łowca świetnie pływa i biega z szybkością nawet 40 km/h. Zapasy pokarmu ukrywa starannie pod śniegiem lub liśćmi. Lisy kopią głębokie nory o bardzo rozbudowanych korytarzach, długich nawet do kilkunastu metrów. Służą im one przez wiele kolejnych lat. Lisy posiadają gruczoły zapachowe, których wydzielina pachnie jak fiołki. Dawniej były zmorą wiejskich kurników, dziś coraz częściej korzystają z tego, co zostawia człowiek w śmietnikach. Zdarza się, że przenoszą się w okolice miast, gdzie dużo łatwiej jest znaleźć pokarm i schronienie. W samym Londynie w Wielkiej Brytanii żyje prawdopodobnie około trzech tysięcy lisów. Na lisy poluje się dla pięknego futra, ze względu na szkody czynione wśród drobnej zwierzyny łownej oraz roznoszenie przez nie groźnej choroby - wścieklizny.
+		   pin="1"></a>
+		<input  type="hidden" value="
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="jez.mp3"
+					audio=".mp3"
 					relayId="relay1"
 					expander="0x20 0x01 "
 					external="true"
-					pin="1">jeż</a>
-			<input  type="hidden" value="Jeż europejski to często spotykany, największy ssak owadożerny w naszym kraju. W dzień śpi ukryty pod liśćmi lub w jamkach, o zmierzchu wychodzi z ukrycia i, pracowicie drepcząc, poszukuje jedzenia, np. owadów, robaków, drobnych gryzoni czy też grzybów i przejrzałych owoców. Co noc pokonuje w tym celu do 3 km. Ubarwienie ciała jeża jest szarobrunatne, a po stronie brzusznej szare lub brunatne. Jego spiczasty, zawsze wilgotny i ruchliwy nosek stanowi doskonały narząd czuciowy. Każdy jeż jest pokryty ok. 5 tysiącami kolców, które stroszy, gdy jest przestraszony, równocześnie zwijając się w kulkę. Jeże nie robią żadnych zapasów na zimę, w tym czasie zapadają w odrętwienie i odżywiają się tłuszczem nagromadzonym w organizmie. W naturalnych warunkach jeż żyje około 5 lat, w hodowli - nawet do 10 lat.
+					pin="1"></a>
+			<input  type="hidden" value="
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="kunalesna.mp3"
+					audio=".mp3"
 					relayId="relay2"
 					expander="0x20 0x01 "
 					external="true"
-					pin="1">kuna leśna</a>
-			<input  type="hidden" value="Kuna leśna, zwana również tumakiem, to ssak z rodziny łasicowatych. Preferuje gęste, stare lasy, gdzie może się z łatwością ukryć przed wilkami, czy lisami. Na dietę tego wszystkożercy składają się gryzonie, ptaki, owady, a także owoce oraz padlina. Latem i jesienią kuna gromadzi jedzenie, by na zimę móc zasnąć pod ziemią bez konieczności wychodzenia z kryjówki.  Własne terytorium znaczy wydzieliną z gruczołów zapachowych. Tumaki są samotnikami, poza okresem, kiedy wychowują potomstwo.
+					pin="1"></a>
+			<input  type="hidden" value="
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="sikorabogatka.mp3"
+					audio=".mp3"
 					relayId="relay3"
 					expander="0x20 0x01 "
 					external="true"
@@ -308,7 +307,7 @@
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="sikoramodraszka.mp3"
+					audio=".mp3"
 					relayId="relay4"
 					expander="0x20 0x01 "
 					external="true"
@@ -348,12 +347,12 @@
 		<p class="dispNone">Ekspander 2 0x22 szyna 1 0x00</p>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="slimakwinniczek.mp3"
+					audio=".mp3"
 					relayId="relay1"
 					expander="0x22 0x00 "
 					external="false"
-					pin="1">ślimak winniczek</a>
-			<input  type="hidden" value="Winniczek to nasz największy lądowy ślimak, występujący pospolicie na niżu oraz pogórzu, w górach rzadszy. Zamieszkuje wiglotne lasy, parki i ogrody; zjada świeże liście - stąd uważany jest za szkodnika upraw. Zimuje w ściółce, ukryty pod roślinnością. Pierwotnie występował w kraju tylko na południu, był jednak hodowany w całym kraju przez zakonników, którzy odżywiali się nim podczas długotrwałych postów - ślimaki podobnie jak ryby uważano za potrawę postną. Te hodowle przyczyniły się do rozprzestrzenienia się winniczka po całym kraju. Bywa eksportowany z Polski do Francji, gdzie uważany jest za przysmak.
+					pin="1"></a>
+			<input  type="hidden" value="
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
