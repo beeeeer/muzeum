@@ -31,6 +31,7 @@
 })(jQuery);
 
 jQuery(document).ready(function ($) {
+    $('.answers > li').sort( function(){ return ( Math.round( Math.random() ) - 0.5 ) } );
 
     var pinLogic = function () {
         console.log('pin logic');

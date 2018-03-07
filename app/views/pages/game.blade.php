@@ -86,7 +86,7 @@
 			" class="text-to-append dispNone"/>
             </li>
         </ul>
-        <ul class="expanders">
+        <ul class="expanders answers">
             <p class="dispNone">Ekspander 0x24 szyna 2</p>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
