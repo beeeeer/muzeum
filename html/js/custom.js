@@ -98,9 +98,12 @@ jQuery(document).ready(function ($) {
                     pointData[2] = 'status' + $(this).attr('pin');
                     if($('.container').hasClass('game')){
                         console.log('lets play a game');
-                            console.log(pointData[1]);
-                        $('.answers > li').each('click',function(){
-                            console.log(pointData[1]);
+                        $('.answers > li').on('click',function(e){
+                            if(pointData[1] === $(this).attr('audio')){
+                                console.log('odpowiedz poprawna -> powinien pojsc request')
+                            } else {
+                                console.log('odpowiedz niepoprawna -> czekam dalej')
+                            }
                         });
                     }
                     else {
