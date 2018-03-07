@@ -498,7 +498,7 @@
 
             <a href="#" class="rasp__defaults expanders__relay" id="switchAllOn">Podświetl Wszystko</a>
             <a href="#" class="rasp__defaults expanders__relay" id="switchAllOff">Wyłącz wszystko</a>
-            <a href="/game" class="rasp__defaults expanders__relay" id="switchAllOff">Przejdź do gry</a>
+            <a href="/index.php/game" class="rasp__defaults expanders__relay" id="switchAllOff">Przejdź do gry</a>
 
         </div>
     </div>

@@ -496,7 +496,7 @@
             {{--</li>--}}
             {{--</ul>--}}
 
-            <a href="#" class="rasp__defaults expanders__relay" id="switchAllOn">Restart Gry</a>
+            <a href="/index.php/game" class="rasp__defaults expanders__relay" id="switchAllOn">Restart Gry</a>
             <a href="/" class="rasp__defaults expanders__relay" id="switchAllOff">Powrót do sterowania</a>
 
         </div>
