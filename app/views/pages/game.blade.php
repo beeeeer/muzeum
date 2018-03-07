@@ -91,7 +91,7 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="raniuszek.mp3"
-                   relayId="relay2"
+                   relayId="relay1"
                    expander="0x24 0x00 "
                    external="false"
                    pin="1">raniuszek</a>
@@ -111,7 +111,7 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="remiz.mp3"
-                   relayId="relay1"
+                   relayId="relay3"
                    expander="0x24 0x00 "
                    external="false"
                    pin="1">remiz</a>
@@ -121,7 +121,7 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="srokosz.mp3"
-                   relayId="relay1"
+                   relayId="relay4"
                    expander="0x24 0x00 "
                    external="false"
                    pin="1">srokosz</a>
@@ -130,11 +130,11 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay1"
+                   audio="x.mp3"
+                   relayId="relay5"
                    expander="0x24 0x00 "
                    external="false"
-                   pin="1"></a>
+                   pin="1">Odpowiedz n</a>
                 <input type="hidden" value="
 
 			" class="text-to-append dispNone"/>
@@ -142,7 +142,7 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="szpak.mp3"
-                   relayId="relay1"
+                   relayId="relay6"
                    expander="0x24 0x00 "
                    external="true"
                    pin="1">szpak</a>
@@ -152,7 +152,7 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="golabsiniak.mp3"
-                   relayId="relay1"
+                   relayId="relay7"
                    expander="0x24 0x00 "
                    external="false"
                    pin="1">gołab siniak</a>
@@ -163,7 +163,7 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="piegza.mp3"
-                   relayId="relay1"
+                   relayId="relay8"
                    expander="0x24 0x00 "
                    external="false"
                    pin="1">piegża</a>
