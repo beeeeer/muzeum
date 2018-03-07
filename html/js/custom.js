@@ -74,7 +74,7 @@ jQuery(document).ready(function ($) {
         function pins(obj) {
             getObject().each(function (index) {
                 $(this).on('click', function () {
-                    var mp = null;
+                    var answer = $(this).attr('audio');
                     var id = $(this).attr('relayId')
                     text = $(this).next().val()
                     content = $('#custom-text');
@@ -98,15 +98,15 @@ jQuery(document).ready(function ($) {
                     pointData[1] = $(this).attr('audio');
                     pointData[2] = 'status' + $(this).attr('pin');
                     if($('.container').hasClass('game')){
-                        mp = pointData[1];
                         console.log('lets play a game');
                         $('.answers > li > a').on('click',function(e){
-                            if(mp === $(this).attr('audio') && $(this).attr('pin')==='0'){
+                            if(answer === $(this).attr('answer')){
+                                console.log('Good!!')
                                 console.log(pointData);
-                                $(this).attr('disable',true);
+                                answer = null;
                             } else {
                                 console.log(mp + '=?' +  $(this).attr('audio'));
-                                console.log('odpowiedz niepoprawna -> czekam dalej')
+                                console.log('Wrong!!!!!!!!!!!!!!!!!!!!!!!!!!!')
                             }
                         });
                     }
