@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-    <div class="container">
+    <div class="container game">
         <h3 class="title_">Ława</h3>
         <div class="custom-text" id="custom-text"></div>
         <ul class="expanders">
@@ -173,332 +173,331 @@
 
         </ul>
 
-        <ul class="expanders">
-            <p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio="sikoraczarnoglowka.mp3"
-                   relayId="relay1"
-                   expander="0x20 0x00 "
-                   external="false"
-                   pin="1">sikora czarnogłówka</a>
-                <input type="hidden" value="Czarnogłówka z rodziny sikor występuje średnio licznie w całym kraju. Przeważnie jest to ptak osiadły i tylko w razie bardzo mroźnej zimy wylatuje na południe Europy, gdzie klimat jest łagodniejszy. Na siedliska wybiera miejsca wilgotne, zwłaszcza blisko wód, ale też lasy bagienne jak olsy. Co wyjątkowe u sikor, czarnogłówki wykuwają dziuple w wypróchniałym drzewie parami, gdyż wykucie i wysłanie dziupli wymaga od tych małych ptaków dużo wysiłku. Rzadko zlatują na ziemię - żerują w gęstej roślinności, stąd też trudno je zauważyć, a łatwiej usłyszeć. W okresie lęgowym zjadają owady, jednak jesienią w ich diecie dominują nasiona i drobne owoce.
-				" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio="sroka.mp3"
-                   relayId="relay1"
-                   expander="0x20 0x00 "
-                   external="false"
-                   pin="1">sroka</a>
-                <input type="hidden" value="Sroka z rodziny krukowatych jest powszechnie znanym ptakiem, występującym na niżu kraju. Na siedlisko szuka miejsc z raczej niską roślinnością - kępy krzewów to dla nich odpowiednie kryjówki; jest przy tym wszędobylska i łatwo adaptuje się do nowych warunków - od niedawna jest stałym mieszkańcem w miastach, nawet tych bardzo ruchliwych. Te towarzyskie ptaki skupiają się w liczne stada. W koronach drzew lub w krzaczastych zaroślach budują wyjątkowe gniazda opatrzone zadaszeniem z patyków. W kwestii pożywienia sroka nie jest wybredna - zjada owady, jaja ptaków, małe ssaki, ale też padlinę, nasiona i różne odpadki. Przez jej wrodzoną ciekawość i zbieranie błyszczących przedmiotów uważano srokę za złodziejkę.
-			" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio="mucholowkazalobna.mp3"
-                   relayId="relay2"
-                   expander="0x20 0x00 "
-                   external="false"
-                   pin="1">muchołówka żałobna</a>
-                <input type="hidden" value="
+        {{--<ul class="expanders">--}}
+        {{--<p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio="sikoraczarnoglowka.mp3"--}}
+        {{--relayId="relay1"--}}
+        {{--expander="0x20 0x00 "--}}
+        {{--external="false"--}}
+        {{--pin="1">sikora czarnogłówka</a>--}}
+        {{--<input  type="hidden" value="Czarnogłówka z rodziny sikor występuje średnio licznie w całym kraju. Przeważnie jest to ptak osiadły i tylko w razie bardzo mroźnej zimy wylatuje na południe Europy, gdzie klimat jest łagodniejszy. Na siedliska wybiera miejsca wilgotne, zwłaszcza blisko wód, ale też lasy bagienne jak olsy. Co wyjątkowe u sikor, czarnogłówki wykuwają dziuple w wypróchniałym drzewie parami, gdyż wykucie i wysłanie dziupli wymaga od tych małych ptaków dużo wysiłku. Rzadko zlatują na ziemię - żerują w gęstej roślinności, stąd też trudno je zauważyć, a łatwiej usłyszeć. W okresie lęgowym zjadają owady, jednak jesienią w ich diecie dominują nasiona i drobne owoce.--}}
+        {{--" class="text-to-append dispNone" />--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio="sroka.mp3"--}}
+        {{--relayId="relay1"--}}
+        {{--expander="0x20 0x00 "--}}
+        {{--external="false"--}}
+        {{--pin="1">sroka</a>--}}
+        {{--<input  type="hidden" value="Sroka z rodziny krukowatych jest powszechnie znanym ptakiem, występującym na niżu kraju. Na siedlisko szuka miejsc z raczej niską roślinnością - kępy krzewów to dla nich odpowiednie kryjówki; jest przy tym wszędobylska i łatwo adaptuje się do nowych warunków - od niedawna jest stałym mieszkańcem w miastach, nawet tych bardzo ruchliwych. Te towarzyskie ptaki skupiają się w liczne stada. W koronach drzew lub w krzaczastych zaroślach budują wyjątkowe gniazda opatrzone zadaszeniem z patyków. W kwestii pożywienia sroka nie jest wybredna - zjada owady, jaja ptaków, małe ssaki, ale też padlinę, nasiona i różne odpadki. Przez jej wrodzoną ciekawość i zbieranie błyszczących przedmiotów uważano srokę za złodziejkę.--}}
+        {{--" class="text-to-append dispNone" />--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio="mucholowkazalobna.mp3"--}}
+        {{--relayId="relay2"--}}
+        {{--expander="0x20 0x00 "--}}
+        {{--external="false"--}}
+        {{--pin="1">muchołówka żałobna</a>--}}
+        {{--<input  type="hidden" value="--}}
 
-			" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio="popielica.mp3"
-                   relayId="relay3"
-                   expander="0x20 0x00 "
-                   external="false"
-                   pin="1">popielica</a>
-                <input type="hidden" value="Popielica – ładne, skryte zwierzątko z długim, puszystym ogonem o srebrzysto-szarym ubarwieniu, prowadzące nadrzewny tryb życia. Chroni się w dziuplach i budkach dla ptaków. Żywi się głównie nasionami i owocami drzew. Zdarza się, że na zimę szuka schronienia w zakamarkach budynków – w piwnicach, na strychach, pod podłogami.
-			" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio="orzesznica.mp3"
-                   relayId="relay4"
-                   expander="0x20 0x00 "
-                   external="false"
-                   pin="1">orzesznica</a>
-                <input type="hidden" value="Orzesznica to niewielki gryzoń o wyjątkowo puszystym ogonku, żółtobrązowej sierści z wierzchu i białawej od spodu. Zwierzę charakteryzuje się dużymi, ciemnymi i wypukłymi oczami, co wskazuje na nocny tryb życia. Podstawę pożywienia orzesznicy stanowią nasiona i orzechy, nie gardzi jednak owocami i owadami. Jesienią zapada w sen zimowy, podczas którego oddycha bardzo rzadko - co 5-10 minut! - a temperatura jej ciała spada nawet do 2oC. Hibernuje nawet w okresie letnim przy niekorzystnej temperaturze. W sumie orzesznica przesypia nawet do 80% swojego życia.
-			" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio="zolednica.mp3"
-                   relayId="relay5"
-                   expander="0x20 0x00 "
-                   external="false"
-                   pin="1">żołędnica</a>
-                <input type="hidden" value="Żołędnica europejska, gryzoń z rodziny popielicowatych, zamieszkuje lasy liściaste i mieszane. Wiedzie ona nadrzewny tryb życia; sama buduje kuliste gniazdo w rozwidleniu gałęzi lub nocuje w dziupli. Aktywna jest nocą, zbiera wtedy lubiane przez nią żołędzie, orzechy i jagody, ale też inne owoce i nasiona, które gromadzi w gnieździe. Zapasy zjada, kiedy budzi się z zimowego snu. Zimuje nawet kilka osobników w jednym gnieździe. Nie boi się przy tym sąsiedztwa człowieka, nierzadko nocując na strychach.
-			" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay6"
-                   expander="0x20 0x00 "
-                   external="true"
-                   pin="1"></a>
-                <input type="hidden" value="
-			" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay7"
-                   expander="0x20 0x00 "
-                   external="true"
-                   pin="1"></a>
-                <input type="hidden" value="
-			" class="text-to-append dispNone"/>
-            </li>
-        </ul>
-        <ul class="expanders">
-            <p class="dispNone">Ekspander 1 0x20 szyna 2 0x01</p>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay8"
-                   expander="0x20 0x01 "
-                   external="true"
-                   pin="1"></a>
-                <input type="hidden" value="
-			" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay1"
-                   expander="0x20 0x01 "
-                   external="true"
-                   pin="1"></a>
-                <input type="hidden" value="
-			" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay2"
-                   expander="0x20 0x01 "
-                   external="true"
-                   pin="1"></a>
-                <input type="hidden" value="
-			" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay3"
-                   expander="0x20 0x01 "
-                   external="true"
-                   pin="1"></a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay4"
-                   expander="0x20 0x01 "
-                   external="true"
-                   pin="1"></a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay5"
-                   expander="0x20 0x01 "
-                   external="true"
-                   pin="1"></a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay6"
-                   expander="0x20 0x01 "
-                   external="true"
-                   pin="1"></a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay8"
-                   expander="0x20 0x01 "
-                   external="true"
-                   pin="1"></a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-        </ul>
+        {{--" class="text-to-append dispNone" />--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio="popielica.mp3"--}}
+        {{--relayId="relay3"--}}
+        {{--expander="0x20 0x00 "--}}
+        {{--external="false"--}}
+        {{--pin="1">popielica</a>--}}
+        {{--<input  type="hidden" value="Popielica – ładne, skryte zwierzątko z długim, puszystym ogonem o srebrzysto-szarym ubarwieniu, prowadzące nadrzewny tryb życia. Chroni się w dziuplach i budkach dla ptaków. Żywi się głównie nasionami i owocami drzew. Zdarza się, że na zimę szuka schronienia w zakamarkach budynków – w piwnicach, na strychach, pod podłogami.--}}
+        {{--" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio="orzesznica.mp3"--}}
+        {{--relayId="relay4"--}}
+        {{--expander="0x20 0x00 "--}}
+        {{--external="false"--}}
+        {{--pin="1">orzesznica</a>--}}
+        {{--<input  type="hidden" value="Orzesznica to niewielki gryzoń o wyjątkowo puszystym ogonku, żółtobrązowej sierści z wierzchu i białawej od spodu. Zwierzę charakteryzuje się dużymi, ciemnymi i wypukłymi oczami, co wskazuje na nocny tryb życia. Podstawę pożywienia orzesznicy stanowią nasiona i orzechy, nie gardzi jednak owocami i owadami. Jesienią zapada w sen zimowy, podczas którego oddycha bardzo rzadko - co 5-10 minut! - a temperatura jej ciała spada nawet do 2oC. Hibernuje nawet w okresie letnim przy niekorzystnej temperaturze. W sumie orzesznica przesypia nawet do 80% swojego życia.--}}
+        {{--" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio="zolednica.mp3"--}}
+        {{--relayId="relay5"--}}
+        {{--expander="0x20 0x00 "--}}
+        {{--external="false"--}}
+        {{--pin="1">żołędnica</a>--}}
+        {{--<input  type="hidden" value="Żołędnica europejska, gryzoń z rodziny popielicowatych, zamieszkuje lasy liściaste i mieszane. Wiedzie ona nadrzewny tryb życia; sama buduje kuliste gniazdo w rozwidleniu gałęzi lub nocuje w dziupli. Aktywna jest nocą, zbiera wtedy lubiane przez nią żołędzie, orzechy i jagody, ale też inne owoce i nasiona, które gromadzi w gnieździe. Zapasy zjada, kiedy budzi się z zimowego snu. Zimuje nawet kilka osobników w jednym gnieździe. Nie boi się przy tym sąsiedztwa człowieka, nierzadko nocując na strychach.--}}
+        {{--" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay6"--}}
+        {{--expander="0x20 0x00 "--}}
+        {{--external="true"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="--}}
+        {{--" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay7"--}}
+        {{--expander="0x20 0x00 "--}}
+        {{--external="true"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="--}}
+        {{--" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--</ul>--}}
+        {{--<ul class="expanders">--}}
+        {{--<p class="dispNone">Ekspander 1 0x20 szyna 2 0x01</p>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay8"--}}
+        {{--expander="0x20 0x01 "--}}
+        {{--external="true"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="--}}
+        {{--" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay1"--}}
+        {{--expander="0x20 0x01 "--}}
+        {{--external="true"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="--}}
+        {{--" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay2"--}}
+        {{--expander="0x20 0x01 "--}}
+        {{--external="true"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="--}}
+        {{--" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay3"--}}
+        {{--expander="0x20 0x01 "--}}
+        {{--external="true"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay4"--}}
+        {{--expander="0x20 0x01 "--}}
+        {{--external="true"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay5"--}}
+        {{--expander="0x20 0x01 "--}}
+        {{--external="true"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay6"--}}
+        {{--expander="0x20 0x01 "--}}
+        {{--external="true"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay8"--}}
+        {{--expander="0x20 0x01 "--}}
+        {{--external="true"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--</ul>--}}
 
-        <ul class="expanders">
-            <p class="dispNone">Ekspander 2 0x22 szyna 1 0x00</p>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay1"
-                   expander="0x22 0x00 "
-                   external="false"
-                   pin="1"></a>
-                <input type="hidden" value="
-			" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay2"
-                   expander="0x22 0x00 "
-                   external="true"
-                   pin="1"> </a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay3"
-                   expander="0x22 0x00 "
-                   external="true"
-                   pin="1"> </a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay4"
-                   expander="0x22 0x00 "
-                   external="true"
-                   pin="1"> </a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay5"
-                   expander="0x22 0x00 "
-                   external="true"
-                   pin="1"> </a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay7"
-                   expander="0x22 0x00 "
-                   external="true"
-                   pin="1"> </a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay8"
-                   expander="0x22 0x00 "
-                   external="true"
-                   pin="1"> </a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay8"
-                   expander="0x22 0x00 "
-                   external="true"
-                   pin="1"> </a>
-                <input type="hidden" value="" class="text-to-append dispNone"/>
-            </li>
-        </ul>
-        <ul class="expanders">
-            <p class="dispNone">Ekspander 2 0x22 szyna 2 0x01</p>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay1"
-                   expander="0x22 0x01 "
-                   external="false"
-                   pin="1"></a>
-                <input type="hidden" value=""/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay2"
-                   expander="0x22 0x01 "
-                   pin="1"> </a>
-                <input type="hidden" value=""/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay3"
-                   expander="0x22 0x01 "
-                   external="false"
-                   pin="1"></a>
-                <input type="hidden" value=""/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay4"
-                   expander="0x22 0x01 "
-                   external="false"
-                   pin="1"></a>
-                <input type="hidden" value=""/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay5"
-                   expander="0x22 0x01 "
-                   external="false"
-                   pin="1"></a>
-                <input type="hidden" value=""/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay6"
-                   expander="0x22 0x01 "
-                   pin="1"> </a>
-                <input type="hidden" value=""/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay7"
-                   expander="0x22 0x01 "
-                   pin="1"> </a>
-                <input type="hidden" value=""/>
-            </li>
-            <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
-                   relayId="relay8"
-                   expander="0x22 0x01 "
-                   pin="1"> </a>
-                <input type="hidden" value=""/>
-            </li>
-        </ul>
+        {{--<ul class="expanders">--}}
+        {{--<p class="dispNone">Ekspander 2 0x22 szyna 1 0x00</p>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay1"--}}
+        {{--expander="0x22 0x00 "--}}
+        {{--external="false"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value="--}}
+        {{--" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay2"--}}
+        {{--expander="0x22 0x00 "--}}
+        {{--external="true"--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay3"--}}
+        {{--expander="0x22 0x00 "--}}
+        {{--external="true"--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay4"--}}
+        {{--expander="0x22 0x00 "--}}
+        {{--external="true"--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay5"--}}
+        {{--expander="0x22 0x00 "--}}
+        {{--external="true"--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay7"--}}
+        {{--expander="0x22 0x00 "--}}
+        {{--external="true"--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay8"--}}
+        {{--expander="0x22 0x00 "--}}
+        {{--external="true"--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay8"--}}
+        {{--expander="0x22 0x00 "--}}
+        {{--external="true"--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value="" class="text-to-append dispNone"/>--}}
+        {{--</li>--}}
+        {{--</ul>--}}
+        {{--<ul class="expanders">--}}
+        {{--<p class="dispNone">Ekspander 2 0x22 szyna 2 0x01</p>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay1"--}}
+        {{--expander="0x22 0x01 "--}}
+        {{--external="false"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value=""/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay2"--}}
+        {{--expander="0x22 0x01 "--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value=""/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay3"--}}
+        {{--expander="0x22 0x01 "--}}
+        {{--external="false"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value=""/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay4"--}}
+        {{--expander="0x22 0x01 "--}}
+        {{--external="false"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value=""/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay5"--}}
+        {{--expander="0x22 0x01 "--}}
+        {{--external="false"--}}
+        {{--pin="1"></a>--}}
+        {{--<input  type="hidden" value=""/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay6"--}}
+        {{--expander="0x22 0x01 "--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value=""/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay7"--}}
+        {{--expander="0x22 0x01 "--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value=""/>--}}
+        {{--</li>--}}
+        {{--<li>--}}
+        {{--<a href="#" class="expanders__relay relayexp1"--}}
+        {{--audio=".mp3"--}}
+        {{--relayId="relay8"--}}
+        {{--expander="0x22 0x01 "--}}
+        {{--pin="1"> </a>--}}
+        {{--<input  type="hidden" value=""/>--}}
+        {{--</li>--}}
+        {{--</ul>--}}
 
         <div class="rasp__wrapper">
-            <ul class="expanders">
-                <li>
-                    <a href="#" class="expanders__relay rasp__defaults rasp-custom-button relayexp1"
-                       audio=".mp3"
-                       relayId="relay8"
-                       expander=""
-                       pin="1"> </a>
-                    <input type="hidden" value="" class="text-to-append dispNone"/>
-                </li>
-            </ul>
+            {{--<ul class="expanders">--}}
+            {{--<li>--}}
+            {{--<a href="#" class="expanders__relay rasp__defaults rasp-custom-button relayexp1"--}}
+            {{--audio=".mp3"--}}
+            {{--relayId="relay8"--}}
+            {{--expander=""--}}
+            {{--pin="1"> </a>--}}
+            {{--<input  type="hidden" value="" class="text-to-append dispNone" />--}}
+            {{--</li>--}}
+            {{--</ul>--}}
 
-            <a href="#" class="rasp__defaults expanders__relay" id="switchAllOn">Podświetl Wszystko</a>
-            <a href="#" class="rasp__defaults expanders__relay" id="switchAllOff">Wyłącz wszystko</a>
-            <a href="/game" class="rasp__defaults expanders__relay" id="switchAllOff">Przejdź do gry</a>
+            <a href="#" class="rasp__defaults expanders__relay" id="switchAllOn">Restart Gry</a>
+            <a href="/" class="rasp__defaults expanders__relay" id="switchAllOff">Powrót do sterowania</a>
 
         </div>
     </div>

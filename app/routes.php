@@ -13,8 +13,13 @@
 
 Route::get('/', function()
 {
-	return View::make('pages.home');
+	return View::make('pages.points');
 });
+Route::get('/game', function()
+{
+    return View::make('pages.game');
+});
+
 
 Route::get('points','RaspController@getRelayData');
 Route::post('setpoint','RaspController@getAjaxRequest');
