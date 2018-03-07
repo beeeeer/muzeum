@@ -98,9 +98,10 @@ jQuery(document).ready(function ($) {
                     pointData[2] = 'status' + $(this).attr('pin');
                     if($('.container').hasClass('game')){
                         console.log('lets play a game');
-
-
-
+                            console.log(pointData[1]);
+                        $('.answers > li').each('click',function(){
+                            console.log(pointData[1]);
+                        });
                     }
                     else {
                         if ($(this).attr('external') == 'true') {

@@ -90,7 +90,7 @@
             <p class="dispNone">Ekspander 0x24 szyna 2</p>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="raniuszek.mp3"
+                   audio="pliszkasiwa.mp3"
                    relayId="relay1"
                    expander="0x24 0x00 "
                    external="false"
@@ -100,12 +100,12 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="pelzaczlesny.mp3"
+                   audio="pleszka.mp3"
                    relayId="relay2"
                    expander="0x24 0x00 "
                    external="false"
                    pin="1">pełzacz leśny</a>
-                <input type="hidden" value="Pełzacz leśny występuje średnio licznie w całym kraju. Zamieszkuje lasy i zadrzewienia każdego typu, o ile są bogate w starodrzewy; omija przy tym miejskie parki. Co do miejsca na budowę gniazda nie jest zbyt wybredny - posłuży mu zarówno dziupla, jak i zagłębienie w korze, sterta kamieni, czy nawet stos drewna. Ptak ten pokarm zbiera w charakterystyczny sposób - wspina się po drzewie wokół i w górę pnia podskokami, wydziobując z kory owady i pająki przy pomocy swojego zakrzywionego dzioba. 'Pełzanie' po drzewach umożliwiają mu silne palce o długich pazurach oraz potężne sterówki, którymi się podpiera. Zimą pełzacz często przyłącza się do innych gatunków, np. sikor czy raniuszków, tworząc stada mieszane; razem szukają pokarmu i ostrzegają się przed drapieżnikami.
+                <input type="hidden" value="
 			" class="text-to-append dispNone"/>
             </li>
             <li>
