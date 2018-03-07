@@ -99,14 +99,51 @@ jQuery(document).ready(function ($) {
                     pointData[2] = 'status' + $(this).attr('pin');
                     if($('.container').hasClass('game')){
                         console.log('lets play a game');
+                        if($(this).attr('external') == 'false'){
+                            $.ajax({
+                                type: "POST",
+                                url: "setpoint",
+                                data: {data: pointData},
+                                success: function (response) {
+                                    console.log(pointData)
+                                }, error: function (resp) {
+                                    console.log(resp)
+                                }
+                            }, "json");
+                        }
                         $('.answers > li > a').on('click',function(e){
-                            if(answer === $(this).attr('answer')){
+                            score = 0;
+                            $('score').html(score);
+                            console.log($(this).attr('answer'));
+                            if((answer === $(this).attr('answer') && ($(this).attr('pin') === '0'))){
                                 console.log('Good!!')
                                 console.log(pointData);
+                                $.ajax({
+                                    type: "GET",
+                                    url: "send",
+                                    data: {data: pointData},
+                                    success: function (response) {
+                                        console.log(response);
+                                        $.ajax({
+                                            type: "POST",
+                                            url: "setpoint",
+                                            data: {data: pointData},
+                                            success: function (response) {
+                                                console.log(response)
+                                                console.log(pointData)
+                                            }, error: function (resp) {
+                                                console.log(resp)
+                                            }
+                                        }, "json");
+                                    }, error: function (resp) {
+                                        console.log(resp)
+                                    }
+                                }, "json");
                                 answer = null;
+                                score += 1;
                             } else {
-                                console.log(mp + '=?' +  $(this).attr('audio'));
-                                console.log('Wrong!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+                                score -= 1;
+                                console.log('Wrong!!!!!!!!!!!!!!!!!!!!!!!!!!!');
                             }
                         });
                     }

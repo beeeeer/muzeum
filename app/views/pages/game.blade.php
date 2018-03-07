@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
     <div class="container game">
-        <h3 class="title_">Ława</h3>
+        <h3 class="title_">Score: <score></score></h3>
         <div class="custom-text" id="custom-text"></div>
         <ul class="expanders">
             <p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
