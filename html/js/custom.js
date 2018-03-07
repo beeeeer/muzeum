@@ -96,46 +96,52 @@ jQuery(document).ready(function ($) {
                     pointData[0] = command + stringProcessPin;
                     pointData[1] = $(this).attr('audio');
                     pointData[2] = 'status' + $(this).attr('pin');
+                    if($('.container').hasClass('game')){
+                        console.log('lets play a game');
 
-                    if ($(this).attr('external') == 'true') {
-                        console.log('external ajax');
-                        $.ajax({
-                            type: "GET",
-                            url: "send",
-                            data: {data: pointData},
-                            success: function (response) {
-                                console.log(response);
-                                $.ajax({
-                                    type: "POST",
-                                    url: "setpoint",
-                                    data: {data: pointData},
-                                    success: function (response) {
-                                        console.log(response)
-                                        console.log(pointData)
-                                    }, error: function (resp) {
-                                        console.log(resp)
-                                    }
-                                }, "json");
-                            }, error: function (resp) {
-                                console.log(resp)
-                            }
-                        }, "json");
 
-                    } else {
-                        console.log('internal ajax');
-                        $.ajax({
-                            type: "POST",
-                            url: "setpoint",
-                            data: {data: pointData},
-                            success: function (response) {
-                                console.log(pointData)
-                            }, error: function (resp) {
-                                console.log(resp)
-                            }
-                        }, "json");
+
                     }
+                    else {
+                        if ($(this).attr('external') == 'true') {
+                            console.log('external ajax');
+                            $.ajax({
+                                type: "GET",
+                                url: "send",
+                                data: {data: pointData},
+                                success: function (response) {
+                                    console.log(response);
+                                    $.ajax({
+                                        type: "POST",
+                                        url: "setpoint",
+                                        data: {data: pointData},
+                                        success: function (response) {
+                                            console.log(response)
+                                            console.log(pointData)
+                                        }, error: function (resp) {
+                                            console.log(resp)
+                                        }
+                                    }, "json");
+                                }, error: function (resp) {
+                                    console.log(resp)
+                                }
+                            }, "json");
 
+                        } else {
+                            console.log('internal ajax');
+                            $.ajax({
+                                type: "POST",
+                                url: "setpoint",
+                                data: {data: pointData},
+                                success: function (response) {
+                                    console.log(pointData)
+                                }, error: function (resp) {
+                                    console.log(resp)
+                                }
+                            }, "json");
+                        }
 
+                    }
                 });
             });
             setButtons();
