@@ -91,6 +91,7 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="pliszkasiwa.mp3"
+                   answer="pliszkasiwa.mp3"
                    relayId="relay1"
                    expander="0x24 0x01 "
                    external="false"
@@ -101,7 +102,8 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="pleszka.mp3"
-                   relayId="relay2"
+                   answer=""
+
                    expander="0x24 0x01 "
                    external="false"
                    pin="1">pleszka </a>
@@ -111,7 +113,8 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="kopciuszek.mp3"
-                   relayId="relay3"
+                   answer="kopciuszek.mp3"
+
                    expander="0x24 0x01 "
                    external="false"
                    pin="1"> kopciuszek</a>
@@ -121,7 +124,8 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="czyzyk.mp3"
-                   relayId="relay4"
+                   answer="czyzyk.mp3"
+
                    expander="0x24 0x01 "
                    external="false"
                    pin="1">Czyżyk</a>
@@ -131,7 +135,8 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="mysikrolik.mp3"
-                   relayId="relay5"
+                   answer="mysikrolik.mp3"
+
                    expander="0x24 0x01 "
                    external="false"
                    pin="1">mysikrólik </a>
@@ -141,7 +146,8 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="strzyzyk.mp3"
-                   relayId="relay6"
+                   answer="strzyzyk.mp3"
+
                    expander="0x24 0x01 "
                    external="true"
                    pin="1"> strzyżyk</a>
@@ -151,7 +157,8 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="pierwiosnek.mp3"
-                   relayId="relay7"
+                   answer="pierwiosnek.mp3"
+
                    expander="0x24 0x01 "
                    external="false"
                    pin="1"> pierwiosnek</a>
@@ -161,7 +168,7 @@
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="mucholowkaszara.mp3"
-                   relayId="relay1"
+                   answer="mucholowkaszara.mp3"
                    expander="0x24 0x01 "
                    external="false"
                    pin="1">muchołówka szara</a>

@@ -101,9 +101,9 @@ jQuery(document).ready(function ($) {
                         mp = pointData[1];
                         console.log('lets play a game');
                         $('.answers > li > a').on('click',function(e){
-                            if(mp === $(this).attr('audio')){
-                                console.log(mp + '=?' +  $(this).attr('audio'));
-                                console.log('odpowiedz poprawna -> powinien pojsc request')
+                            if(mp === $(this).attr('audio') && $(this).attr('pin')==='0'){
+                                console.log(pointData);
+                                $(this).attr('disable',true);
                             } else {
                                 console.log(mp + '=?' +  $(this).attr('audio'));
                                 console.log('odpowiedz niepoprawna -> czekam dalej')
