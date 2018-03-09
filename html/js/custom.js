@@ -98,6 +98,7 @@ jQuery(document).ready(function ($) {
                     pointData[1] = $(this).attr('audio');
                     pointData[2] = 'status' + $(this).attr('pin');
                     if($('.container').hasClass('game')){
+                        score = 0;
                         console.log('lets play a game');
                         if($(this).attr('external') == 'false'){
                             $.ajax({
@@ -112,7 +113,6 @@ jQuery(document).ready(function ($) {
                             }, "json");
                         }
                         $('.answers > li > a').on('click',function(e){
-                            score = 0;
                             $('score').html(score);
                             console.log($(this).attr('answer'));
                             if((answer === $(this).attr('answer') && ($(this).attr('pin') === '0'))){
