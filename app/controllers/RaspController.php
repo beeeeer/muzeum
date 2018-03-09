@@ -123,40 +123,40 @@ class RaspController extends BaseController
         return new Process($method);
     }
 
-//    Updater - its only pull from origin.
-
-	public function puller()
-    {
-        $this->process = new Process('git stash && git fetch origin && git branch -r');
-        $this->process->mustRun();
-        $pro = $this->process->getOutput();
-        $pro = str_replace(' ', '', $pro);
-        return View::make('pages.puller')->with(array('branches'=>explode('origin/',$pro)));
-    }
-
-    /**
-     * @return mixed
-     */
-    public function fetchData()
-    {
-        $request = new Request();
-        $input = $request->ajax();
-        $response =  $request->__toString($input);
-        $response = json_encode($response);
-        $response = substr($response, 0, strpos($response, "%"));
-        $response = substr($response, strpos($response, "="));
-        $response = str_replace('=', '',$response);
-        return $this->_runPull($response);
-    }
-
-    public function _runPull($response)
-    {
-        $gitpull = new Process('git checkout -b '.$response.' && git pull origin '.$response);
-        $gitpull->mustRun();
-        $output = $gitpull->getOutput();
-        return $output;
-    }
-    //External Source 
+////    Updater - its only pull from origin.
+//
+//	public function puller()
+//    {
+//        $this->process = new Process('git stash && git fetch origin && git branch -r');
+//        $this->process->mustRun();
+//        $pro = $this->process->getOutput();
+//        $pro = str_replace(' ', '', $pro);
+//        return View::make('pages.puller')->with(array('branches'=>explode('origin/',$pro)));
+//    }
+//
+//    /**
+//     * @return mixed
+//     */
+//    public function fetchData()
+//    {
+//        $request = new Request();
+//        $input = $request->ajax();
+//        $response =  $request->__toString($input);
+//        $response = json_encode($response);
+//        $response = substr($response, 0, strpos($response, "%"));
+//        $response = substr($response, strpos($response, "="));
+//        $response = str_replace('=', '',$response);
+//        return $this->_runPull($response);
+//    }
+//
+//    public function _runPull($response)
+//    {
+//        $gitpull = new Process('git checkout -b '.$response.' && git pull origin '.$response);
+//        $gitpull->mustRun();
+//        $output = $gitpull->getOutput();
+//        return $output;
+//    }
+//    //External Source
 
     public function _getDataFromExternal()
     {
