@@ -1,511 +1,506 @@
 @extends('layouts.default')
 @section('content')
-<div class ="container">
-	<h3 class="title_"> Diorama, pozyskanie drewna, las zimowy</h3>
-	<div class="custom-text" id="custom-text">
 
-	</div>
-	<p class="dispNone">
-		0x24  - Rampa - 6szt
-		0x20 - none
-		0x22 - pulpit 8 pkt
-	</p>
-	<ul class="expanders">
-		<p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="dzwonekbrzoskwiniowolistny.mp3"
-						relayId="relay3"
-						expander="0x24 0x01 "
-						external="false"
-						pin="1">dzwonek brzoskwiniowolistny</a>
-				<input  type="hidden" value="Dzwonek brzoskwiniolistny to piękna rodzima bylina o delikatnych fioletowych kwiatach, które pojawiają się na wysokich łodygach w czerwcu. W Polsce jest dość pospolity na niżu i w Karpatach - rośnie w świetlistych lasach i zaroślach; jest też uprawiany jako roślina ozdobna.
-				" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="borowkaczarna.mp3"
-						relayId="relay4"
-						expander="0x24 0x01 "
-						external="false"
-						pin="1">borówkaczarna</a>
-						<input  type="hidden" value="Borówka czarna, znana również jako czernica, czernina lub czarna jagoda, to roślina z rodziny wrzosowatych, występująca w widnych iglastych lasach o glebie lekkiej, próchnicznej i piaszczystej. Kwitnie w okresie od kwietnia do czerwca, kiedy to na łodygach pojawiają się białoróżowawe delikatne kwiaty. Następnie kwiaty te przekształcają się w bardzo smaczne czarne jagody z niebieskawym nalotem. Owoce, a także liście borówki czarnej znane są z właściwości leczniczych, zarówno na świeżo, jak i w formie przetworzonej.
-						" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio="gozdzikkartuzek.mp3"
-			   relayId="relay6"
-			   expander="0x24 0x01 "
-			   external="false"
-			   pin="1">goździk kartuzek</a>
-			<input  type="hidden" value="Goździk kartuzek to wieloletnia i mrozoodporna roślina zielna, w Polsce dość pospolita na niżu. Jako że jest światło- i ciepłolubna, najczęściej można ją spotkać na suchych murawach, w świetlistych borach sosnowych, suchych łąkach i na piaskach; oprócz tego goździk uprawiany jest też jako roślina ozdobna.
+    <div class="container">
+        <h3 class="title_">Ława</h3>
+        <div class="custom-text" id="custom-text"></div>
+        <ul class="expanders">
+            <p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="pliszkasiwa.mp3"
+                   relayId="relay1"
+                   expander="0x24 0x01 "
+                   external="false"
+                   pin="1">pliszka siwa </a>
+                <input type="hidden" value="Pliszka siwa to najpospolitszy ptak Europy. Zamieszkuje tereny nadwodne, gdzie żeruje, łowiąc owady; może się jednak znacznie oddalać od zbiorników - spotykana jest żerująca przy drogach, na rozległych łąkach, czy też polach uprawnych, gdzie biega za pługiem i zbiera wykopane larwy i pędraki. Chodząc po ziemi, pliszki charakterystycznie kiwają ogonem w dół i w górę. Ich gniazda ukryte są na ziemi lub w różnych szczelinach i otworach, także budynków; pliszki są mało płochliwe i chętnie trzymają się w pobliżu człowieka. Tworzą przeważnie niewielkie stadka, którymi lecą na zimowiska na południe Europy lub do Afryki Północnej.
+" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="pleszka.mp3"
+                   relayId="relay2"
+                   expander="0x24 0x01 "
+                   external="false"
+                   pin="1">pleszka </a>
+                <input type="hidden" value="Pleszka, z rodziny muchołówkowatych, występuje na niżu kraju. Nie jest ona ptakiem licznym i pomimo jej barwnego upierzenia w terenie nie rzuca się w oczy. Zamieszkuje przede wszystkim obrzeża lasów liściastych i mieszanych, ale chętnie przebywa też w pobliżu osad ludzkich w zieleni miejskiej i wiejskiej. Gniazduje w obszernej dziupli lub w skrzynce lęgowej. Pleszki żywią się głównie owadami, które chwytają w locie lub zbierają z liści i ziemi, a jesienią zjadają też owoce. Migrują na duże odległości - zimują w Afryce Północnej.
 			" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="dziurawiec.mp3"
-						relayId="relay5"
-						expander="0x24 0x01 "
-						external="false"
-						pin="1">dziurawiec</a>
-						<input  type="hidden" value="Dziurawiec zwyczajny to bylina porastająca nasłonecznione łąki, polany, widne zarośla i skraje lasów. Zaczyna kwitnąć około 24 czerwca, czyli dnia świętego Jana, stąd też nazwa zwyczajowa - ziele świętego Jana lub świętojańskie. Nazwa dziurawiec pochodzi za to od małych wypustek, znajdujących się na liściach tej rośliny, które wyglądem przypominają otworki. To popularne zioło o wszechstronnym działaniu - jego wysuszone kwiaty stosuje się jako środek uspokajający, rozkurczowy, leczący rany i oparzenia. Dawniej przypisywano mu nawet działanie magiczne - wierzono, że roślina chroni przed czartami i złymi duchami. Dziurawiec zwyczajny to bylina porastająca nasłonecznione łąki, polany, widne zarośla i skraje lasów. Zaczyna kwitnąć około 24 czerwca, czyli dnia świętego Jana, stąd też nazwa zwyczajowa - ziele świętego Jana lub świętojańskie. Nazwa dziurawiec pochodzi za to od prześwitującej, kropkowanej blaszki – w kropkach występują olejki eteryczne. To popularne zioło o wszechstronnym działaniu - jego wysuszone kwiaty stosuje się jako środek uspokajający, rozkurczowy, leczący rany i oparzenia. Dawniej przypisywano mu nawet działanie magiczne - wierzono, że roślina chroni przed czartami i złymi duchami.
-						" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="borowikszlachetny.mp3"
-						relayId="relay7"
-						expander="0x24 0x01 "
-						external="false"
-						pin="1">borowik szlachetny</a>
-						<input  type="hidden" value="Borowik szlachetny, czyli tzw. prawdziwek, należący do grzybów jadalnych, jest wysoko ceniony ze względu na swój wyjątkowy smak. W Polsce bywa stosowany jako składnik wielu tradycyjnych potraw.  Grzyby te pojawiają się najliczniej w okresie od maja do listopada, zdarzają się także w grudniu. Wyrastają pojedynczo lub w niewielkich grupach. Rekordowy prawdziwek znaleziony w Polsce ważył prawie 7,5 kg. Borowik jadalny jest często mylony z goryczakiem żółciowym, czyli tzw. „szatanem”, pospolitym niejadalnym grzybem, który ma bardzo gorzki smak i często wywołuje poważne zatrucia.
-						" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="borowikbrunatny.mp3"
-						relayId="relay1"
-						expander="0x24 0x01 "
-						external="false"
-						pin="1">borowik brunatny</a>
-				<input  type="hidden" value="Borowik brunatny lub kasztanowy, zwany pospolicie podgrzybkiem, to grzyb jadalny o przyjemnym zapachu, który, choć nie jest tak smaczny jak borowik szlachetny, jest równie chętnie zbierany. Jego gładki i matowy kapelusz w odcieniu brązu może osiągnąć do 30 cm szerokości. Po deszczu robi się lepki. Rurki od spodu kapelusza są zwykle żółtawe, trzon jasnobrązowy, a miąższ twardy i biały, po przekrojeniu natomiast cały grzyb zmienia barwę na sino niebieskawą.
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio="kozlarzczerwony.mp3"
-			   relayId="relay2"
-			   expander="0x24 0x01 "
-			   external="false"
-			   pin="1">koźlarz czerwony</a>
-			<input  type="hidden" value="Koźlarz czerwony z rodziny borowikowatych, zwany kozakiem, w Polsce jest dość częsty. Jako grzyb mikoryzowy, wyrasta wyłącznie pod topolą osiką - od czerwca do października. Po przekrojeniu miąższ koźlarza czerwonego sinieje. Jest to grzyb jadalny i smaczny, nadaje się do duszenia i suszenia. Można go pomylić z podobnymi: koźlarzem pomarańczowożółtym, sosnowym oraz świerkowym, jednak rosną one pod innymi gatunkami drzew, a sama pomyłka nie jest znacząca - one również są jadalne.
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio="mleczajrydz.mp3"
-			   relayId="relay2"
-			   expander="0x24 0x01 "
-			   external="false"
-			   pin="1">mleczaj rydz</a>
-			<input  type="hidden" value="Mleczaj rydz, grzyb z rodziny gołąbkowatych, jest jednym z najbardziej poszukiwanych grzybów w naszym kraju. Tworzy on mikoryzę z sosnami, więc można go spotkać w borach i młodnikach sosnowych, przeważnie na piaszczystych glebach; rośnie od sierpnia do listopada. Bywa mylony z trującym mleczajem wełnianką.
-				" class="text-to-append dispNone" />
-		</li>
-	</ul>
-	<ul class="expanders">
-		<p class="dispNone">Ekspander 0x24 szyna 2</p>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="pieprznikjadalny.mp3"
-						relayId="relay1"
-						expander="0x24 0x00 "
-						external="false"
-						pin="1">pieprznik jadalny</a>
-				<input  type="hidden" value="Pieprznik jadalny, zwany potocznie kurką, to jadalny grzyb ceniony  ze względu na aromat, smak oraz twardość i chrupkość owocników. Rośnie w lasach liściastych i iglastych, często na piaszczystych, kwaśnych glebach, często pod świerkami pośród mchów. Występuje od czerwca do listopada. Może być pomylony z niejadalną lisówką pomarańczową.
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="jez.mp3"
-						relayId="relay1"
-						expander="0x24 0x00 "
-						external="false"
-						pin="1">jeż</a>
-				<input  type="hidden" value="Jeż europejski to często spotykany, największy ssak owadożerny w naszym kraju. W dzień śpi ukryty pod liśćmi lub w jamkach, o zmierzchu wychodzi z ukrycia i, pracowicie drepcząc, poszukuje jedzenia, np. owadów, robaków, drobnych gryzoni czy też grzybów i przejrzałych owoców. Co noc pokonuje w tym celu do 3 km. Ubarwienie ciała jeża jest szarobrunatne, a po stronie brzusznej szare lub brunatne. Jego spiczasty, zawsze wilgotny i ruchliwy nosek stanowi doskonały narząd czuciowy. Każdy jeż jest pokryty ok. 5 tysiącami kolców, które stroszy, gdy jest przestraszony, równocześnie zwijając się w kulkę. Jeże nie robią żadnych zapasów na zimę, w tym czasie zapadają w odrętwienie i odżywiają się tłuszczem nagromadzonym w organizmie. W naturalnych warunkach jeż żyje około 5 lat, w hodowli - nawet do 10 lat.
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="wieworka.mp3"
-						relayId="relay1"
-						expander="0x24 0x00 "
-						external="false"
-						pin="1">wiewórka</a>
-				<input  type="hidden" value="Wiewiórka pospolita, czy też ruda, to nadrzewny gryzoń często spotykany w lasach liściastych i iglastych, a także w parkach, na terenie całej Polski. W górach wiewiórki mogą być ciemno ubarwione - brązowe po niemal czarne. Ich długi puszysty ogonek odgrywa ważną rolę podczas skoków - służy do stabilizacji kierunku lotu. Pożywienie wiewiórek stanowią nasiona, grzyby i owoce, ale także owady, jaja i pisklęta. Zdarza się im suszyć grzyby na gałęziach, by mieć je na zimę; swoje zapasy chowa w ziemi, dziuplach lub szczelinach drzew, zamieszkuje natomiast wybudowane przez siebie gniazda z trawy i drobnych gałązek. Wiewiórka pospolita, to nadrzewny gryzoń często spotykany w lasach liściastych i iglastych, a także w parkach, na terenie całej Polski. W górach wiewiórki mogą być ciemno ubarwione - brązowe po niemal czarne. Ich długi puszysty ogonek odgrywa ważną rolę podczas skoków - służy do stabilizacji kierunku lotu. Pożywienie wiewiórek stanowią nasiona, grzyby i owoce, ale także owady, jaja i pisklęta. Zdarza się im suszyć grzyby na gałęziach, by mieć je na zimę; swoje zapasy chowa w ziemi, dziuplach lub szczelinach drzew. Zamieszkuje natomiast dziuple lub gniazda opuszczone przez inne zwierzęta dobudowując zadaszenia lub buduje własne w koronach drzew wykorzystując do tego trawy i drobne gałązki.
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="kowalik.mp3"
-						relayId="relay1"
-						expander="0x24 0x00 "
-						external="false"
-						pin="1">kowalik</a>
-				<input  type="hidden" value="Kowalik zwyczajny lub bargiel to osiadły ptak, lubiący lasy liściaste i mieszane. Jako jedyny z krajowych ptaków poszukując pożywienia potrafi chodzić po pniach drzew lub skałach, często głową w dół, a dzięki pazurom swych silnych palców wędruje także po spodzie gałęzi. Swym potężnym dłutowatym dziobem wyciąga ze szczelin w korze zdobycze - owady, larwy, pająki i inne bezkręgowce. Spędzający zimę w kraju kowalik nie gardzi też nasionami i owocami. Tworzy on monogamiczne pary, a w trakcie wysiadywania jaj samiec karmi swoją partnerkę.
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio="dzieciolzielony.mp3"
-						relayId="relay1"
-						expander="0x24 0x00 "
-						external="false"
-						pin="1">dzięcioł zielony</a>
-				<input  type="hidden" value="Dzięcioł zielony to najbarwniejszy krajowy dzięcioł, występujący głównie na obrzeżach lasów liściastych środkowej i wschodniej Polski. Ze względu na raczej naziemny tryb życia, dzięcioł ten rzadko bębni - częściej odzywa się donośnym pogwizdywaniem. Dziób ma słabszy niż inne dzięcioły, więc dziuple wykuwa raczej w miękkim drewnie topoli, osiki lub wierzby, skąd wydobywa owady i ich larwy. Chętnie odwiedza mrowiska, z których przy pomocy swojego długiego, lepkiego języka wyjada mrówki; zimą zjada nasiona drzew iglastych, owoce, a także padlinę oraz wieszaną w karmnikach słoninę, za to wiosną często nakłuwa korę brzóz i pije wyciekający sok.
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio="bielik.mp3"
-			   relayId="relay2"
-			   expander="0x24 0x00 "
-			   external="false"
-			   pin="1">bielik</a>
-			<input  type="hidden" value="Bielik zwyczajny, inaczej birkut, z rodziny jastrzębiowatych, to największy krajowy ptak drapieżny o rozpiętości skrzydeł sięgającej 240 cm. Bieliki budują jedne z największych gniazd, zwykle w koronach starych drzew i w pobliżu zbiorników wodnych, gdzie polują na ryby, ptaki wodne i ssaki. Używane przez wiele lat gniazdo może przekraczać 2 m wysokości i osiągać ciężar nawet jednej tony. Dzięki ochronie miejsc gniazdowania bielik przestał być w naszym kraju rzadkością i jego liczebność systematycznie wzrasta - wynosi ok. 500 par. Bielik, inaczej birkut, z rodziny jastrzębiowatych, to największy krajowy ptak drapieżny o rozpiętości skrzydeł sięgającej 240 cm. Bieliki budują jedne z największych gniazd, zwykle w koronach starych drzew i w pobliżu zbiorników wodnych, gdzie polują na ryby, ptaki wodne i ssaki. Używane przez wiele lat gniazdo może przekraczać 2 m wysokości i osiągać ciężar nawet jednej tony. Dzięki ochronie miejsc gniazdowania bielik przestał być w naszym kraju rzadkością i jego liczebność systematycznie wzrasta - wynosi ok. 500 par.
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio="jaszczurkazwinka.mp3"
-			   relayId="relay2"
-			   expander="0x24 0x00 "
-			   external="false"
-			   pin="1">jaszczurka zwinka</a>
-			<input  type="hidden" value="Jaszczurka zwinka to najpospolitszy krajowy gad, preferujący siedliska nizinne. Zwinkę najczęściej można spotkać w niskiej trawie, wygrzewającą się w słońcu - jest bardzo ciepłolubna. Jej masywne ciało pokrywają ściśle do siebie przylegające łuski; mogą one mieć kolor od zielonego do brązowego. W chwili zagrożenia jaszczurka odrzuca ogon, który staje się zdobyczą dla drapieżnika, a ona sama ucieka; z czasem ogon odrasta do pierwotnej długości. Zwinki są drapieżnikami, polują głównie na owady i pająki.
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay1"
-						expander="0x24 0x00 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="
-				" class="text-to-append dispNone" />
-		</li>
-	</ul>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="kopciuszek.mp3"
+                   relayId="relay3"
+                   expander="0x24 0x01 "
+                   external="false"
+                   pin="1"> kopciuszek</a>
+                <input type="hidden" value="Kopciuszek z rodziny drozdowatych to wędrowny ptak, występujący średnio licznie na całym obszarze kraju. Nazwa gatunku odnosi się do szarego ubarwienia u samic i ciemnoszarego - u samców; przez tę kolorystykę kopciuszek nazywany jest też kominiarczykiem.Przystosował się on świetnie się do życia mieście - zabudowa miejska stanowi dla niego namiastkę górskich terenów, na których pierwotnie gniazdował - występuje nawet w centrach wielkich miast, gdzie przy sztucznym oświetleniu jego głos rozbrzmiewa nawet w nocy. Dość rzadko jest za to spotykany na terenach wiejskich. Gniazda buduje z traw i korzonków w szczelinach skał lub budynków, pokarmu za to szuka na ziemi - zjada owady i inne bezkręgowce, jesienią również jagody.
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="czyzyk.mp3"
+                   relayId="relay4"
+                   expander="0x24 0x01 "
+                   external="false"
+                   pin="1">Czyżyk</a>
+                <input type="hidden" value="Czyżyk, ptak z rodziny łuszczykowatych, dość licznie występuje w całym paśmie gór, a nielicznie w pozostałej części Polski. Zimuje w kraju. W okresie lęgowym przebywa w borach iglastych, swoje gniazdo buduje na wysokości do kilkunastu metrów, tak dobrze ukrywając je w gęstych gałązkach świerka lub jodły, że niezbyt wielu ornitologów miało okazję je zobaczyć. Nie zapuszcza się też na bezdrzewne tereny. Latem odżywia się zarówno nasionami, jak i owadami, a jesienią i zimą trzyma się w olszynach, gdyż jego pokarmem w tym okresie są głównie nasiona olchy. Czyżyki żerują zazwyczaj w stadkach, często się do siebie odzywając.
+					" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="mysikrolik.mp3"
+                   relayId="relay5"
+                   expander="0x24 0x01 "
+                   external="false"
+                   pin="1">mysikrólik </a>
+                <input type="hidden" value="Mysikrólik to najmniejszy ptak Europy, zamieszkujący bory świerkowe, jodłowe lub mieszane, rzadziej sosnowe. Jak na tak maleńkiego ptaka, buduje dość masywne, zamknięte z góry gniazda, które podwiesza pod gałęzią w koronie drzewa. Zimuje na południu Europy, północny Afryki, a nawet w Ameryce Północnej. Podczas toków samiec unosi swoje barwne pióra na wierzchu głowy, strosząc je w czubek. Polując na gałęziach na drobne bezkręgowce, głównie owady, często zawisa głową w dół. Na ziemię schodzi tylko wyjątkowo, w sytuacji znacznego głodu; ciężko jest więc go zauważyć, ale za to usłyszeć można jego wysoki, falujący śpiew.
+					" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="strzyzyk.mp3"
+                   relayId="relay6"
+                   expander="0x24 0x01 "
+                   external="true"
+                   pin="1"> strzyżyk</a>
+                <input type="hidden" value="Strzyżyk zwyczajny, o charakterystycznym zadartym ogonku, występuje na niżu kraju i jest jednym z naszych najmniejszych ptaków. Żyje w lasach liściastych i mieszanych z bujnym podszytem; choć nie jest ptakiem rzadkim, ciężko go zobaczyć - trzyma się gęstych zarośli, jest skryty i rzadko pokazuje się na otwartych miejscach. Mimo swych niewielkich rozmiarów śpiewa wyjątkowo donośnym głosem i buduje stosunkowo duże gniazdo o kulistym kształcie, ukryte nisko wśród gęstych gałęzi. Gdy szuka pokarmu - owadów i innych bezkręgowców - prześlizguje się pomiędzy krzewami jak mysz.
+					" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="pierwiosnek.mp3"
+                   relayId="relay7"
+                   expander="0x24 0x01 "
+                   external="false"
+                   pin="1"> pierwiosnek</a>
+                <input type="hidden" value="Pierwiosnek z rodziny świstunek występuje licznie w całym kraju, zamieszkuąc różnego typu prześwietlone lasy i zadrzewienia. Ptak ten buduje kuliste gniazdo z otworem z boku, które ukrywa w gęstej roślinności nisko przy ziemi. Rozbrzmiewający wczesną wiosną śpiew pierwiosnka jest nie do pomylenia z żadnym innym ptakiem. Żeruje on, przemieszczając się pomiędzy krzewami i koronami drzew, choć nierzadko łapie owady również w locie; jesienią zajada też jagody. Krajowe pierwiosnki migrują na zimę w rejon śródziemnomorski i do Afryki.
+					" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="mucholowkaszara.mp3"
+                   relayId="relay1"
+                   expander="0x24 0x01 "
+                   external="false"
+                   pin="1">muchołówka szara</a>
+                <input type="hidden" value="Muchołówka szara w Polsce jest średnio liczna i wędrowna - zimuje w Afryce. W prześwietlonych lasach różnego typu, starych parkach i ogrodach znajduje sobie dziuple lub skrzynki lęgowe, w których gniazduje. Siedzącą spokojnie muchołówkę trudno zauważyć w lesie - rzuca się w oczy dopiero, gdy zwinnym lotem chwyta w powietrzu owada. Również jej śpiew jest skromny i cichy, dlatego mimo iż pospolita, pozostaje ptakiem słabo znanym.
+			" class="text-to-append dispNone"/>
+            </li>
+        </ul>
+        <ul class="expanders">
+            <p class="dispNone">Ekspander 0x24 szyna 2</p>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="raniuszek.mp3"
+                   relayId="relay2"
+                   expander="0x24 0x00 "
+                   external="false"
+                   pin="1">raniuszek</a>
+                <input type="hidden" value="Raniuszek to niewielki ptak występujący w Europie, Azji, a nawet w Afryce. Ze względu na mały dziób łowi głównie larwy, owady i ich jaja, zjada też miękkie owoce i nasiona. Raniuszki często zimują w kraju – zbierają się wtedy w większe stadka i wspólnie śpią oraz żerują, ciągle się do siebie odzywając. Ich gniazda są jajowate w kształcie, z bocznym wejściem i wiszące - zwykle na gałęziach drzew liściastych. Budowa może trwać około dwóch tygodni ze względu na ilość potrzebnego materiału - zbiera go samiec, podczas gdy samica buduje gniazdo. Śpią w nim tylko pisklęta. Wśród raniuszków nie jest rzadkością, że rodzicom pomagają w wykarmianiu piskląt inne ptaki ze stada – tacy pomocnicy często nie są nawet spokrewnieni z parą.
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="pelzaczlesny.mp3"
+                   relayId="relay2"
+                   expander="0x24 0x00 "
+                   external="false"
+                   pin="1">pełzacz leśny</a>
+                <input type="hidden" value="Pełzacz leśny występuje średnio licznie w całym kraju. Zamieszkuje lasy i zadrzewienia każdego typu, o ile są bogate w starodrzewy; omija przy tym miejskie parki. Co do miejsca na budowę gniazda nie jest zbyt wybredny - posłuży mu zarówno dziupla, jak i zagłębienie w korze, sterta kamieni, czy nawet stos drewna. Ptak ten pokarm zbiera w charakterystyczny sposób - wspina się po drzewie wokół i w górę pnia podskokami, wydziobując z kory owady i pająki przy pomocy swojego zakrzywionego dzioba. 'Pełzanie' po drzewach umożliwiają mu silne palce o długich pazurach oraz potężne sterówki, którymi się podpiera. Zimą pełzacz często przyłącza się do innych gatunków, np. sikor czy raniuszków, tworząc stada mieszane; razem szukają pokarmu i ostrzegają się przed drapieżnikami.
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="remiz.mp3"
+                   relayId="relay1"
+                   expander="0x24 0x00 "
+                   external="false"
+                   pin="1">remiz</a>
+                <input type="hidden" value="Remiz zwyczajny, jedyny europejski przedstawiciel rodziny remizów, występuje nielicznie na niżu kraju i zimuje na południu Europy. Zamieszkuje głównie łęgi i brzegi zarosłych roślinnością jezior i rzek. Remizy zjadają owady, pająki, a jesienią również nasiona trzciny. Jego łacińska nazwa 'remiz' znaczy 'rzemieślnik', co w pełni oddaje zręczność i wytrwałość, z jaką przez 3 tygodnie buduje on niezwykle misterne gniazdo o kształcie workowatej torby z bocznym otworem. Remiz wiesza je w niedostępnym miejscu, zwykle nad wodą. Każdy samiec buduje w sezonie po kilka gniazd i poddaje je ocenie samiczek, a bywa i tak, że liczba gniazd przekracza liczbę samic, które w końcu składają jaja w dwóch lub więcej gniazdach.
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="srokosz.mp3"
+                   relayId="relay1"
+                   expander="0x24 0x00 "
+                   external="false"
+                   pin="1">srokosz</a>
+                <input type="hidden" value="Srokosz z rodziny dzierzb występuje nielicznie na niżu kraju. Lubi zalesione tereny podmokłe, doliny rzeczne, torfowiska, a także skraje lasów. Gniazdo buduje z korzonków i kłączy w koronie drzewa. Ten drapieżny ptak, mimo swych niewielkich rozmiarów, poluje na duże ofiary, jak myszy czy drobne ptaki. Jak wszystkie dzierzby ma zwyczaj gromadzenia zapasów pokarmu - swoje zdobycze nabija na kolce ciernistych krzewów. Gdy siada na podwyższonych obiektach, tzw. czatowniach, można go dostrzec z kilkuset metrów. Srokosze są jedynymi dzierzbami, które zimują w Polsce.
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay1"
+                   expander="0x24 0x00 "
+                   external="false"
+                   pin="1"></a>
+                <input type="hidden" value="
 
-	<ul class="expanders">
-		<p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio=".mp3"
-			   relayId="relay1"
-			   expander="0x20 0x01 "
-			   external="false"
-			   pin="1"></a>
-			<input  type="hidden" value="
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay1"
-						expander="0x20 0x01 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay2"
-						expander="0x20 0x01 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="
-				" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay3"
-						expander="0x20 0x01 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="
-				" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay4"
-						expander="0x20 0x01 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="
-				" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay5"
-						expander="0x20 0x01 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="
-				" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay6"
-						expander="0x20 0x01 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="
-				" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay7"
-						expander="0x20 0x01 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="
-				" class="text-to-append dispNone"/>
-		</li>
-	</ul>
-	<ul class="expanders">
-		<p class="dispNone">Ekspander 1 0x20 szyna 2 0x01</p>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio=".mp3"
-			   relayId="relay8"
-			   expander="0x20 0x00 "
-			   external="false"
-			   pin="1"></a>
-			<input  type="hidden" value="
-				" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay1"
-						expander="0x20 0x00 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="
-				" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay2"
-						expander="0x20 0x00 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="
-				" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay3"
-						expander="0x20 0x00 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay4"
-						expander="0x20 0x00 "
-						external="false"
-						pin="1"></a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay5"
-						expander="0x20 0x00 "
-						external="true"
-						pin="1"></a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay6"
-						expander="0x20 0x00 "
-						external="true"
-						pin="1"></a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-						audio=".mp3"
-						relayId="relay8"
-						expander="0x20 0x00 "
-						external="true"
-						pin="1"></a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-		</li>
-	</ul>
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="szpak.mp3"
+                   relayId="relay1"
+                   expander="0x24 0x00 "
+                   external="true"
+                   pin="1">szpak</a>
+                <input type="hidden" value="Szpak pierwotnie był ptakiem typowo leśnym, ale przystosował się do życia w mieście i obecnie zasiedla pospolicie różne zadrzewienia - parki, ogrody i sady, w których podbiera z drzew wiśnie, czereśnie i śliwki. Poza tym zjada pokarm zwierzęcy, jak owady czy dżdżownice. Gniazdo zakłada w dziupli, skrzynce lęgowej lub w szczelinie budynku. To uzdolniony śpiewak - potrafi naśladować głosy innych ptaków, przeplatając je ze swoim śpiewem; przy częstym kontakcie z ludźmi, naśladuje też ludzki głos. Część ptaków zimuje w kraju, pozostałe wylatują na południe.
+					" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="golabsiniak.mp3"
+                   relayId="relay1"
+                   expander="0x24 0x00 "
+                   external="false"
+                   pin="1">gołab siniak</a>
+                <input type="hidden" value="..
 
-	<ul class="expanders">
-		<p class="dispNone">Ekspander 2 0x22 szyna 1 0x00</p>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio=".mp3"
-			   relayId="relay1"
-			   expander="0x22 0x01 "
-			   external="false"
-			   pin="1">słup oddziałowy z numeracją</a>
-			<input  type="hidden" value="
-			" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio=".mp3"
-			   relayId="relay2"
-			   expander="0x22 0x01 "
-			   external="false"
-			   pin="1">pusty</a>
-			<input  type="hidden" value="
-			" class="text-to-append dispNone" />
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio=".mp3"
-			   relayId="relay3"
-			   expander="0x22 0x01 "
-			   external="false"
-			   pin="1">pusty</a>
-			<input  type="hidden" value=""/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio=".mp3"
-			   relayId="relay4"
-			   expander="0x22 0x01 "
-			   external="false"
-			   pin="1">pusty</a>
-			<input  type="hidden" value=""/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio=".mp3"
-			   relayId="relay5"
-			   expander="0x22 0x01 "
-			   external="false"
-			   pin="1">pusty</a>
-			<input  type="hidden" value=""/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio=".mp3"
-			   relayId="relay6"
-			   expander="0x22 0x01 "
-			   pin="1"> </a>
-			<input  type="hidden" value=""/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio=".mp3"
-			   relayId="relay7"
-			   expander="0x22 0x01 "
-			   pin="1"> </a>
-			<input  type="hidden" value=""/>
-		</li>
-		<li>
-			<a href="#" class="expanders__relay relayexp1"
-			   audio=".mp3"
-			   relayId="relay8"
-			   expander="0x22 0x01 "
-			   pin="1"> </a>
-			<input  type="hidden" value=""/>
-		</li>
-	</ul>
-	<ul class="expanders">
-		<p class="dispNone">Ekspander 2 0x22 szyna 2 0x01</p>
-		<li>
-				<a href="#" class="expanders__relay relayexp1"
-				   audio=".mp3"
-				   relayId="relay1"
-				   expander="0x22 0x00 "
-				   external="false"
-				   pin="1"></a>
-				<input  type="hidden" value="
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="piegza.mp3"
+                   relayId="relay1"
+                   expander="0x24 0x00 "
+                   external="false"
+                   pin="1">piegża</a>
+                <input type="hidden" value="Piegża z rodziny pokrzewkowatych występuje nielicznie na całym obszarze kraju. Unika większych lasów, zwykle widuje się ją na ich skraju lub w młodych uprawach leśnych; nie przeszkadza jej też sąsiedztwo człowieka - mieszka nawet w miastach, gdzie swą obecność ogłasza klekocącym śpiewem. Swoje gniazdo o ażurowej, dość delikatnej konstrukcji dobrze ukrywa w gęstym krzaku lub żywopłocie. Zjada drobne bezkręgowce, głównie owady, a jesienią jej przysmakiem jest czarny bez. Zimę spędza w środkowej Afryce.
+			" class="text-to-append dispNone"/>
+            </li>
+
+        </ul>
+
+        <ul class="expanders">
+            <p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="sikoraczarnoglowka.mp3"
+                   relayId="relay1"
+                   expander="0x20 0x00 "
+                   external="false"
+                   pin="1">sikora czarnogłówka</a>
+                <input type="hidden" value="Czarnogłówka z rodziny sikor występuje średnio licznie w całym kraju. Przeważnie jest to ptak osiadły i tylko w razie bardzo mroźnej zimy wylatuje na południe Europy, gdzie klimat jest łagodniejszy. Na siedliska wybiera miejsca wilgotne, zwłaszcza blisko wód, ale też lasy bagienne jak olsy. Co wyjątkowe u sikor, czarnogłówki wykuwają dziuple w wypróchniałym drzewie parami, gdyż wykucie i wysłanie dziupli wymaga od tych małych ptaków dużo wysiłku. Rzadko zlatują na ziemię - żerują w gęstej roślinności, stąd też trudno je zauważyć, a łatwiej usłyszeć. W okresie lęgowym zjadają owady, jednak jesienią w ich diecie dominują nasiona i drobne owoce.
 				" class="text-to-append dispNone"/>
-			</li>
-		<li>
-				<a href="#" class="expanders__relay relayexp1"
-				   audio=".mp3"
-				   relayId="relay2"
-				   expander="0x22 0x00 "
-				   external="true"
-				   pin="1"> </a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-			</li>
-		<li>
-				<a href="#" class="expanders__relay relayexp1"
-				   audio=".mp3"
-				   relayId="relay3"
-				   expander="0x22 0x00 "
-				   external="true"
-				   pin="1"> </a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-			</li>
-		<li>
-				<a href="#" class="expanders__relay relayexp1"
-				   audio=".mp3"
-				   relayId="relay4"
-				   expander="0x22 0x00 "
-				   external="true"
-				   pin="1"> </a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-			</li>
-		<li>
-				<a href="#" class="expanders__relay relayexp1"
-				   audio=".mp3"
-				   relayId="relay5"
-				   expander="0x22 0x00 "
-				   external="true"
-				   pin="1"> </a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-			</li>
-		<li>
-				<a href="#" class="expanders__relay relayexp1"
-				   audio=".mp3"
-				   relayId="relay7"
-				   expander="0x22 0x00 "
-				   external="true"
-				   pin="1"> </a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-			</li>
-		<li>
-				<a href="#" class="expanders__relay relayexp1"
-				   audio=".mp3"
-				   relayId="relay8"
-				   expander="0x22 0x00 "
-				   external="true"
-				   pin="1"> </a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-			</li>
-		<li>
-				<a href="#" class="expanders__relay relayexp1"
-				   audio=".mp3"
-				   relayId="relay8"
-				   expander="0x22 0x00 "
-				   external="true"
-				   pin="1"> </a>
-				<input  type="hidden" value="" class="text-to-append dispNone"/>
-			</li>
-	</ul>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="sroka.mp3"
+                   relayId="relay1"
+                   expander="0x20 0x00 "
+                   external="false"
+                   pin="1">sroka</a>
+                <input type="hidden" value="Sroka z rodziny krukowatych jest powszechnie znanym ptakiem, występującym na niżu kraju. Na siedlisko szuka miejsc z raczej niską roślinnością - kępy krzewów to dla nich odpowiednie kryjówki; jest przy tym wszędobylska i łatwo adaptuje się do nowych warunków - od niedawna jest stałym mieszkańcem w miastach, nawet tych bardzo ruchliwych. Te towarzyskie ptaki skupiają się w liczne stada. W koronach drzew lub w krzaczastych zaroślach budują wyjątkowe gniazda opatrzone zadaszeniem z patyków. W kwestii pożywienia sroka nie jest wybredna - zjada owady, jaja ptaków, małe ssaki, ale też padlinę, nasiona i różne odpadki. Przez jej wrodzoną ciekawość i zbieranie błyszczących przedmiotów uważano srokę za złodziejkę.
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="mucholowkazalobna.mp3"
+                   relayId="relay2"
+                   expander="0x20 0x00 "
+                   external="false"
+                   pin="1">muchołówka żałobna</a>
+                <input type="hidden" value="
 
-	<div class="rasp__wrapper">
-		<ul class="expanders">
-			<li>
-				<a href="#" class="expanders__relay rasp__defaults rasp-custom-button relayexp1"
-				   audio="pozyskiwaniedrewna.mp3"
-				   relayId="relay8"
-				   expander=""
-				   pin="1">Diorama, pozyskanie drewna, las zimowy</a>
-				<input  type="hidden" value=" Turystyka i rekreacja w lasach, późne lato" class="text-to-append dispNone" />
-			</li>
-		</ul>
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="popielica.mp3"
+                   relayId="relay3"
+                   expander="0x20 0x00 "
+                   external="false"
+                   pin="1">popielica</a>
+                <input type="hidden" value="Popielica – ładne, skryte zwierzątko z długim, puszystym ogonem o srebrzysto-szarym ubarwieniu, prowadzące nadrzewny tryb życia. Chroni się w dziuplach i budkach dla ptaków. Żywi się głównie nasionami i owocami drzew. Zdarza się, że na zimę szuka schronienia w zakamarkach budynków – w piwnicach, na strychach, pod podłogami.
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="orzesznica.mp3"
+                   relayId="relay4"
+                   expander="0x20 0x00 "
+                   external="false"
+                   pin="1">orzesznica</a>
+                <input type="hidden" value="Orzesznica to niewielki gryzoń o wyjątkowo puszystym ogonku, żółtobrązowej sierści z wierzchu i białawej od spodu. Zwierzę charakteryzuje się dużymi, ciemnymi i wypukłymi oczami, co wskazuje na nocny tryb życia. Podstawę pożywienia orzesznicy stanowią nasiona i orzechy, nie gardzi jednak owocami i owadami. Jesienią zapada w sen zimowy, podczas którego oddycha bardzo rzadko - co 5-10 minut! - a temperatura jej ciała spada nawet do 2oC. Hibernuje nawet w okresie letnim przy niekorzystnej temperaturze. W sumie orzesznica przesypia nawet do 80% swojego życia.
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="zolednica.mp3"
+                   relayId="relay5"
+                   expander="0x20 0x00 "
+                   external="false"
+                   pin="1">żołędnica</a>
+                <input type="hidden" value="Żołędnica europejska, gryzoń z rodziny popielicowatych, zamieszkuje lasy liściaste i mieszane. Wiedzie ona nadrzewny tryb życia; sama buduje kuliste gniazdo w rozwidleniu gałęzi lub nocuje w dziupli. Aktywna jest nocą, zbiera wtedy lubiane przez nią żołędzie, orzechy i jagody, ale też inne owoce i nasiona, które gromadzi w gnieździe. Zapasy zjada, kiedy budzi się z zimowego snu. Zimuje nawet kilka osobników w jednym gnieździe. Nie boi się przy tym sąsiedztwa człowieka, nierzadko nocując na strychach.
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay6"
+                   expander="0x20 0x00 "
+                   external="true"
+                   pin="1"></a>
+                <input type="hidden" value="
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay7"
+                   expander="0x20 0x00 "
+                   external="true"
+                   pin="1"></a>
+                <input type="hidden" value="
+			" class="text-to-append dispNone"/>
+            </li>
+        </ul>
+        <ul class="expanders">
+            <p class="dispNone">Ekspander 1 0x20 szyna 2 0x01</p>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay8"
+                   expander="0x20 0x01 "
+                   external="true"
+                   pin="1"></a>
+                <input type="hidden" value="
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay1"
+                   expander="0x20 0x01 "
+                   external="true"
+                   pin="1"></a>
+                <input type="hidden" value="
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay2"
+                   expander="0x20 0x01 "
+                   external="true"
+                   pin="1"></a>
+                <input type="hidden" value="
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay3"
+                   expander="0x20 0x01 "
+                   external="true"
+                   pin="1"></a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay4"
+                   expander="0x20 0x01 "
+                   external="true"
+                   pin="1"></a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay5"
+                   expander="0x20 0x01 "
+                   external="true"
+                   pin="1"></a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay6"
+                   expander="0x20 0x01 "
+                   external="true"
+                   pin="1"></a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay8"
+                   expander="0x20 0x01 "
+                   external="true"
+                   pin="1"></a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+        </ul>
 
-		<a href="#" class="rasp__defaults expanders__relay" id="switchAllOn">Podświetl Wszystko</a>
-		<a href="#" class="rasp__defaults expanders__relay" id="switchAllOff">Wyłącz wszystko</a>
+        <ul class="expanders">
+            <p class="dispNone">Ekspander 2 0x22 szyna 1 0x00</p>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay1"
+                   expander="0x22 0x00 "
+                   external="false"
+                   pin="1"></a>
+                <input type="hidden" value="
+			" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay2"
+                   expander="0x22 0x00 "
+                   external="true"
+                   pin="1"> </a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay3"
+                   expander="0x22 0x00 "
+                   external="true"
+                   pin="1"> </a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay4"
+                   expander="0x22 0x00 "
+                   external="true"
+                   pin="1"> </a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay5"
+                   expander="0x22 0x00 "
+                   external="true"
+                   pin="1"> </a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay7"
+                   expander="0x22 0x00 "
+                   external="true"
+                   pin="1"> </a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay8"
+                   expander="0x22 0x00 "
+                   external="true"
+                   pin="1"> </a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay8"
+                   expander="0x22 0x00 "
+                   external="true"
+                   pin="1"> </a>
+                <input type="hidden" value="" class="text-to-append dispNone"/>
+            </li>
+        </ul>
+        <ul class="expanders">
+            <p class="dispNone">Ekspander 2 0x22 szyna 2 0x01</p>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay1"
+                   expander="0x22 0x01 "
+                   external="false"
+                   pin="1"></a>
+                <input type="hidden" value=""/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay2"
+                   expander="0x22 0x01 "
+                   pin="1"> </a>
+                <input type="hidden" value=""/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay3"
+                   expander="0x22 0x01 "
+                   external="false"
+                   pin="1"></a>
+                <input type="hidden" value=""/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay4"
+                   expander="0x22 0x01 "
+                   external="false"
+                   pin="1"></a>
+                <input type="hidden" value=""/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay5"
+                   expander="0x22 0x01 "
+                   external="false"
+                   pin="1"></a>
+                <input type="hidden" value=""/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay6"
+                   expander="0x22 0x01 "
+                   pin="1"> </a>
+                <input type="hidden" value=""/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay7"
+                   expander="0x22 0x01 "
+                   pin="1"> </a>
+                <input type="hidden" value=""/>
+            </li>
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio=".mp3"
+                   relayId="relay8"
+                   expander="0x22 0x01 "
+                   pin="1"> </a>
+                <input type="hidden" value=""/>
+            </li>
+        </ul>
 
-	</div>
-</div>
+        <div class="rasp__wrapper">
+            <ul class="expanders">
+                <li>
+                    <a href="#" class="expanders__relay rasp__defaults rasp-custom-button relayexp1"
+                       audio=".mp3"
+                       relayId="relay8"
+                       expander=""
+                       pin="1"> </a>
+                    <input type="hidden" value="" class="text-to-append dispNone"/>
+                </li>
+            </ul>
+            <a href="#" class="rasp__defaults expanders__relay" id="switchAllOn">Podświetl Wszystko</a>
+            <a href="#" class="rasp__defaults expanders__relay" id="switchAllOff">Wyłącz wszystko</a>
+            <a href="/index.php/game" class="rasp__defaults expanders__relay" id="switchAllOff">Przejdź do gry</a>
+
+        </div>
+    </div>
 
 @stop
