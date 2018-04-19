@@ -68,18 +68,18 @@ class RaspController extends BaseController
 
 	public function playAudio($command) 
 	{
-        $this->killProcess('pidof mpg123 | xargs kill -9');
-	    if ($this->switchStatus[$command] == 'status1'){
-            $this->killProcess('pidof mpg123 | xargs kill -9');
+        $this->killProcess('pkill mpg123');
+        if ($this->switchStatus[$command] == 'status1'){
+            $this->killProcess('pkill mpg123');
             return 'process killed because has status1';
         } else {
             $this->audioprocess = new Process('mpg123 media/'.$command);
-	        try {
-			    $this->audioprocess->mustRun();
-			    return $this->playerOutput = $this->audioprocess->getOutput();
-		    } catch(ProcessFailedException $e) {
-			    return $this->output = $e->getMessage();
-		    }
+            try {
+                $this->audioprocess->mustRun();
+                return $this->playerOutput = $this->audioprocess->getOutput();
+            } catch(ProcessFailedException $e) {
+                return $this->output = $e->getMessage();
+            }
         }
 	}
 
