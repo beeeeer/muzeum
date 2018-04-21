@@ -27,6 +27,8 @@ Route::get('puller','RaspController@puller');
 Route::post('fetchData','RaspController@fetchData');
 Route::post('switchAllOn','RaspController@switchallOn');
 Route::post('switchAllOff','RaspController@switchallOff');
+Route::get('swon','RaspController@switchallOn');
+Route::get('swoff','RaspController@switchallOff');
 
 Route::get('send','RaspController@_sendDataToExternal');
 

@@ -6,7 +6,8 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"panique/laravel-sass": "^1.0",
-		"guzzlehttp/guzzle": "~6.0@dev"
+		"guzzlehttp/guzzle": "^6.3",
+		"guzzle/guzzle": "^3.9"
 	},
 	"autoload": {
 		"classmap": [

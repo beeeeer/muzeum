@@ -103,19 +103,18 @@ class RaspController extends BaseController
 //All pins actions
     public function switchallOn()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')->mustRun()->getOutput();
-        }
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0x00')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0x00')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x27 0x00 0x00')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x27 0x01 0x00')->run();
     }
 
     public function switchallOff()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')->mustRun()->getOutput();
-        }
-
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0xff')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0xff')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x27 0x00 0xff')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x27 0x01 0xff')->run();
     }
 
     public function allExp($method)
