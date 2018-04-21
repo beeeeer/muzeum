@@ -5,17 +5,15 @@
         <div class="custom-text" id="custom-text"></div>
         <ul class="expanders">
             <p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
-            
-
             <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio="sroka.mp3"
-                   relayId="relay2"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
+                   audio="pliszkasiwa.mp3"
+                   relayId="relay1"
                    expander="0x24 0x01 "
                    external="true"
-                   pin="1">sroka</a>
-                <input type="hidden" value="Sroka z rodziny krukowatych jest powszechnie znanym ptakiem, występującym na niżu kraju. Na siedlisko szuka miejsc z raczej niską roślinnością - kępy krzewów to dla nich odpowiednie kryjówki; jest przy tym wszędobylska i łatwo adaptuje się do nowych warunków - od niedawna jest stałym mieszkańcem w miastach, nawet tych bardzo ruchliwych. Te towarzyskie ptaki skupiają się w liczne stada. W koronach drzew lub w krzaczastych zaroślach budują wyjątkowe gniazda opatrzone zadaszeniem z patyków. W kwestii pożywienia sroka nie jest wybredna - zjada owady, jaja ptaków, małe ssaki, ale też padlinę, nasiona i różne odpadki. Przez jej wrodzoną ciekawość i zbieranie błyszczących przedmiotów uważano srokę za złodziejkę.
-			" class="text-to-append dispNone"/>
+                   pin="1">pliszka siwa </a>
+                <input type="hidden" value="Pliszka siwa to najpospolitszy ptak Europy. Zamieszkuje tereny nadwodne, gdzie żeruje, łowiąc owady; może się jednak znacznie oddalać od zbiorników - spotykana jest żerująca przy drogach, na rozległych łąkach, czy też polach uprawnych, gdzie biega za pługiem i zbiera wykopane larwy i pędraki. Chodząc po ziemi, pliszki charakterystycznie kiwają ogonem w dół i w górę. Ich gniazda ukryte są na ziemi lub w różnych szczelinach i otworach, także budynków; pliszki są mało płochliwe i chętnie trzymają się w pobliżu człowieka. Tworzą przeważnie niewielkie stadka, którymi lecą na zimowiska na południe Europy lub do Afryki Północnej.
+" class="text-to-append dispNone"/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
@@ -48,13 +46,13 @@
 					" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio="szpak.mp3"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
+                   audio="mysikrolik.mp3"
                    relayId="relay5"
                    expander="0x24 0x01 "
                    external="true"
-                   pin="1">szpak</a>
-                <input type="hidden" value="Szpak pierwotnie był ptakiem typowo leśnym, ale przystosował się do życia w mieście i obecnie zasiedla pospolicie różne zadrzewienia - parki, ogrody i sady, w których podbiera z drzew wiśnie, czereśnie i śliwki. Poza tym zjada pokarm zwierzęcy, jak owady czy dżdżownice. Gniazdo zakłada w dziupli, skrzynce lęgowej lub w szczelinie budynku. To uzdolniony śpiewak - potrafi naśladować głosy innych ptaków, przeplatając je ze swoim śpiewem; przy częstym kontakcie z ludźmi, naśladuje też ludzki głos. Część ptaków zimuje w kraju, pozostałe wylatują na południe.
+                   pin="1">mysikrólik </a>
+                <input type="hidden" value="Mysikrólik to najmniejszy ptak Europy, zamieszkujący bory świerkowe, jodłowe lub mieszane, rzadziej sosnowe. Jak na tak maleńkiego ptaka, buduje dość masywne, zamknięte z góry gniazda, które podwiesza pod gałęzią w koronie drzewa. Zimuje na południu Europy, północny Afryki, a nawet w Ameryce Północnej. Podczas toków samiec unosi swoje barwne pióra na wierzchu głowy, strosząc je w czubek. Polując na gałęziach na drobne bezkręgowce, głównie owady, często zawisa głową w dół. Na ziemię schodzi tylko wyjątkowo, w sytuacji znacznego głodu; ciężko jest więc go zauważyć, ale za to usłyszeć można jego wysoki, falujący śpiew.
 					" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -78,14 +76,14 @@
 					" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
-                   audio="sikoraczarnoglowka.mp3"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
+                   audio="mucholowkaszara.mp3"
                    relayId="relay8"
                    expander="0x24 0x01 "
                    external="true"
-                   pin="1">sikora czarnogłówka</a>
-                <input type="hidden" value="Czarnogłówka z rodziny sikor występuje średnio licznie w całym kraju. Przeważnie jest to ptak osiadły i tylko w razie bardzo mroźnej zimy wylatuje na południe Europy, gdzie klimat jest łagodniejszy. Na siedliska wybiera miejsca wilgotne, zwłaszcza blisko wód, ale też lasy bagienne jak olsy. Co wyjątkowe u sikor, czarnogłówki wykuwają dziuple w wypróchniałym drzewie parami, gdyż wykucie i wysłanie dziupli wymaga od tych małych ptaków dużo wysiłku. Rzadko zlatują na ziemię - żerują w gęstej roślinności, stąd też trudno je zauważyć, a łatwiej usłyszeć. W okresie lęgowym zjadają owady, jednak jesienią w ich diecie dominują nasiona i drobne owoce.
-				" class="text-to-append dispNone"/>
+                   pin="1">muchołówka szara</a>
+                <input type="hidden" value="Muchołówka szara w Polsce jest średnio liczna i wędrowna - zimuje w Afryce. W prześwietlonych lasach różnego typu, starych parkach i ogrodach znajduje sobie dziuple lub skrzynki lęgowe, w których gniazduje. Siedzącą spokojnie muchołówkę trudno zauważyć w lesie - rzuca się w oczy dopiero, gdy zwinnym lotem chwyta w powietrzu owada. Również jej śpiew jest skromny i cichy, dlatego mimo iż pospolita, pozostaje ptakiem słabo znanym.
+			" class="text-to-append dispNone"/>
             </li>
         </ul>
         <ul class="expanders">
@@ -140,14 +138,15 @@
                 <input type="hidden" value="Czarnogłówka z rodziny sikor występuje średnio licznie w całym kraju. Przeważnie jest to ptak osiadły i tylko w razie bardzo mroźnej zimy wylatuje na południe Europy, gdzie klimat jest łagodnie$
                                 " class="text-to-append dispNone"/>
             </li>
-			<li>
-                <a href="#" class="expanders__relay relayexp1 hidden-element"
-                   audio="mysikrolik.mp3"
+
+            <li>
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="szpak.mp3"
                    relayId="relay6"
                    expander="0x24 0x00 "
                    external="true"
-                   pin="1">mysikrólik </a>
-                <input type="hidden" value="Mysikrólik to najmniejszy ptak Europy, zamieszkujący bory świerkowe, jodłowe lub mieszane, rzadziej sosnowe. Jak na tak maleńkiego ptaka, buduje dość masywne, zamknięte z góry gniazda, które podwiesza pod gałęzią w koronie drzewa. Zimuje na południu Europy, północny Afryki, a nawet w Ameryce Północnej. Podczas toków samiec unosi swoje barwne pióra na wierzchu głowy, strosząc je w czubek. Polując na gałęziach na drobne bezkręgowce, głównie owady, często zawisa głową w dół. Na ziemię schodzi tylko wyjątkowo, w sytuacji znacznego głodu; ciężko jest więc go zauważyć, ale za to usłyszeć można jego wysoki, falujący śpiew.
+                   pin="1">szpak</a>
+                <input type="hidden" value="Szpak pierwotnie był ptakiem typowo leśnym, ale przystosował się do życia w mieście i obecnie zasiedla pospolicie różne zadrzewienia - parki, ogrody i sady, w których podbiera z drzew wiśnie, czereśnie i śliwki. Poza tym zjada pokarm zwierzęcy, jak owady czy dżdżownice. Gniazdo zakłada w dziupli, skrzynce lęgowej lub w szczelinie budynku. To uzdolniony śpiewak - potrafi naśladować głosy innych ptaków, przeplatając je ze swoim śpiewem; przy częstym kontakcie z ludźmi, naśladuje też ludzki głos. Część ptaków zimuje w kraju, pozostałe wylatują na południe.
 					" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -177,24 +176,24 @@
         <ul class="expanders">
             <p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>
             <li>
-                <a href="#" class="expanders__relay relayexp1 hidden-element"
-                   audio="mucholowkaszara.mp3"
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="sikoraczarnoglowka.mp3"
                    relayId="relay1"
                    expander="0x27 0x00 "
                    external="true"
-                   pin="1">muchołówka szara</a>
-                <input type="hidden" value="Muchołówka szara w Polsce jest średnio liczna i wędrowna - zimuje w Afryce. W prześwietlonych lasach różnego typu, starych parkach i ogrodach znajduje sobie dziuple lub skrzynki lęgowe, w których gniazduje. Siedzącą spokojnie muchołówkę trudno zauważyć w lesie - rzuca się w oczy dopiero, gdy zwinnym lotem chwyta w powietrzu owada. Również jej śpiew jest skromny i cichy, dlatego mimo iż pospolita, pozostaje ptakiem słabo znanym.
-			" class="text-to-append dispNone"/>
+                   pin="1">sikora czarnogłówka</a>
+                <input type="hidden" value="Czarnogłówka z rodziny sikor występuje średnio licznie w całym kraju. Przeważnie jest to ptak osiadły i tylko w razie bardzo mroźnej zimy wylatuje na południe Europy, gdzie klimat jest łagodniejszy. Na siedliska wybiera miejsca wilgotne, zwłaszcza blisko wód, ale też lasy bagienne jak olsy. Co wyjątkowe u sikor, czarnogłówki wykuwają dziuple w wypróchniałym drzewie parami, gdyż wykucie i wysłanie dziupli wymaga od tych małych ptaków dużo wysiłku. Rzadko zlatują na ziemię - żerują w gęstej roślinności, stąd też trudno je zauważyć, a łatwiej usłyszeć. W okresie lęgowym zjadają owady, jednak jesienią w ich diecie dominują nasiona i drobne owoce.
+				" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1 hidden-element"
-                   audio="pliszkasiwa.mp3"
+                <a href="#" class="expanders__relay relayexp1"
+                   audio="sroka.mp3"
                    relayId="relay2"
                    expander="0x27 0x00 "
                    external="true"
-                   pin="1">pliszka siwa </a>
-                <input type="hidden" value="Pliszka siwa to najpospolitszy ptak Europy. Zamieszkuje tereny nadwodne, gdzie żeruje, łowiąc owady; może się jednak znacznie oddalać od zbiorników - spotykana jest żerująca przy drogach, na rozległych łąkach, czy też polach uprawnych, gdzie biega za pługiem i zbiera wykopane larwy i pędraki. Chodząc po ziemi, pliszki charakterystycznie kiwają ogonem w dół i w górę. Ich gniazda ukryte są na ziemi lub w różnych szczelinach i otworach, także budynków; pliszki są mało płochliwe i chętnie trzymają się w pobliżu człowieka. Tworzą przeważnie niewielkie stadka, którymi lecą na zimowiska na południe Europy lub do Afryki Północnej.
-				" class="text-to-append dispNone"/>
+                   pin="1">sroka</a>
+                <input type="hidden" value="Sroka z rodziny krukowatych jest powszechnie znanym ptakiem, występującym na niżu kraju. Na siedlisko szuka miejsc z raczej niską roślinnością - kępy krzewów to dla nich odpowiednie kryjówki; jest przy tym wszędobylska i łatwo adaptuje się do nowych warunków - od niedawna jest stałym mieszkańcem w miastach, nawet tych bardzo ruchliwych. Te towarzyskie ptaki skupiają się w liczne stada. W koronach drzew lub w krzaczastych zaroślach budują wyjątkowe gniazda opatrzone zadaszeniem z patyków. W kwestii pożywienia sroka nie jest wybredna - zjada owady, jaja ptaków, małe ssaki, ale też padlinę, nasiona i różne odpadki. Przez jej wrodzoną ciekawość i zbieranie błyszczących przedmiotów uważano srokę za złodziejkę.
+			" class="text-to-append dispNone"/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
