@@ -79,7 +79,7 @@ jQuery(document).ready(function ($) {
                     text = $(this).next().val()
                     content = $('#custom-text');
                     content.html('');
-                    content.html(text);
+                   //content.html(text);
                     $(this).attr('pin', function (index, attr) {
                         return attr == 1 ? 0 : 1;
                     });
@@ -97,9 +97,9 @@ jQuery(document).ready(function ($) {
                     pointData[0] = command + stringProcessPin;
                     pointData[1] = $(this).attr('audio');
                     pointData[2] = 'status' + $(this).attr('pin');
-                    if($('.container').hasClass('game')){
+                    if($('.container-inner').hasClass('game')){
                         console.log('lets play a game');
-                        if($(this).attr('external') == 'false'){
+                        if($(this).attr('external') == 'true'){
                             $.ajax({
                                 type: "POST",
                                 url: "setpoint",
@@ -112,12 +112,15 @@ jQuery(document).ready(function ($) {
                             }, "json");
                         }
                         $('.answers > li > a').on('click',function(e){
-                            score = 0;
-                            $('score').html(score);
+                            var score = 0;
+                            //$('score').html(score);
                             console.log($(this).attr('answer'));
                             if((answer === $(this).attr('answer') && ($(this).attr('pin') === '0'))){
-                                console.log('Good!!')
-                                console.log(pointData);
+                               content.html(text);
+				 console.log('Good!!')
+                               score +=1;
+				console.log(score);
+				 console.log(pointData[1]='applause.mp3');
                                 $.ajax({
                                     type: "GET",
                                     url: "send",
@@ -140,11 +143,14 @@ jQuery(document).ready(function ($) {
                                     }
                                 }, "json");
                                 answer = null;
-                                score += 1;
+                                //score +=1;
+				console.log(score);
                             } else {
-                                score -= 1;
+                              //  score -=1;
+				console.log(score);
                                 console.log('Wrong!!!!!!!!!!!!!!!!!!!!!!!!!!!');
                             }
+				//$('score').html(score);
                         });
                     }
                     else {

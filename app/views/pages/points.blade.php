@@ -111,7 +111,7 @@
 			" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="remiz.mp3"
                    relayId="relay3"
                    expander="0x24 0x00 "
@@ -197,7 +197,7 @@
 				" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="mucholowkazalobna.mp3"
                    relayId="relay3"
                    expander="0x27 0x00 "
