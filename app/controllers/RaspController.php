@@ -37,7 +37,7 @@ class RaspController extends BaseController
 
 	public function prepareData($data)
 	{
-		$process = substr($data, 0, strpos($data, "&"));	
+		$process = substr($data, 0, strpos($data, "&"));
 		$tempAudioFile = strstr($data,'&');
 		$tempAudioFile = str_replace('=','',strstr($tempAudioFile, '='));
 		$this->audioFile = substr($tempAudioFile, 0, strpos($data, "&"));
@@ -68,7 +68,7 @@ class RaspController extends BaseController
 			return $this->output = $this->process->getOutput();
 		} catch (ProcessFailedException $e) {
     		return $this->output = $e->getMessage();
-    	}
+    		}
 	}
 
 	public function playAudio($command) 
@@ -85,7 +85,7 @@ class RaspController extends BaseController
 		    } catch(ProcessFailedException $e) {
 			    return $this->output = $e->getMessage();
 		    }
-        }
+	        }
 	}
 
 	public function getRelayData()
@@ -170,7 +170,7 @@ class RaspController extends BaseController
     {
         $data = Input::all();
         $client = new Client();
-        $res = $client->request('GET', 'http://192.168.0.59/index.php/recive', [
+        $res = $client->request('GET', 'http://192.168.0.89/index.php/recive', [
             'form_params' => $data
         ]);
         $result = $res->getBody();
