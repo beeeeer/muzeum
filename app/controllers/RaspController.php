@@ -82,7 +82,7 @@ class RaspController extends BaseController
 		    } catch(ProcessFailedException $e) {
 			    return $this->output = $e->getMessage();
 		    }
-        }
+	        }
 	}
 
 	public function getRelayData()
@@ -100,19 +100,16 @@ class RaspController extends BaseController
 //All pins actions
     public function switchallOn()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')->mustRun()->getOutput();
-        }
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0x00')->run();
+	$this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0x00')->run();
+	$this->allExp('curl 192.168.0.72/index.php/swon')->run();
     }
 
     public function switchallOff()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')->mustRun()->getOutput();
-        }
-
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0xff')->run();
+	$this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0xff')->run();
+	$this->allExp('curl 192.168.0.72/index.php/swoff')->run();
     }
 
     public function allExp($method)
@@ -167,7 +164,7 @@ class RaspController extends BaseController
     {
         $data = Input::all();
         $client = new Client();
-        $res = $client->request('GET', 'http://192.168.0.108/index.php/recive', [
+        $res = $client->request('GET', 'http://192.168.0.72/index.php/recive', [
             'form_params' => $data
         ]);
         $result = $res->getBody();

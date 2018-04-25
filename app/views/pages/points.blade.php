@@ -14,7 +14,11 @@
 					expander="0x24 0x01 "
 					external="false" 
 					pin="1">ogólne</a>
-			<input  type="hidden" value=""/>
+			<input  type="hidden" value="
+
+Lasy Nadleśnictwa stanowią głównie bory sosnowe posadzone po latach 20-tych, po katastrofalnej gradacji strzygonii choinówki - motyla, którego gąsienice zniszczyły wielkie obszary Puszczy Noteckiej. Sosna zajmuje dziś ponad 88% powierzchni leśnej - te wielkie połacie sośnin są bardzo podatne na działanie szkodników oraz pożary, dlatego też w dzisiejszych czasach leśnicy starają się urozmaicać gatunkowo następne pokolenia lasu - zwiększają oni w ten sposób odporność lasów. Takie działanie, polegające na odtwarzaniu i wzbogacaniu istniejących lasów zwane jest odnawianiem lasu, za to tworzenie nowych lasów to zalesianie. Są to podstawowe cele hodowli lasu. Leśnicy hodowlę zaczynają od zbioru nasion, które częściowo przechowują aby wysiać je wiosną, a częściowo wysiewają jeszcze latem lub jesienią, w szkółce leśnej, by wyrosły z nich sadzonki. Wysadzają je w lesie - każdego roku w Polsce leśnicy sadzą ponad 500 mln drzew; w samym Nadleśnictwie Krucz sadzi się ok. dwóch milionów drzewek rocznie, z czego 75 % to sosny, a pozostałe to brzoza, dąb, buk, olcha, świerk, lipa i inne gatunki. Młody, nowo założony las nazywa się uprawą leśną. Okres uprawy obejmuje czas od posadzenia sadzonek do momentu tzw. zwarcia, gdy boczne gałęzie drzewek zaczną się stykać – zwykle dzieje się to po ok. 10 latach. Uprawy leśne wymagają opieki, którą nazywa się pielęgnowaniem lasu; prace te polegają m. in. na spulchnianiu gleby, niszczeniu chwastów, przerzedzaniu zbyt gęstych siewów czy usuwaniu chorych drzewek. 
+
+			"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
@@ -84,16 +88,20 @@
 		   expander="0x20 0x01 "
 		   external="true"
 		   pin="1">Chrabąszcz Majowy</a>
-		<input  type="hidden" value=""/>
+		<input  type="hidden" value="
+Chrabąszcz majowy to duży chrząszcz z rodziny żukowatych. Żywi się liśćmi różnych drzew liściastych. Jego larwy, nazywane pędrakami, mają silny, gryzący aparat gębowy, który umożliwia im żerowanie na korzeniach roślin zielnych, krzewów i drzew. Mogą one w ten sposób uszkadzać system korzeniowy młodych roślin - z punktu widzenia człowieka są więc szkodnikami szkółek, upraw oraz trawników. Pełny rozwój chrabąszcza od jaja do imago trwa 4-5 lat. Dorosłe osobniki i pędraki zimują w glebie na głębokości około 1 m. Jeszcze na początku XX w. we Francji i Niemczech przygotowywano zupę z chrabąszczy majowych
+		"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-		   audio="szeliniaksosnowiec.mp3"
+		   audio="szeliniaksosnowy.mp3"
 		   relayId="relay2"
 		   expander="0x20 0x01 "
 		   external="true"
 		   pin="1">Szeliniak sosnowiec</a>
-		<input  type="hidden" value="Szeliniak sosnowiec"/>
+		<input  type="hidden" value="
+Szeliniak sosnowy, chrząszcz z rodziny ryjkowcowatych, to szkodnik młodych sosen i świerków. Występuje pospolicie w młodnikach, ale też w szkółkach drzew iglastych. Każda samica składa w korzeniach młodego drzewa do 60 jaj; larwy wylęgają się już po 2-3 tygodniach i przepoczwarzają się jeszcze w tym samym roku lub po przezimowaniu. Dorosłe osobniki osiągają długość do 15 mm i żyją 2-3 lata. Chrząszcze żerują na korzeniach oraz pędach młodych drzew - zjadają korę i łyko; larwy żywią się samym łykiem, drążąc korytarze pod korą - w efekcie drzewka przestają rosnąć i obumierają; w ich korzeniach można znaleźć długie tuneliki, wypełnione trocinami i odchodami larw.
+		"/>
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
@@ -116,7 +124,7 @@
 		" class="text-to-append dispNone" />
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1" 
+		<a href="#" class="expanders__relay relayexp1 hidden-element" 
 					audio="myszlesna.mp3"
 					relayId="relay5"
 					expander="0x20 0x01 "
@@ -146,7 +154,7 @@
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1" 
+		<a href="#" class="expanders__relay relayexp1 hidden-element" 
 					audio="swiergotekdrzewny.mp3"
 					relayId="relay8"
 					expander="0x20 0x01 "
@@ -170,7 +178,7 @@
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
 		   audio="pliszkasiwa.mp3"
 		   relayId="relay2"
 		   expander="0x20 0x00 "
@@ -180,7 +188,7 @@
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1" 
+		<a href="#" class="expanders__relay relayexp1 hidden-element" 
 					audio="poklaskwa.mp3"
 					relayId="relay3"
 					expander="0x20 0x00 "
@@ -200,7 +208,7 @@
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1" 
+		<a href="#" class="expanders__relay relayexp1 hidden-element" 
 					audio="turkawka.mp3"
 					relayId="relay5"
 					expander="0x20 0x00 "
@@ -210,7 +218,7 @@
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1" 
+		<a href="#" class="expanders__relay relayexp1 hidden-element" 
 					audio="lerka.mp3"
 					relayId="relay6"
 					expander="0x20 0x00 "
