@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 }
@@ -10,7 +11,7 @@ body {
 	padding-top: 30px;
 }
 .container {
-	width: 1400px;
+	width: auto;
 	margin: 0 auto;
 }
 
@@ -140,4 +141,32 @@ body {
 	font-size: 15px;
 	display: block;
 	width: 250px !important;
+}
+.hidden-element {
+width:0 !important;
+height:0 !important;
+visibility: hidden !important;
+margin:0 !important;
+padding:0 !important;
+position: absolute;
+}
+@media(min-width: 501px) and (max-width: 1075px){
+        .container {
+                width: auto;
+        }
+        .rasp__wrapper{
+                width:100%;
+        }
+        ul {
+                clear: both;
+                width:100%;
+          li {
+                width: 50%;
+
+                a { float: left; width: 95%; padding: 0 20px 0 20px;}
+             }
+        }
+        .rasp-custom-button {height: 150px!important; width: 95%!important;}
+        .rasp__defaults {  width: 22%;  height: 150px !important; font-size: 25px;}
+        .expanders { li { a {width: 95%; height: 50px;  font-size: 25px; padding-bottom: 20px; }}}
 }

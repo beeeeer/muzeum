@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 <div class ="container">
-	<h3 class="title_">Hodowla lasu</h3>
+	<h3 class="title_">LAS MIESZANY W ASPEKCIE LETNIM</h3>
 	<div class="custom-text" id="custom-text">
 
 	</div>
@@ -85,7 +85,7 @@
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
 					audio="dziurawiec.mp3"
-					relayId="relay1"
+					relayId="relay8"
 					expander="0x24 0x01 "
 					external="true"
 					pin="1">dziurawiec</a>
@@ -153,10 +153,10 @@
 					expander="0x24 0x00 "
 					external="true"
 					pin="1">uszatka</a>
-			<input  type="hidden" value="" class="text-to-append dispNone" />
+			<input  type="hidden" value="Sowa uszata, czy też uszatka zwyczajna, to ptak drapieżny z rodziny puszczykowatych; w Polsce dość powszechny - zamieszkuje doliny rzeczne, obrzeża miast i parki. Uszatka rzadko buduje własne gniazda – zwykle przejmuje gniazda na drzewach iglastych pozostawione przez inne ptaki. Jak wszystkie sowy jest aktywna w nocy, a w ciągu dnia odpoczywa ukryta na drzewach, wyciągając ciało tak, by upodobnić się do gałęzi. Uszatki są gatunkiem zimującym, choć część osobników podejmuje wędrówki na zimowisko. Żywią się gryzoniami, rzadko innymi ptakami, żabami i owadami. " class="text-to-append dispNone" />
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
 					audio="soweczka.mp3"
 					relayId="relay7"
 					expander="0x24 0x00 "
@@ -167,7 +167,7 @@
 			" class="text-to-append dispNone" />
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
 					audio="kaniaruda.mp3"
 					relayId="relay8"
 					expander="0x24 0x00 "
@@ -184,7 +184,7 @@
 	<p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-		   audio="jastrzab.mp3"
+		   audio="jastrzabzwyczajny.mp3"
 		   relayId="relay1"
 		   expander="0x21 0x00 "
 		   external="true"
@@ -195,7 +195,7 @@
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="wilga.mp3"
+					audio="wilgazwyczajna.mp3"
 					relayId="relay2"
 					expander="0x21 0x00 "
 					external="true"
@@ -204,7 +204,7 @@
 			" class="text-to-append dispNone" />
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
 					audio="mucholowkazalobna.mp3"
 					relayId="relay3"
 					expander="0x21 0x00 "
@@ -298,7 +298,7 @@
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
 					audio="sikorabogatka.mp3"
 					relayId="relay4"
 					expander="0x21 0x01 "
@@ -307,7 +307,7 @@
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
 					audio="sikoramodraszka.mp3"
 					relayId="relay5"
 					expander="0x21 0x01 "
@@ -325,16 +325,16 @@
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio=".mp3"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
+					audio=""
 					relayId="relay7"
 					expander="0x21 0x01 "
 					external="true"
-					pin="1"></a>
+					pin="1">pożar</a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
 					audio=".mp3"
 					relayId="relay8"
 					expander="0x21 0x01 "
@@ -358,65 +358,66 @@
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio=".mp3"
+					audio="pozarlasu.mp3"
 					relayId="relay2"
 					expander="0x20 0x01 "
-					external="true"
-					pin="1"> </a>
+					external="false"
+					pin="1">Pożar </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio=".mp3"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
+					audio="cos.mp3"
 					relayId="relay3"
 					expander="0x20 0x01 "
-					external="true"
+					external="false"
 					pin="1"> </a>
 		<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio=".mp3"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
+					audio="cos.mp3"
 					relayId="relay4"
 					expander="0x20 0x01 "
-					external="true"
-					pin="1"> </a>
+					external="false"
+					pin="1"> cos</a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio=".mp3"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
+					audio="cos.mp3"
 					relayId="relay5"
 					expander="0x20 0x01 "
-					external="true"
-					pin="1"> </a>
+					external="false"
+					pin="1"> cos</a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio=".mp3"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
+					audio="cos.mp3"
 					relayId="relay6"
 					expander="0x20 0x01 "
-					external="true"
+					external="false"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
-					audio=".mp3"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
+					audio="cos.mp3"
 					relayId="relay7"
 					expander="0x20 0x01 "
-					external="true"
+					external="false"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 	<li>
-		<a href="#" class="expanders__relay relayexp1"
-		   audio=".mp3"
+		<a href="#" class="expanders__relay relayexp1 hidden-element"
+		   audio="cos.mp3"
 		   relayId="relay8"
 		   expander="0x20 0x01 "
-		   external="true"
-		   pin="1"> </a>
+		   external="false
+"
+		   pin="1">lalalal </a>
 		<input  type="hidden" value="" class="text-to-append dispNone"/>
 	</li>
 </ul>
@@ -496,10 +497,10 @@
 		<ul class="expanders">
 			<li>
 				<a href="#" class="expanders__relay rasp__defaults rasp-custom-button relayexp1"
-				   audio=".mp3"
+				   audio="lasletni-pozar.mp3"
 				   relayId="relay8"
 				   expander=""
-				   pin="1"> </a>
+				   pin="1">Las letni - pożar </a>
 				<input  type="hidden" value="" class="text-to-append dispNone" />
 			</li>
 		</ul>
