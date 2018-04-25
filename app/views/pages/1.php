@@ -20,7 +20,7 @@ zagrożona wymarciem wskutek osuszania i eksploatacji torfowisk."
 						class="text-to-append dispNone" />
 			</li>
 			<li>
-				<a href="#" class="expanders__relay relayexp1"
+				<a href="#" class="expanders__relay relayexp1 hidden-element"
 				   audio="bakzwyczajny.mp3"
 				   relayId="relay2"
 				   expander="0x20 0x00 "
