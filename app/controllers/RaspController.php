@@ -68,12 +68,12 @@ class RaspController extends BaseController
 
 	public function playAudio($command) 
 	{
-        $this->killProcess('pidof mpg123 | xargs kill -9');
+	    $this->killProcess('pkill mpg123');
 	    if ($this->switchStatus[$command] == 'status1'){
-            $this->killProcess('pidof mpg123 | xargs kill -9');
+            $this->killProcess('pkill mpg123');
             return 'process killed because has status1';
         } else {
-            $this->audioprocess = new Process('mpg123 media/'.$command);
+            $this->audioprocess = new Process('/usr/bin/mpg123 media/'.$command);
 	        try {
 			    $this->audioprocess->mustRun();
 			    return $this->playerOutput = $this->audioprocess->getOutput();
@@ -91,26 +91,25 @@ class RaspController extends BaseController
 	public function killProcess($killprocess)
 	{
 		$process = new Process($killprocess);
-		$process->mustRun();
+		$process->run();
 		return $process->getOutput();
 	}
 
 //All pins actions
     public function switchallOn()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')->mustRun()->getOutput();
-        }
+	$this->allExp('/usr/sbin/i2cset -y 1 0x20 0x00 0x00')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x20 0x01 0x00')->run(); 
+        $this->allExp('/usr/sbin/i2cset -y 1 0x25 0x00 0x00')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x25 0x01 0x00')->run();
     }
 
     public function switchallOff()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')->mustRun()->getOutput();
-        }
-
+        $this->allExp('/usr/sbin/i2cset -y 1 0x20 0x00 0xff')->run();
+	$this->allExp('/usr/sbin/i2cset -y 1 0x20 0x01 0xff')->run();
+	$this->allExp('/usr/sbin/i2cset -y 1 0x25 0x00 0xff')->run();
+	$this->allExp('/usr/sbin/i2cset -y 1 0x25 0x01 0xff')->run();
     }
 
     public function allExp($method)

@@ -31,7 +31,7 @@ zdradza swoją obecność donośnym buczącym głosem słyszalnym nawet na kilka
 przez co staje się trudny do zauważenia." class="text-to-append dispNone" />
 			</li>
 			<li>
-				<a href="#" class="expanders__relay relayexp1 hidden-element"
+				<a href="#" class="expanders__relay relayexp1"
 				   audio="bocianczarny.mp3"
 				   relayId="relay3"
 				   expander="0x20 0x00 "
