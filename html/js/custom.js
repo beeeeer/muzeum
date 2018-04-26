@@ -132,10 +132,8 @@ jQuery(document).ready(function($){
                 url : "switchAllOff",
                 data : { data: 'off' },
                 success : function(response){
-
-
                     console.log(response);
-			location.reload();
+			        location.reload();
                 }, error: function(response)
                 {
                     console.log(response);
@@ -144,7 +142,39 @@ jQuery(document).ready(function($){
         });
 
     }();
+    var switchDesktop = function(){
+       var on = $('#desktopon');
+       var off = $('#desktopoff');
+        on.on('click',function(){
+            $.ajax({
+                type: "POST",
+                url : "pulpitOn",
+                data : { data: 'on' },
+                success : function(response){
+                    console.log(response);
+                }, error: function(response)
+                {
+                    console.log(response);
+                }
+            },"json");
+        });
 
+       off.on('click',function(){
+           $.ajax({
+               type: "POST",
+               url : "pulpitOff",
+               data : { data: 'off' },
+               success : function(response){
+                   console.log(response);
+               }, error: function(response)
+               {
+                   console.log(response);
+               }
+           },"json");
+       });
+
+
+    }();
     var setText = function() {
         var text = $(this).next().val(),
             content = $('#custom-text');

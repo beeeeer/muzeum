@@ -151,5 +151,14 @@ class RaspController extends BaseController
         return $output;
     }
 
+    public function pulpitOn()
+    {
+        return 'pulpit On';
+    }
+
+    public function pulpitOff()
+    {
+        return 'pulpit Off';
+    }
 }
  
