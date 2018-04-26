@@ -193,6 +193,20 @@ class RaspController extends BaseController
         $process->mustRun();
         return $process->getOutput();
     }
+
+    public function pulpitOn()
+    {
+        $process = new Process('/opt/vc/bin/vcgencmd display_power 1');
+        $result = $process->mustRun()->getOutput();
+        return json_encode($result);
+    }
+
+    public function pulpitOff()
+    {
+        $process = new Process('/opt/vc/bin/vcgencmd display_power 0');
+        $result = $process->mustRun()->getOutput();
+        return json_encode($result);
+    }
     
 }
  
