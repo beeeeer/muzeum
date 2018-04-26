@@ -45,11 +45,10 @@ class airPlane extends Command
      */
     public function fire()
     {
-        if ($this->airplane_flag == 1) return;
-
         $process = new Process('gpio -g read 21');
         $process->mustRun();
         $this->airplane_flag = $process->getOutput();
+        if ($this->airplane_flag == 0) return;
         if ($this->airplane_flag == 1) {
             $process = new Process('curl http://192.168.0.76/index.php/airplaneProcess');
             $water = new Process('/usr/sbin/i2cset -y 1 0x21 0x01 0xfe');
