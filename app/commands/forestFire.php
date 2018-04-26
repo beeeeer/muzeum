@@ -11,7 +11,7 @@ use GuzzleHttp\Client as Client;
 
 class forestFire extends Command {
 
-    private $flag;
+    private $fire_flag = 1;
 
 	/**
 	 * The console command name.
@@ -44,13 +44,14 @@ class forestFire extends Command {
 	 */
 	public function fire()
 	{
-	    if($this->flag == 1) {
+	    Log::info('cron fire');
+	    if($this->fire_flag == 0) {
 	        return;
         }
 	    $process = new Process('gpio -g read 16');
 	    $process->mustRun();
         $this->flag = $process->getOutput();
-	    if (($this->flag == 1))
+	    if (($this->fire_flag == 0))
         {
             $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
             $process->mustRun();
