@@ -1,0 +1,21 @@
+@extends('layouts.default') @section('content') <div class ="container">
+        <h3 class="title_">Młodnik i tyczkownia</h3>
+        <div class="custom-text" id="custom-text">
+        </div> <ul class="expanders">
+                <p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
+        <li>
+                <a href="#" class="expanders__relay relayexp1"
+                                        audio="sliwatarnina.mp3"
+                                        relayId="relay1"
+                                        expander="0x22 0x01 "
+                                        external="false"
+                                        pin="1">Śliwa tarnina</a>
+                        <input type="hidden" value="Śliwa tarnina, z rodziny różowatych, jest pospolita głównie na niżu kraju i w niższych położeniach górskich. Krzew ten tworzy 
+gęste, cierniste zarośla, zwane czyżniami, stanowiące ostoję dla wielu gatunków zwierząt. Charakterystyczną cechą tarniny są długie ciernie na gałęziach. Kwitnie niezwykle obficie, 
+ale krótko, w kwietniu i w maju, jeszcze przed rozwojem liści. Liczne białe kwiaty przekształcają się później w krągłe czarne owoce z niebieskawym nalotem. Miąższ owoców, mimo że 
+cierpki w stanie świeżym, jest ceniony ze względu na walory odżywcze, aromat i smak. Do spożycia nadaje się po przemrożeniu – staje się wówczas słodszy.
+                        " class="text-to-append dispNone"/>
+        </li>
+        <li>
+                <a href="#" class="expanders__relay relayexp1"
+                                        audio="piestrzenicakasztanowata.mp3"
