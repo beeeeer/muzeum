@@ -224,6 +224,29 @@ var_dump($this->command);
         $process->mustRun();
         return $process->getOutput();
     }
-    
+    public function fireProcess()
+    {
+        $audio = new Process('mpg123 media/pozarlasu.mp3');
+        $audio->start();
+        while ($audio->isRunning()) {
+            sleep(7);
+            $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x9f');
+            $process->mustRun();
+            sleep(7);
+            $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x8f');
+            $process->mustRun();
+            sleep(7);
+            $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
+            $process->mustRun();
+            sleep(7);
+            $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x83');
+            $process->mustRun();
+            sleep(7);
+            $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x81');
+            $process->mustRun();
+            exit;
+        }
+        return 'im done';
+    }
 }
  

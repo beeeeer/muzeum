@@ -25,6 +25,7 @@ Route::post('switchAllOff','RaspController@switchallOff');
 Route::get('swon','RaspController@switchallOn');
 Route::get('swoff','RaspController@switchallOff');
 Route::get('send','RaspController@_sendDataToExternal');
+Route::get('fireprocess','RaspController@fireProcess');
 
 Route::get('recive','RaspController@_getDataFromExternal');
 
