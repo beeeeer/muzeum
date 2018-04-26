@@ -11,7 +11,7 @@ use GuzzleHttp\Client as Client;
 
 class forestFire extends Command {
 
-    private $fire_flag = 1;
+    private $fire_flag;
 
 	/**
 	 * The console command name.
@@ -47,6 +47,7 @@ class forestFire extends Command {
 	    if($this->fire_flag == 0) {
 	        return;
         }
+
 	    $process = new Process('gpio -g read 16');
 	    $process->mustRun();
         $this->fire_flag = $process->getOutput();
