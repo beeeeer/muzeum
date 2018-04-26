@@ -8,6 +8,7 @@ use Symfony\Component\Process\Exception\ProcessFailedException;
 use Illuminate\Http\Request as Request;
 use Illuminate\Http\Response as Response;
 use GuzzleHttp\Client as Client;
+use RaspController;
 
 class airPlane extends Command
 {
@@ -46,12 +47,15 @@ class airPlane extends Command
     public function fire()
     {
         if ($this->airplane_flag == 1) return;
+
         $process = new Process('gpio -g read 21');
         $process->mustRun();
         $this->airplane_flag = $process->getOutput();
         if ($this->airplane_flag == 1) {
             $process = new Process('curl http://192.168.0.76/index.php/airplaneProcess');
-            $water = new Process('/usr/sbin/i2cset -y 1 0x27 0x01 0x00');
+            $controller = new RaspController();
+            $controller->switchallOff();
+            $water = new Process('/usr/sbin/i2cset -y 1 0x21 0x01 0xfe');
             $process->run();
             $water->run();
         }
