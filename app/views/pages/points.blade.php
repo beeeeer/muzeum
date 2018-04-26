@@ -344,7 +344,7 @@
                 <a href="#" class="expanders__relay relayexp1"
                    audio=".mp3"
                    relayId="relay1"
-                   expander="0x22 0x01 "
+                   expander="0x22 0x00 "
                    external="false"
                    pin="1"></a>
                 <input type="hidden" value=""/>
@@ -353,7 +353,7 @@
                 <a href="#" class="expanders__relay relayexp1"
                    audio=".mp3"
                    relayId="relay2"
-                   expander="0x22 0x01 "
+                   expander="0x22 0x00 "
                    pin="1"> </a>
                 <input type="hidden" value=""/>
             </li>
@@ -361,7 +361,7 @@
                 <a href="#" class="expanders__relay relayexp1"
                    audio=".mp3"
                    relayId="relay3"
-                   expander="0x22 0x01 "
+                   expander="0x22 0x00 "
                    external="false"
                    pin="1"></a>
                 <input type="hidden" value=""/>
@@ -370,7 +370,7 @@
                 <a href="#" class="expanders__relay relayexp1"
                    audio=".mp3"
                    relayId="relay4"
-                   expander="0x22 0x01 "
+                   expander="0x22 0x00 "
                    external="false"
                    pin="1"></a>
                 <input type="hidden" value=""/>
@@ -379,7 +379,7 @@
                 <a href="#" class="expanders__relay relayexp1"
                    audio=".mp3"
                    relayId="relay5"
-                   expander="0x22 0x01 "
+                   expander="0x22 0x00 "
                    external="false"
                    pin="1"></a>
                 <input type="hidden" value=""/>
@@ -388,7 +388,7 @@
                 <a href="#" class="expanders__relay relayexp1"
                    audio=".mp3"
                    relayId="relay6"
-                   expander="0x22 0x01 "
+                   expander="0x22 0x00 "
                    pin="1"> </a>
                 <input type="hidden" value=""/>
             </li>
@@ -396,7 +396,7 @@
                 <a href="#" class="expanders__relay relayexp1"
                    audio=".mp3"
                    relayId="relay7"
-                   expander="0x22 0x01 "
+                   expander="0x22 0x00 "
                    pin="1"> </a>
                 <input type="hidden" value=""/>
             </li>
@@ -404,7 +404,7 @@
                 <a href="#" class="expanders__relay relayexp1"
                    audio=".mp3"
                    relayId="relay8"
-                   expander="0x22 0x01 "
+                   expander="0x22 0x00 "
                    pin="1"> </a>
                 <input type="hidden" value=""/>
             </li>
