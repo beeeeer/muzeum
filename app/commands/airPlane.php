@@ -3,65 +3,81 @@
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Process\Process;
+use Symfony\Component\Process\Exception\ProcessFailedException;
+use Illuminate\Http\Request as Request;
+use Illuminate\Http\Response as Response;
+use GuzzleHttp\Client as Client;
 
-class airPlane extends Command {
+class airPlane extends Command
+{
 
-	/**
-	 * The console command name.
-	 *
-	 * @var string
-	 */
-	protected $name = 'command:name';
 
-	/**
-	 * The console command description.
-	 *
-	 * @var string
-	 */
-	protected $description = 'Command description.';
+    private $airplane_flag;
+    /**
+     * The console command name.
+     *
+     * @var string
+     */
+    protected $name = 'forest:airplane';
 
-	/**
-	 * Create a new command instance.
-	 *
-	 * @return void
-	 */
-	public function __construct()
-	{
-		parent::__construct();
-	}
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Command description.';
 
-	/**
-	 * Execute the console command.
-	 *
-	 * @return mixed
-	 */
-	public function fire()
-	{
-		//
-	}
+    /**
+     * Create a new command instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
-	/**
-	 * Get the console command arguments.
-	 *
-	 * @return array
-	 */
-	protected function getArguments()
-	{
-		return array(
-			array('example', InputArgument::REQUIRED, 'An example argument.'),
-		);
-	}
+    /**
+     * Execute the console command.
+     *
+     * @return mixed
+     */
+    public function fire()
+    {
+        if ($this->airplane_flag == 1) return;
+        $process = new Process('gpio -g read 21');
+        $process->mustRun();
+        $this->airplane_flag = $process->getOutput();
+        if ($this->airplane_flag == 1) {
+            $process = new Process('curl http://192.168.0.76/index.php/airplaneProcess');
+            $water = new Process('/usr/sbin/i2cset -y 1 0x27 0x01 0x00');
+            $process->run();
+            $water->run();
+        }
 
-	/**
-	 * Get the console command options.
-	 *
-	 * @return array
-	 */
-	protected function getOptions()
-	{
-		return array(
-			array('example', null, InputOption::VALUE_OPTIONAL, 'An example option.', null),
-		);
-	}
+    }
+
+    /**
+     * Get the console command arguments.
+     *
+     * @return array
+     */
+    protected function getArguments()
+    {
+        return array();
+    }
+
+    /**
+     * Get the console command options.
+     *
+     * @return array
+     */
+    protected function getOptions()
+    {
+        return array(
+            array('example', null, InputOption::VALUE_OPTIONAL, 'An example option.', null),
+        );
+    }
 
 }

@@ -12,3 +12,4 @@
 */
 
 Artisan::add(new forestFire);
+Artisan::add(new airPlane);

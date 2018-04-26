@@ -198,6 +198,13 @@ class RaspController extends BaseController
         $process->mustRun();
         return $process->getOutput();
     }
-    
+
+
+    public function waterProcess()
+    {
+        $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x00');
+        $process->mustRun();
+    }
+
 }
  
