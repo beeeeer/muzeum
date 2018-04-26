@@ -110,13 +110,13 @@ jQuery(document).ready(function($){
             console.log(switchAllOff);
         switchAllOn.on('click',function(){
             switchAllOff.removeClass('on');
-
             $.ajax({
                 type: "POST",
                 url : "switchAllOn",
                 data : { data: 'on' },
                 success : function(response){
                     console.log(response);
+//		    location.reload();
                 }, error: function(response)
                 {
                     console.log(response);
@@ -132,7 +132,10 @@ jQuery(document).ready(function($){
                 url : "switchAllOff",
                 data : { data: 'off' },
                 success : function(response){
+
+
                     console.log(response);
+			location.reload();
                 }, error: function(response)
                 {
                     console.log(response);
