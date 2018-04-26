@@ -98,7 +98,7 @@ class RaspController extends BaseController
 //All pins actions
     public function switchallOn()
     {
-	$this->allExp('/usr/sbin/i2cset -y 1 0x20 0x00 0x00')->run();
+	    $this->allExp('/usr/sbin/i2cset -y 1 0x20 0x00 0x00')->run();
         $this->allExp('/usr/sbin/i2cset -y 1 0x20 0x01 0x00')->run(); 
         $this->allExp('/usr/sbin/i2cset -y 1 0x25 0x00 0x00')->run();
         $this->allExp('/usr/sbin/i2cset -y 1 0x25 0x01 0x00')->run();
@@ -107,9 +107,9 @@ class RaspController extends BaseController
     public function switchallOff()
     {
         $this->allExp('/usr/sbin/i2cset -y 1 0x20 0x00 0xff')->run();
-	$this->allExp('/usr/sbin/i2cset -y 1 0x20 0x01 0xff')->run();
-	$this->allExp('/usr/sbin/i2cset -y 1 0x25 0x00 0xff')->run();
-	$this->allExp('/usr/sbin/i2cset -y 1 0x25 0x01 0xff')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x20 0x01 0xff')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x25 0x00 0xff')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x25 0x01 0xff')->run();
     }
 
     public function allExp($method)
@@ -153,12 +153,16 @@ class RaspController extends BaseController
 
     public function pulpitOn()
     {
-        return 'pulpit On';
+        $process = new Process('vcgencmd display_power 1');
+
+        return $process->mustRun();
     }
 
     public function pulpitOff()
     {
-        return 'pulpit Off';
+        $process = new Process('vcgencmd display_power 0');
+
+        return $process->mustRun();
     }
 }
  
