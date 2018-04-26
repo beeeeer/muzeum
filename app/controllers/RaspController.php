@@ -103,7 +103,7 @@ var_dump($this->command);
     {
         $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0x00')->run();
 	    $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0x00')->run();
-        $this->allExp('curl 192.168.0.89/index.php/swon')->run();
+        $this->allExp('curl 192.168.0.75/index.php/swon')->run();
 	
     }
 
@@ -111,7 +111,7 @@ var_dump($this->command);
     {
         $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0xff')->run();
 	    $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0xff')->run();
-        $this->allExp('curl 192.168.0.89/index.php/swoff')->run();
+        $this->allExp('curl 192.168.0.75/index.php/swoff')->run();
     }
 
     public function allExp($method)
