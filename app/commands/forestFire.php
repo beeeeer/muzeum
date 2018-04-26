@@ -44,7 +44,6 @@ class forestFire extends Command {
 	 */
 	public function fire()
 	{
-	    Log::info('cron fire');
 	    if($this->fire_flag == 0) {
 	        return;
         }
@@ -55,7 +54,6 @@ class forestFire extends Command {
         {
             $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
             $process->mustRun();
-            Log::info($process->getOutput());
             if ($process->getOutput() == 'done'){
                 return;
             }
