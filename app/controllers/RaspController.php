@@ -261,7 +261,7 @@ var_dump($this->command);
         $process->start();
         while ($process->isRunning()) {
             sleep(2);
-            $water = new Process('curl http://192.168.0.77/index.php/waterProcess');
+            $water = new Process('curl http://192.168.0.77/index.php/water');
             $water->mustRun();
             sleep(20);
             $offRelay = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0xef');
