@@ -11,6 +11,8 @@ use GuzzleHttp\Client as Client;
 
 class forestFire extends Command {
 
+    private $flag;
+
 	/**
 	 * The console command name.
 	 *
@@ -42,6 +44,32 @@ class forestFire extends Command {
 	 */
 	public function fire()
 	{
+	    if($this->flag == 1) {
+	        return;
+        }
+
+	    $process = new Process('gpio -g read 12');
+	    $process->mustRun();
+        $this->flag = $process->getOutput();
+	    if (($this->flag == 1))
+        {
+            $audio = new Process('mpg123 media/pozarlasu.mp3');
+            $audio->start();
+            while ($audio->isRunning()) {
+                sleep(9);
+                $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x9f');
+                $process->mustRun();
+                sleep(9);
+                $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x8f');
+                $process->mustRun();
+                sleep(9);
+                $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
+                $process->mustRun();
+                sleep(7);
+                $this->flag = 0;
+                exit;
+            }
+        }
 
 	}
 
