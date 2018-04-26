@@ -49,7 +49,7 @@ class forestFire extends Command {
         }
 	    $process = new Process('gpio -g read 16');
 	    $process->mustRun();
-        $this->flag = $process->getOutput();
+        $this->fire_flag = $process->getOutput();
 	    if (($this->fire_flag == 0))
         {
             $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
