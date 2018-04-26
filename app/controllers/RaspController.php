@@ -84,21 +84,22 @@ var_dump($this->command);
 		if($command == 'pozarlasu.mp3'){
 		$this->audioprocess->start();
 			while ($this->audioprocess->isRunning()) {
-				sleep(7);
+				sleep(9);
 				$process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x9f');
 				$process->mustRun();
-				sleep(7);
+				sleep(9);
 				$process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x8f');
                                 $process->mustRun();
-				sleep(7);
+				sleep(9);
 				$process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
                                 $process->mustRun();
 				sleep(7);
-                                $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x83');
-                                $process->mustRun();
-				sleep(7);
-                                $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x81');
-                                $process->mustRun();
+                               // $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x83');
+                               // $process->mustRun();
+			//	sleep(7);
+                         //       $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x81');
+                          //      $process->mustRun();
+				return json_encode('done');
 				exit;
 			}
 		}else {
@@ -246,7 +247,7 @@ var_dump($this->command);
             $process->mustRun();
             exit;
         }
-        return 'im done';
+        return json_encode('done');
     }
 }
  
