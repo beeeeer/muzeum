@@ -47,20 +47,33 @@ class forestFire extends Command {
 	    if($this->flag == 1) {
 	        return;
         }
-
-	    $process = new Process('gpio -g read 12');
+	    $process = new Process('gpio -g read 16');
 	    $process->mustRun();
         $this->flag = $process->getOutput();
 	    if (($this->flag == 1))
         {
             $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
             $process->mustRun();
+            Log::info($process->getOutput());
             if ($process->getOutput() == 'done'){
                 return;
             }
         }
+	}
+
+    public function airPlane()
+    {
+        $process = new Process('gpio -g read 21');
+        $process->mustRun();
 
 	}
+
+    public function water()
+    {
+        $process = new Process('gpio -g read 20');
+        $process->mustRun();
+	}
+
 
 	/**
 	 * Get the console command arguments.
