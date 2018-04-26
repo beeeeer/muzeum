@@ -53,21 +53,10 @@ class forestFire extends Command {
         $this->flag = $process->getOutput();
 	    if (($this->flag == 1))
         {
-            $audio = new Process('mpg123 media/pozarlasu.mp3');
-            $audio->start();
-            while ($audio->isRunning()) {
-                sleep(9);
-                $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x9f');
-                $process->mustRun();
-                sleep(9);
-                $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x8f');
-                $process->mustRun();
-                sleep(9);
-                $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
-                $process->mustRun();
-                sleep(7);
-                $this->flag = 0;
-                exit;
+            $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
+            $process->mustRun();
+            if ($process->getOutput() == 'done'){
+                return;
             }
         }
 
