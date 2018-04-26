@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0a0c88-707a-4115-b027-31af0e18435c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/pages/points.blade.php" afterPath="$PROJECT_DIR$/app/views/pages/points.blade.php" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/RaspController.php" afterPath="$PROJECT_DIR$/app/controllers/RaspController.php" />
+      <change beforePath="$PROJECT_DIR$/html/js/custom.js" afterPath="$PROJECT_DIR$/html/js/custom.js" />
+      <change beforePath="$PROJECT_DIR$/html/scss/main.scss" afterPath="$PROJECT_DIR$/html/scss/main.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +18,8 @@
       <file leaf-file-name="RaspController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/RaspController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="172" column="5" lean-forward="false" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -26,8 +28,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
-              <caret line="198" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+            <state relative-caret-position="293">
+              <caret line="150" column="37" lean-forward="false" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -46,7 +48,7 @@
       <file leaf-file-name="points.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/points.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
+            <state relative-caret-position="407">
               <caret line="406" column="38" lean-forward="false" selection-start-line="406" selection-start-column="38" selection-end-line="406" selection-end-column="38" />
               <folding>
                 <element signature="e#193#7239#0#HTML" expanded="false" />
@@ -62,12 +64,9 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2700">
-              <caret line="180" column="42" lean-forward="false" selection-start-line="180" selection-start-column="42" selection-end-line="180" selection-end-column="42" />
-              <folding>
-                <marker date="1524754406045" expanded="true" signature="6920:6948" ph="{...}" />
-                <marker date="1524754406045" expanded="true" signature="6920:6953" ph="{...}" />
-              </folding>
+            <state relative-caret-position="713">
+              <caret line="181" column="38" lean-forward="false" selection-start-line="181" selection-start-column="38" selection-end-line="181" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,6 +78,7 @@
       <find>ekspa</find>
       <find>iwa</find>
       <find>kosiacie</find>
+      <find>switch</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,11 +95,11 @@
         <option value="$PROJECT_DIR$/html/css/main.css" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/controllers/RaspController.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/html/scss/main.scss" />
-        <option value="$PROJECT_DIR$/html/js/custom.js" />
         <option value="$PROJECT_DIR$/app/views/pages/points.blade.php" />
+        <option value="$PROJECT_DIR$/html/scss/main.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/RaspController.php" />
+        <option value="$PROJECT_DIR$/html/js/custom.js" />
       </list>
     </option>
   </component>
@@ -281,7 +281,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52282000" />
+    <option name="totallyTimeSpent" value="52473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -364,10 +364,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
           <caret line="115" column="32" lean-forward="false" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-          <folding>
-            <marker date="1524754406045" expanded="true" signature="6920:6948" ph="{...}" />
-            <marker date="1524754406045" expanded="true" signature="6920:6953" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -419,10 +416,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="115" column="32" lean-forward="false" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-          <folding>
-            <marker date="1524754406045" expanded="true" signature="6920:6948" ph="{...}" />
-            <marker date="1524754406045" expanded="true" signature="6920:6953" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -467,10 +461,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
           <caret line="115" column="32" lean-forward="true" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-          <folding>
-            <marker date="1524754406045" expanded="true" signature="6920:6948" ph="{...}" />
-            <marker date="1524754406045" expanded="true" signature="6920:6953" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -515,10 +506,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1545">
           <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <marker date="1524754406045" expanded="true" signature="6920:6948" ph="{...}" />
-            <marker date="1524754406045" expanded="true" signature="6920:6953" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -563,10 +551,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-          <folding>
-            <marker date="1524754406045" expanded="true" signature="6920:6948" ph="{...}" />
-            <marker date="1524754406045" expanded="true" signature="6920:6953" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -617,10 +602,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <marker date="1524754406045" expanded="true" signature="6920:6948" ph="{...}" />
-            <marker date="1524754406045" expanded="true" signature="6920:6953" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -740,14 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/RaspController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="172" column="5" lean-forward="false" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -758,26 +732,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="198" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        <state relative-caret-position="293">
+          <caret line="150" column="37" lean-forward="false" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/RaspController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="180" column="42" lean-forward="false" selection-start-line="180" selection-start-column="42" selection-end-line="180" selection-end-column="42" />
-          <folding>
-            <marker date="1524754406045" expanded="true" signature="6920:6948" ph="{...}" />
-            <marker date="1524754406045" expanded="true" signature="6920:6953" ph="{...}" />
-          </folding>
+        <state relative-caret-position="713">
+          <caret line="181" column="38" lean-forward="false" selection-start-line="181" selection-start-column="38" selection-end-line="181" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/points.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
+        <state relative-caret-position="407">
           <caret line="406" column="38" lean-forward="false" selection-start-line="406" selection-start-column="38" selection-end-line="406" selection-end-column="38" />
           <folding>
             <element signature="e#193#7239#0#HTML" expanded="false" />
