@@ -3,6 +3,11 @@
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Process\Process;
+use Symfony\Component\Process\Exception\ProcessFailedException;
+use Illuminate\Http\Request as Request;
+use Illuminate\Http\Response as Response;
+use GuzzleHttp\Client as Client;
 
 class forestFire extends Command {
 
@@ -11,14 +16,14 @@ class forestFire extends Command {
 	 *
 	 * @var string
 	 */
-	protected $name = 'command:name';
+	protected $name = 'forest:fire';
 
 	/**
 	 * The console command description.
 	 *
 	 * @var string
 	 */
-	protected $description = 'Command description.';
+	protected $description = 'Starts forest fire';
 
 	/**
 	 * Create a new command instance.
@@ -37,7 +42,7 @@ class forestFire extends Command {
 	 */
 	public function fire()
 	{
-		//
+
 	}
 
 	/**
@@ -47,9 +52,7 @@ class forestFire extends Command {
 	 */
 	protected function getArguments()
 	{
-		return array(
-			array('example', InputArgument::REQUIRED, 'An example argument.'),
-		);
+		return array();
 	}
 
 	/**
@@ -63,5 +66,12 @@ class forestFire extends Command {
 			array('example', null, InputOption::VALUE_OPTIONAL, 'An example option.', null),
 		);
 	}
+
+
+
+
+
+
+
 
 }
