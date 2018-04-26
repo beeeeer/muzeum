@@ -260,16 +260,22 @@ var_dump($this->command);
         $process = new Process('mpg123 media/samolot.mp3');
         $process->start();
         while ($process->isRunning()) {
-            sleep(2);
+
             $water = new Process('curl http://192.168.0.77/index.php/water');
             $water->mustRun();
-            sleep(20);
-            $offRelay = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0xef');
+            sleep(5);
+            $this->waterprocess();
+            $offRelay = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0xff');
             $offRelay->run();
         }
 
         return $process->getOutput();
     }
 
+    public function waterprocess()
+    {
+        $water = new Process('mpg123 media/woda.mp3');
+        $water->mustRun();
+    }
 }
  
