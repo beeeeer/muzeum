@@ -94,11 +94,6 @@ var_dump($this->command);
 				$process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
                                 $process->mustRun();
 				sleep(7);
-                               // $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x83');
-                               // $process->mustRun();
-			//	sleep(7);
-                         //       $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x81');
-                          //      $process->mustRun();
 				return json_encode('done');
 				exit;
 			}
@@ -240,14 +235,25 @@ var_dump($this->command);
             $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
             $process->mustRun();
             sleep(7);
-            $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x83');
-            $process->mustRun();
-            sleep(7);
-            $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x81');
-            $process->mustRun();
             exit;
         }
         return json_encode('done');
     }
+
+    public function airplaneProcess()
+    {
+        $process = new Process('mpg123 media/samolot.mp3');
+        $process->start();
+        while ($process->isRunning()) {
+            sleep(2);
+            $water = new Process('curl http://192.168.0.77/index.php/waterProcess');
+            sleep(20);
+            $offRelay = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0xef');
+            $offRelay->run();
+        }
+
+        return $process->getOutput();
+    }
+
 }
  
