@@ -54,11 +54,12 @@ class RaspController extends BaseController
 		$hexaddress = '0x'.(dechex(bindec($toHex)));
 		$this->command = '/usr/sbin/i2cset -y 1 '.$comProcess.' '.$hexaddress;
 		$this->executeProcess();
-		return $this->playAudio($this->audioFile);
+	return $this->playAudio($this->audioFile);
 	}
 
 	public function executeProcess()
 	{
+var_dump($this->command);
 		$this->process = new Process($this->command);
 		try {
     		$this->process->mustRun();
@@ -100,19 +101,15 @@ class RaspController extends BaseController
 //All pins actions
     public function switchallOn()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')->mustRun()->getOutput();
-        }
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0x00')->run();
+	$this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0x00')->run();
+	
     }
 
     public function switchallOff()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')->mustRun()->getOutput();
-        }
-
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0xff')->run();
+	$this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0xff')->run();
     }
 
     public function allExp($method)
@@ -167,7 +164,7 @@ class RaspController extends BaseController
     {
         $data = Input::all();
         $client = new Client();
-        $res = $client->request('GET', 'http://192.168.0.59/index.php/recive', [
+        $res = $client->request('GET', 'http://192.168.0.75/index.php/recive', [
             'form_params' => $data
         ]);
         $result = $res->getBody();

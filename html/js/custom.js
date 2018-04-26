@@ -77,6 +77,18 @@ jQuery(document).ready(function($){
                                     },"json");
                                 },error:function(resp){
                                     console.log(resp)
+					console.log('error but im run mp3 lalala:)');
+				     $.ajax({
+                                        type: "POST",
+                                        url : "setpoint",
+                                        data : { data: pointData },
+                                        success : function(response){
+                                            console.log(response)
+                                            console.log(pointData)
+                                        },error:function(resp) {
+                                            console.log(resp)
+                                        }
+                                    },"json");
                                 }
                             },"json");
 

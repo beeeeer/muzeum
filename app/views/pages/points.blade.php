@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 <div class ="container">
-	<h3 class="title_">Hodowla lasu</h3>
+	<h3 class="title_">Drągowina</h3>
 	<div class="custom-text" id="custom-text">
 
 	</div>
@@ -29,11 +29,11 @@
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1" 
-					audio="zioamoplonwiosenny.mp3"
+					audio="ziarnoplonwiosenny.mp3"
 					relayId="relay3" 
 					expander="0x24 0x01 " 
 					external="false"
-					pin="1">Ziamopłon wiosenny</a>
+					pin="1">Ziarnopłon wiosenny</a>
 			<input  type="hidden" value="Ziarnopłon wiosenny to jaskier, występujący pospolicie w lasach liściastych i na wilgotnych łąkach całego kraju. Łodyga ziarnopłonu płoży się po ziemi, a od marca do maja pojawiają się na niej żółte kwiaty. Cała roślina, jak wszystkie jaskry, jest trująca. Zioła wykonane z ziarnopłonu mają jednak pewne właściwości lecznicze - dawniej używane były w medycynie ludowej do lecznia brodawek i hemoroidów.
 			" class="text-to-append dispNone"/>
 	</li>
@@ -94,9 +94,9 @@
 		<a href="#" class="expanders__relay relayexp1"
 					audio="kokoryczkawielkokwiatowa.mp3"
 					relayId="relay1" 
-					expander="0x20 0x00 "
+					expander="0x21 0x00 "
 					external="true"
-					pin="1">Kokorycz wielokwiatowa</a>
+					pin="1">Kokorycz wielkokwiatowa</a>
 			<input  type="hidden" value="Kokoryczka wielokwiatowa, bylina z rodziny szparagowatych, jest w Polsce dość powszechna na całym niżu i w niewysokich górach, głównie w lasach liściastych i bukowych. Rozmnaża się zarówno wegetatywnie, wyrastając z rozgałęzionego kłącza, jak i generatywnie, poprzez wysiew nasion. W wąskich kwiatach, pojawiających się już od kwietnia, znajduje się nektar, do którego dostać się mogą tylko trzmiele z długimi trąbkami. Owocem jest wypełniona nasionami czarna, oszroniona jagoda, która jest trująca - bywa czasem mylona z borówką czarną, powodując zatrucia u ludzi.
 "
 			class="text-to-append dispNone" />
@@ -105,7 +105,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="konwaliamajowa.mp3"
 					relayId="relay2" 
-					expander="0x20 0x00 " 
+					expander="0x21 0x00 " 
 					external="true"
 					pin="1">Konwalia majowa</a>
 			<input  type="hidden" value="Konwalia majowa lub leśna, zwana też lanuszką, jest byliną z rodziny liliowatych, rosnącą w lasach liściastych i mieszanych oraz zaroślach, tworząc często rozległe kolonie. Jak sama nazwa wskazuje, konwalia zakwita w maju; po przekwitnięciu pojawiają się czerwone jagody. Gatunek ten rozmnaża się wegetatywnie za pomocą kłączy, ale też generatywnie dzięki ptakom jak kos i droździk, które spożywają jagody i wydalają niestrawione nasiona. Wszystkie części rośliny są trujące, jednak przy odpowiednim przetworzeniu i dawkowaniu kwiaty i liście stosuje się w medycynie jako składnik leków nasercowych. Ze względu na silne pobudzanie do kichania, proszek z suszonych kwiatów dodawany jest do tabaki. W średniowieczu konwalia była symbolem wiedzy i sztuki medycznej.
@@ -115,7 +115,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="liliazlotoglow.mp3"
 					relayId="relay3" 
-					expander="0x20 0x00 " 
+					expander="0x21 0x00 " 
 					external="true"
 					pin="1">Lilia złotogłów</a>
 			<input  type="hidden" value="Lilia złotogłów to roślina cebulowa z rodziny liliowatych, w kraju spotykana nielicznie w górach, na niżu bardzo rzadka. Rośnie w widnych lasach i zaroślach, na tatrzańskich halach można ją za to spotkać na zarośniętych trawą skałach. Kwitnie od czerwca, zwabiając owady zapachem, szczególnie intensywnym wieczorem i nocą; kolorowe plamki na płatkach kwiatów mają pokazywać owadom miejsce do zapylenia; dostęp do nektaru mają jednak tylko owady długotrąbkowe - motyle. Nasiona lilii rozsiewane są przez wiatr, potrafi ona rozmnażać się też wegetatywnie za pomocą cebulek powstających u nasady starej cebuli. Cebulki te zawierają dużo skrobi, dlatego dawniej uchodziły za przysmak zarówno na surowo, jak i gotowane i pieczone. Lilia złotogłów jest częstym motywem w sztuce ludowej Podhala, szczególnie w rzeźbie.
@@ -125,7 +125,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="podkolanbialy.mp3"
 					relayId="relay4" 
-					expander="0x20 0x00 " 
+					expander="0x21 0x00 " 
 					external="true"
 					pin="1">Podkolan biały</a>
 			<input  type="hidden" value="Podkolan biały rośnie w dobrze nasłonecznionych lasach oraz na ugorach. Roślina ta posiada dwie bulwy - jedna jest zeszłoroczna i to z niej wyrasta pęd nadziemny, druga natomiast jest tegoroczna i gromadzi substancje zapasowe dla przyszłorocznego pędu. Białe kwiaty, pojawiające się od maja do lipca, wydzielają przyjemny zapach wieczorami i nocą, dzięki czemu chętnie zapylają je motyle nocne
@@ -136,7 +136,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="wawrzynekwilczelyko.mp3"
 					relayId="relay5" 
-					expander="0x20 0x00 " 
+					expander="0x21 0x00 " 
 					external="true"
 					pin="1">Wawrzynek wilczełyko</a>
 			<input  type="hidden" value="Wawrzynek wilczełyko to niewielki krzew, występujący w Polskich lasach. Jest on rośliną miododajną i kwitnie przed wypuszczeniem liści. Po przekwitnięciu natomiast pojawiają się gęsto skupione owoce o soczyście czerwonej barwie. Cała roślina jest bardzo trująca. Zjedzenie już 10 owoców o słodko-cierpkim smaku może spowodować śmierć dorosłego człowieka. Dla dziecka śmiertelnym może okazać się spożycie nawet 1 owocu. Roślina działa szkodliwie również na skórę, powodując zaczerwienienie i obrzęki oraz pojawienie się pęcherzy.
@@ -146,7 +146,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="czworolistpospolity.mp3"
 					relayId="relay6" 
-					expander="0x20 0x00 " 
+					expander="0x21 0x00 " 
 					external="true"
 					pin="1">Czworolist pospolity</a>
 			<input  type="hidden" value="Czworolist pospolity, czy też jednojagoda czworolistna, rośnie w podmokłych lasach liściastych i mieszanych. Czworolist jest byliną z całorocznym kłączem podziemnym, żyjącym nawet ponad 200 lat. Rozmnaża się zarówno wegetatywnie, poprzez usamodzielniające się z czasem odgałęzienia kłącza, jak i przez wysiew nasion z jagody. Ze względu na charakterystyczną, pojedynczą, czarną, jagodę, na Podhalu nazywana jest też wronim okiem. Wszystkie części rośliny są trujące.
@@ -156,7 +156,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="fioleklesny.mp3"
 					relayId="relay7" 
-					expander="0x20 0x00 " 
+					expander="0x21 0x00 " 
 					external="true"
 					pin="1">Fiołek leśny</a>
 			<input  type="hidden" value="Fiołek leśny, z rodziny fiołkowatych, to wieloletnia rodzima roślina występująca pospolicie w lasach na całym niżu i w niższych położeniach górskich Polski. Kwitnie od kwietnia do czerwca; jest zapylana przez pszczoły, wabione barwą kwiatów i nektarem. Owocem fiołka jest jajowata torebka z nasionami, pękająca na 3 klapy, które po wyschnięciu wyginają się, wyrzucając nasiona na kilka metrów.
@@ -166,7 +166,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="luskiewnikrozowy.mp3"
 					relayId="relay8" 
-					expander="0x20 0x00 " 
+					expander="0x21 0x00 " 
 					external="true"
 					pin="1">Łuskiewnik różowy	 </a>
 			<input  type="hidden" value="Łuskiewnik różowy z rodziny zarazowatych w kraju występuje pospolicie. Ta bezzieleniowa bylina nie zawiera chlorofilu i nie może przeprowadzać fotosyntezy, więc żywi się na innych organizmach. Jest pasożytem, pobierającym za pomocą ssawek substancje organiczne oraz wodę z solami mineralnymi z korzeni drzew liściastych - leszczyn, topoli i olszy. W Tatrach pasożytuje też na świerkach. Jej nazwa - łuskiewnik - pochodzi od łuskowatych liści, pokrywających podziemne kłącze; większą część roku znajduje się pod ziemią, a jedynie w czasie kwitnienia - od marca do maja - i owocowania wyrasta nadziemny pęd. Nasiona, aby efektywnie wykiełkować muszą znajdować się w glebie mniej niż 1 cm od korzeni rośliny żywicielskiej.
@@ -180,7 +180,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="mrowkarudnica.mp3"
 					relayId="relay1" 
-					expander="0x20 0x01 " 
+					expander="0x21 0x01 " 
 					external="true"
 					pin="1">Mrówka rudnica</a>
 			<input  type="hidden" value="Mrówka rudnica to pospolity owad leśny, żyjący głównie w lasach iglastych. Mrowisko rudnicy składa się z części nadziemnej - kopca o wysokości do 1 m - i podziemnej, sięgającej do 2 m. W jednym mrowisku może żyć nawet 100 tysięcy mrówek. Dzielą się one na trzy kasty: bezpłciowe robotnice, samicę (królową) i samce. Wszelkie prace wykonują robotnice, królowa jedynie składa jaja - dziennie nawet do 300. W przypadku zagrożenia mrowiska grupy robotnic pryskają kwasem mrówkowym w intruza. Odżywiają się drobnymi zwierzętami, głównie owadami i ich larwami, które transportują do mrowiska; zjadają też chętnie spadź wydzielaną przez mszyce. Mrówki odgrywają ważną rolę w lasach - usuwają martwe szczątki zwierząt, pełniąc funkcję 'czyścicieli' lasu; mrówki z jednego mrowiska zabijają też rocznie ok. 50 tysięcy larw owadów.
@@ -190,7 +190,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="kowalikzwyczajny.mp3"
 					relayId="relay2" 
-					expander="0x20 0x01 "
+					expander="0x21 0x01 "
 					external="true" 
 					pin="1">Kowalik</a>
 			<input  type="hidden" value="Kowalik zwyczajny lub bargiel to osiadły ptak, lubiący lasy liściaste i mieszane. Jako jedyny z krajowych ptaków poszukując pożywienia potrafi chodzić po pniach drzew lub skałach, często głową w dół, a dzięki pazurom swych silnych palców wędruje także po spodzie gałęzi. Swym potężnym dłutowatym dziobem wyciąga ze szczelin w korze zdobycze - owady, larwy, pająki i inne bezkręgowce. Spędzający zimę w kraju kowalik nie gardzi też nasionami i owocami. Tworzy on monogamiczne pary, a w trakcie wysiadywania jaj samiec karmi swoją partnerkę.
@@ -200,7 +200,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="sikorabogatka.mp3"
 					relayId="relay3" 
-					expander="0x20 0x01 " 
+					expander="0x21 0x01 " 
 					external="true"					
 					pin="1">Sikora bogatka</a>
 			<input  type="hidden" value="Sikora bogatka jest największą z naszych sikor i znajduje się pod ścisłą ochroną. Zamieszkuje różnorodne lasy, a także parki i ogrody. Wyróżnia się wyjątkowo bogatym repertuarem głosów. Bogatka potrafi sama wykuć dziuplę, ale tylko w miękkim, spróchniałym drewnie - za gniazdo mogą jej też służyć rurki ogrodzeniowe, skrzynki na listy, a nawet otwory wentylacyjne. Ptak ten spędza zimę w Polsce, przemieszcza się tylko w miejsca, gdzie łatwiej mu znaleźć pokarm - zwykle do miast. Sikorki często widujemy przy karmnikach zajadające słoninę - poza okresem zimowym żywią się owadami.
@@ -210,7 +210,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="sikoramodraszka.mp3"
 					relayId="relay4" 
-					expander="0x20 0x01 " 
+					expander="0x21 0x01 " 
 					external="true"
 					pin="1">Sikora modraszka</a>
 			<input  type="hidden" value="Modraszka, zwana sikorą modrą, to przepięknie upierzony mały ptaszek. Doskonale komponuje się u niej kolor żółty z błękitnym - modrym (stąd zresztą nazwa gatunku). Preferuje głównie świetliste lasy liściaste i mieszane, rzadziej iglaste, zamieszkiwane również przez dzięcioła dużego, w którego opuszczonych dziuplach gniazduje. Żywi się głównie owadami i pajęczakami, zimą natomiast roślinami, odwiedza też chętnie karmniki, ceniąc przede wszystkim słonecznik, orzeszki ziemne i słoninę. Głos modraszki jest wysoki, przypominający gwizd, podobny do głosów innych przedstawicieli rodziny sikor. Nie jest zagrożona wyginięciem, w kraju jest nawet liczna, podobnie jak wszystkie sikory objęta jest ochroną gatunkową. 
@@ -220,7 +220,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="sikoraczubatka.mp3"
 					relayId="relay5" 
-					expander="0x20 0x01 "
+					expander="0x21 0x01 "
 					external="true" 
 					pin="1">Sikora czubatka</a>
 			<input  type="hidden" value="Czubatka europejska z rodziny sikor wyróżnia się swoim czarno-białym czubkiem na głowie. Występuje średnio licznie w całym kraju, przy czym pozostaje tu na zimę, co sprzyja monogamii wśród tych ptaków. Zamieszkują one bory iglaste z próchniejącymi lub martwymi drzewami, gdzie samice mogą wykuć dziuplę. Czubatka stale przebywa w koronach drzew, skąd dobiega jej dźwięczny trel. Łowi tam owady i ich larwy, pająki oraz inne bezkręgowce. Zimą, gdy nie może znaleźć pokarmu zwierzęcego, odżywia się nasionami drzew iglastych - wtedy pożywienia szuka na ziemi. Podobnie jak inne sikory, gromadzi też zapasy na zimę, wciskając owady i nasiona w zakamarki kory drzewa.
@@ -230,7 +230,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="sikorasosnowka.mp3"
 					relayId="relay6" 
-					expander="0x20 0x01 "
+					expander="0x21 0x01 "
 					external="true" 
 					pin="1">Sikora sosnówka</a>
 			<input  type="hidden" value="Sosnówka to nasza najmniejsza przedstawicielka rodziny sikor, występująca licznie w górach i na północy kraju, za to nielicznie w pozostałej części Polski. Jak sama nazwa wskazuje, sikora ta preferuje bory iglaste, w których może znaleźć wykute przez dzięcioła gotowe dziuple. Zwinnie porusza się w koronach drzew, gdzie żeruje, wyszukując owadów, ich gąsienic, ale też pająków czy innych bezkręgowców. Na zimę robi zapasy pożywienia na zimę, ukrywając nasiona drzew iglastych w spękaniach kory.
@@ -240,7 +240,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio="szczygiel.mp3"
 					relayId="relay8" 
-					expander="0x20 0x01 "
+					expander="0x21 0x01 "
 					external="true"
 					pin="1">Szczygieł</a>
 			<input  type="hidden" value="Szczygieł z rodziny łuszczaków to jeden z najbarwniejszych naszych ptaków. Występuje średnio licznie na całym niżu w niewielkich zadrzewieniach lub na skrajach lasów. Misterne gniazdo z korzonków, traw i mchu buduje na końcach gałązek drzewa liściastego. Śpiew szczygła jest bardzo szczebiotliwy. Jego głównym pożywieniem są nasiona, ale wiosną zjada też bezkręgowce. Szczygły zimują w kraju i właśnie wtedy najbardziej rzucają się w oczy - żerujące w dużych stadach na polach i ugorach.
@@ -250,7 +250,7 @@
 		<a href="#" class="expanders__relay relayexp1" 
 					audio=".mp3"
 					relayId="relay7" 
-					expander="0x20 0x01 "
+					expander="0x21 0x01 "
 					external="true"
 					pin="1"> </a>
 			<input  type="hidden" value="" class="text-to-append dispNone"/>
@@ -414,11 +414,15 @@
 		<ul class="expanders">
 			<li>
 				<a href="#" class="expanders__relay rasp__defaults rasp-custom-button relayexp1"
-				   audio=".mp3"
+				   audio="dragowina.mp3"
 				   relayId="relay8"
 				   expander=""
-				   pin="1"> </a>
-				<input  type="hidden" value="" class="text-to-append dispNone" />
+				   pin="1"> Drągowina</a>
+				<input  type="hidden" value="
+Po tyczkowinie, las przechodzi w fazę drągowiny. Etap ten trwa od około 40 do 60 roku życia drzew – w tym okresie kończy się ich wzmożony wzrost, a zaczyna się szybszy przyrost na grubość. Następuje już rozluźnienie zwarcia koron, dzięki czemu światło dociera w głąb lasu, umożliwiając roślinności wzrost. Na ubogiej, piaszczystej glebie borów sosnowych są jednak w stanie przetrwać jedynie najbardziej pionierskie gatunki roślin.
+Drągowina stanowi miejsce schronienia wielu ptaków, w tym dzięciołów, które „leczą” sosny, wyjadając szkodniki oraz wykuwają dziuple, które stają się domem dla innych gatunków ptaków oraz nadrzewnych gryzoni. Niedobór dziupli leśnicy uzupełniają skrzynkami lęgowymi – każdy gatunek wymaga odpowiednio dobranego rozmiaru skrzynki, muszą też one posiadać otwór o właściwej średnicy. Bardzo ważną funkcję „czyścicieli” lasów odgrywają mrówki, usuwające martwe szczątki zwierząt i zjadające larwy szkodliwych dla lasu owadów. Również leśnicy chronią drzewa przed szkodnikami. Monitorują ich ilość, umieszczając w lesie pułapki feromonowe, stosując na drzewach tzw. opaski lepowe, do których przyklejają się szkodniki owadzie wędrujące po pniu, czy też wykładając drzewa pułapkowe służące do zwabiania i niszczenia chrząszczy i ich larw.
+
+				" class="text-to-append dispNone" />
 			</li>
 		</ul>
 
