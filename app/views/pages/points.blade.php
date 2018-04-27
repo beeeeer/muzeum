@@ -97,12 +97,12 @@
             <p class="dispNone">Ekspander 0x24 szyna 2</p>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="pieprznikjadalny.mp3"
+                   audio="pajakkrzyzak.mp3"
                    relayId="relay1"
                    expander="0x21 0x01 "
                    external="true"
-                   pin="1">pieprznik jadalny</a>
-                <input type="hidden" value="Pieprznik jadalny, zwany potocznie kurką, to jadalny grzyb ceniony  ze względu na aromat, smak oraz twardość i chrupkość owocników. Rośnie w lasach liściastych i iglastych, często na piaszczystych, kwaśnych glebach, często pod świerkami pośród mchów. Występuje od czerwca do listopada. Może być pomylony z niejadalną lisówką pomarańczową.
+                   pin="1">pająk krzyżak</a>
+                <input type="hidden" value="Krzyżak ogrodowy to pospolity pająk o charakterystycznym wzorze białego krzyża na odwłoku. Zamieszkuje lasy, łąki, ogrody i parki, czasem też budynki. Na zdobycz czai się, siedząc w kryjówce lub w środku sieci; swoje ofiary - owady - poraża ukłuciem jadu, który rozpuszcza ich wnętrzności, dzięki czemu pająk może je wyssać. Jad ten jest niegroźny dla człowieka - może spowodować jedynie lekką opuchliznę w miejscu ukąszenia. Zachowanie pająków krzyżaków wykorzystywano niegdyś do przepowiadania pogody; dla przykładu, pająki wędrujące po ścianach w porze zimowej zapowiadają nadejście odwilży, a budowanie przez nie dużych pajęczyn podczas deszczu zwiastuje przejaśnienia. Krzyżak ogrodowy to pospolity pająk o charakterystycznym wzorze białego krzyża na odwłoku. Zamieszkuje lasy, łąki, ogrody i parki, czasem też budynki. Na zdobycz czai się, siedząc w kryjówce lub w środku sieci; swoje ofiary - owady - poraża ukłuciem jadu, rozpuszcza ich wnętrzności, trawiąc je na zewnątrz aby je po tym wyssać. Jad ten jest niegroźny dla człowieka - może spowodować jedynie lekką opuchliznę w miejscu ukąszenia. Zachowanie pająków krzyżaków wykorzystywano niegdyś do przepowiadania pogody; dla przykładu, pająki wędrujące po ścianach w porze zimowej zapowiadają nadejście odwilży, a budowanie przez nie dużych pajęczyn podczas deszczu zwiastuje przejaśnienia.
 				" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -117,13 +117,12 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="opienkamiodowa.mp3"
+                   audio="gacekbrunatny.mp3"
                    relayId="relay3"
                    expander="0x21 0x01 "
                    external="true"
-                   pin="1">opieńka miodowa</a>
-                <input type="hidden" value="Opieńka miodowa - gatunek grzyba rosnący gromadnie, czasem bardzo licznie. Występuje najczęściej jesienią od września do listopada, ale czasami może pojawić się nawet na początku sierpnia. Jego występowanie ściśle powiązane jest z martwym drewnem, choć czasem atakuje jak pasożyt także żywe drzewa. Jest grzybem jadalnym. Może być trująca, dlatego też należy ją najpierw obgotować przez około 5 minut i odlać wywar, po czym dopiero poddaje się ją dalszej obróbce. Przez niewprawnych grzybiarzy opieńka miodowa może zostać pomylona z trującą maślanką wiązkową.
-
+                   pin="1">gacek brunatny</a>
+                <input type="hidden" value="Gacek brunatny, zwany też wielkouchym, to nietoperz z rodziny mroczkowatych, występujący pospolicie w całej Europie za wyjątkiem północy. Jego duże uszy mają fałdki, które umożliwiają ich składanie - gdy odpoczywa, chowa je pod skrzydłami. Preferuje miejsca zagospodarowane przez człowieka, zwłaszcza tereny rolnicze. Żyje samotnie lub tworzy małe kolonie. Zajmuje dziuple, budynki, jaskinie czy piwnice i tam też zimuje od października do końca marca, zapadając w sen zimowy. Poluje całą noc na owady i ich larwy oraz pająki, chwytając je z powierzchni ziemi lub w locie, a zjadając dopiero w spoczynku. W polowaniu i orientacji w terenie posługuje się echolokacją. Co ciekawe, gacek wielkouch łatwo się oswaja.
 				" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -345,22 +344,22 @@
             <p class="dispNone">Ekspander 2 0x22 szyna 1 0x00</p>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="pajakkrzyzak.mp3"
+                   audio="pieprznikjadalny.mp3"
                    relayId="relay1"
                    expander="0x22 0x01 "
                    external="false"
-                   pin="1">pająk krzyżak</a>
-                <input type="hidden" value="Krzyżak ogrodowy to pospolity pająk o charakterystycznym wzorze białego krzyża na odwłoku. Zamieszkuje lasy, łąki, ogrody i parki, czasem też budynki. Na zdobycz czai się, siedząc w kryjówce lub w środku sieci; swoje ofiary - owady - poraża ukłuciem jadu, który rozpuszcza ich wnętrzności, dzięki czemu pająk może je wyssać. Jad ten jest niegroźny dla człowieka - może spowodować jedynie lekką opuchliznę w miejscu ukąszenia. Zachowanie pająków krzyżaków wykorzystywano niegdyś do przepowiadania pogody; dla przykładu, pająki wędrujące po ścianach w porze zimowej zapowiadają nadejście odwilży, a budowanie przez nie dużych pajęczyn podczas deszczu zwiastuje przejaśnienia. Krzyżak ogrodowy to pospolity pająk o charakterystycznym wzorze białego krzyża na odwłoku. Zamieszkuje lasy, łąki, ogrody i parki, czasem też budynki. Na zdobycz czai się, siedząc w kryjówce lub w środku sieci; swoje ofiary - owady - poraża ukłuciem jadu, rozpuszcza ich wnętrzności, trawiąc je na zewnątrz aby je po tym wyssać. Jad ten jest niegroźny dla człowieka - może spowodować jedynie lekką opuchliznę w miejscu ukąszenia. Zachowanie pająków krzyżaków wykorzystywano niegdyś do przepowiadania pogody; dla przykładu, pająki wędrujące po ścianach w porze zimowej zapowiadają nadejście odwilży, a budowanie przez nie dużych pajęczyn podczas deszczu zwiastuje przejaśnienia.
+                   pin="1">pieprznik jadalny</a>
+                <input type="hidden" value="Pieprznik jadalny, zwany potocznie kurką, to jadalny grzyb ceniony  ze względu na aromat, smak oraz twardość i chrupkość owocników. Rośnie w lasach liściastych i iglastych, często na piaszczystych, kwaśnych glebach, często pod świerkami pośród mchów. Występuje od czerwca do listopada. Może być pomylony z niejadalną lisówką pomarańczową.
 			" class="text-to-append dispNone"/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="gacekbrunatny.mp3"
+                   audio="opienkamiodowa.mp3"
                    relayId="relay2"
                    expander="0x22 0x01 "
                    external="false"
-                   pin="1">gacek brunatny</a>
-                <input type="hidden" value="Gacek brunatny, zwany też wielkouchym, to nietoperz z rodziny mroczkowatych, występujący pospolicie w całej Europie za wyjątkiem północy. Jego duże uszy mają fałdki, które umożliwiają ich składanie - gdy odpoczywa, chowa je pod skrzydłami. Preferuje miejsca zagospodarowane przez człowieka, zwłaszcza tereny rolnicze. Żyje samotnie lub tworzy małe kolonie. Zajmuje dziuple, budynki, jaskinie czy piwnice i tam też zimuje od października do końca marca, zapadając w sen zimowy. Poluje całą noc na owady i ich larwy oraz pająki, chwytając je z powierzchni ziemi lub w locie, a zjadając dopiero w spoczynku. W polowaniu i orientacji w terenie posługuje się echolokacją. Co ciekawe, gacek wielkouch łatwo się oswaja.
+                   pin="1">opieńka miodowa</a>
+                <input type="hidden" value="Opieńka miodowa - gatunek grzyba rosnący gromadnie, czasem bardzo licznie. Występuje najczęściej jesienią od września do listopada, ale czasami może pojawić się nawet na początku sierpnia. Jego występowanie ściśle powiązane jest z martwym drewnem, choć czasem atakuje jak pasożyt także żywe drzewa. Jest grzybem jadalnym. Może być trująca, dlatego też należy ją najpierw obgotować przez około 5 minut i odlać wywar, po czym dopiero poddaje się ją dalszej obróbce. Przez niewprawnych grzybiarzy opieńka miodowa może zostać pomylona z trującą maślanką wiązkową.
 			" class="text-to-append dispNone"/>
             </li>
             <li>
