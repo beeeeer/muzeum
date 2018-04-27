@@ -69,12 +69,13 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="gwiazdnicawielkokwiatowa.mp3"
+                   audio="mrowkarudnica.mp3"
                    relayId="relay7"
                    expander="0x24 0x01 "
                    external="false"
-                   pin="1">Gwiazdnica wielkokwiatowa</a>
-                <input type="hidden" value="Gwiazdnica wielkokwiatowa, z rodziny goździkowatych, w Polsce jest dość pospolita od niżu aż po wyżyny. To typowa roślina leśna, występująca głównie w lasach liściastych: dębowo-grabowych, bukowych i nadrzecznych olszynach, zasiedlająca też zarośla i żywopłoty. Kwitnie stopniowo od kwietnia do czerwca, zapylana jest przez owady. Co ciekawe, kwiaty gwiazdnicy zamykają się na noc oraz podczas deszczowej pogody - chronią w ten sposób słupek i pręciki.
+                   pin="1">Mrówka rudnica</a>
+                <input type="hidden" value="
+                Mrówka rudnica to pospolity owad leśny, żyjący głównie w lasach iglastych. Mrowisko rudnicy składa się z części nadziemnej - kopca o wysokości do 1 m - i podziemnej, sięgającej do 2 m. W jednym mrowisku może żyć nawet 100 tysięcy mrówek. Dzielą się one na trzy kasty: bezpłciowe robotnice, samicę (królową) i samce. Wszelkie prace wykonują robotnice, królowa jedynie składa jaja - dziennie nawet do 300. W przypadku zagrożenia mrowiska grupy robotnic pryskają kwasem mrówkowym w intruza. Odżywiają się drobnymi zwierzętami, głównie owadami i ich larwami, które transportują do mrowiska; zjadają też chętnie spadź wydzielaną przez mszyce. Mrówki odgrywają ważną rolę w lasach - usuwają martwe szczątki zwierząt, pełniąc funkcję 'czyścicieli' lasu; mrówki z jednego mrowiska zabijają też rocznie ok. 50 tysięcy larw owadów.
 					" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -113,43 +114,45 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="liliazlotoglow.mp3"
+                   audio="sikorabogatka.mp3"
                    relayId="relay3"
                    expander="0x21 0x00 "
                    external="true"
-                   pin="1">Lilia złotogłów</a>
-                <input type="hidden" value="Lilia złotogłów to roślina cebulowa z rodziny liliowatych, w kraju spotykana nielicznie w górach, na niżu bardzo rzadka. Rośnie w widnych lasach i zaroślach, na tatrzańskich halach można ją za to spotkać na zarośniętych trawą skałach. Kwitnie od czerwca, zwabiając owady zapachem, szczególnie intensywnym wieczorem i nocą; kolorowe plamki na płatkach kwiatów mają pokazywać owadom miejsce do zapylenia; dostęp do nektaru mają jednak tylko owady długotrąbkowe - motyle. Nasiona lilii rozsiewane są przez wiatr, potrafi ona rozmnażać się też wegetatywnie za pomocą cebulek powstających u nasady starej cebuli. Cebulki te zawierają dużo skrobi, dlatego dawniej uchodziły za przysmak zarówno na surowo, jak i gotowane i pieczone. Lilia złotogłów jest częstym motywem w sztuce ludowej Podhala, szczególnie w rzeźbie.
+                   pin="1">Sikora bogatka</a>
+                <input type="hidden" value="Sikora bogatka jest największą z naszych sikor i znajduje się pod ścisłą ochroną. Zamieszkuje różnorodne lasy, a także parki i ogrody. Wyróżnia się wyjątkowo bogatym repertuarem głosów. Bogatka potrafi sama wykuć dziuplę, ale tylko w miękkim, spróchniałym drewnie - za gniazdo mogą jej też służyć rurki ogrodzeniowe, skrzynki na listy, a nawet otwory wentylacyjne. Ptak ten spędza zimę w Polsce, przemieszcza się tylko w miejsca, gdzie łatwiej mu znaleźć pokarm - zwykle do miast. Sikorki często widujemy przy karmnikach zajadające słoninę - poza okresem zimowym żywią się owadami.
 			" class="text-to-append dispNone"/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="podkolanbialy.mp3"
+                   audio="sikoramodraszka.mp3"
                    relayId="relay4"
                    expander="0x21 0x00 "
                    external="true"
-                   pin="1">Podkolan biały</a>
-                <input type="hidden" value="Podkolan biały rośnie w dobrze nasłonecznionych lasach oraz na ugorach. Roślina ta posiada dwie bulwy - jedna jest zeszłoroczna i to z niej wyrasta pęd nadziemny, druga natomiast jest tegoroczna i gromadzi substancje zapasowe dla przyszłorocznego pędu. Białe kwiaty, pojawiające się od maja do lipca, wydzielają przyjemny zapach wieczorami i nocą, dzięki czemu chętnie zapylają je motyle nocne
+                   pin="1">Sikora modraszka</a>
+                <input type="hidden" value="Modraszka, zwana sikorą modrą, to przepięknie upierzony mały ptaszek. Doskonale komponuje się u niej kolor żółty z błękitnym - modrym (stąd zresztą nazwa gatunku). Preferuje głównie świetliste lasy liściaste i mieszane, rzadziej iglaste, zamieszkiwane również przez dzięcioła dużego, w którego opuszczonych dziuplach gniazduje. Żywi się głównie owadami i pajęczakami, zimą natomiast roślinami, odwiedza też chętnie karmniki, ceniąc przede wszystkim słonecznik, orzeszki ziemne i słoninę. Głos modraszki jest wysoki, przypominający gwizd, podobny do głosów innych przedstawicieli rodziny sikor. Nie jest zagrożona wyginięciem, w kraju jest nawet liczna, podobnie jak wszystkie sikory objęta jest ochroną gatunkową.
 			"
                        class="text-to-append dispNone" class="text-to-append dispNone"/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="wawrzynekwilczelyko.mp3"
+                   audio="zieba.mp3"
                    relayId="relay5"
                    expander="0x21 0x00 "
                    external="true"
-                   pin="1">Wawrzynek wilczełyko</a>
-                <input type="hidden" value="Wawrzynek wilczełyko to niewielki krzew, występujący w Polskich lasach. Jest on rośliną miododajną i kwitnie przed wypuszczeniem liści. Po przekwitnięciu natomiast pojawiają się gęsto skupione owoce o soczyście czerwonej barwie. Cała roślina jest bardzo trująca. Zjedzenie już 10 owoców o słodko-cierpkim smaku może spowodować śmierć dorosłego człowieka. Dla dziecka śmiertelnym może okazać się spożycie nawet 1 owocu. Roślina działa szkodliwie również na skórę, powodując zaczerwienienie i obrzęki oraz pojawienie się pęcherzy.
+                   pin="1">Zięba</a>
+                <input type="hidden" value="Zięba zwyczajna zamieszkuje wszelkie typy zadrzewień. Samca można odróżnić od samicy po upierzeniu - jest ono barwniejsze i bardziej kontrastowe niż u samicy. Zięba żywi się pokarmem zarówno roślinnym, jak i zwierzęcym - w zależności od pory roku zjada: kiełki i pączki - wiosną; owady, ich larwy i pajęczaki - latem lub nasiona i jagody - w sezonie jesienno-zimowym. Śpiew tego ptaka uznawany jest za jeden z najładniejszych wśród polskich gatunków, przy czym melodie zięb z poszczególnych regionów nieco się różnią i są przekazywane z pokolenia na pokolenie.
 			" class="text-to-append dispNone"/>
             </li>
+            {{--lewo--}}
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="czworolistpospolity.mp3"
+                   audio="wiewiorka.mp3"
                    relayId="relay6"
                    expander="0x21 0x00 "
                    external="true"
-                   pin="1">Czworolist pospolity</a>
-                <input type="hidden" value="Czworolist pospolity, czy też jednojagoda czworolistna, rośnie w podmokłych lasach liściastych i mieszanych. Czworolist jest byliną z całorocznym kłączem podziemnym, żyjącym nawet ponad 200 lat. Rozmnaża się zarówno wegetatywnie, poprzez usamodzielniające się z czasem odgałęzienia kłącza, jak i przez wysiew nasion z jagody. Ze względu na charakterystyczną, pojedynczą, czarną, jagodę, na Podhalu nazywana jest też wronim okiem. Wszystkie części rośliny są trujące.
+                   pin="1">Wiewiórka</a>
+                <input type="hidden" value="Wiewiórka pospolita, czy też ruda, to nadrzewny gryzoń często spotykany w lasach liściastych i iglastych, a także w parkach, na terenie całej Polski. W górach wiewiórki mogą być ciemno ubarwione - brązowe po niemal czarne. Ich długi puszysty ogonek odgrywa ważną rolę podczas skoków - służy do stabilizacji kierunku lotu. Pożywienie wiewiórek stanowią nasiona, grzyby i owoce, ale także owady, jaja i pisklęta. Zdarza się im suszyć grzyby na gałęziach, by mieć je na zimę; swoje zapasy chowa w ziemi, dziuplach lub szczelinach drzew, zamieszkuje natomiast wybudowane przez siebie gniazda z trawy i drobnych gałązek. Wiewiórka pospolita, to nadrzewny gryzoń często spotykany w lasach liściastych i iglastych, a także w parkach, na terenie całej Polski. W górach wiewiórki mogą być ciemno ubarwione - brązowe po niemal czarne. Ich długi puszysty ogonek odgrywa ważną rolę podczas skoków - służy do stabilizacji kierunku lotu. Pożywienie wiewiórek stanowią nasiona, grzyby i owoce, ale także owady, jaja i pisklęta. Zdarza się im suszyć grzyby na gałęziach, by mieć je na zimę; swoje zapasy chowa w ziemi, dziuplach lub szczelinach drzew. Zamieszkuje natomiast dziuple lub gniazda opuszczone przez inne zwierzęta dobudowując zadaszenia lub buduje własne w koronach drzew wykorzystując do tego trawy i drobne gałązki.
+
 			" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -178,12 +181,12 @@
             <p class="dispNone">Ekspander 1 0x20 szyna 2 0x01</p>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="mrowkarudnica.mp3"
+                   audio="gwiazdnicawielkokwiatowa.mp3"
                    relayId="relay1"
                    expander="0x21 0x01 "
                    external="true"
-                   pin="1">Mrówka rudnica</a>
-                <input type="hidden" value="Mrówka rudnica to pospolity owad leśny, żyjący głównie w lasach iglastych. Mrowisko rudnicy składa się z części nadziemnej - kopca o wysokości do 1 m - i podziemnej, sięgającej do 2 m. W jednym mrowisku może żyć nawet 100 tysięcy mrówek. Dzielą się one na trzy kasty: bezpłciowe robotnice, samicę (królową) i samce. Wszelkie prace wykonują robotnice, królowa jedynie składa jaja - dziennie nawet do 300. W przypadku zagrożenia mrowiska grupy robotnic pryskają kwasem mrówkowym w intruza. Odżywiają się drobnymi zwierzętami, głównie owadami i ich larwami, które transportują do mrowiska; zjadają też chętnie spadź wydzielaną przez mszyce. Mrówki odgrywają ważną rolę w lasach - usuwają martwe szczątki zwierząt, pełniąc funkcję 'czyścicieli' lasu; mrówki z jednego mrowiska zabijają też rocznie ok. 50 tysięcy larw owadów.
+                   pin="1">Gwiazdnica wielkokwiatowa</a>
+                <input type="hidden" value="Gwiazdnica wielkokwiatowa, z rodziny goździkowatych, w Polsce jest dość pospolita od niżu aż po wyżyny. To typowa roślina leśna, występująca głównie w lasach liściastych: dębowo-grabowych, bukowych i nadrzecznych olszynach, zasiedlająca też zarośla i żywopłoty. Kwitnie stopniowo od kwietnia do czerwca, zapylana jest przez owady. Co ciekawe, kwiaty gwiazdnicy zamykają się na noc oraz podczas deszczowej pogody - chronią w ten sposób słupek i pręciki.
 			" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -198,22 +201,22 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="sikorabogatka.mp3"
+                   audio="liliazlotoglow.mp3"
                    relayId="relay3"
                    expander="0x21 0x01 "
                    external="true"
-                   pin="1">Sikora bogatka</a>
-                <input type="hidden" value="Sikora bogatka jest największą z naszych sikor i znajduje się pod ścisłą ochroną. Zamieszkuje różnorodne lasy, a także parki i ogrody. Wyróżnia się wyjątkowo bogatym repertuarem głosów. Bogatka potrafi sama wykuć dziuplę, ale tylko w miękkim, spróchniałym drewnie - za gniazdo mogą jej też służyć rurki ogrodzeniowe, skrzynki na listy, a nawet otwory wentylacyjne. Ptak ten spędza zimę w Polsce, przemieszcza się tylko w miejsca, gdzie łatwiej mu znaleźć pokarm - zwykle do miast. Sikorki często widujemy przy karmnikach zajadające słoninę - poza okresem zimowym żywią się owadami.
+                   pin="1">Lilia złotogłów</a>
+                <input type="hidden" value="Lilia złotogłów to roślina cebulowa z rodziny liliowatych, w kraju spotykana nielicznie w górach, na niżu bardzo rzadka. Rośnie w widnych lasach i zaroślach, na tatrzańskich halach można ją za to spotkać na zarośniętych trawą skałach. Kwitnie od czerwca, zwabiając owady zapachem, szczególnie intensywnym wieczorem i nocą; kolorowe plamki na płatkach kwiatów mają pokazywać owadom miejsce do zapylenia; dostęp do nektaru mają jednak tylko owady długotrąbkowe - motyle. Nasiona lilii rozsiewane są przez wiatr, potrafi ona rozmnażać się też wegetatywnie za pomocą cebulek powstających u nasady starej cebuli. Cebulki te zawierają dużo skrobi, dlatego dawniej uchodziły za przysmak zarówno na surowo, jak i gotowane i pieczone. Lilia złotogłów jest częstym motywem w sztuce ludowej Podhala, szczególnie w rzeźbie.
 			" class="text-to-append dispNone"/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="sikoramodraszka.mp3"
+                   audio="podkolanbialy.mp3"
                    relayId="relay4"
                    expander="0x21 0x01 "
                    external="true"
-                   pin="1">Sikora modraszka</a>
-                <input type="hidden" value="Modraszka, zwana sikorą modrą, to przepięknie upierzony mały ptaszek. Doskonale komponuje się u niej kolor żółty z błękitnym - modrym (stąd zresztą nazwa gatunku). Preferuje głównie świetliste lasy liściaste i mieszane, rzadziej iglaste, zamieszkiwane również przez dzięcioła dużego, w którego opuszczonych dziuplach gniazduje. Żywi się głównie owadami i pajęczakami, zimą natomiast roślinami, odwiedza też chętnie karmniki, ceniąc przede wszystkim słonecznik, orzeszki ziemne i słoninę. Głos modraszki jest wysoki, przypominający gwizd, podobny do głosów innych przedstawicieli rodziny sikor. Nie jest zagrożona wyginięciem, w kraju jest nawet liczna, podobnie jak wszystkie sikory objęta jest ochroną gatunkową.
+                   pin="1">Podkolan biały</a>
+                <input type="hidden" value="Podkolan biały rośnie w dobrze nasłonecznionych lasach oraz na ugorach. Roślina ta posiada dwie bulwy - jedna jest zeszłoroczna i to z niej wyrasta pęd nadziemny, druga natomiast jest tegoroczna i gromadzi substancje zapasowe dla przyszłorocznego pędu. Białe kwiaty, pojawiające się od maja do lipca, wydzielają przyjemny zapach wieczorami i nocą, dzięki czemu chętnie zapylają je motyle nocne
 			" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -261,12 +264,13 @@
             <p class="dispNone">Ekspander 2 0x22 szyna 1 0x00</p>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="zieba.mp3"
+                   audio="wawrzynekwilczelyko.mp3"
                    relayId="relay1"
                    expander="0x22 0x01 "
                    external="true"
-                   pin="1">Zięba</a>
-                <input type="hidden" value="Zięba zwyczajna zamieszkuje wszelkie typy zadrzewień. Samca można odróżnić od samicy po upierzeniu - jest ono barwniejsze i bardziej kontrastowe niż u samicy. Zięba żywi się pokarmem zarówno roślinnym, jak i zwierzęcym - w zależności od pory roku zjada: kiełki i pączki - wiosną; owady, ich larwy i pajęczaki - latem lub nasiona i jagody - w sezonie jesienno-zimowym. Śpiew tego ptaka uznawany jest za jeden z najładniejszych wśród polskich gatunków, przy czym melodie zięb z poszczególnych regionów nieco się różnią i są przekazywane z pokolenia na pokolenie.
+                   pin="1">Wawrzynek wilczełyko</a>
+                <input type="hidden" value="Wawrzynek wilczełyko to niewielki krzew, występujący w Polskich lasach. Jest on rośliną miododajną i kwitnie przed wypuszczeniem liści. Po przekwitnięciu natomiast pojawiają się gęsto skupione owoce o soczyście czerwonej barwie. Cała roślina jest bardzo trująca. Zjedzenie już 10 owoców o słodko-cierpkim smaku może spowodować śmierć dorosłego człowieka. Dla dziecka śmiertelnym może okazać się spożycie nawet 1 owocu. Roślina działa szkodliwie również na skórę, powodując zaczerwienienie i obrzęki oraz pojawienie się pęcherzy.
+
 			" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -301,12 +305,12 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="wiewiorka.mp3"
+                   audio="czworolistpospolity.mp3"
                    relayId="relay5"
                    expander="0x22 0x01 "
                    external="true"
-                   pin="1">Wiewiórka </a>
-                <input type="hidden" value="Wiewiórka pospolita, czy też ruda, to nadrzewny gryzoń często spotykany w lasach liściastych i iglastych, a także w parkach, na terenie całej Polski. W górach wiewiórki mogą być ciemno ubarwione - brązowe po niemal czarne. Ich długi puszysty ogonek odgrywa ważną rolę podczas skoków - służy do stabilizacji kierunku lotu. Pożywienie wiewiórek stanowią nasiona, grzyby i owoce, ale także owady, jaja i pisklęta. Zdarza się im suszyć grzyby na gałęziach, by mieć je na zimę; swoje zapasy chowa w ziemi, dziuplach lub szczelinach drzew, zamieszkuje natomiast wybudowane przez siebie gniazda z trawy i drobnych gałązek. Wiewiórka pospolita, to nadrzewny gryzoń często spotykany w lasach liściastych i iglastych, a także w parkach, na terenie całej Polski. W górach wiewiórki mogą być ciemno ubarwione - brązowe po niemal czarne. Ich długi puszysty ogonek odgrywa ważną rolę podczas skoków - służy do stabilizacji kierunku lotu. Pożywienie wiewiórek stanowią nasiona, grzyby i owoce, ale także owady, jaja i pisklęta. Zdarza się im suszyć grzyby na gałęziach, by mieć je na zimę; swoje zapasy chowa w ziemi, dziuplach lub szczelinach drzew. Zamieszkuje natomiast dziuple lub gniazda opuszczone przez inne zwierzęta dobudowując zadaszenia lub buduje własne w koronach drzew wykorzystując do tego trawy i drobne gałązki.
+                   pin="1">Czworolist pospolity</a>
+                <input type="hidden" value="Czworolist pospolity, czy też jednojagoda czworolistna, rośnie w podmokłych lasach liściastych i mieszanych. Czworolist jest byliną z całorocznym kłączem podziemnym, żyjącym nawet ponad 200 lat. Rozmnaża się zarówno wegetatywnie, poprzez usamodzielniające się z czasem odgałęzienia kłącza, jak i przez wysiew nasion z jagody. Ze względu na charakterystyczną, pojedynczą, czarną, jagodę, na Podhalu nazywana jest też wronim okiem. Wszystkie części rośliny są trujące.
 			" class="text-to-append dispNone"/>
             </li>
             <li>
