@@ -55,7 +55,7 @@ class forestFire extends Command
             $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
             $process->start();
             while ($process->isRunning()){
-                $this->airPlane();
+
             }
         }
 
