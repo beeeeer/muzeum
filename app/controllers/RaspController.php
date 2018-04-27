@@ -202,7 +202,7 @@ class RaspController extends BaseController
 
     public function waterProcess()
     {
-        $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x00');
+        $process = new Process('/usr/sbin/i2cset -y 1 0x21 0x01 0xfe');
         $process->mustRun();
         return $process->getOutput();
     }
