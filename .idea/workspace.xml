@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0a0c88-707a-4115-b027-31af0e18435c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/RaspController.php" afterPath="$PROJECT_DIR$/app/controllers/RaspController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/custom.js" afterPath="$PROJECT_DIR$/html/js/custom.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/RaspController.php" afterPath="$PROJECT_DIR$/app/controllers/RaspController.php" />
+      <change beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/points.blade.php" afterPath="$PROJECT_DIR$/app/views/pages/points.blade.php" />
+      <change beforePath="$PROJECT_DIR$/html/js/custom.js" afterPath="$PROJECT_DIR$/html/js/custom.js" />
+      <change beforePath="$PROJECT_DIR$/html/scss/main.scss" afterPath="$PROJECT_DIR$/html/scss/main.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,14 +16,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RaspController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/RaspController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3270">
+              <caret line="218" column="5" lean-forward="false" selection-start-line="218" selection-start-column="5" selection-end-line="218" selection-end-column="5" />
+              <folding>
+                <element signature="e#7#45#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            <state relative-caret-position="270">
+              <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="158" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -30,16 +53,9 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="54" column="42" lean-forward="false" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-              <folding>
-                <element signature="e#178#510#0" expanded="false" />
-                <element signature="e#550#607#0" expanded="false" />
-                <element signature="e#3372#4402#0" expanded="false" />
-                <element signature="e#3398#4330#0" expanded="false" />
-                <element signature="e#4437#5542#0" expanded="false" />
-                <marker date="1506442055000" expanded="true" signature="5480:5500" ph="{...}" />
-              </folding>
+            <state relative-caret-position="427">
+              <caret line="176" column="37" lean-forward="false" selection-start-line="176" selection-start-column="37" selection-end-line="176" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,25 +63,11 @@
       <file leaf-file-name="points.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/points.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RaspController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/RaspController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="160" column="54" lean-forward="false" selection-start-line="160" selection-start-column="54" selection-end-line="160" selection-end-column="54" />
+            <state relative-caret-position="715">
+              <caret line="515" column="108" lean-forward="false" selection-start-line="515" selection-start-column="108" selection-end-line="515" selection-end-column="108" />
               <folding>
-                <element signature="e#7#45#0#PHP" expanded="true" />
-                <element signature="n#puller#0;n#RaspController#0;n#!!top" expanded="false" />
-                <element signature="e#3965#3997#0#PHP" expanded="false" />
-                <element signature="n#fetchData#0;n#RaspController#0;n#!!top" expanded="false" />
-                <element signature="n#_runPull#0;n#RaspController#0;n#!!top" expanded="false" />
-                <element signature="n#_sendDataToExternal#0;n#RaspController#0;n#!!top" expanded="false" />
+                <marker date="1524829623580" expanded="true" signature="9:26" ph="..." />
+                <marker date="1524829623580" expanded="true" signature="37:46" ph="..." />
               </folding>
             </state>
           </provider>
@@ -78,6 +80,7 @@
       <find>ekspa</find>
       <find>iwa</find>
       <find>kosiacie</find>
+      <find>wiew</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,12 +95,12 @@
         <option value="$PROJECT_DIR$/app/views/includes/head.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/puller.blade.php" />
         <option value="$PROJECT_DIR$/html/css/main.css" />
-        <option value="$PROJECT_DIR$/html/scss/main.scss" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
-        <option value="$PROJECT_DIR$/app/views/pages/points.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/html/js/custom.js" />
         <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/html/scss/main.scss" />
+        <option value="$PROJECT_DIR$/html/js/custom.js" />
+        <option value="$PROJECT_DIR$/app/views/pages/points.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/RaspController.php" />
       </list>
     </option>
@@ -128,86 +131,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzeum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzeum" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzeum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzeum" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzeum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzeum" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzeum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzeum" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzeum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzeum" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="muzeum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzeum" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="muzeum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzeum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="muzeum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzeum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="commands" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="muzeum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzeum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="start" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="muzeum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzeum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="muzeum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzeum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="muzeum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzeum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="muzeum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzeum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="muzeum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzeum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,15 +254,6 @@
       <PhpTestRunnerSettings />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -300,9 +274,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -329,29 +314,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51874000" />
+    <option name="totallyTimeSpent" value="51985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2092084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21184371" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6676136" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6676136" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6666667" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6676136" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6676136" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2092084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -373,9 +370,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -390,7 +384,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5220">
           <caret line="348" column="76" lean-forward="false" selection-start-line="348" selection-start-column="64" selection-end-line="348" selection-end-column="76" />
-          <folding />
+          <folding>
+            <marker date="1524829623580" expanded="true" signature="9:26" ph="..." />
+            <marker date="1524829623580" expanded="true" signature="37:46" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,14 +395,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
           <caret line="115" column="32" lean-forward="false" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-          <folding>
-            <element signature="e#178#510#0" expanded="false" />
-            <element signature="e#550#607#0" expanded="false" />
-            <element signature="e#3372#4402#0" expanded="false" />
-            <element signature="e#3398#4330#0" expanded="false" />
-            <element signature="e#4437#5542#0" expanded="false" />
-            <marker date="1506442055000" expanded="true" signature="5480:5500" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -415,11 +405,6 @@
           <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
           <folding>
             <element signature="e#7#45#0#PHP" expanded="true" />
-            <element signature="n#puller#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="e#3965#3997#0#PHP" expanded="false" />
-            <element signature="n#fetchData#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_runPull#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_sendDataToExternal#0;n#RaspController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -450,7 +435,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5220">
           <caret line="348" column="76" lean-forward="false" selection-start-line="348" selection-start-column="64" selection-end-line="348" selection-end-column="76" />
-          <folding />
+          <folding>
+            <marker date="1524829623580" expanded="true" signature="9:26" ph="..." />
+            <marker date="1524829623580" expanded="true" signature="37:46" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -458,14 +446,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="115" column="32" lean-forward="false" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-          <folding>
-            <element signature="e#178#510#0" expanded="false" />
-            <element signature="e#550#607#0" expanded="false" />
-            <element signature="e#3372#4402#0" expanded="false" />
-            <element signature="e#3398#4330#0" expanded="false" />
-            <element signature="e#4437#5542#0" expanded="false" />
-            <marker date="1506442055000" expanded="true" signature="5480:5500" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -490,11 +471,6 @@
           <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
           <folding>
             <element signature="e#7#45#0#PHP" expanded="true" />
-            <element signature="n#puller#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="e#3965#3997#0#PHP" expanded="false" />
-            <element signature="n#fetchData#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_runPull#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_sendDataToExternal#0;n#RaspController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -503,7 +479,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5220">
           <caret line="348" column="76" lean-forward="false" selection-start-line="348" selection-start-column="64" selection-end-line="348" selection-end-column="76" />
-          <folding />
+          <folding>
+            <marker date="1524829623580" expanded="true" signature="9:26" ph="..." />
+            <marker date="1524829623580" expanded="true" signature="37:46" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -511,14 +490,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
           <caret line="115" column="32" lean-forward="true" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-          <folding>
-            <element signature="e#178#510#0" expanded="false" />
-            <element signature="e#550#607#0" expanded="false" />
-            <element signature="e#3372#4402#0" expanded="false" />
-            <element signature="e#3398#4330#0" expanded="false" />
-            <element signature="e#4437#5542#0" expanded="false" />
-            <marker date="1506442055000" expanded="true" signature="5480:5500" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -543,11 +515,6 @@
           <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
           <folding>
             <element signature="e#7#45#0#PHP" expanded="true" />
-            <element signature="n#puller#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="e#3965#3997#0#PHP" expanded="false" />
-            <element signature="n#fetchData#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_runPull#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_sendDataToExternal#0;n#RaspController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -556,7 +523,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1524829623580" expanded="true" signature="9:26" ph="..." />
+            <marker date="1524829623580" expanded="true" signature="37:46" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -564,14 +534,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1545">
           <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <element signature="e#178#510#0" expanded="false" />
-            <element signature="e#550#607#0" expanded="false" />
-            <element signature="e#3372#4402#0" expanded="false" />
-            <element signature="e#3398#4330#0" expanded="false" />
-            <element signature="e#4437#5542#0" expanded="false" />
-            <marker date="1506442055000" expanded="true" signature="5480:5500" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -596,11 +559,6 @@
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
             <element signature="e#7#45#0#PHP" expanded="true" />
-            <element signature="n#puller#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="e#3965#3997#0#PHP" expanded="false" />
-            <element signature="n#fetchData#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_runPull#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_sendDataToExternal#0;n#RaspController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -609,7 +567,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1524829623580" expanded="true" signature="9:26" ph="..." />
+            <marker date="1524829623580" expanded="true" signature="37:46" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,14 +578,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-          <folding>
-            <element signature="e#178#510#0" expanded="false" />
-            <element signature="e#550#607#0" expanded="false" />
-            <element signature="e#3372#4402#0" expanded="false" />
-            <element signature="e#3398#4330#0" expanded="false" />
-            <element signature="e#4437#5542#0" expanded="false" />
-            <marker date="1506442055000" expanded="true" signature="5480:5500" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -634,11 +588,6 @@
           <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="e#7#45#0#PHP" expanded="true" />
-            <element signature="n#puller#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="e#3965#3997#0#PHP" expanded="false" />
-            <element signature="n#fetchData#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_runPull#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_sendDataToExternal#0;n#RaspController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -654,7 +603,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1524829623580" expanded="true" signature="9:26" ph="..." />
+            <marker date="1524829623580" expanded="true" signature="37:46" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -676,14 +628,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="e#178#510#0" expanded="false" />
-            <element signature="e#550#607#0" expanded="false" />
-            <element signature="e#3372#4402#0" expanded="false" />
-            <element signature="e#3398#4330#0" expanded="false" />
-            <element signature="e#4437#5542#0" expanded="false" />
-            <marker date="1506442055000" expanded="true" signature="5480:5500" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -707,11 +652,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#7#45#0#PHP" expanded="true" />
-            <element signature="n#puller#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="e#3965#3997#0#PHP" expanded="false" />
-            <element signature="n#fetchData#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_runPull#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_sendDataToExternal#0;n#RaspController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -771,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,18 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/services.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,52 +746,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/points.blade.php">
+    <entry file="file://$PROJECT_DIR$/html/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="325">
+          <caret line="158" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="54" column="42" lean-forward="false" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-          <folding>
-            <element signature="e#178#510#0" expanded="false" />
-            <element signature="e#550#607#0" expanded="false" />
-            <element signature="e#3372#4402#0" expanded="false" />
-            <element signature="e#3398#4330#0" expanded="false" />
-            <element signature="e#4437#5542#0" expanded="false" />
-            <marker date="1506442055000" expanded="true" signature="5480:5500" ph="{...}" />
-          </folding>
+        <state relative-caret-position="427">
+          <caret line="176" column="37" lean-forward="false" selection-start-line="176" selection-start-column="37" selection-end-line="176" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/points.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="715">
+          <caret line="515" column="108" lean-forward="false" selection-start-line="515" selection-start-column="108" selection-end-line="515" selection-end-column="108" />
+          <folding>
+            <marker date="1524829623580" expanded="true" signature="9:26" ph="..." />
+            <marker date="1524829623580" expanded="true" signature="37:46" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/RaspController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="160" column="54" lean-forward="false" selection-start-line="160" selection-start-column="54" selection-end-line="160" selection-end-column="54" />
+        <state relative-caret-position="3270">
+          <caret line="218" column="5" lean-forward="false" selection-start-line="218" selection-start-column="5" selection-end-line="218" selection-end-column="5" />
           <folding>
             <element signature="e#7#45#0#PHP" expanded="true" />
-            <element signature="n#puller#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="e#3965#3997#0#PHP" expanded="false" />
-            <element signature="n#fetchData#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_runPull#0;n#RaspController#0;n#!!top" expanded="false" />
-            <element signature="n#_sendDataToExternal#0;n#RaspController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

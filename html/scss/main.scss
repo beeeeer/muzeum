@@ -1,176 +1,211 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 body {
-	background-color: darkslategray;
-	color: honeydew;
+  background-color: darkslategray;
+  color: honeydew;
 }
+
 .title_ {
-	text-align: center;
-	padding-top: 30px;
+  text-align: center;
+  padding-top: 30px;
 }
+
 .container {
-//	width: 1400px;
-	margin: 0 auto;
+  //	width: 1400px;
+  margin: 0 auto;
 }
 
 .header {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 
 }
+
 .content {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 
 }
-.footer {
-	display: block;
-	width: 100%;
 
-	padding: 45px 0 45px 0;
-	text-align: center;
+.footer {
+  display: block;
+  width: 100%;
+
+  padding: 45px 0 45px 0;
+  text-align: center;
 }
 
 .navbar {
-	background-color: #d0dae5;
-	margin: 0 auto;
-	padding: 0;
-	&__inner {
-		padding: 10px 10px 10px 10px; 
-	}
-	&__list {
-		list-style: none;
-	}
-	&__item {
-		display: inline-block;
-		width: (100/3.1)*1%;
-		
-		a {
-			text-decoration: none;
-		    text-align: center;
-		    text-transform: uppercase;
-		    font-family: Arial, Helvetica, sans-serif;
-		    font-size: 12px;
-		    font-weight: bold;
-		    color: #000;
-		    border: none;
-			padding: 14px 0px 13px 0px;
-			width: 30%;
-		   
-		}
+  background-color: #d0dae5;
+  margin: 0 auto;
+  padding: 0;
+  &__inner {
+    padding: 10px 10px 10px 10px;
+  }
+  &__list {
+    list-style: none;
+  }
+  &__item {
+    display: inline-block;
+    width: (100/3.1)*1%;
 
-	}
+    a {
+      text-decoration: none;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      color: #000;
+      border: none;
+      padding: 14px 0px 13px 0px;
+      width: 30%;
+
+    }
+
+  }
 }
+
 .expanders {
-	// list-style: none;
-	display: block;
-	> li {
-		display: block;
-		float: left;
-		> a {
-			color: #fff;
-			width: 150px;
-			height: 50px;
-			display: block;
-		}
-	}
-	&__relay {
-		border: 1px solid #fff;
-		text-align: center;
-		padding: 7px 2px;
-		margin: 5px;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-size: 15px;
-		color: #000;
-	
-	}
+  // list-style: none;
+  display: block;
+  > li {
+    display: block;
+    float: left;
+    > a {
+      color: #fff;
+      width: 150px;
+      height: 50px;
+      display: block;
+    }
+  }
+  &__relay {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 7px 2px;
+    margin: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #000;
+
+  }
 }
 
 .on {
-	background-color: #747300;
-	color: #000;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 15px;
+  background-color: #747300;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .dispNone {
-	display: none;
+  display: none;
 }
 
 .custom-text {
-	font-size: 17px;
-	text-align: left;
-	width: 80%;
-	padding: 10px;
-	height: 250px;
-	overflow: auto;
-	margin: auto;
+  font-size: 17px;
+  text-align: left;
+  width: 80%;
+  padding: 10px;
+  height: 250px;
+  overflow: auto;
+  margin: auto;
 }
-.rasp__wrapper{
-	clear: both;
-	width:80%;
-	margin: auto;
-}
-.rasp__defaults {
-	//clear: both;
-	color: #fff;
-	float: left;
-	display: inline-block;
-	width:25%;
-	border: 1px solid #fff;
-	text-align: center;
-	padding: 15px 0 20px;
-	margin: 5px;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 12px;
 
+.rasp__wrapper {
+  clear: both;
+  width: 80%;
+  margin: auto;
+}
+
+.rasp__defaults {
+  //clear: both;
+  color: #fff;
+  float: left;
+  display: inline-block;
+  width: 25%;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 15px 0 20px;
+  margin: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
 
 }
 
 .puller-container {
-	width: 50%;
-	margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .rasp-custom-button {
-	font-size: 15px;
-	display: block;
-	width: 250px !important;
+  font-size: 15px;
+  display: block;
+  width: 250px !important;
 }
 
-@media(min-width: 501px) and (max-width: 1075px){
-        .container {
-                width: auto;
-        }
-	.custom-text {display:none;}
-
-        .rasp__wrapper{
-                width:100%;
-        }
-        ul {
-                clear: both;
-                width:100%;
-          li {
-                width: 50%;
-		
-                a { float: left; width: 95%; padding: 0 10px 0 20px;}
-             }
-        }
-        .rasp-custom-button {height: 150px!important; width: 95%!important;}
-        .rasp__defaults {  width: 22%;  height: 150px !important; font-size: 25px;}
-        .expanders { li { a {width: 95%; height: 50px;  font-size: 25px; padding-bottom: 20px; }}}
+.media-show {
+  display: none !important;
 }
 
-.hidden-element
-        {
-                width: 0 !important;
-                height: 0 !important;
-		position: absolute;
-                visibility: hidden;
-        }
+@media(min-width: 501px) and (max-width: 1075px) {
+  .media-show {
+    display: block !important;
+  }
+  .container {
+    width: auto;
+  }
+  .custom-text {
+    display: none;
+  }
+
+  .rasp__wrapper {
+    width: 100%;
+  }
+  ul {
+    clear: both;
+    width: 100%;
+    li {
+      width: 50%;
+
+      a {
+        float: left;
+        width: 95%;
+        padding: 0 10px 0 20px;
+      }
+    }
+  }
+  .rasp-custom-button {
+    height: 150px !important;
+    width: 95% !important;
+  }
+  .rasp__defaults {
+    width: 22%;
+    height: 150px !important;
+    font-size: 25px;
+  }
+  .expanders {
+    li {
+      a {
+        width: 95%;
+        height: 50px;
+        font-size: 25px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+
+.hidden-element {
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute;
+  visibility: hidden;
+}
 
 
