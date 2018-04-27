@@ -44,7 +44,7 @@ class forestFire extends Command
      */
     public function fire()
     {
-        if($this->running == true) return;
+//        if($this->running == true) return;
 
         $process = new Process('gpio -g read 16');
         $process->mustRun();
