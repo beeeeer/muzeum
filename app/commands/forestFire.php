@@ -53,9 +53,12 @@ class forestFire extends Command
         if ($this->fire_flag == 0) {
             $this->running == true;
             $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
-            $process->mustRun();
-            if($process->getOutput()){
-
+            $process->start();
+            while($process->isRunning()){
+                if($this->airPlane() == 1){
+                    $process = new Process('curl http://192.168.0.76/index.php/airplane');
+                    $process->run();
+                }
             }
         }
 
