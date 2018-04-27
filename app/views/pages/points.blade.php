@@ -97,7 +97,7 @@
                    relayId="relay1"
                    expander="0x21 0x00 "
                    external="true"
-                   pin="1">Kokorycz wielkokwiatowa</a>
+                   pin="1">Kokorycz wielokwiatowa</a>
                 <input type="hidden" value="Kokoryczka wielokwiatowa, bylina z rodziny szparagowatych, jest w Polsce dość powszechna na całym niżu i w niewysokich górach, głównie w lasach liściastych i bukowych. Rozmnaża się zarówno wegetatywnie, wyrastając z rozgałęzionego kłącza, jak i generatywnie, poprzez wysiew nasion. W wąskich kwiatach, pojawiających się już od kwietnia, znajduje się nektar, do którego dostać się mogą tylko trzmiele z długimi trąbkami. Owocem jest wypełniona nasionami czarna, oszroniona jagoda, która jest trująca - bywa czasem mylona z borówką czarną, powodując zatrucia u ludzi.
 "
                        class="text-to-append dispNone"/>
@@ -335,80 +335,97 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
+                   audio="zawilecgajowy.mp3"
                    relayId="relay8"
                    expander="0x22 0x01 "
-                   pin="1"> </a>
-                <input type="hidden" value=""/>
+                   external="true"
+                   pin="1">Zawilec Gajowy </a>
+                <input type="hidden" value="
+                Zawilec gajowy, zwany też dawniej niestrętkiem, należy do najgęściej rosnących roślin lasów liściastych. Dzięki rozrastaniu się cienkimi kłączami tuż pod powierzchnią gleby, tworzy na wiosnę szybko powiększające się skupiska, często wręcz pokrywa zwartymi łanami wielkie powierzchnie, wypełniając bezbarwny zimowy krajobraz lasu zielono-białym dywanem.
+                "/>
             </li>
         </ul>
         <ul class="expanders">
             <p class="dispNone">Ekspander 2 0x22 szyna 2 0x01</p>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
+                   audio="zawileczolty.mp3"
                    relayId="relay1"
                    expander="0x22 0x00 "
-                   external="false"
-                   pin="1"></a>
-                <input type="hidden" value=""/>
+                   external="true"
+                   pin="1">Zawilec Żółty</a>
+                <input type="hidden" value="
+Zawilec żółty to bylina z rodziny jaskrowatych pospolita na całym niżu kraju, przy czym występuje rzadziej od zawilca gajowego. Rozmnaża się przez podział kłączy oraz z nasion, zarastając często całymi kępami wilgotne lasy i zarośla. Kwitnie od marca do maja, a jego kwiaty w ciągu dnia obracają się za słońcem, w nocy i w czasie złej pogody zamykają się. Cała roślina jest lekko trująca.
+                 "/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
+                   audio="ziarnoplonwiosenny.mp3"
                    relayId="relay2"
                    expander="0x22 0x00 "
-                   pin="1"> </a>
-                <input type="hidden" value=""/>
+                   external="true"
+                   pin="1">Ziarnopłon wiosenny </a>
+                <input type="hidden" value="Ziarnopłon wiosenny to jaskier, występujący pospolicie w lasach liściastych i na wilgotnych łąkach całego kraju. Łodyga ziarnopłonu płoży się po ziemi, a od marca do maja pojawiają się na niej żółte kwiaty. Cała roślina, jak wszystkie jaskry, jest trująca. Zioła wykonane z ziarnopłonu mają jednak pewne właściwości lecznicze - dawniej używane były w medycynie ludowej do lecznia brodawek i hemoroidów.
+                "/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
+                   audio="szczawikzajeczy.mp3"
                    relayId="relay3"
                    expander="0x22 0x00 "
-                   external="false"
-                   pin="1"></a>
-                <input type="hidden" value=""/>
+                   external="true"
+                   pin="1">Szczawik Zajęczy</a>
+                <input type="hidden" value="Szczawik zajęczy to niewysoka roślina o pełzającym kłączu, z którego wyrastają podobne do koniczyny sercowate liście i białe kwiaty z fioletowymi żyłkami i żółtą plamą u nasady płatka. Rośnie pospolicie w całym kraju, najchętniej w wilgotnych lasach, zrębach, zaroślach, często też na starych pniach drzew. To roślina o jadalnych, kwaskowatych liściach o właściwościach leczniczych - zawierają m.in. witaminę C.
+                "/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
+                   audio="miodunkacma.mp3"
                    relayId="relay4"
                    expander="0x22 0x00 "
-                   external="false"
-                   pin="1"></a>
-                <input type="hidden" value=""/>
+                   external="true"
+                   pin="1">Miodunka ćma</a>
+                <input type="hidden" value="
+Miodunka ćma to roślina wieloletnia z rodziny ogórecznikowatych, w kraju występująca pospolicie w lasach liściastych i zaroślach, zwłaszcza nadrzecznych. Zakwita i rozwija liście wczesną wiosną, jeszcze przed wypuszczeniem liści przez drzewa, pod którymi rośnie. Kwiaty zapylane są przez błonkówki. Jest rośliną leczniczą, wpływającą korzystnie na drogi oddechowe.
+                "/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
+                   audio="przylaszczkapospolita.mp3"
                    relayId="relay5"
                    expander="0x22 0x00 "
-                   external="false"
-                   pin="1"></a>
-                <input type="hidden" value=""/>
+                   external="true"
+                   pin="1">Przyłaszczka pospolita</a>
+                <input type="hidden" value="Przylaszczka pospolita z rodziny jaskrowatych to roślina wieloletnia, osiągająca nawet do stu lat. W Polsce występuje dość powszechnie w lasach liściastych. Jej liście są zimozielone - pozostają żywe do przedwiośnia, co znacznie przyspiesza rozwój rośliny; już od marca z pączków uformowanych jesienią roku poprzedniego rozwijają się kwiaty; w tym czasie więdną stare liście, a na ich miejsce wyrastają świeże. Nasiona roznoszone są przez mrówki. Jest to roślina trująca w większej ilości, mimo to jej liście stosowano dawniej jako surogat herbaty. Przylaszczka dzięki efektownym kwiatom pojawiającym się tuż po zimie jest rośliną lubianą i obecną w folklorze i tradycjach wielu krajów, zwłaszcza skandynawskich. Przypisywane jej też były magiczne właściwości - ziele noszone w woreczku przy kobiecie miało jej zagwarantować miłość mężczyzny.
+                "/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
+                   audio="mrowkarudnica.mp3"
                    relayId="relay6"
                    expander="0x22 0x00 "
-                   pin="1"> </a>
-                <input type="hidden" value=""/>
+                   external="true"
+                   pin="1">Mrówka rudnica </a>
+                <input type="hidden" value="
+                Mrówka rudnica to pospolity owad leśny, żyjący głównie w lasach iglastych. Mrowisko rudnicy składa się z części nadziemnej - kopca o wysokości do 1 m - i podziemnej, sięgającej do 2 m. W jednym mrowisku może żyć nawet 100 tysięcy mrówek. Dzielą się one na trzy kasty: bezpłciowe robotnice, samicę (królową) i samce. Wszelkie prace wykonują robotnice, królowa jedynie składa jaja - dziennie nawet do 300. W przypadku zagrożenia mrowiska grupy robotnic pryskają kwasem mrówkowym w intruza. Odżywiają się drobnymi zwierzętami, głównie owadami i ich larwami, które transportują do mrowiska; zjadają też chętnie spadź wydzielaną przez mszyce. Mrówki odgrywają ważną rolę w lasach - usuwają martwe szczątki zwierząt, pełniąc funkcję 'czyścicieli' lasu; mrówki z jednego mrowiska zabijają też rocznie ok. 50 tysięcy larw owadów.
+                "/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
+                   audio="kokoryczpusta.mp3"
                    relayId="relay7"
                    expander="0x22 0x00 "
-                   pin="1"> </a>
-                <input type="hidden" value=""/>
+                   external="true"
+                   pin="1">Kokorycz pusta </a>
+                <input type="hidden" value="Kokorycz pusta z rodziny dymnicowatych jest dość pospolita na niżu, w Karpatach i Sudetach aż po regiel dolny; rośnie w cienistych żyznych lasach liściastych. W kwiatach, pojawiających się od końca marca, znajduje się nektar, do którego mogą się jednak dostać tylko owady o długich trąbkach. Nasiona kokoryczy zaopatrzone są w elajosomy, czyli obfite w tłuszcze wyrostki, spożywane przez mrówki, które przenosząc je do mrowiska rozsiewają nasiona. Kokorycz pusta, choć jest rośliną trującą, znana jest przez jej lecznicze, kojące działanie na suchą, popękaną skórę, np. w przypadku egzemy.
+                "/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio=".mp3"
                    relayId="relay8"
                    expander="0x22 0x00 "
+                   external="true"
                    pin="1"> </a>
                 <input type="hidden" value=""/>
             </li>

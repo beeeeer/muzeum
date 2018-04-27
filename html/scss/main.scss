@@ -13,7 +13,6 @@ body {
 }
 
 .container {
-  //	width: 1400px;
   margin: 0 auto;
 }
 
@@ -153,7 +152,7 @@ body {
   .container {
     width: auto;
   }
-  .media-show {display: none !important;}
+  .media-show {display: block !important;}
   .rasp__wrapper {
     width: 100%;
   }
