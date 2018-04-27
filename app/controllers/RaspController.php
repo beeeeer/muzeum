@@ -238,8 +238,7 @@ var_dump($this->command);
     public function fireProcess()
     {
         $audio = new Process('mpg123 media/pozarlasu.mp3');
-        $audio->start();
-        while ($audio->isRunning()) {
+        $audio->mustRun();
             sleep(7);
             $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x9f');
             $process->mustRun();
@@ -249,26 +248,22 @@ var_dump($this->command);
             sleep(7);
             $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
             $process->mustRun();
-            sleep(7);
-            exit;
-        }
-        return json_encode('done');
+        return json_encode($process->getOutput());
     }
+
+
+
 
     public function airplaneProcess()
     {
         $process = new Process('mpg123 media/samolot.mp3');
-        $process->start();
-        while ($process->isRunning()) {
-
-            $water = new Process('curl http://192.168.0.77/index.php/water');
-            $water->mustRun();
-            sleep(5);
-            $this->waterprocess();
-            $offRelay = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0xff');
-            $offRelay->run();
-        }
-
+        $process->mustRun();
+        $water = new Process('curl http://192.168.0.77/index.php/water');
+        $water->mustRun();
+        sleep(5);
+        $this->waterprocess();
+        $offRelay = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0xff');
+        $offRelay->run();
         return $process->getOutput();
     }
 
