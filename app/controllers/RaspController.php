@@ -239,7 +239,8 @@ class RaspController extends BaseController
     public function fireProcess()
     {
         $audio = new Process('mpg123 media/pozarlasu.mp3');
-        $audio->mustRun();
+        $audio->start();
+        while($audio->isRunning()){
             sleep(7);
             $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x9f');
             $process->mustRun();
@@ -249,7 +250,9 @@ class RaspController extends BaseController
             sleep(7);
             $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
             $process->mustRun();
-        return json_encode($process->getOutput());
+
+        }
+        return 1;
     }
 
 
