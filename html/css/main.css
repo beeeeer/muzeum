@@ -130,7 +130,7 @@ body {
     width: auto;
   }
   .media-show {
-    display: none !important;
+    display: block !important;
   }
   .rasp__wrapper {
     width: 100%;
@@ -167,4 +167,5 @@ body {
   width: 0 !important;
   height: 0 !important;
   visibility: hidden !important;
+  position: absolute !important;
 }

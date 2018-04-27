@@ -109,6 +109,7 @@ var_dump($this->command);
 
     public function switchallOff()
     {
+	$this->allExp('pkill mpg123')->run();
         $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0xff')->run();
 	    $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0xff')->run();
         $this->allExp('curl 192.168.0.75/index.php/swoff')->run();
