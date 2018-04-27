@@ -103,19 +103,12 @@ class RaspController extends BaseController
 //All pins actions
     public function switchallOn()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')->mustRun()->getOutput();
-        }
+        $this->allExp('curl 192.168.0.83/index.php/swon')->run();
     }
 
     public function switchallOff()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')->mustRun()->getOutput();
-        }
-
+	$this->allExp('curl 192.168.0.83/index.php/swoff')->run();
     }
 
     public function allExp($method)
@@ -170,7 +163,7 @@ class RaspController extends BaseController
     {
         $data = Input::all();
         $client = new Client();
-        $res = $client->request('GET', 'http://192.168.0.59/index.php/recive', [
+        $res = $client->request('GET', 'http://192.168.0.83/index.php/recive', [
             'form_params' => $data
         ]);
         $result = $res->getBody();
