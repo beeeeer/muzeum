@@ -103,24 +103,25 @@ class RaspController extends BaseController
 //All pins actions
     public function switchallOn()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')->mustRun()->getOutput();
-        }
-    }
+    	$this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0x00');         
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0x00');
+    	$this->allExp('curl 192.168.0.81/index.php/swon');
+   }
 
     public function switchallOff()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')->mustRun()->getOutput();
-        }
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x00 0xFF');
+        $this->allExp('/usr/sbin/i2cset -y 1 0x24 0x01 0xFF');
+        $this->allExp('curl 192.168.0.81/index.php/swoff');
 
     }
 
     public function allExp($method)
     {
-        return new Process($method);
+	$process = new Process($method);
+	$process->disableOutput();
+	return $process->run();
+        
     }
 
 //    Updater - its only pull from origin.
@@ -165,13 +166,14 @@ class RaspController extends BaseController
         $this->prepExternalData($request->getContent());
         return $response->setContent($request->getContent());
     }
-
+	
+    
     public function _sendDataToExternal()
     {
         $data = Input::all();
         $client = new Client();
-        $res = $client->request('GET', 'http://192.168.0.59/index.php/recive', [
-            'form_params' => $data
+	$res = $client->request('GET', 'http://192.168.0.81/index.php/recive', [
+          'form_params' => $data
         ]);
         $result = $res->getBody();
         return $result->getContents();
@@ -180,6 +182,7 @@ class RaspController extends BaseController
     //EXTERNAL:
     public function prepExternalData($data)
     {
+	return json_encode($data);
         $array = explode("data", $data);
         $new_arr= [];
         foreach($array as $string){
