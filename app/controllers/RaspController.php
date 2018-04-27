@@ -106,6 +106,7 @@ class RaspController extends BaseController
 
     public function switchallOff()
     {
+        $this->allExp('pkill mpg123')->run();
         $this->allExp('/usr/sbin/i2cset -y 1 0x20 0x00 0xff')->run();
         $this->allExp('/usr/sbin/i2cset -y 1 0x20 0x01 0xff')->run();
         $this->allExp('/usr/sbin/i2cset -y 1 0x25 0x00 0xff')->run();
