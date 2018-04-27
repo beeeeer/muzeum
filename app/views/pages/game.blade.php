@@ -88,6 +88,7 @@
 				" class="text-to-append dispNone"/>
             </li>
         </ul>
+<br><br>
         <ul class="expanders answers">
             <p class="dispNone">Ekspander 0x24 szyna 2</p>
             <li>
@@ -158,10 +159,10 @@
             </li>
         </ul>
 
-        
+        <div class="container">
             <a href="/index.php/game" class="rasp__defaults expanders__relay" id="switchAllOn">Restart Gry</a>
             <a href="/index.php/points" class="rasp__defaults expanders__relay" id="switchAllOff">Powrót do sterowania</a>
-
+	</div>
         </div>
     </div>
 

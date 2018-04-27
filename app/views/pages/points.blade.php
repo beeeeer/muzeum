@@ -239,12 +239,16 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
+                   audio="bocianczarny.mp3"
                    relayId="relay7"
                    expander="0x27 0x00 "
                    external="true"
-                   pin="1"></a>
+                   pin="1">Bocian czarny</a>
                 <input type="hidden" value="
+Bocian czarny jest nieco mniejszy od bociana białego. W przeciwieństwie do swojego krewniaka, uważany jest za skrytego 
+					ptaka leśnego, unikającego otwartych terenów, a także kontaktów z człowiekiem. Zimuje w Afryce i południowej Azji, skąd wraca od marca już połączony w pary. W czasie wiosennych 
+					toków bociany odbywają taniec – samiec i samica krążą wokół siebie, strosząc białe pióra na ogonach i wyrzucając energicznie głowy w górę i w dół oraz na boki. Gniazda budują z 
+					gałęzi, traw i mchów na wysokim liściastym drzewie w pobliżu zbiornika wodnego, w którym polują na ryby lub płazy, głównie żaby.
 			" class="text-to-append dispNone"/>
             </li>
             <li>
