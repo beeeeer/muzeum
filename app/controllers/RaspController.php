@@ -250,12 +250,20 @@ class RaspController extends BaseController
             sleep(7);
             $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
             $process->mustRun();
-
+            $this->checkairPlane();
         }
         return 1;
     }
 
-
+    public function checkairPlane()
+    {
+        $process = new Process('curl curl http://192.168.0.77/index.php/water');
+        $process->mustRun();
+        if($process->getOutput() == 1)
+        {
+            $this->airplaneProcess();
+        }
+    }
 
 
     public function airplaneProcess()
