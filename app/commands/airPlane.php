@@ -53,7 +53,6 @@ class airPlane extends Command
             $process = new Process('curl http://192.168.0.76/index.php/airplane');
             $water = new Process('/usr/sbin/i2cset -y 1 0x21 0x01 0xfe');
             $process->run();
-            sleep(20);
             $water->run();
         }
 
