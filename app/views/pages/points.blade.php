@@ -5,7 +5,7 @@
         <div class="custom-text" id="custom-text"></div>
         <ul class="expanders">
             <p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
-            
+
 
             <li>
                 <a href="#" class="expanders__relay relayexp1"
@@ -130,7 +130,7 @@
                 <input type="hidden" value="Srokosz z rodziny dzierzb występuje nielicznie na niżu kraju. Lubi zalesione tereny podmokłe, doliny rzeczne, torfowiska, a także skraje lasów. Gniazdo buduje z korzonków i kłączy w koronie drzewa. Ten drapieżny ptak, mimo swych niewielkich rozmiarów, poluje na duże ofiary, jak myszy czy drobne ptaki. Jak wszystkie dzierzby ma zwyczaj gromadzenia zapasów pokarmu - swoje zdobycze nabija na kolce ciernistych krzewów. Gdy siada na podwyższonych obiektach, tzw. czatowniach, można go dostrzec z kilkuset metrów. Srokosze są jedynymi dzierzbami, które zimują w Polsce.
 			" class="text-to-append dispNone"/>
             </li>
-             <li>
+            <li>
                 <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="sikoraczarnoglowka.mp3"
                    relayId="relay5"
@@ -140,7 +140,7 @@
                 <input type="hidden" value="Czarnogłówka z rodziny sikor występuje średnio licznie w całym kraju. Przeważnie jest to ptak osiadły i tylko w razie bardzo mroźnej zimy wylatuje na południe Europy, gdzie klimat jest łagodnie$
                                 " class="text-to-append dispNone"/>
             </li>
-			<li>
+            <li>
                 <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="mysikrolik.mp3"
                    relayId="relay6"
@@ -504,7 +504,8 @@ Bocian czarny jest nieco mniejszy od bociana białego. W przeciwieństwie do swo
             <a href="#" class="rasp__defaults expanders__relay" id="switchAllOn">Podświetl Wszystko</a>
             <a href="#" class="rasp__defaults expanders__relay" id="switchAllOff">Wyłącz wszystko</a>
             <a href="/index.php/game" class="rasp__defaults expanders__relay" id="switchAllOff">Przejdź do gry</a>
-
+            <a href="#" class="rasp__defaults expanders__relay media-show" id="desktopon">Włącz pulpit</a>
+            <a href="#" class="rasp__defaults expanders__relay media-show" id="desktopoff">Wyłącz pulpit</a>
         </div>
     </div>
 

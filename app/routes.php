@@ -11,30 +11,29 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('pages.points');
+Route::get('/', function () {
+    return View::make('pages.points');
 });
-Route::get('/game', function()
-{
+Route::get('/game', function () {
     return View::make('pages.game');
 });
 
 
-Route::get('points','RaspController@getRelayData');
-Route::post('setpoint','RaspController@getAjaxRequest');
-Route::get('puller','RaspController@puller');
-Route::post('fetchData','RaspController@fetchData');
-Route::post('switchAllOn','RaspController@switchallOn');
-Route::post('switchAllOff','RaspController@switchallOff');
+Route::get('points', 'RaspController@getRelayData');
+Route::post('setpoint', 'RaspController@getAjaxRequest');
+Route::get('puller', 'RaspController@puller');
+Route::post('fetchData', 'RaspController@fetchData');
+Route::post('switchAllOn', 'RaspController@switchallOn');
+Route::post('switchAllOff', 'RaspController@switchallOff');
+Route::post('pulpitOn', 'RaspController@pulpitOn');
+Route::post('pulpitOff', 'RaspController@pulpitOff');
+Route::get('send', 'RaspController@_sendDataToExternal');
 
-Route::get('send','RaspController@_sendDataToExternal');
-
-Route::get('recive','RaspController@_getDataFromExternal');
+Route::get('recive', 'RaspController@_getDataFromExternal');
 
 //test
 
-Route::get('array','RaspController@prepExternalData');
+Route::get('array', 'RaspController@prepExternalData');
 
 
 //wywołanie externala:

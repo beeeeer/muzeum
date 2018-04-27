@@ -31,9 +31,9 @@
 })(jQuery);
 
 jQuery(document).ready(function ($) {
-    $.fn.randomize = function(selector){
-        (selector ? this.find(selector) : this).parent().each(function(){
-            $(this).children(selector).sort(function(){
+    $.fn.randomize = function (selector) {
+        (selector ? this.find(selector) : this).parent().each(function () {
+            $(this).children(selector).sort(function () {
                 return Math.random() - 0.5;
             }).detach().appendTo(this);
         });
@@ -79,7 +79,7 @@ jQuery(document).ready(function ($) {
                     text = $(this).next().val()
                     content = $('#custom-text');
                     content.html('');
-                   //content.html(text);
+                    //content.html(text);
                     $(this).attr('pin', function (index, attr) {
                         return attr == 1 ? 0 : 1;
                     });
@@ -97,9 +97,9 @@ jQuery(document).ready(function ($) {
                     pointData[0] = command + stringProcessPin;
                     pointData[1] = $(this).attr('audio');
                     pointData[2] = 'status' + $(this).attr('pin');
-                    if($('.container-inner').hasClass('game')){
+                    if ($('.container-inner').hasClass('game')) {
                         console.log('lets play a game');
-                        if($(this).attr('external') == 'true'){
+                        if ($(this).attr('external') == 'true') {
                             $.ajax({
                                 type: "POST",
                                 url: "setpoint",
@@ -111,16 +111,16 @@ jQuery(document).ready(function ($) {
                                 }
                             }, "json");
                         }
-                        $('.answers > li > a').on('click',function(e){
+                        $('.answers > li > a').on('click', function (e) {
                             var score = 0;
                             //$('score').html(score);
                             console.log($(this).attr('answer'));
-                            if((answer === $(this).attr('answer') && ($(this).attr('pin') === '0'))){
-                               content.html(text);
-				 console.log('Good!!')
-                               score +=1;
-				console.log(score);
-				 console.log(pointData[1]='applause.mp3');
+                            if ((answer === $(this).attr('answer') && ($(this).attr('pin') === '0'))) {
+                                content.html(text);
+                                console.log('Good!!')
+                                score += 1;
+                                console.log(score);
+                                console.log(pointData[1] = 'applause.mp3');
                                 $.ajax({
                                     type: "GET",
                                     url: "send",
@@ -144,13 +144,13 @@ jQuery(document).ready(function ($) {
                                 }, "json");
                                 answer = null;
                                 //score +=1;
-				console.log(score);
+                                console.log(score);
                             } else {
-                              //  score -=1;
-				console.log(score);
+                                //  score -=1;
+                                console.log(score);
                                 console.log('Wrong!!!!!!!!!!!!!!!!!!!!!!!!!!!');
                             }
-				//$('score').html(score);
+                            //$('score').html(score);
                         });
                     }
                     else {
@@ -267,6 +267,7 @@ jQuery(document).ready(function ($) {
                 data: {data: 'off'},
                 success: function (response) {
                     console.log(response);
+                    location.reload();
                 }, error: function (response) {
                     console.log(response);
                 }
@@ -274,7 +275,35 @@ jQuery(document).ready(function ($) {
         });
 
     }();
+    var switchDesktop = function () {
+        var on = $('#desktopon');
+        var off = $('#desktopoff');
+        on.on('click', function () {
+            $.ajax({
+                type: "POST",
+                url: "pulpitOn",
+                data: {data: 'on'},
+                success: function (response) {
+                    console.log(response);
+                }, error: function (response) {
+                    console.log(response);
+                }
+            }, "json");
+        });
 
+        off.on('click', function () {
+            $.ajax({
+                type: "POST",
+                url: "pulpitOff",
+                data: {data: 'off'},
+                success: function (response) {
+                    console.log(response);
+                }, error: function (response) {
+                    console.log(response);
+                }
+            }, "json");
+        });
+    }();
     var setText = function () {
         var text = $(this).next().val(),
             content = $('#custom-text');
