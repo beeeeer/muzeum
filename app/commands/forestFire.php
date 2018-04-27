@@ -53,7 +53,10 @@ class forestFire extends Command
         if ($this->fire_flag == 0) {
             $this->running == true;
             $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
-            $process->mustRun();
+            $process->start();
+            while ($process->isRunning()){
+                $this->airPlane();
+            }
         }
 
     }
@@ -62,7 +65,11 @@ class forestFire extends Command
     {
         $process = new Process('gpio -g read 21');
         $process->mustRun();
-        return $process->getOutput();
+        if($process->getOutput() == 1){
+            $process = new Process('curl http://192.168.0.76/index.php/airplane');
+            $process->mustRun();
+            return $process->getOutput();
+        }
     }
 
     public function water()
