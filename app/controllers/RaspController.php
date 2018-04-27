@@ -64,7 +64,7 @@ class RaspController extends BaseController
 	{
 		$this->process = new Process($this->command);
 		try {
-var_dump($this->command);
+		var_dump($this->command);
     		$this->process->mustRun();
 			return $this->output = $this->process->getOutput();
 		} catch (ProcessFailedException $e) {
@@ -134,6 +134,7 @@ var_dump($this->command);
 
     public function switchallOff()
     {
+	$this->allExp('pkill mpg123')->run();
 	$this->allExp('/usr/sbin/i2cset -y 1 0x20 0x01 0xff')->run();
 	$this->allExp('/usr/sbin/i2cset -y 1 0x20 0x00 0xff')->run();
 	$this->allExp('curl 192.168.0.77/index.php/swoff')->run();
