@@ -167,6 +167,7 @@ jQuery(document).ready(function ($) {
                 data: {data: 'off'},
                 success: function (response) {
                     console.log(response);
+                    location.reload();
                 }, error: function (response) {
                     console.log(response);
                 }
