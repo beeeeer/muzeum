@@ -113,6 +113,7 @@ class RaspController extends BaseController
 
     public function switchallOff()
     {
+	$this->allExp('pkill mpg123')->run();
         $this->allExp('curl 192.168.0.83/index.php/swoff')->run();
     }
 
