@@ -68,7 +68,7 @@
 					" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1 hidden-element"
+                <a href="#" class="expanders__relay relayexp1"
                    audio="kokoryczkawielkokwiatowa.mp3"
                    relayId="relay7"
                    expander="0x24 0x01 "
