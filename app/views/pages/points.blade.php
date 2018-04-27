@@ -8,7 +8,7 @@
         <ul class="expanders">
             <p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="zawilecgajowy.mp3"
                    relayId="relay1"
                    expander="0x24 0x01 "
@@ -18,7 +18,7 @@
 			" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="zawileczolty.mp3"
                    relayId="relay2"
                    expander="0x24 0x01 "
@@ -28,7 +28,7 @@
 			" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="ziarnoplonwiosenny.mp3"
                    relayId="relay3"
                    expander="0x24 0x01 "
@@ -38,7 +38,7 @@
 			" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="szczawikzajeczy.mp3"
                    relayId="relay4"
                    expander="0x24 0x01 "
@@ -48,7 +48,7 @@
 					" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="miodunkacma.mp3"
                    relayId="relay5"
                    expander="0x24 0x01 "
@@ -58,7 +58,7 @@
 					" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="przylaszczkapospolita.mp3"
                    relayId="relay6"
                    expander="0x24 0x01 "
@@ -68,7 +68,7 @@
 					" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="mrowkarudnica.mp3"
                    relayId="relay7"
                    expander="0x24 0x01 "
@@ -411,7 +411,7 @@ Miodunka ćma to roślina wieloletnia z rodziny ogórecznikowatych, w kraju wyst
                 "/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="kokoryczpusta.mp3"
                    relayId="relay7"
                    expander="0x22 0x00 "
