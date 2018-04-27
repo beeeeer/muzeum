@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0a0c88-707a-4115-b027-31af0e18435c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/pages/points.blade.php" afterPath="$PROJECT_DIR$/app/views/pages/points.blade.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/html/scss/main.scss" afterPath="$PROJECT_DIR$/html/scss/main.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="167" column="31" lean-forward="true" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
+            <state relative-caret-position="760">
+              <caret line="196" column="31" lean-forward="false" selection-start-line="196" selection-start-column="31" selection-end-line="196" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -61,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="points.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="points.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/points.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="6195">
@@ -84,6 +85,7 @@
       <find>switch</find>
       <find>zięba</find>
       <find>wielkok</find>
+      <find>borsuk</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,8 +105,8 @@
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/html/js/custom.js" />
         <option value="$PROJECT_DIR$/app/controllers/RaspController.php" />
-        <option value="$PROJECT_DIR$/html/scss/main.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/points.blade.php" />
+        <option value="$PROJECT_DIR$/html/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -317,7 +319,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54260000" />
+    <option name="totallyTimeSpent" value="54329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -815,14 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="167" column="31" lean-forward="true" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/points.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6195">
@@ -831,6 +825,14 @@
             <marker date="1524841224387" expanded="true" signature="9:26" ph="..." />
             <marker date="1524841224387" expanded="true" signature="37:46" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="196" column="31" lean-forward="false" selection-start-line="196" selection-start-column="31" selection-end-line="196" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
