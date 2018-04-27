@@ -54,21 +54,23 @@ class RaspController extends BaseController
 		$comProcess = str_replace($delete,' ',$comProcess);
 		$toHex = substr($comProcess,-10);
 		$comProcess = substr($comProcess,0,-10);
-		$hexaddress = '0x'.(dechex(bindec($toHex)));
+		$hexaddress = '0x'.dechex(bindec($toHex));
 		$this->command = '/usr/sbin/i2cset -y 1 '.$comProcess.' '.$hexaddress;
+		var_dump($this->command);
 		$this->executeProcess();
 		return $this->playAudio($this->audioFile);
 	}
 
 	public function executeProcess()
-	{
+	{	
+		var_dump($this->command);
 		$this->process = new Process($this->command);
 		try {
     		$this->process->mustRun();
-			return $this->output = $this->process->getOutput();
+			return  $this->output = $this->process->getOutput();
 		} catch (ProcessFailedException $e) {
-    		return $this->output = $e->getMessage();
-    	}
+    			return $this->output = $e->getMessage();
+  		}
 	}
 
 	public function playAudio($command) 
@@ -103,18 +105,17 @@ class RaspController extends BaseController
 //All pins actions
     public function switchallOn()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0x00')->mustRun()->getOutput();
-        }
+        $this->allExp('/usr/sbin/i2cset -y 1 0x22 0x00 0x00')->run();
+        $this->allExp('/usr/sbin/i2cset -y 1 0x22 0x01 0x00')->run();
+        $this->allExp('curl 192.168.0.79/index.php/swon')->run();
+
     }
 
     public function switchallOff()
     {
-        foreach($this->allExpanders as $singleExpander)
-        {
-            $this->allExp('/usr/sbin/i2cset -y 1 '.$singleExpander.'0xFF')->mustRun()->getOutput();
-        }
+        $this->allExp('/usr/sbin/i2cset -y 1 0x22 0x00 0xff')->run();
+	$this->allExp('/usr/sbin/i2cset -y 1 0x22 0x01 0xff')->run();
+        $this->allExp('curl 192.168.0.79/index.php/swoff')->run();
 
     }
 
@@ -170,7 +171,7 @@ class RaspController extends BaseController
     {
         $data = Input::all();
         $client = new Client();
-        $res = $client->request('GET', 'http://192.168.0.59/index.php/recive', [
+        $res = $client->request('GET', 'http://192.168.0.79/index.php/recive', [
             'form_params' => $data
         ]);
         $result = $res->getBody();
