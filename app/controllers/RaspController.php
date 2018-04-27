@@ -113,7 +113,9 @@ class RaspController extends BaseController
 
     public function switchallOff()
     {
-        $this->allExp('curl 192.168.0.89/index.php/swoff')->run();
+	$this->allExp('pkill mpg123')->run();
+ 
+       $this->allExp('curl 192.168.0.89/index.php/swoff')->run();
     }
 
 ////    Updater - its only pull from origin.
