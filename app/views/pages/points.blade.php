@@ -69,13 +69,13 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1 hidden-element"
-                   audio="mrowkarudnica.mp3"
+                   audio="kokoryczkawielkokwiatowa.mp3"
                    relayId="relay7"
                    expander="0x24 0x01 "
                    external="false"
-                   pin="1">Mrówka rudnica</a>
-                <input type="hidden" value="
-                Mrówka rudnica to pospolity owad leśny, żyjący głównie w lasach iglastych. Mrowisko rudnicy składa się z części nadziemnej - kopca o wysokości do 1 m - i podziemnej, sięgającej do 2 m. W jednym mrowisku może żyć nawet 100 tysięcy mrówek. Dzielą się one na trzy kasty: bezpłciowe robotnice, samicę (królową) i samce. Wszelkie prace wykonują robotnice, królowa jedynie składa jaja - dziennie nawet do 300. W przypadku zagrożenia mrowiska grupy robotnic pryskają kwasem mrówkowym w intruza. Odżywiają się drobnymi zwierzętami, głównie owadami i ich larwami, które transportują do mrowiska; zjadają też chętnie spadź wydzielaną przez mszyce. Mrówki odgrywają ważną rolę w lasach - usuwają martwe szczątki zwierząt, pełniąc funkcję 'czyścicieli' lasu; mrówki z jednego mrowiska zabijają też rocznie ok. 50 tysięcy larw owadów.
+                   pin="1">Kokoryczka wielokwiatowa</a>
+                <input type="hidden" value="Kokoryczka wielokwiatowa, bylina z rodziny szparagowatych, jest w Polsce dość powszechna na całym niżu i w niewysokich górach, głównie w lasach liściastych i bukowych. Rozmnaża się zarówno wegetatywnie, wyrastając z rozgałęzionego kłącza, jak i generatywnie, poprzez wysiew nasion. W wąskich kwiatach, pojawiających się już od kwietnia, znajduje się nektar, do którego dostać się mogą tylko trzmiele z długimi trąbkami. Owocem jest wypełniona nasionami czarna, oszroniona jagoda, która jest trująca - bywa czasem mylona z borówką czarną, powodując zatrucia u ludzi.
+
 					" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -91,25 +91,26 @@
         </ul>
         <ul class="expanders">
             <p class="dispNone">Ekspander 1 0x20 szyna 1 0x00</p>
+            {{--kokoryczka--}}
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="kokoryczkawielkokwiatowa.mp3"
+                   audio="mrowkarudnica.mp3"
                    relayId="relay1"
                    expander="0x21 0x00 "
                    external="true"
-                   pin="1">Kokorycz wielokwiatowa</a>
-                <input type="hidden" value="Kokoryczka wielokwiatowa, bylina z rodziny szparagowatych, jest w Polsce dość powszechna na całym niżu i w niewysokich górach, głównie w lasach liściastych i bukowych. Rozmnaża się zarówno wegetatywnie, wyrastając z rozgałęzionego kłącza, jak i generatywnie, poprzez wysiew nasion. W wąskich kwiatach, pojawiających się już od kwietnia, znajduje się nektar, do którego dostać się mogą tylko trzmiele z długimi trąbkami. Owocem jest wypełniona nasionami czarna, oszroniona jagoda, która jest trująca - bywa czasem mylona z borówką czarną, powodując zatrucia u ludzi.
+                   pin="1">Mrówka rudnica</a>
+                <input type="hidden" value="Mrówka rudnica to pospolity owad leśny, żyjący głównie w lasach iglastych. Mrowisko rudnicy składa się z części nadziemnej - kopca o wysokości do 1 m - i podziemnej, sięgającej do 2 m. W jednym mrowisku może żyć nawet 100 tysięcy mrówek. Dzielą się one na trzy kasty: bezpłciowe robotnice, samicę (królową) i samce. Wszelkie prace wykonują robotnice, królowa jedynie składa jaja - dziennie nawet do 300. W przypadku zagrożenia mrowiska grupy robotnic pryskają kwasem mrówkowym w intruza. Odżywiają się drobnymi zwierzętami, głównie owadami i ich larwami, które transportują do mrowiska; zjadają też chętnie spadź wydzielaną przez mszyce. Mrówki odgrywają ważną rolę w lasach - usuwają martwe szczątki zwierząt, pełniąc funkcję 'czyścicieli' lasu; mrówki z jednego mrowiska zabijają też rocznie ok. 50 tysięcy larw owadów.
 "
                        class="text-to-append dispNone"/>
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="konwaliamajowa.mp3"
+                   audio="fioleklesny.mp3"
                    relayId="relay2"
                    expander="0x21 0x00 "
                    external="true"
-                   pin="1">Konwalia majowa</a>
-                <input type="hidden" value="Konwalia majowa lub leśna, zwana też lanuszką, jest byliną z rodziny liliowatych, rosnącą w lasach liściastych i mieszanych oraz zaroślach, tworząc często rozległe kolonie. Jak sama nazwa wskazuje, konwalia zakwita w maju; po przekwitnięciu pojawiają się czerwone jagody. Gatunek ten rozmnaża się wegetatywnie za pomocą kłączy, ale też generatywnie dzięki ptakom jak kos i droździk, które spożywają jagody i wydalają niestrawione nasiona. Wszystkie części rośliny są trujące, jednak przy odpowiednim przetworzeniu i dawkowaniu kwiaty i liście stosuje się w medycynie jako składnik leków nasercowych. Ze względu na silne pobudzanie do kichania, proszek z suszonych kwiatów dodawany jest do tabaki. W średniowieczu konwalia była symbolem wiedzy i sztuki medycznej.
+                   pin="1">Fiołek leśny</a>
+                <input type="hidden" value="Fiołek leśny, z rodziny fiołkowatych, to wieloletnia rodzima roślina występująca pospolicie w lasach na całym niżu i w niższych położeniach górskich Polski. Kwitnie od kwietnia do czerwca; jest zapylana przez pszczoły, wabione barwą kwiatów i nektarem. Owocem fiołka jest jajowata torebka z nasionami, pękająca na 3 klapy, które po wyschnięciu wyginają się, wyrzucając nasiona na kilka metrów.
 			" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -143,7 +144,6 @@
                 <input type="hidden" value="Zięba zwyczajna zamieszkuje wszelkie typy zadrzewień. Samca można odróżnić od samicy po upierzeniu - jest ono barwniejsze i bardziej kontrastowe niż u samicy. Zięba żywi się pokarmem zarówno roślinnym, jak i zwierzęcym - w zależności od pory roku zjada: kiełki i pączki - wiosną; owady, ich larwy i pajęczaki - latem lub nasiona i jagody - w sezonie jesienno-zimowym. Śpiew tego ptaka uznawany jest za jeden z najładniejszych wśród polskich gatunków, przy czym melodie zięb z poszczególnych regionów nieco się różnią i są przekazywane z pokolenia na pokolenie.
 			" class="text-to-append dispNone"/>
             </li>
-            {{--lewo--}}
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="wiewiorka.mp3"
@@ -157,12 +157,12 @@
             </li>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio="fioleklesny.mp3"
+                   audio="konwaliamajowa.mp3"
                    relayId="relay7"
                    expander="0x21 0x00 "
                    external="true"
-                   pin="1">Fiołek leśny</a>
-                <input type="hidden" value="Fiołek leśny, z rodziny fiołkowatych, to wieloletnia rodzima roślina występująca pospolicie w lasach na całym niżu i w niższych położeniach górskich Polski. Kwitnie od kwietnia do czerwca; jest zapylana przez pszczoły, wabione barwą kwiatów i nektarem. Owocem fiołka jest jajowata torebka z nasionami, pękająca na 3 klapy, które po wyschnięciu wyginają się, wyrzucając nasiona na kilka metrów.
+                   pin="1">Konwalia majowa</a>
+                <input type="hidden" value="Konwalia majowa lub leśna, zwana też lanuszką, jest byliną z rodziny liliowatych, rosnącą w lasach liściastych i mieszanych oraz zaroślach, tworząc często rozległe kolonie. Jak sama nazwa wskazuje, konwalia zakwita w maju; po przekwitnięciu pojawiają się czerwone jagody. Gatunek ten rozmnaża się wegetatywnie za pomocą kłączy, ale też generatywnie dzięki ptakom jak kos i droździk, które spożywają jagody i wydalają niestrawione nasiona. Wszystkie części rośliny są trujące, jednak przy odpowiednim przetworzeniu i dawkowaniu kwiaty i liście stosuje się w medycynie jako składnik leków nasercowych. Ze względu na silne pobudzanie do kichania, proszek z suszonych kwiatów dodawany jest do tabaki. W średniowieczu konwalia była symbolem wiedzy i sztuki medycznej.
 			" class="text-to-append dispNone"/>
             </li>
             <li>
@@ -399,6 +399,7 @@ Miodunka ćma to roślina wieloletnia z rodziny ogórecznikowatych, w kraju wyst
                 <input type="hidden" value="Przylaszczka pospolita z rodziny jaskrowatych to roślina wieloletnia, osiągająca nawet do stu lat. W Polsce występuje dość powszechnie w lasach liściastych. Jej liście są zimozielone - pozostają żywe do przedwiośnia, co znacznie przyspiesza rozwój rośliny; już od marca z pączków uformowanych jesienią roku poprzedniego rozwijają się kwiaty; w tym czasie więdną stare liście, a na ich miejsce wyrastają świeże. Nasiona roznoszone są przez mrówki. Jest to roślina trująca w większej ilości, mimo to jej liście stosowano dawniej jako surogat herbaty. Przylaszczka dzięki efektownym kwiatom pojawiającym się tuż po zimie jest rośliną lubianą i obecną w folklorze i tradycjach wielu krajów, zwłaszcza skandynawskich. Przypisywane jej też były magiczne właściwości - ziele noszone w woreczku przy kobiecie miało jej zagwarantować miłość mężczyzny.
                 "/>
             </li>
+            {{--mrowka--}}
             <li>
                 <a href="#" class="expanders__relay relayexp1"
                    audio="mrowkarudnica.mp3"
