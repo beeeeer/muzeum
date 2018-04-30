@@ -501,7 +501,11 @@
 				   relayId="relay8"
 				   expander=""
 				   pin="1">Las letni - pożar </a>
-				<input  type="hidden" value="" class="text-to-append dispNone" />
+				<input  type="hidden" value="
+Z uwagi na charakter lasów Nadleśnictwa, na całym ich obszarze występuje najwyższe zagrożenie pożarowe. Przyczynami pożarów bywa zwykle nieostrożność w obchodzeniu się z ogniem, wypalanie traw, awarie linii energetycznych, ale też wyładowania atmosferyczne. Ogień z suchych traw porastających nieużytki nierzadko przenosi się na obszary leśne, niszcząc bezpowrotnie młode drzewa, a w sprzyjających warunkach drzewostany dojrzałe i starodrzewy. Do rozprzestrzeniania ognia przyczynia się też wiatr – gdy jest silny, pożary bardzo często szybko wymykają się spod kontroli i przenoszą na pobliskie lasy oraz zabudowania. Występuje wtedy bezpośrednie zagrożenie dla życia ludzi oraz zwierząt - podczas większych pożarów ogień rozprzestrzenia się z tak wielką prędkością, że nawet najszybsze zwierzęta, również te latające, nie są w stanie uciec… 
+Celem monitorowania pożarów prowadzone są obserwacje terenu Nadleśnictwa z   dostrzegalni, czyli wież przeciwpożarowych. Leśnicy dysponują sprzętem niezbędnym do stłumienia pożaru w zarodku oraz samochodem gaśniczym – zdarza się, że wodę do celów gaśniczych pobiera się ze zbiorników retencyjnych. Podczas największego zagrożenia organizowane są patrole powietrzne - na niebie pojawiają się wtedy DROMADERY, ANTKI, WILGI, CESSNY i ZLINY - niektóre z tych samolotów są nawet przystosowane do gaszenia pożarów.
+
+				" class="text-to-append dispNone" />
 			</li>
 		</ul>
 
