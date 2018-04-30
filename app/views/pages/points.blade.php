@@ -178,8 +178,13 @@ Szeliniak sosnowy, chrząszcz z rodziny ryjkowcowatych, to szkodnik młodych sos
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
+<<<<<<< HEAD
 		<a href="#" class="expanders__relay relayexp1 hidden-element"
 		   audio="gasiorek.mp3"
+=======
+		<a href="#" class="expanders__relay relayexp1"
+		   audio="pliszkasiwa.mp3"
+>>>>>>> 25f91d6c000461c215dbaa533d0da365d4079b2d
 		   relayId="relay2"
 		   expander="0x20 0x00 "
 		   external="true"
