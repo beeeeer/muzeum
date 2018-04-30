@@ -44,12 +44,12 @@
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="poziomkapospolita.mp3"
+					audio="kunalesna.mp3"
 					relayId="relay4"
 					expander="0x24 0x01 "
 					external="true"
-					pin="1">poziomka pospolita</a>
-					<input  type="hidden" value="Poziomka pospolita, zwana również czerwoną jagodą, rośnie w stanie dzikim w lasach, na zrębach i polanach, lecz równie często jest uprawiana w ogrodach. Ta wieloletnia bylina rozmnaża się za pomocą rozłogów, z których wyrastają młode rośliny, kwitnie w okolicach maja, po czym już miesiąc później pojawiają się czerwone, smaczne i aromatyczne owoce.
+					pin="1">kuna leśna</a>
+					<input  type="hidden" value="Kuna leśna, zwana również tumakiem, to ssak z rodziny łasicowatych. Preferuje gęste, stare lasy, gdzie może się z łatwością ukryć przed wilkami, czy lisami. Na dietę tego wszystkożercy składają się gryzonie, ptaki, owady, a także owoce oraz padlina. Latem i jesienią kuna gromadzi jedzenie, by na zimę móc zasnąć pod ziemią bez konieczności wychodzenia z kryjówki.  Własne terytorium znaczy wydzieliną z gruczołów zapachowych. Tumaki są samotnikami, poza okresem, kiedy wychowują potomstwo.
 					" class="text-to-append dispNone"/>
 	</li>
 	<li>
@@ -289,12 +289,12 @@
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1"
-					audio="kunalesna.mp3"
+					audio="poziomkapospolita.mp3"
 					relayId="relay3"
 					expander="0x21 0x01 "
 					external="true"
-					pin="1">kuna leśna</a>
-			<input  type="hidden" value="Kuna leśna, zwana również tumakiem, to ssak z rodziny łasicowatych. Preferuje gęste, stare lasy, gdzie może się z łatwością ukryć przed wilkami, czy lisami. Na dietę tego wszystkożercy składają się gryzonie, ptaki, owady, a także owoce oraz padlina. Latem i jesienią kuna gromadzi jedzenie, by na zimę móc zasnąć pod ziemią bez konieczności wychodzenia z kryjówki.  Własne terytorium znaczy wydzieliną z gruczołów zapachowych. Tumaki są samotnikami, poza okresem, kiedy wychowują potomstwo.
+					pin="1">poziomka pospolita</a>
+			<input  type="hidden" value="Poziomka pospolita, zwana również czerwoną jagodą, rośnie w stanie dzikim w lasach, na zrębach i polanach, lecz równie często jest uprawiana w ogrodach. Ta wieloletnia bylina rozmnaża się za pomocą rozłogów, z których wyrastają młode rośliny, kwitnie w okolicach maja, po czym już miesiąc później pojawiają się czerwone, smaczne i aromatyczne owoce.
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
