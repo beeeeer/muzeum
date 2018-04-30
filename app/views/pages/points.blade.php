@@ -179,12 +179,12 @@ Szeliniak sosnowy, chrząszcz z rodziny ryjkowcowatych, to szkodnik młodych sos
 	</li>
 	<li>
 		<a href="#" class="expanders__relay relayexp1 hidden-element"
-		   audio="pliszkasiwa.mp3"
+		   audio="gasiorek.mp3"
 		   relayId="relay2"
 		   expander="0x20 0x00 "
 		   external="true"
-		   pin="1">Pliszka siwa</a>
-		<input  type="hidden" value="Pliszka siwa to najpospolitszy ptak Europy. Zamieszkuje tereny nadwodne, gdzie żeruje, łowiąc owady; może się jednak znacznie oddalać od zbiorników - spotykana jest żerująca przy drogach, na rozległych łąkach, czy też polach uprawnych, gdzie biega za pługiem i zbiera wykopane larwy i pędraki. Chodząc po ziemi, pliszki charakterystycznie kiwają ogonem w dół i w górę. Ich gniazda ukryte są na ziemi lub w różnych szczelinach i otworach, także budynków; pliszki są mało płochliwe i chętnie trzymają się w pobliżu człowieka. Tworzą przeważnie niewielkie stadka, którymi lecą na zimowiska na południe Europy lub do Afryki Północnej.
+		   pin="1">Gąsiorek</a>
+		<input  type="hidden" value="Gąsiorek, z rodziny dzierzb, występuje na całym niżowu kraju. Polska nazwa 'Gąsiorek' pochodzi od jego charakterystycznego głosu zbliżonego do głosu gęsi - tzw. gęgania. Samiec jest łatwo rozpoznawalny po czarnej masce na popielatej głowie. Gąsiorek zimuje w Afryce, skąd powraca w maju i od razu zabiera się za przygotowania do lęgu - znajduje na skraju lasu nieduże, najlepiej kolczaste drzewko i w jego koronie buduje swoje gniazdo. Jest aktywny za dnia, poluje wtedy głównie na owady, ale też małe ptaki, gryzonie i jaszczurki. Jak na swe niewielkie rozmiary potrafi schwytać zaskakująco duże ofiary, ledwie ustępujące mu wielkością.
 			" class="text-to-append dispNone"/>
 	</li>
 	<li>
