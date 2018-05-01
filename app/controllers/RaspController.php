@@ -236,76 +236,54 @@ class RaspController extends BaseController
         return json_encode($result);
     }
 
-/*    public function fireProcess()
-    {
-        $audio = new Process('mpg123 media/pozarlasu.mp3');
-        $audio->start();
-	$audio->setTimeout(30);
-	$process->setIdleTimeout(25);
-        while($audio->isRunning()){
-            sleep(7);
-            $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x9f');
-            $process->mustRun();
-            sleep(7);
-            $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x8f');
-            $process->mustRun();
-            sleep(7);
-            $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
-            $process->mustRun();
-            $audio->checkTimeout();
-	    exit;
-        }
-    }
-*/
     public function fireProcess()
     {
 	$iterator = 0;
         $audio = new Process('mpg123 media/pozarlasu.mp3');
         $audio->start();
-        //$iterator = 0;
         while($audio->isRunning()){
             $iterator++;
             if ($iterator == 1){
-                sleep(7);
+                sleep(9);
                 $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x9f');
                 $process->mustRun();
-                sleep(7);
+                sleep(9);
                 $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x8f');
                 $process->mustRun();
-                sleep(7);
+                sleep(9);
                 $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x87');
                 $process->mustRun();
-            } else {
+            } else if ($iterator == 2){
                 $curl = new Process('curl http://192.168.0.77/index.php/checkwater');
                 $curl->mustRun();
                 sleep(1);
                 if(intval($curl->getOutput()) == 1){
-                   $this->airplaneProcess();
+                    $this->airplaneProcess($audio->getPid());
                 }
             }
         }
         exit;
     }
-//    public function checkairPlane()
-//    {
-//        $process = new Process('curl curl http://192.168.0.77/index.php/water');
-//        $process->mustRun();
-//        if($process->getOutput() == 1)
-//        {
-//            $this->airplaneProcess();
-//        }
-//    }
 
-    public function airplaneProcess()
+    public function kill($pid)
+    {
+        $kill = new Process('kill -9 '.$pid);
+        $kill->mustRun();
+        return $kill->getOutput();
+    }
+
+    public function airplaneProcess($pid)
     {
         $process = new Process('mpg123 media/samolot.mp3');
         $water = new Process('curl http://192.168.0.77/index.php/water');
         $offRelay = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0xff');
-	$this->killProcess('pkill mpg123');
-        $process->mustRun();
-        $water->mustRun();
-        $offRelay->mustRun();
-        return $process->getOutput();
+        $process->start();
+        while($process->isRunning()){
+            sleep(20);
+            $water->run();
+            $offRelay->run();
+            $this->kill($pid);
+        }
     }
 }
  
