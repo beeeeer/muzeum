@@ -97,11 +97,11 @@
             <p class="dispNone">Ekspander 0x24 szyna 2</p>
             <li>
                 <a href="#" class="expanders__relay relayexp1"
-                   audio=".mp3"
+                   audio="pracawlesie.mp3"
                    relayId="relay1"
                    expander="0x24 0x00 "
                    external="true"
-                   pin="1"></a>
+                   pin="1">Maszyna na zrębie</a>
                 <input type="hidden" value="
 				" class="text-to-append dispNone"/>
             </li>
