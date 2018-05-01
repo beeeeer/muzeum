@@ -79,7 +79,7 @@ jQuery(document).ready(function ($) {
                     text = $(this).next().val()
                     content = $('#custom-text');
                     content.html('');
-                    //content.html(text);
+                    content.html(text);
                     $(this).attr('pin', function (index, attr) {
                         return attr == 1 ? 0 : 1;
                     });

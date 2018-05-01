@@ -4,6 +4,7 @@
 body {
   background-color: darkslategray;
   color: honeydew;
+  overflow: hidden;
 }
 .title_ {
   text-align: center;
@@ -63,7 +64,7 @@ body {
 }
 .expanders > li > a {
   color: #fff;
-  width: 150px;
+  width: 140px;
   height: 50px;
   display: block;
 }
