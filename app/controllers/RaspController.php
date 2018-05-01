@@ -207,5 +207,13 @@ class RaspController extends BaseController
         return $process->getOutput();
     }
 
+    public function checkWaterGpio()
+    {
+        $response = new Response();
+        $process = new Process('gpio -g read 21');
+        $process->mustRun();
+        return $response->setContent($process->getOutput());
+    }
+
 }
 

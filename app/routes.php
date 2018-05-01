@@ -27,6 +27,8 @@ Route::get('swoff','RaspController@switchallOff');
 Route::get('send','RaspController@_sendDataToExternal');
 //pozar:
 Route::get('water','RaspController@waterProcess');
+Route::get('checkwater','RaspController@checkWaterGpio');
+
 //pozar -> end
 Route::get('recive','RaspController@_getDataFromExternal');
 
