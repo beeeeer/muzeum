@@ -203,17 +203,17 @@
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
-			<a href="#" class="expanders__relay relayexp1 hidden-element"
-						audio="sikoraczubatka.mp3"
+			<a href="#" class="expanders__relay relayexp1 "
+						audio="gil.mp3"
 						relayId="relay3"
 						expander="0x24 0x01 "
 						external="false"
-						pin="1">sikorka czubatka</a>
-				<input  type="hidden" value="Czubatka europejska z rodziny sikor wyróżnia się swoim czarno-białym czubkiem na głowie. Występuje średnio licznie w całym kraju, przy czym pozostaje tu na zimę, co sprzyja monogamii wśród tych ptaków. Zamieszkują one bory iglaste z próchniejącymi lub martwymi drzewami, gdzie samice mogą wykuć dziuplę. Czubatka stale przebywa w koronach drzew, skąd dobiega jej dźwięczny trel. Łowi tam owady i ich larwy, pająki oraz inne bezkręgowce. Zimą, gdy nie może znaleźć pokarmu zwierzęcego, odżywia się nasionami drzew iglastych - wtedy pożywienia szuka na ziemi. Podobnie jak inne sikory, gromadzi też zapasy na zimę, wciskając owady i nasiona w zakamarki kory drzewa.
+						pin="1">Gil</a>
+				<input  type="hidden" value="Gil z rodziny łuszczaków występuje na niżu kraju w borach świerkowych, jodłowych i lasach mieszanych. Najłatwiej rozróżnić płeć gila po upierzeniu brzuszka - samiec ma je czerwonawe, samica brązowawe. U gili występuje nieczęste u innych ptaków zachowanie - poza samcami śpiewają również samice. Gila znamy głównie z okresu zimowego, gdy pojawia się w stadkach na drzewach z owocami; w okresie lęgowym jest za to skryty i trudno go zobaczyć; swoje gniazdo ukrywa wśród gęstych gałęzi, zwykle świerka. Zjada nasiona, pąki, wiosną także bezkręgowce.
 				" class="text-to-append dispNone" />
 		</li>
 		<li>
-			<a href="#" class="expanders__relay relayexp1"
+			<a href="#" class="expanders__relay relayexp1 hidden-element"
 						audio="gil.mp3"
 						relayId="relay4"
 						expander="0x24 0x01 "
