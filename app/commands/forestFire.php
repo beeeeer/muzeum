@@ -42,7 +42,7 @@ class forestFire extends Command
      *
      * @return mixed
      */
-    public function fire()
+/*    public function fire()
     {
 //        if($this->running == true) return;
 
@@ -59,6 +59,32 @@ class forestFire extends Command
             }
         }
 
+    }
+*/
+public function fire()
+    {
+//        if($this->running == true) return;
+        $iterator = 0;
+        while (true){
+            $process = new Process('gpio -g read 16');
+            $process->mustRun();
+
+            $this->fire_flag = $process->getOutput();
+            if($this->fire_flag ==1) $this->running =false;
+            if ($this->fire_flag == 0) {
+                $this->running == true;
+                $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
+                $process->start();
+                while ($process->isRunning()){
+
+                }
+            }
+            $iterator++;
+            sleep(1);
+            if($iterator ==59){
+                return;
+            }
+        }
     }
 
     public function airPlane()
