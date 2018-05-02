@@ -25,8 +25,6 @@ class forestFire extends Command
      */
     protected $description = 'Starts forest fire';
     private $fire_flag;
-    private $running = false;
-
     /**
      * Create a new command instance.
      *
@@ -34,6 +32,7 @@ class forestFire extends Command
      */
     public function __construct()
     {
+        $this->fire_flag = 'stopped';
         parent::__construct();
     }
 
@@ -42,41 +41,23 @@ class forestFire extends Command
      *
      * @return mixed
      */
-/*    public function fire()
+
+    public function fire()
     {
-//        if($this->running == true) return;
-
-        $process = new Process('gpio -g read 16');
-        $process->mustRun();
-        $this->fire_flag = $process->getOutput();
-        if($this->fire_flag ==1) $this->running =false;
-        if ($this->fire_flag == 0) {
-            $this->running == true;
-            $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
-            $process->start();
-            while ($process->isRunning()){
-
-            }
-        }
-
-    }
-*/
-public function fire()
-    {
-//        if($this->running == true) return;
+        if($this->fire_flag == 0) return;
         $iterator = 0;
         while (true){
             $process = new Process('gpio -g read 16');
             $process->mustRun();
-
             $this->fire_flag = $process->getOutput();
-            if($this->fire_flag ==1) $this->running =false;
             if ($this->fire_flag == 0) {
-                $this->running == true;
-                $process = new Process('curl http://192.168.0.76/index.php/fireprocess');
-                $process->start();
-                while ($process->isRunning()){
+                $curl = new Process('curl http://192.168.0.76/index.php/fireprocess');
+                $curl->start();
+                while ($curl->isRunning()){
 
+                }
+                if ($curl->getOutput() == 'done'){
+                    $this->fire_flag = 'stopped';
                 }
             }
             $iterator++;
