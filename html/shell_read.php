@@ -15,6 +15,9 @@ while(true)
         system('gpio -g read 21');
 	echo PHP_EOL;
 	echo  system('i2cdetect -y 1');
+	echo PHP_EOL;
+	echo system('ls -l  /var/www/html/flag');
+	echo PHP_EOL;
 }
 
 

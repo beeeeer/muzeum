@@ -24,7 +24,8 @@ class forestFire extends Command
      * @var string
      */
     protected $description = 'Starts forest fire';
-    private $path ='html/flag/flag';
+    private $path ='/var/www/html/flag/flag';
+    private $fire_flag;
     /**
      * Create a new command instance.
      *
@@ -66,19 +67,22 @@ class forestFire extends Command
             $process = new Process('gpio -g read 16');
             $process->mustRun();
             $this->fire_flag = $process->getOutput();
-            if (($this->shouldRun()) && ($this->fire_flag === 0)) {
+            if ($this->fire_flag == 0) {
                 $curl = new Process('curl http://192.168.0.76/index.php/fireprocess');
                 $curl->start();
                 while ($curl->isRunning()){
 
                 }
-                if ($curl->getOutput() == 'done'){
-                    $this->rm();
-                }
+                if($curl->getOutput() == 'done'){
+		    $this->rm();
+		}
             }
             $iterator++;
             sleep(1);
-            if($iterator > 55){
+            if($iterator > 57){
+		if($this->fire_flag == 1){
+                    $this->rm();
+                }
                 return;
             }
         }
