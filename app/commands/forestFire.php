@@ -24,7 +24,7 @@ class forestFire extends Command
      * @var string
      */
     protected $description = 'Starts forest fire';
-    private $fire_flag;
+    private $path ='html/flag/flag';
     /**
      * Create a new command instance.
      *
@@ -32,10 +32,25 @@ class forestFire extends Command
      */
     public function __construct()
     {
-	parent::__construct();
-	if(file_exists('html/flag/flag') == 1) exit;
-	$file = new Process('touch html/flag/flag');
-        echo $file->mustRun()->getOutput();
+        parent::__construct();
+        if(!$this->shouldRun()) exit;
+        $file = new Process('touch '.$this->path);
+        $file->mustRun()->getOutput();
+    }
+
+    public function rm()
+    {
+        $rm = new Process('rm '.$this->path);
+        $rm->run();
+    }
+
+    public function shouldRun()
+    {
+        if(file_exists($this->path) == 1){
+            return false;
+        } else {
+            return true;
+        }
     }
 
     /**
@@ -46,21 +61,20 @@ class forestFire extends Command
 
     public function fire()
     {
-//        if($this->fire_flag == 0) return;
-	$iterator = 0;
+	    $iterator = 0;
         while (true){
             $process = new Process('gpio -g read 16');
             $process->mustRun();
             $this->fire_flag = $process->getOutput();
-            if ($this->fire_flag === 0) {
+            if (($this->shouldRun()) && ($this->fire_flag === 0)) {
                 $curl = new Process('curl http://192.168.0.76/index.php/fireprocess');
                 $curl->start();
                 while ($curl->isRunning()){
 
                 }
-               // if ($curl->getOutput() == 'done'){
-               //    $this->fire_flag = 'stopped';
-	       //   }
+                if ($curl->getOutput() == 'done'){
+                    $this->rm();
+                }
             }
             $iterator++;
             sleep(1);
