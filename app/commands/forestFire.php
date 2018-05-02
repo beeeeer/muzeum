@@ -81,7 +81,7 @@ public function fire()
             }
             $iterator++;
             sleep(1);
-            if($iterator ==59){
+            if($iterator == 60){
                 return;
             }
         }
