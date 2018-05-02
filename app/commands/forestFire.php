@@ -32,8 +32,10 @@ class forestFire extends Command
      */
     public function __construct()
     {
-        $this->fire_flag = 'stopped';
-        parent::__construct();
+	parent::__construct();
+	if(file_exists('html/flag/flag') == 1) exit;
+	$file = new Process('touch html/flag/flag');
+        echo $file->mustRun()->getOutput();
     }
 
     /**
@@ -44,25 +46,25 @@ class forestFire extends Command
 
     public function fire()
     {
-        if($this->fire_flag == 0) return;
-        $iterator = 0;
+//        if($this->fire_flag == 0) return;
+	$iterator = 0;
         while (true){
             $process = new Process('gpio -g read 16');
             $process->mustRun();
             $this->fire_flag = $process->getOutput();
-            if ($this->fire_flag == 0) {
+            if ($this->fire_flag === 0) {
                 $curl = new Process('curl http://192.168.0.76/index.php/fireprocess');
                 $curl->start();
                 while ($curl->isRunning()){
 
                 }
-                if ($curl->getOutput() == 'done'){
-                    $this->fire_flag = 'stopped';
-                }
+               // if ($curl->getOutput() == 'done'){
+               //    $this->fire_flag = 'stopped';
+	       //   }
             }
             $iterator++;
             sleep(1);
-            if($iterator == 60){
+            if($iterator > 55){
                 return;
             }
         }
