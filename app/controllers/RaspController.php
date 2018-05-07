@@ -202,7 +202,8 @@ class RaspController extends BaseController
 
     public function waterProcess()
     {
-        $process = new Process('/usr/sbin/i2cset -y 1 0x21 0x01 0xfe');
+	$response = new Response();
+        $process = new Process('gpio -g read 20');
         $process->mustRun();
         return $process->getOutput();
     }
@@ -210,7 +211,7 @@ class RaspController extends BaseController
     public function checkWaterGpio()
     {
         $response = new Response();
-        $process = new Process('gpio -g read 21');
+        $process = new Process('gpio -g read 20');
         $process->mustRun();
         return $response->setContent($process->getOutput());
     }
