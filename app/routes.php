@@ -28,7 +28,7 @@ Route::get('send','RaspController@_sendDataToExternal');
 Route::get('fireprocess','RaspController@fireProcess');
 Route::get('airplane','RaspController@airplaneProcess');
 Route::get('waterprocess','RaspController@waterprocess');
-Route::get('resetFire','RaspController@resetFire');
+Route::get('resetfire','RaspController@resetFire');
 Route::post('pulpitOn','RaspController@pulpitOn');
 Route::post('pulpitOff','RaspController@pulpitOff');
 Route::get('recive','RaspController@_getDataFromExternal');

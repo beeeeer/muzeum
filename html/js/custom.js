@@ -208,6 +208,22 @@ jQuery(document).ready(function($){
             },"json");
         });
     }();
+    var forestfire = function(){
+        $('#firereset').on('click',function () {
+            $.ajax({
+                type: "POST",
+                url : "resetfire",
+                data : { data: 'off' },
+                success : function(response){
+                    console.log(response);
+                }, error: function(response)
+                {
+                    console.log(response);
+                }
+            },"json");
+        })
+    }();
+
     var setText = function() {
         var text = $(this).next().val(),
             content = $('#custom-text');

@@ -513,7 +513,7 @@ Celem monitorowania pożarów prowadzone są obserwacje terenu Nadleśnictwa z  
 		<a href="#" class="rasp__defaults expanders__relay" id="switchAllOff">Wyłącz wszystko</a>
 		<a href="#" class="rasp__defaults expanders__relay media-show" id="desktopon">Włącz pulpit</a>
 		<a href="#" class="rasp__defaults expanders__relay media-show" id="desktopoff">Wyłącz pulpit</a>
-
+		<a href="#" class="rasp__defaults expanders__relay media-show" id="firereset">pozar gotowość</a>
 	</div>
 </div>
 

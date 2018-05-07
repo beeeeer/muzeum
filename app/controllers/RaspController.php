@@ -16,7 +16,7 @@ class RaspController extends BaseController
     private $playerOutput;
     private $command;
     private $switchStatus = array();
-    private $path = 'html/flag/';
+    private $path = '/var/www/html/flag/';
     private $setMixer = 'amixer cset numid=3 1';
     private $branch;
     private $allExpanders = array('0x21 0x00 ', '0x21 0x01 ', '0x20 0x00 ', '0x20 0x01 ', '0x22 0x00 ', '0x22 0x01 ', '0x24 0x00 ', '0x24 0x01 ');
@@ -195,17 +195,17 @@ class RaspController extends BaseController
     public function fireProcess()
     {
         if ($this->flagExist('pozar')) return;
-        $audio = new Process('mpg123 html/media/pozarlasu.mp3');
+        $audio = new Process('mpg123 media/pozarlasu.mp3');
         $audio->start();
 
         $this->touch('pozar');
         while ($audio->isRunning()) {
             sleep(21);
-            $python = new Process('curl(http://192.168.0.77/index.php/checkwater)');
+            $python = new Process('curl http://192.168.0.77/index.php/checkwater');
             $python->mustRun();
             if ($python->getOutput() == 1) {
                 if ($this->flagExist('samolot')) return;
-                $process = new Process('mpg123 html/media/samolot.mp3');
+                $process = new Process('mpg123 media/samolot.mp3');
                 $process->start();
                 $this->touch('samolot');
                 while ($process->isRunning()) {
