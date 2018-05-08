@@ -211,7 +211,7 @@ jQuery(document).ready(function($){
     var forestfire = function(){
         $('#firereset').on('click',function () {
             $.ajax({
-                type: "POST",
+                type: "GET",
                 url : "resetfire",
                 data : { data: 'off' },
                 success : function(response){

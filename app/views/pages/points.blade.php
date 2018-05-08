@@ -5,11 +5,6 @@
 	<div class="custom-text" id="custom-text">
 
 	</div>
-	<p class="dispNone">
-		0x24  - Rampa
-		0x20 - Rampa
-		0x22 - pulpit 1 pkt
-	</p>
 <ul class="expanders">
 		<p class="dispNone">Ekspander 3 0x24 szyna 1 0x00</p>
 	<li>
@@ -513,7 +508,7 @@ Celem monitorowania pożarów prowadzone są obserwacje terenu Nadleśnictwa z  
 		<a href="#" class="rasp__defaults expanders__relay" id="switchAllOff">Wyłącz wszystko</a>
 		<a href="#" class="rasp__defaults expanders__relay media-show" id="desktopon">Włącz pulpit</a>
 		<a href="#" class="rasp__defaults expanders__relay media-show" id="desktopoff">Wyłącz pulpit</a>
-		<a href="#" class="rasp__defaults expanders__relay media-show" id="firereset">pozar gotowość</a>
+		<a href="#" class="rasp__defaults expanders__relay " style = "margin-left: 45px;" id="firereset">pożar gotowość</a>
 	</div>
 </div>
 

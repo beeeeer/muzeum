@@ -1,4 +1,4 @@
-<?php
+\<?php
 
 use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
@@ -25,11 +25,6 @@ class RaspController extends BaseController
 //sudo chmod 4755 /usr/sbin/i2cdetect /usr/sbin/i2cset /usr/sbin/i2cget /usr/sbin/i2cdump /usr/bin/mpg123
 //vcgencmd display_power 0
 //vcgencmd display_power 1
-
-    public function __construct()
-    {
-
-    }
 
     public function getAjaxRequest()
     {
@@ -88,9 +83,10 @@ class RaspController extends BaseController
             if ($command == 'pozarlasu.mp3') {
                 $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0x9f');
                 $process->mustRun();
-                $process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0xff');
+             	sleep(2);
+		$process = new Process('/usr/sbin/i2cset -y 1 0x20 0x01 0xff');
                 $process->mustRun();
-            } else {
+               } else {
                 $this->audioprocess = new Process('mpg123 media/' . $command);
                 try {
                     $this->audioprocess->mustRun();
@@ -182,14 +178,17 @@ class RaspController extends BaseController
     {
         $process = new Process('/opt/vc/bin/vcgencmd display_power 1');
         $result = $process->mustRun()->getOutput();
-        return json_encode($result);
+        $usb = new Process('sudo service lightdm restart');
+        $otp = $usb->mustRun();
+        return json_encode($otp->getOutput());
     }
 
     public function pulpitOff()
     {
         $process = new Process('/opt/vc/bin/vcgencmd display_power 0');
         $result = $process->mustRun()->getOutput();
-        return json_encode($result);
+        $usb = new Process('sudo pkill chromium-browse');
+        $usb->run();
     }
 
     public function fireProcess()
@@ -209,9 +208,8 @@ class RaspController extends BaseController
                 $process->start();
                 $this->touch('samolot');
                 while ($process->isRunning()) {
-                    sleep(20);
-                    $this->kill($audio->getPid());
-                    sleep(10);
+                    sleep(37);
+		    $this->killProcess('pkill mpg123');
                     exit;
                 }
             }
@@ -240,6 +238,7 @@ class RaspController extends BaseController
     {
         $this->rm('pozar');
         $this->rm('samolot');
+	return json_encode('reset done');
     }
 
     public function rm($fileFlag)
