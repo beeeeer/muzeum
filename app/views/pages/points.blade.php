@@ -251,7 +251,7 @@
 				" class="text-to-append dispNone"/>
             </li>
             <li>
-                <a href="#" class="expanders__relay relayexp1"
+                <a href="#" class="expanders__relay relayexp1 hidden-element"
                    audio="zajac.mp3"
                    relayId="relay7"
                    expander="0x24 0x00 "

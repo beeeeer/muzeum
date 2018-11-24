@@ -204,19 +204,22 @@ class RaspController extends BaseController
         return $result->getContents();
 
     }
-
     public function pulpitOn()
     {
         $process = new Process('/opt/vc/bin/vcgencmd display_power 1');
         $result = $process->mustRun()->getOutput();
-        return json_encode($result);
+        $usb = new Process('sudo service lightdm restart');
+        $otp = $usb->mustRun();
+        return json_encode($otp->getOutput());
     }
 
     public function pulpitOff()
     {
         $process = new Process('/opt/vc/bin/vcgencmd display_power 0');
         $result = $process->mustRun()->getOutput();
-        return json_encode($result);
+        $usb = new Process('sudo pkill chromium-browse');
+        $usb->run();
     }
+
 }
  
